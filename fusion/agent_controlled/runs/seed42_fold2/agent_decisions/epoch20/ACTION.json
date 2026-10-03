@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "fold": 2,
+  "epoch": 20,
+  "action": "continue",
+  "before": {
+    "learning_rate": 0.000750000006519258,
+    "dropout": 0.30000000000000004,
+    "optimizer_iterations": 80
+  },
+  "after": {
+    "learning_rate": 0.000750000006519258,
+    "dropout": 0.30000000000000004,
+    "optimizer_iterations": 80
+  },
+  "successful_attempt": 1,
+  "latency_seconds": 3.9640226140036248,
+  "actual_live_response": true,
+  "request_sha256": "30e383400d85f231b18afdba952510d6317d97b0ec78368695c795a5849fe963",
+  "response_sha256": "050f120f481479ee0f73940c35f49f8dfb777ffab317123de44c36998b306c0b",
+  "training_function_retrace_requested": false
+}

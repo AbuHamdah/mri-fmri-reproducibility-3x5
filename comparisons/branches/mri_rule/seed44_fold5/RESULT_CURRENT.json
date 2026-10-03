@@ -1,0 +1,83 @@
+{
+  "threshold": 0.7497778832912445,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.1849180981516838,
+      "f1": 0.4444444444444444,
+      "balanced_accuracy": 0.3333333333333333
+    },
+    {
+      "threshold": 0.22789951413869858,
+      "f1": 0.5,
+      "balanced_accuracy": 0.4583333333333333
+    },
+    {
+      "threshold": 0.2947055697441101,
+      "f1": 0.5714285714285714,
+      "balanced_accuracy": 0.5833333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5162004381418228,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.7497778832912445,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.831574410200119,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "kappa": 1.0,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "brier": 0.027813526449696153,
+    "ece": 0.151272046379745
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.875,
+    "f1": 0.8571428571428571,
+    "kappa": 0.75,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.027813526449696153,
+    "ece": 0.151272046379745
+  },
+  "test_n": 8,
+  "fixed_correct": 8,
+  "calibrated_correct": 7,
+  "series": "mri_rule",
+  "seed": 44,
+  "fold": 5,
+  "selected_epoch": 0,
+  "model_sha256": "23ec20e39a36dfd3d871007c91e18b96debdcb659366fa0b76fdb6f69dba6ee4",
+  "reload_max_difference": 7.450580596923828e-06,
+  "seconds": 8.621714115142822,
+  "source_model": "initial_models/artifacts/consistent_v3/a/mri_rule_pretrained_seed42_fold1/model.keras"
+}

@@ -1,0 +1,2624 @@
+[
+  {
+    "method": "Warm-adapter Soft Voting",
+    "seed": 42,
+    "metrics": {
+      "accuracy": 0.9523809523809523,
+      "f1": 0.95,
+      "kappa": 0.9045454545454544,
+      "auc": 0.9568181818181818,
+      "precision": 0.95,
+      "recall": 0.95,
+      "specificity": 0.9545454545454546,
+      "brier": 0.07348854209566667,
+      "ece": 0.17204320024965067
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9641132950782776,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.8550583720207214,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.7689043283462524,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.9343931078910828,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.4279721677303314,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.3483678102493286,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.16263683140277863,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.5773200988769531,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.2969282269477844,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.07087680697441101,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.8881210088729858,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.7033835649490356,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.8295523524284363,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.03992462158203125,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.1436968743801117,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.012402818538248539,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.020582063123583794,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.19012722373008728,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.9554081559181213,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.7604895234107971,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.9392019510269165,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.9124689102172852,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.06897850334644318,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.16026239097118378,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.15927034616470337,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.1316295564174652,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.6040292978286743,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.8740617036819458,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.7937508821487427,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.720392107963562,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.2853207588195801,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.15161117911338806,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.18877801299095154,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.2671930193901062,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.6217496395111084,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.9370452165603638,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.5242162942886353,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.6517282128334045,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.11029239743947983,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.1850394457578659,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.08249001204967499,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.07574176788330078,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      }
+    ]
+  },
+  {
+    "method": "Warm-adapter Logit Stacking",
+    "seed": 42,
+    "metrics": {
+      "accuracy": 0.9523809523809523,
+      "f1": 0.95,
+      "kappa": 0.9045454545454544,
+      "auc": 0.9522727272727273,
+      "precision": 0.95,
+      "recall": 0.95,
+      "specificity": 0.9545454545454546,
+      "brier": 0.05508290744999688,
+      "ece": 0.065296581798884
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9981882641737687,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.995074373006492,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.9852744722884093,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.995656072437047,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.25562735472086756,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.00241073762435161,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.0018647396610904153,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9660805448487165,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.005630647751119071,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.012317900852748564,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.9741043587231945,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.8769907810570915,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.9445144948091655,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.0040795203052474156,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.02033513860342625,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.0005615510924385527,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.0011354283677740844,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.018437673480184106,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.9956906064631784,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.8520680299735884,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.9883037372354366,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.9839678226145571,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.014051161964308492,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.0048672397922211305,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.05297966588960296,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.004994164920576362,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.7262445449493997,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.9886723396685823,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.962408016430908,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.908073935754163,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.08437579455113667,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.03187471978813973,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.03706231552117119,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.07142911546529486,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.8134612204470396,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.9962074080703023,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.6277554295484804,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.8613301201759154,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.012927157921799538,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.0392547753660176,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.0089906054865089,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.00795718513498867,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Logit Stacking"
+      }
+    ]
+  },
+  {
+    "method": "Warm-adapter Soft Voting",
+    "seed": 43,
+    "metrics": {
+      "accuracy": 0.9047619047619048,
+      "f1": 0.9,
+      "kappa": 0.8090909090909091,
+      "auc": 0.9727272727272728,
+      "precision": 0.9,
+      "recall": 0.9,
+      "specificity": 0.9090909090909091,
+      "brier": 0.08258079529734594,
+      "ece": 0.1372083364320653
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.8541093468666077,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.8442435264587402,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.8310810923576355,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.8447105884552002,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.29836031794548035,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.2403908371925354,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.11541088670492172,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.22540932893753052,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.11618910729885101,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.8424199819564819,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.8453572988510132,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.8051345944404602,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.5900370478630066,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.17816735804080963,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.22791479527950287,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.12374438345432281,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.11436229944229126,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.05794423446059227,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9177685976028442,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.24741502106189728,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.3811429440975189,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.8620973229408264,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.02986324578523636,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.09569036215543747,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.07601902633905411,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.09681738913059235,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.7646166086196899,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.7725367546081543,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.543838620185852,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.772647500038147,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.22716601192951202,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.2544531524181366,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.16476522386074066,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.18162760138511658,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.7617796063423157,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.5552076697349548,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.8573862314224243,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.8882303237915039,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.19772399961948395,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.5576874017715454,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.29680168628692627,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.7114530801773071,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      }
+    ]
+  },
+  {
+    "method": "Warm-adapter Logit Stacking",
+    "seed": 43,
+    "metrics": {
+      "accuracy": 0.9047619047619048,
+      "f1": 0.9,
+      "kappa": 0.8090909090909091,
+      "auc": 0.9659090909090909,
+      "precision": 0.9,
+      "recall": 0.9,
+      "specificity": 0.9090909090909091,
+      "brier": 0.07243763407129558,
+      "ece": 0.0937964022371583
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.9780457079412778,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.972380277797215,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.9674746148214469,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.9747744102256316,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.14497282305213338,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.08393062573093951,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.012839859365769918,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.04395384256941595,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.01417403550718554,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.9721078380429786,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.9678035354100132,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.9287230264222768,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.6320798986556004,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.017989944833966653,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.06967001421642496,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.020305956437286953,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.02119234992564292,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.005461278988490192,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9867231528861826,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.10190745800083828,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.3498501466528487,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.9785972599637708,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.0047879717764349634,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.010924314530895492,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.009131896941782427,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.007854629013449988,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.8806236332661113,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.8820812402356956,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.7055012768517785,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.8411441971348086,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.07835570899443899,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.13849076348088313,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.038082668470512275,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.046101278004572616,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.9052022886663077,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.6592742755539227,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.9708057234994265,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.9825550161701361,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.05277945422042126,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.7225535538875503,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.0856100827679586,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.8961672975320052,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Logit Stacking"
+      }
+    ]
+  },
+  {
+    "method": "Warm-adapter Soft Voting",
+    "seed": 44,
+    "metrics": {
+      "accuracy": 0.9047619047619048,
+      "f1": 0.9,
+      "kappa": 0.8090909090909091,
+      "auc": 0.9454545454545454,
+      "precision": 0.9,
+      "recall": 0.9,
+      "specificity": 0.9090909090909091,
+      "brier": 0.10427943766216756,
+      "ece": 0.16798994566003478
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.8666743636131287,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.7972937226295471,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.8763484954833984,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.7671587467193604,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.3518323302268982,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.3218446969985962,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.2889596223831177,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.2886607050895691,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.1961587369441986,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.8952924013137817,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.7518554925918579,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.6880043148994446,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.7299845218658447,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.21040481328964233,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.2980363667011261,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.13771843910217285,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.09295914322137833,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.16917027533054352,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.4843813180923462,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.3575666844844818,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.7555465698242188,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.797572135925293,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.03208335489034653,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.43703553080558777,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.03405125066637993,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.02088596299290657,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9374932050704956,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.5562841892242432,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.5479551553726196,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.9469228982925415,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.7122176885604858,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.32917308807373047,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.31852853298187256,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9343315958976746,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.72237229347229,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.9010904431343079,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.8749288320541382,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.7246667146682739,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.27047717571258545,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.2234402596950531,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.3350960612297058,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.04426456242799759,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      }
+    ]
+  },
+  {
+    "method": "Warm-adapter Logit Stacking",
+    "seed": 44,
+    "metrics": {
+      "accuracy": 0.9047619047619048,
+      "f1": 0.9,
+      "kappa": 0.8090909090909091,
+      "auc": 0.9318181818181818,
+      "precision": 0.9,
+      "recall": 0.9,
+      "specificity": 0.9090909090909091,
+      "brier": 0.07610094416565684,
+      "ece": 0.0516715069983197
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.981754154332468,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.9515733040308341,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.9862013391512907,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.9275086160725422,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.20672403501925005,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.17362097871582388,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.1317563629895472,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.12351511499908731,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.048937867683194955,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.981633133473055,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.8703960833796024,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.7658337220278919,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.8332189307660898,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.03649512726059462,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.11950353150103796,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.02435968236598379,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.011392003415613286,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.042267625650070924,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.3986813087102529,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.1185692107877888,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.9263603766180243,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.9417173544336257,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.003547077422713114,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.03473363001825837,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.002633672011608994,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.002309380038433904,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9941215904466125,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.8722875127280011,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.8270706452720935,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.9959734150490046,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.8404782290528565,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.03033225076907555,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.1394006812069931,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.992798893742821,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.9172215400961999,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.9843263089200155,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.9735765975170914,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.8765037730513295,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.1378526709707856,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.09752609095333283,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.05930387867070391,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Logit Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.0036527564262454418,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Logit Stacking"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "mode": "baseline",
+  "method": "stacking_logit",
+  "seed": 43,
+  "fold": 3,
+  "model": "fusion/baseline/stacking_logit/seed43_fold3/model.keras",
+  "model_sha256": "a8e3ff11f5e10d877831f9ba8e327851297cff77e3fa2791102506cf27269d3b",
+  "all_subjects": 42,
+  "maximum_probability_difference": 1.1102230246251565e-16,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

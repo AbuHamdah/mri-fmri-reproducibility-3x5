@@ -1,0 +1,83 @@
+{
+  "threshold": 0.623321726355369,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.23857244090181912,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.25122796207625914,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.43972460829953114,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.623321726355369,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.6254529247015487,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.7061272434582067,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8888888888888888,
+    "kappa": 0.7804878048780487,
+    "auc": 0.95,
+    "precision": 0.8,
+    "recall": 1.0,
+    "specificity": 0.8,
+    "brier": 0.1050032135685758,
+    "ece": 0.16469952206809552
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8888888888888888,
+    "kappa": 0.7804878048780487,
+    "auc": 0.95,
+    "precision": 0.8,
+    "recall": 1.0,
+    "specificity": 0.8,
+    "brier": 0.1050032135685758,
+    "ece": 0.16469952206809552
+  },
+  "test_n": 9,
+  "fixed_correct": 8,
+  "calibrated_correct": 8,
+  "series": "fmri_optuna",
+  "seed": 42,
+  "fold": 2,
+  "selected_epoch": 0,
+  "model_sha256": "7e844d8f3a573b48b98c08d0a062c6e672d55f6ecffc2e70360e988baefec8cf",
+  "reload_max_difference": 0.0,
+  "seconds": 24.17739725112915,
+  "source_model": "initial_models/supplemental_completion/completion_pilots_v1/fmri_optuna_head/model.keras"
+}

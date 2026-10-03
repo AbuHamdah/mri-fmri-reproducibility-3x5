@@ -1,0 +1,79 @@
+[
+  {
+    "subject_id": "sub-047EPKL011047",
+    "true_label": 1,
+    "probability": 0.8163032391476484,
+    "predicted_label": 1,
+    "input_path": "inputs/mri/sub-047EPKL011047.npy",
+    "input_sha256": "3a2f6b201fd6896729e8118b3e6d7220cb1fe2390663c81eb4547f269cfbb1cf",
+    "seed": 44,
+    "test_fold": 1,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011068",
+    "true_label": 1,
+    "probability": 0.8880033135419967,
+    "predicted_label": 1,
+    "input_path": "inputs/mri/sub-047EPKL011068.npy",
+    "input_sha256": "04bab4c07f7dd524188caee987fff09c25ab477c0aafe432dc5784cf9c202690",
+    "seed": 44,
+    "test_fold": 1,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL012069",
+    "true_label": 1,
+    "probability": 0.8296895123903438,
+    "predicted_label": 1,
+    "input_path": "inputs/mri/sub-047EPKL012069.npy",
+    "input_sha256": "f4cbb390e54b4bbf0554a4ede4f7cc06b147b55e14747cc099ae5e00baec3915",
+    "seed": 44,
+    "test_fold": 1,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.31064037090519864,
+    "predicted_label": 0,
+    "input_path": "inputs/mri/sub-047EPKL014043.npy",
+    "input_sha256": "c3b38a115ad026e20a00bef036a085a23e27f19f21a04d6de1f0ac61ca69d123",
+    "seed": 44,
+    "test_fold": 1,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014045",
+    "true_label": 0,
+    "probability": 0.10876220911272999,
+    "predicted_label": 0,
+    "input_path": "inputs/mri/sub-047EPKL014045.npy",
+    "input_sha256": "6fa298acdd487d2c3c4a307baec1ea289d0989561d72b792cb0683d856d38f77",
+    "seed": 44,
+    "test_fold": 1,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014054",
+    "true_label": 0,
+    "probability": 0.1653007605189819,
+    "predicted_label": 0,
+    "input_path": "inputs/mri/sub-047EPKL014054.npy",
+    "input_sha256": "27defdc355352f62ec3ff9f956fc2e5327a75b3d26bcd26a631476aaa78a5333",
+    "seed": 44,
+    "test_fold": 1,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014062",
+    "true_label": 0,
+    "probability": 0.22715903144115737,
+    "predicted_label": 0,
+    "input_path": "inputs/mri/sub-047EPKL014062.npy",
+    "input_sha256": "a7212475eed804b0a3e691eeff3b090f3b6645f7591fb0579fe95b6ace63e06b",
+    "seed": 44,
+    "test_fold": 1,
+    "threshold": 0.5
+  }
+]

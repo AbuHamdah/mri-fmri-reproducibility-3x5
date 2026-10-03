@@ -1,0 +1,49 @@
+{
+  "series": "mri_agentic",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "regularization_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "method": "True-label fixed-eight residual using the mean of5 class-balanced Bayesian-bootstrap training weight draws, with validation-selected shrinkage",
+  "training_weights": "Generate5 Exponential(1) draws with SeedSequence(seed,fold,1017); multiply each by training class balancing; normalize each sum n_train; average weights",
+  "normalization": "Current training feature mean and population SD floor0.01; project after normalization",
+  "identity_control": true,
+  "selection": "Validation balanced accuracy, minimum BCE, smaller residual strength, stronger lambda",
+  "threshold": 0.5,
+  "clip": 1e-07,
+  "source_model": "initial_models/artifacts/consistent_v3/a/mri_agentic_pretrained_seed42_fold1/model.keras",
+  "source_training": false,
+  "new_qwen_calls": false,
+  "historical_agentic_label_only": true,
+  "previously_examined_cohort": true,
+  "target_guarantee": false,
+  "native_probability_tolerance": 0.0001,
+  "classification_parity_required": true,
+  "residual_strength_grid": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "projection_seed": 314159,
+  "projection_dimensions": 8,
+  "projection": "Orthonormal QR projection of a fixed Gaussian matrix; generated without labels or outcomes",
+  "bootstrap_draws": 5
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen2.5:3b",
+  "created_at": "2026-10-03T08:48:48.232815517Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\"action\":\"increase_dropout\"}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3512280735,
+  "load_duration": 1791113,
+  "prompt_eval_count": 326,
+  "prompt_eval_cached_count": 104,
+  "prompt_eval_duration": 3213630000,
+  "eval_count": 7,
+  "eval_duration": 286822000
+}

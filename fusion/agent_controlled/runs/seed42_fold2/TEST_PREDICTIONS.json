@@ -1,0 +1,92 @@
+[
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL011049",
+    "true_label": 1,
+    "probability": 0.2179906964302063,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL012015",
+    "true_label": 1,
+    "probability": 0.9079008102416992,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL012069",
+    "true_label": 1,
+    "probability": 0.8057253360748291,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL012074",
+    "true_label": 1,
+    "probability": 0.7290123105049133,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014010",
+    "true_label": 0,
+    "probability": 0.11002602428197861,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014020",
+    "true_label": 0,
+    "probability": 0.08064739406108856,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014031",
+    "true_label": 0,
+    "probability": 0.08439596742391586,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014037",
+    "true_label": 0,
+    "probability": 0.13142336905002594,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.19467012584209442,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  }
+]

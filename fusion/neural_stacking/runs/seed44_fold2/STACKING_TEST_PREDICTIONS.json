@@ -1,0 +1,92 @@
+[
+  {
+    "subject_id": "sub-047EPKL011047",
+    "true_label": 1,
+    "probability": 0.9807450771331787,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 44,
+    "test_fold": 2,
+    "model_id": "seed44_fold2_Stochastic Neural Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL011058",
+    "true_label": 1,
+    "probability": 0.8937335014343262,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 44,
+    "test_fold": 2,
+    "model_id": "seed44_fold2_Stochastic Neural Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL011060",
+    "true_label": 1,
+    "probability": 0.8106005191802979,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 44,
+    "test_fold": 2,
+    "model_id": "seed44_fold2_Stochastic Neural Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL012015",
+    "true_label": 1,
+    "probability": 0.8698629140853882,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 44,
+    "test_fold": 2,
+    "model_id": "seed44_fold2_Stochastic Neural Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014008",
+    "true_label": 0,
+    "probability": 0.052198246121406555,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 44,
+    "test_fold": 2,
+    "model_id": "seed44_fold2_Stochastic Neural Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014037",
+    "true_label": 0,
+    "probability": 0.14928863942623138,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 44,
+    "test_fold": 2,
+    "model_id": "seed44_fold2_Stochastic Neural Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014039",
+    "true_label": 0,
+    "probability": 0.0297820083796978,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 44,
+    "test_fold": 2,
+    "model_id": "seed44_fold2_Stochastic Neural Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.01583646982908249,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 44,
+    "test_fold": 2,
+    "model_id": "seed44_fold2_Stochastic Neural Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014054",
+    "true_label": 0,
+    "probability": 0.04209231212735176,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 44,
+    "test_fold": 2,
+    "model_id": "seed44_fold2_Stochastic Neural Stacking"
+  }
+]

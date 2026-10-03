@@ -1,0 +1,88 @@
+{
+  "model": "selected/mri_baseline/adopted_models/seed42_fold1/model.keras",
+  "model_sha256": "99eb67568735f6ad00df45947d3438a88ba09f6c74e2e3c4ad68484ad0cea944",
+  "subject_ids": [
+    "sub-047EPKL011005",
+    "sub-047EPKL011041",
+    "sub-047EPKL011056",
+    "sub-047EPKL011063",
+    "sub-047EPKL014024",
+    "sub-047EPKL014036",
+    "sub-047EPKL014038",
+    "sub-047EPKL014062",
+    "sub-047EPKL014067"
+  ],
+  "input_groups": [
+    [
+      "inputs/mri/sub-047EPKL011005.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL011041.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL011056.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL011063.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014024.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014036.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014038.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014062.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014067.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "000549316f990cd70c7387d43a5be804cacf87e4becafa089f6fca9f13073154"
+    ],
+    [
+      "98f6917ce969f38fff2baf11f13a4e085cbb57c1b7a36b788ddcd060e4993d57"
+    ],
+    [
+      "4f4ad6ef4ba8cc7b6c0e7d42404eefa4bfe2c99a41ed7cfa03a2a05c28d949f7"
+    ],
+    [
+      "3ca43ec2fa8164c97ee2b80d41feed8b263bb46bf8bfbe50ca1cbdf1bd04def7"
+    ],
+    [
+      "e2fe6776835e83bb9fd5a97606f4a8f0065ede28ebced543299886a13c38b515"
+    ],
+    [
+      "ee73c2bb39d0d6ea881118c02c9c0a564b979ed1f447963cd56da404d797dca2"
+    ],
+    [
+      "07fd72db7f99db97063566fd97c4dc810d3e31ac116e2c51c51e26f13144a5d2"
+    ],
+    [
+      "a7212475eed804b0a3e691eeff3b090f3b6645f7591fb0579fe95b6ace63e06b"
+    ],
+    [
+      "c698fa9c39e55fa88a2d6f42c6f3c695863bda3bee1ef394edb692e979e409fc"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.7284393310546875,
+    0.7068759799003601,
+    0.7577218413352966,
+    0.8389606475830078,
+    0.3979358971118927,
+    0.17966867983341217,
+    0.17151495814323425,
+    0.1597183644771576,
+    0.10822346061468124
+  ],
+  "maximum_probability_difference": 0.0,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

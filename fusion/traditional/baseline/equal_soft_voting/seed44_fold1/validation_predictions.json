@@ -1,0 +1,93 @@
+[
+  {
+    "subject_id": "sub-047EPKL011047",
+    "true_label": 1,
+    "probability": 0.8038846544757933,
+    "seed": 44,
+    "test_fold": 1,
+    "method": "equal_soft_voting",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL011068",
+    "true_label": 1,
+    "probability": 0.9446670910864039,
+    "seed": 44,
+    "test_fold": 1,
+    "method": "equal_soft_voting",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL012069",
+    "true_label": 1,
+    "probability": 0.8817261656986581,
+    "seed": 44,
+    "test_fold": 1,
+    "method": "equal_soft_voting",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.09080519263984836,
+    "seed": 44,
+    "test_fold": 1,
+    "method": "equal_soft_voting",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014045",
+    "true_label": 0,
+    "probability": 0.09011205310726382,
+    "seed": 44,
+    "test_fold": 1,
+    "method": "equal_soft_voting",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014054",
+    "true_label": 0,
+    "probability": 0.11473280915437233,
+    "seed": 44,
+    "test_fold": 1,
+    "method": "equal_soft_voting",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014062",
+    "true_label": 0,
+    "probability": 0.08437043048656277,
+    "seed": 44,
+    "test_fold": 1,
+    "method": "equal_soft_voting",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  }
+]

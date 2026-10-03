@@ -1,0 +1,38 @@
+{
+  "display_name": "Agent-controlled Feature Fusion — Qwen training controller",
+  "source_features": "D:\\MRI_FMRI_BOOTSTRAP_RESIDUAL_3X5_V24",
+  "source_training_reference": "D:\\MRI_FMRI_BOOTSTRAP_RESIDUAL_3X5_V24",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "partitions": 5,
+  "max_epochs": 25,
+  "decision_epochs": [
+    10,
+    20
+  ],
+  "allowed_actions": [
+    "continue",
+    "reduce_lr",
+    "increase_dropout",
+    "stop"
+  ],
+  "initial_learning_rate": 0.00075,
+  "initial_dropout": 0.2,
+  "residual_bound": 0.75,
+  "residual_penalty": 0.2,
+  "hidden_units": 32,
+  "batch_size": 8,
+  "bootstrap": "Same stratified training-child draw as preserved source reference",
+  "model_selection": "Final trained epoch under live agent control; all15 models retained",
+  "current_gradient_labels": "True current-training child labels, unmodified",
+  "current_test_not_supplied_to_controller": true,
+  "all_training_models_locked_before_current_test_evaluation": true,
+  "prior_cohort_test_results_repeatedly_examined": true,
+  "max_live_decisions": 30,
+  "maximum_api_attempts_per_decision": 2,
+  "target_guaranteed": false,
+  "features_sha256": "4a234341e6a15c13ba3af9187873a42f97bf72e60c13314519481299c6f9c18e"
+}

@@ -1,0 +1,2624 @@
+[
+  {
+    "method": "Warm-adapter Soft Voting",
+    "seed": 42,
+    "metrics": {
+      "accuracy": 0.9523809523809523,
+      "f1": 0.95,
+      "kappa": 0.9045454545454544,
+      "auc": 0.9568181818181818,
+      "precision": 0.95,
+      "recall": 0.95,
+      "specificity": 0.9545454545454546,
+      "brier": 0.07348854209566667,
+      "ece": 0.17204320024965067
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9641132950782776,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.8550583720207214,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.7689043283462524,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.9343931078910828,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.4279721677303314,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.3483678102493286,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.16263683140277863,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.5773200988769531,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.2969282269477844,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.07087680697441101,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.8881210088729858,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.7033835649490356,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.8295523524284363,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.03992462158203125,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.1436968743801117,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.012402818538248539,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.020582063123583794,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.19012722373008728,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.9554081559181213,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.7604895234107971,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.9392019510269165,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.9124689102172852,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.06897850334644318,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.16026239097118378,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.15927034616470337,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.1316295564174652,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.6040292978286743,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.8740617036819458,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.7937508821487427,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.720392107963562,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.2853207588195801,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.15161117911338806,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.18877801299095154,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.2671930193901062,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.6217496395111084,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.9370452165603638,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.5242162942886353,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.6517282128334045,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.11029239743947983,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.1850394457578659,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.08249001204967499,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.07574176788330078,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Warm-adapter Soft Voting"
+      }
+    ]
+  },
+  {
+    "method": "Stochastic Neural Stacking",
+    "seed": 42,
+    "metrics": {
+      "accuracy": 0.9523809523809523,
+      "f1": 0.95,
+      "kappa": 0.9045454545454544,
+      "auc": 0.975,
+      "precision": 0.95,
+      "recall": 0.95,
+      "specificity": 0.9545454545454546,
+      "brier": 0.04546955734479016,
+      "ece": 0.05391724297078326
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9898629784584045,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.9538500905036926,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.9051520228385925,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.9802998304367065,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.43773481249809265,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.17567721009254456,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.05790727585554123,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.7073020339012146,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.14892578125,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 1,
+        "model_id": "seed42_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.03089628368616104,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.9877568483352661,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.9547051191329956,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.9785453081130981,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.011757047846913338,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.05089549347758293,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.0018975603161379695,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.003404732793569565,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.06034521386027336,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 2,
+        "model_id": "seed42_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.9871304631233215,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.7725668549537659,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.9734372496604919,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.9671211242675781,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.015888845548033714,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.018374523147940636,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.040724143385887146,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.015287011861801147,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 3,
+        "model_id": "seed42_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.9230979084968567,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.9901696443557739,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.9806292653083801,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.9675183296203613,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.12620805203914642,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.01926339417695999,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.02490251511335373,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.09590956568717957,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 4,
+        "model_id": "seed42_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.8529922366142273,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.9873872399330139,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.7365297675132751,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.8806725144386292,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.029118714854121208,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.07144997268915176,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.01635597087442875,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.015713868662714958,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 42,
+        "test_fold": 5,
+        "model_id": "seed42_fold5_Stochastic Neural Stacking"
+      }
+    ]
+  },
+  {
+    "method": "Warm-adapter Soft Voting",
+    "seed": 43,
+    "metrics": {
+      "accuracy": 0.9047619047619048,
+      "f1": 0.9,
+      "kappa": 0.8090909090909091,
+      "auc": 0.9727272727272728,
+      "precision": 0.9,
+      "recall": 0.9,
+      "specificity": 0.9090909090909091,
+      "brier": 0.08258079529734594,
+      "ece": 0.1372083364320653
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.8541093468666077,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.8442435264587402,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.8310810923576355,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.8447105884552002,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.29836031794548035,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.2403908371925354,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.11541088670492172,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.22540932893753052,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.11618910729885101,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.8424199819564819,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.8453572988510132,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.8051345944404602,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.5900370478630066,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.17816735804080963,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.22791479527950287,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.12374438345432281,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.11436229944229126,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.05794423446059227,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9177685976028442,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.24741502106189728,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.3811429440975189,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.8620973229408264,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.02986324578523636,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.09569036215543747,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.07601902633905411,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.09681738913059235,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.7646166086196899,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.7725367546081543,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.543838620185852,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.772647500038147,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.22716601192951202,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.2544531524181366,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.16476522386074066,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.18162760138511658,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.7617796063423157,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.5552076697349548,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.8573862314224243,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.8882303237915039,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.19772399961948395,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.5576874017715454,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.29680168628692627,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.7114530801773071,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Warm-adapter Soft Voting"
+      }
+    ]
+  },
+  {
+    "method": "Stochastic Neural Stacking",
+    "seed": 43,
+    "metrics": {
+      "accuracy": 0.9285714285714286,
+      "f1": 0.9230769230769231,
+      "kappa": 0.856492027334852,
+      "auc": 0.9704545454545455,
+      "precision": 0.9473684210526315,
+      "recall": 0.9,
+      "specificity": 0.9545454545454546,
+      "brier": 0.06184329234628717,
+      "ece": 0.0725455909102623
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.9831212759017944,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.9811131358146667,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.9790602922439575,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.981667697429657,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.23545895516872406,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.11865110695362091,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.022074243053793907,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.06259966641664505,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.023642441257834435,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 1,
+        "model_id": "seed43_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.9654475450515747,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.9665352702140808,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.9543837904930115,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.6909277439117432,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.03095269203186035,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.10961543768644333,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.0307376217097044,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.02341143973171711,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.008926726877689362,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 2,
+        "model_id": "seed43_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.972743570804596,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.11571463197469711,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.35343533754348755,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.9516388773918152,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.007456876803189516,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.02387271448969841,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.018654901534318924,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.022316211834549904,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 3,
+        "model_id": "seed43_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.9044148325920105,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.9072428941726685,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.695553719997406,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.8670312762260437,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.04808889329433441,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.08106488734483719,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.026344135403633118,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.030901003628969193,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 4,
+        "model_id": "seed43_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.941266655921936,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.8353843688964844,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.9819507598876953,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.9866871237754822,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.03499249368906021,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.357954740524292,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.053419455885887146,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9489941000938416,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 43,
+        "test_fold": 5,
+        "model_id": "seed43_fold5_Stochastic Neural Stacking"
+      }
+    ]
+  },
+  {
+    "method": "Warm-adapter Soft Voting",
+    "seed": 44,
+    "metrics": {
+      "accuracy": 0.9047619047619048,
+      "f1": 0.9,
+      "kappa": 0.8090909090909091,
+      "auc": 0.9454545454545454,
+      "precision": 0.9,
+      "recall": 0.9,
+      "specificity": 0.9090909090909091,
+      "brier": 0.10427943766216756,
+      "ece": 0.16798994566003478
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.8666743636131287,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.7972937226295471,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.8763484954833984,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.7671587467193604,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.3518323302268982,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.3218446969985962,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.2889596223831177,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.2886607050895691,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.1961587369441986,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.8952924013137817,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.7518554925918579,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.6880043148994446,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.7299845218658447,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.21040481328964233,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.2980363667011261,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.13771843910217285,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.09295914322137833,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.16917027533054352,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.4843813180923462,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.3575666844844818,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.7555465698242188,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.797572135925293,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.03208335489034653,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.43703553080558777,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.03405125066637993,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.02088596299290657,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9374932050704956,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.5562841892242432,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.5479551553726196,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.9469228982925415,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.7122176885604858,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.32917308807373047,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.31852853298187256,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9343315958976746,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.72237229347229,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.9010904431343079,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.8749288320541382,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.7246667146682739,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.27047717571258545,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.2234402596950531,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.3350960612297058,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.04426456242799759,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Warm-adapter Soft Voting"
+      }
+    ]
+  },
+  {
+    "method": "Stochastic Neural Stacking",
+    "seed": 44,
+    "metrics": {
+      "accuracy": 0.9047619047619048,
+      "f1": 0.9,
+      "kappa": 0.8090909090909091,
+      "auc": 0.9568181818181818,
+      "precision": 0.9,
+      "recall": 0.9,
+      "specificity": 0.9090909090909091,
+      "brier": 0.0616629251548655,
+      "ece": 0.11846641355770686
+    },
+    "predictions": [
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.9810236096382141,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.9664645791053772,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.9852160811424255,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.9461743831634521,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.12280504405498505,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.11863937228918076,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.08664029836654663,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.09342069178819656,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.03653031960129738,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 1,
+        "model_id": "seed44_fold1_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.9807450771331787,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011058",
+        "true_label": 1,
+        "probability": 0.8937335014343262,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.8106005191802979,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.8698629140853882,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.052198246121406555,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.14928863942623138,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.0297820083796978,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014043",
+        "true_label": 0,
+        "probability": 0.01583646982908249,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.04209231212735176,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 2,
+        "model_id": "seed44_fold2_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.46793416142463684,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.21002426743507385,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.9315823912620544,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.9031988978385925,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.007216973230242729,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.1787879914045334,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.006806281395256519,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.0053016506135463715,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 3,
+        "model_id": "seed44_fold3_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.9885849356651306,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.8694316744804382,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.84193354845047,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012071",
+        "true_label": 1,
+        "probability": 0.9854558110237122,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.6043731570243835,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.05201733112335205,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.09741081297397614,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9825759530067444,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 4,
+        "model_id": "seed44_fold4_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.8170454502105713,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012014",
+        "true_label": 1,
+        "probability": 0.9630957841873169,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012069",
+        "true_label": 1,
+        "probability": 0.9467477202415466,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL012073",
+        "true_label": 1,
+        "probability": 0.7936030626296997,
+        "predicted_label": 1,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.09979324787855148,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.07250595837831497,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014026",
+        "true_label": 0,
+        "probability": 0.1094769835472107,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Stochastic Neural Stacking"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.007969455793499947,
+        "predicted_label": 0,
+        "threshold": 0.5,
+        "seed": 44,
+        "test_fold": 5,
+        "model_id": "seed44_fold5_Stochastic Neural Stacking"
+      }
+    ]
+  }
+]

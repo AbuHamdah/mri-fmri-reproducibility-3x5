@@ -1,0 +1,124 @@
+{
+  "model": "comparisons/branches/fmri_random/seed42_fold2/model.keras",
+  "model_sha256": "e430a59b80b7dc9cc880a1cbb3ae0c8b624470a692a8b71514702963738f8e6f",
+  "subject_ids": [
+    "sub-047EPKL011049",
+    "sub-047EPKL012015",
+    "sub-047EPKL012069",
+    "sub-047EPKL012074",
+    "sub-047EPKL014010",
+    "sub-047EPKL014020",
+    "sub-047EPKL014031",
+    "sub-047EPKL014037",
+    "sub-047EPKL014043"
+  ],
+  "input_groups": [
+    [
+      "inputs/fmri/sub-047EPKL011049_run01.npy",
+      "inputs/fmri/sub-047EPKL011049_run02.npy",
+      "inputs/fmri/sub-047EPKL011049_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL012015_run01.npy",
+      "inputs/fmri/sub-047EPKL012015_run02.npy",
+      "inputs/fmri/sub-047EPKL012015_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL012069_run01.npy",
+      "inputs/fmri/sub-047EPKL012069_run02.npy",
+      "inputs/fmri/sub-047EPKL012069_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL012074_run01.npy",
+      "inputs/fmri/sub-047EPKL012074_run02.npy",
+      "inputs/fmri/sub-047EPKL012074_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014010_run01.npy",
+      "inputs/fmri/sub-047EPKL014010_run02.npy",
+      "inputs/fmri/sub-047EPKL014010_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014020_run01.npy",
+      "inputs/fmri/sub-047EPKL014020_run02.npy",
+      "inputs/fmri/sub-047EPKL014020_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014031_run01.npy",
+      "inputs/fmri/sub-047EPKL014031_run02.npy",
+      "inputs/fmri/sub-047EPKL014031_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014037_run01.npy",
+      "inputs/fmri/sub-047EPKL014037_run02.npy",
+      "inputs/fmri/sub-047EPKL014037_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014043_run01.npy",
+      "inputs/fmri/sub-047EPKL014043_run02.npy",
+      "inputs/fmri/sub-047EPKL014043_run03.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "b22311309ee31ee5b59b31403e5b6af2f15305fbef4a1b7b23f9a375d7871475",
+      "f3ba0a4fdc22242fe0fa1e22d05e3872ab1aa6b531b989531d862b88d5ce7f22",
+      "68a8bc18fabe9166c24112700c711baa31c24cde9b76d0b7f54ca21812defc43"
+    ],
+    [
+      "a604275b3ba38aa228cbb2e643da4428b2531140d5a493cca9568b4721874007",
+      "f7afa7e7c822861aafe10b55b0ef2580017a8f18c86a98a94f4db0cf1df7ed78",
+      "fb6807dc27353b2903c6d3bbc4a9ab298156a66cb77ff1d50a9ec699df2d33dc"
+    ],
+    [
+      "6c62c12ce2d4857872672fe308c4d624d1181382639e4195cb9f986d8dc8c3fb",
+      "beccc6d26af1ff087b868b35f9e7fba6695620263e674f069f3491aff681cb90",
+      "8447635d1d0ddf0a46e8a544f4581561dd6853efea4c99aeb50ae2dad7810c4c"
+    ],
+    [
+      "8a6c9c65eeba266f1ae23424889d7ad793441b4e19597303139d4b7a84aef829",
+      "5405a1a1385a4e159005f9520d619fd4936722887c5455eedfffe882aa81b902",
+      "08ef808726667fb4b777c46be6b9672ff8ce46021c0644640c4c524425cc5f92"
+    ],
+    [
+      "2b217f7d1ac852f6f1c8372b4123bccfd714d2c609697a5d3e0e600b96446446",
+      "62788a7ff4eee0469a034e0e01acde1e5fc41f1b3aa28545231642b45990afb4",
+      "704e89cfe8837eaa26721e40a80a60eaa420f9d2e8319a4e1ec3b192b482b94c"
+    ],
+    [
+      "4f1b6768fc01a17e917e31726ca98dd1b44fd73c3ce73c5c5945ca6cb15a7283",
+      "fc812ce1007212c808cae6141aeedba596524d357f6993e4fb4dbe8f86f54f20",
+      "523e1ea53acb29c707aa5b8375964ac353abe49494de8d7e87d10595e1b408a6"
+    ],
+    [
+      "6871a3994b99a7e40122f67d40f89c347d30d3a0bc121abb4e4ec64fdc0d7848",
+      "c0ac46f42230362cf4e8786eb8f3fd8605dc7f65fc07733e8e92ea6d662b18fc",
+      "50942dd81b731c6c222dd031fe9dffc324ac079fa47c23d0462bb09cff5ef7e7"
+    ],
+    [
+      "a69c1eaa89be1233cca4856c98fcae0e11abbb505049210cb57ab7e433635bcc",
+      "b7fae6bb3e61833a1ccf3b540f9caa1ccceaf513b2948e42dabdf6b17f20e33f",
+      "952a16f827f90ab106839ae2f671fbf259afe67631fda71f4466c7f99c22c36a"
+    ],
+    [
+      "11202f442bea90ee6b1caf043c94dffad6289e05af5eed11448e0c35a9910cc9",
+      "ccf408fa85e9988d28608104653a62407c1f9c05bba927f1a45cead1e77f54d0",
+      "6bf08f2abeabbb3228fac690141c61d34a1826d1638bf94dc96eaac5248885ec"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.6959866881370544,
+    0.7922478516896566,
+    0.8501785198847452,
+    0.8598162134488424,
+    0.18883605798085532,
+    0.1007658913731575,
+    0.7098414103190104,
+    0.14023967335621515,
+    0.08817305664221446
+  ],
+  "maximum_probability_difference": 0.0,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

@@ -1,0 +1,83 @@
+{
+  "threshold": 0.5,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.14946887940243792,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.18726415830554466,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.24138750859990957,
+      "f1": 0.5714285714285714,
+      "balanced_accuracy": 0.5833333333333333
+    },
+    {
+      "threshold": 0.275180184092489,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.5324432849952494,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.8206874102133128,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8571428571428571,
+    "kappa": 0.7692307692307692,
+    "auc": 0.8,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.131356471068853,
+    "ece": 0.17907270635686257
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8571428571428571,
+    "kappa": 0.7692307692307692,
+    "auc": 0.8,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.131356471068853,
+    "ece": 0.17907270635686257
+  },
+  "test_n": 9,
+  "fixed_correct": 8,
+  "calibrated_correct": 8,
+  "series": "mri_optuna",
+  "seed": 43,
+  "fold": 1,
+  "selected_epoch": 0,
+  "model_sha256": "c0a21d33451645ed7f5208555c6488761665c50c8923c9af45185c5230137406",
+  "reload_max_difference": 2.6432590266523004e-05,
+  "seconds": 10.803292274475098,
+  "source_model": "initial_models/supplemental_completion/completion_pilots_v1/mri_optuna_head/model.keras"
+}

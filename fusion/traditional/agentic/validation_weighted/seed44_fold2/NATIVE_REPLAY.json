@@ -1,0 +1,12 @@
+{
+  "mode": "agentic",
+  "method": "validation_weighted",
+  "seed": 44,
+  "fold": 2,
+  "model": "fusion/agentic/validation_weighted/seed44_fold2/model.keras",
+  "model_sha256": "dd3f38dddd7b18713ec3e72facdf0ab907fafd575bcb20a29720c672b678856c",
+  "all_subjects": 42,
+  "maximum_probability_difference": 0.0,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

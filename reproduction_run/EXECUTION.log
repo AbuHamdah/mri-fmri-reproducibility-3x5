@@ -1,0 +1,1104 @@
+Regenerated features: mri 2.4437904357910156e-06
+Regenerated features: fmri 7.450580596923828e-09
+Traceback (most recent call last):
+  File "/package/source/replay.py", line 50, in <module>
+    d=P/'selected/mri_baseline/adopted_models'/f'seed{seed}_fold{fold}';c=read(P/'selected/mri_baseline/calibration'/f'seed{seed}_fold{fold}.json');m=loadmodel(d/'model.keras');rows=c['predictions'];prob=[one(m,bykind['mri'][r['subject_id']][0]) for r in rows];add('mri_baseline',seed,fold,d,rows,prob,c['selected_threshold'],str((d/'model.keras').relative_to(P)));del m;tf.keras.backend.clear_session()
+  File "/package/source/replay.py", line 26, in add
+    pp=np.asarray(prob).ravel();expected=np.array([r['probability'] for r in rows]);delta=float(np.max(abs(pp-expected)));assert delta<=1e-4,(key,seed,fold,delta)
+AssertionError: ('mri_baseline', 42, 1, 0.0003744363784790039)
+Regenerated features: mri 0.0
+Regenerated features: fmri 0.0
+Replay 1 mri_baseline 42 1 difference 0.0
+Replay 2 mri_baseline 42 2 difference 0.0
+Replay 3 mri_baseline 42 3 difference 0.0
+Replay 4 mri_baseline 42 4 difference 0.0
+Replay 5 mri_baseline 42 5 difference 0.0
+Replay 6 mri_baseline 43 1 difference 0.0
+Replay 7 mri_baseline 43 2 difference 0.0
+Replay 8 mri_baseline 43 3 difference 0.0
+Replay 9 mri_baseline 43 4 difference 0.0
+Replay 10 mri_baseline 43 5 difference 0.0
+Replay 11 mri_baseline 44 1 difference 0.0
+Replay 12 mri_baseline 44 2 difference 0.0
+Replay 13 mri_baseline 44 3 difference 0.0
+Replay 14 mri_baseline 44 4 difference 0.0
+Replay 15 mri_baseline 44 5 difference 0.0
+Replay 16 mri_agentic 42 1 difference 1.1102230246251565e-16
+Replay 17 mri_agentic 42 2 difference 1.1102230246251565e-16
+Replay 18 mri_agentic 42 3 difference 3.3306690738754696e-16
+Replay 19 mri_agentic 42 4 difference 2.1649348980190553e-15
+Replay 20 mri_agentic 42 5 difference 1.1102230246251565e-16
+Replay 21 mri_agentic 43 1 difference 1.1102230246251565e-16
+Replay 22 mri_agentic 43 2 difference 1.1102230246251565e-16
+Replay 23 mri_agentic 43 3 difference 1.1102230246251565e-16
+Replay 24 mri_agentic 43 4 difference 1.942890293094024e-16
+Replay 25 mri_agentic 43 5 difference 1.1102230246251565e-16
+Replay 26 mri_agentic 44 1 difference 4.440892098500626e-16
+Replay 27 mri_agentic 44 2 difference 2.609024107869118e-15
+Replay 28 mri_agentic 44 3 difference 1.1102230246251565e-16
+Replay 29 mri_agentic 44 4 difference 9.992007221626409e-16
+Replay 30 mri_agentic 44 5 difference 5.551115123125783e-16
+Replay 31 fmri_baseline 42 1 difference 1.1102230246251565e-16
+Replay 32 fmri_baseline 42 2 difference 1.2212453270876722e-15
+Replay 33 fmri_baseline 42 3 difference 1.1102230246251565e-16
+Replay 34 fmri_baseline 42 4 difference 2.220446049250313e-16
+Replay 35 fmri_baseline 42 5 difference 7.993605777301127e-15
+Replay 36 fmri_baseline 43 1 difference 1.1102230246251565e-16
+Replay 37 fmri_baseline 43 2 difference 1.1102230246251565e-16
+Replay 38 fmri_baseline 43 3 difference 9.992007221626409e-16
+Replay 39 fmri_baseline 43 4 difference 4.773959005888173e-15
+Replay 40 fmri_baseline 43 5 difference 1.1102230246251565e-16
+Replay 41 fmri_baseline 44 1 difference 1.0658141036401503e-14
+Replay 42 fmri_baseline 44 2 difference 4.996003610813204e-16
+Replay 43 fmri_baseline 44 3 difference 1.1102230246251565e-16
+Replay 44 fmri_baseline 44 4 difference 1.1102230246251565e-16
+Replay 45 fmri_baseline 44 5 difference 2.4424906541753444e-15
+Replay 46 fmri_agentic 42 1 difference 1.1102230246251565e-16
+Replay 47 fmri_agentic 42 2 difference 1.1102230246251565e-16
+Replay 48 fmri_agentic 42 3 difference 1.1102230246251565e-16
+Replay 49 fmri_agentic 42 4 difference 1.1102230246251565e-16
+Replay 50 fmri_agentic 42 5 difference 1.1102230246251565e-16
+Replay 51 fmri_agentic 43 1 difference 1.1102230246251565e-16
+Replay 52 fmri_agentic 43 2 difference 1.1102230246251565e-16
+Replay 53 fmri_agentic 43 3 difference 3.3306690738754696e-16
+Replay 54 fmri_agentic 43 4 difference 1.1102230246251565e-16
+Replay 55 fmri_agentic 43 5 difference 1.1102230246251565e-16
+Replay 56 fmri_agentic 44 1 difference 1.1102230246251565e-16
+Replay 57 fmri_agentic 44 2 difference 2.220446049250313e-16
+Replay 58 fmri_agentic 44 3 difference 8.326672684688674e-17
+Replay 59 fmri_agentic 44 4 difference 1.1102230246251565e-16
+Replay 60 fmri_agentic 44 5 difference 1.1102230246251565e-16
+Replay 61 fmri_agentic_scratch_source 42 1 difference 0.0
+Replay 62 fmri_agentic_scratch_source 42 2 difference 0.0
+Replay 63 fmri_agentic_scratch_source 42 3 difference 0.0
+Replay 64 fmri_agentic_scratch_source 42 4 difference 0.0
+Replay 65 fmri_agentic_scratch_source 42 5 difference 0.0
+Replay 66 fmri_agentic_scratch_source 43 1 difference 0.0
+Replay 67 fmri_agentic_scratch_source 43 2 difference 0.0
+Replay 68 fmri_agentic_scratch_source 43 3 difference 0.0
+Replay 69 fmri_agentic_scratch_source 43 4 difference 0.0
+Replay 70 fmri_agentic_scratch_source 43 5 difference 0.0
+Replay 71 fmri_agentic_scratch_source 44 1 difference 0.0
+Replay 72 fmri_agentic_scratch_source 44 2 difference 0.0
+Replay 73 fmri_agentic_scratch_source 44 3 difference 0.0
+Replay 74 fmri_agentic_scratch_source 44 4 difference 0.0
+Replay 75 fmri_agentic_scratch_source 44 5 difference 0.0
+Replay 76 fmri_baseline_scratch_source 42 1 difference 0.0
+Replay 77 fmri_baseline_scratch_source 42 2 difference 0.0
+Replay 78 fmri_baseline_scratch_source 42 3 difference 0.0
+Replay 79 fmri_baseline_scratch_source 42 4 difference 0.0
+Replay 80 fmri_baseline_scratch_source 42 5 difference 0.0
+Replay 81 fmri_baseline_scratch_source 43 1 difference 0.0
+Replay 82 fmri_baseline_scratch_source 43 2 difference 0.0
+Replay 83 fmri_baseline_scratch_source 43 3 difference 0.0
+Replay 84 fmri_baseline_scratch_source 43 4 difference 0.0
+Replay 85 fmri_baseline_scratch_source 43 5 difference 0.0
+Replay 86 fmri_baseline_scratch_source 44 1 difference 0.0
+Replay 87 fmri_baseline_scratch_source 44 2 difference 0.0
+Replay 88 fmri_baseline_scratch_source 44 3 difference 0.0
+Replay 89 fmri_baseline_scratch_source 44 4 difference 0.0
+Replay 90 fmri_baseline_scratch_source 44 5 difference 0.0
+Replay 91 fmri_optuna 42 1 difference 0.0
+Replay 92 fmri_optuna 42 2 difference 0.0
+Replay 93 fmri_optuna 42 3 difference 0.0
+Replay 94 fmri_optuna 42 4 difference 0.0
+Replay 95 fmri_optuna 42 5 difference 0.0
+Replay 96 fmri_optuna 43 1 difference 0.0
+Replay 97 fmri_optuna 43 2 difference 0.0
+Replay 98 fmri_optuna 43 3 difference 0.0
+Regenerated features: mri 0.0
+Regenerated features: fmri 0.0
+Replay 1 mri_baseline 42 1 difference 0.0
+Replay 2 mri_baseline 42 2 difference 0.0
+Replay 3 mri_baseline 42 3 difference 0.0
+Replay 4 mri_baseline 42 4 difference 0.0
+Replay 5 mri_baseline 42 5 difference 0.0
+Replay 6 mri_baseline 43 1 difference 0.0
+Replay 7 mri_baseline 43 2 difference 0.0
+Replay 8 mri_baseline 43 3 difference 0.0
+Replay 9 mri_baseline 43 4 difference 0.0
+Replay 10 mri_baseline 43 5 difference 0.0
+Replay 11 mri_baseline 44 1 difference 0.0
+Replay 12 mri_baseline 44 2 difference 0.0
+Replay 13 mri_baseline 44 3 difference 0.0
+Replay 14 mri_baseline 44 4 difference 0.0
+Replay 15 mri_baseline 44 5 difference 0.0
+Replay 16 mri_agentic 42 1 difference 1.1102230246251565e-16
+Replay 17 mri_agentic 42 2 difference 1.1102230246251565e-16
+Replay 18 mri_agentic 42 3 difference 3.3306690738754696e-16
+Replay 19 mri_agentic 42 4 difference 2.1649348980190553e-15
+Replay 20 mri_agentic 42 5 difference 1.1102230246251565e-16
+Replay 21 mri_agentic 43 1 difference 1.1102230246251565e-16
+Replay 22 mri_agentic 43 2 difference 1.1102230246251565e-16
+Replay 23 mri_agentic 43 3 difference 1.1102230246251565e-16
+Replay 24 mri_agentic 43 4 difference 1.942890293094024e-16
+Replay 25 mri_agentic 43 5 difference 1.1102230246251565e-16
+Replay 26 mri_agentic 44 1 difference 4.440892098500626e-16
+Replay 27 mri_agentic 44 2 difference 2.609024107869118e-15
+Replay 28 mri_agentic 44 3 difference 1.1102230246251565e-16
+Replay 29 mri_agentic 44 4 difference 9.992007221626409e-16
+Replay 30 mri_agentic 44 5 difference 5.551115123125783e-16
+Replay 31 fmri_baseline 42 1 difference 1.1102230246251565e-16
+Replay 32 fmri_baseline 42 2 difference 1.2212453270876722e-15
+Replay 33 fmri_baseline 42 3 difference 1.1102230246251565e-16
+Replay 34 fmri_baseline 42 4 difference 2.220446049250313e-16
+Replay 35 fmri_baseline 42 5 difference 7.993605777301127e-15
+Replay 36 fmri_baseline 43 1 difference 1.1102230246251565e-16
+Replay 37 fmri_baseline 43 2 difference 1.1102230246251565e-16
+Replay 38 fmri_baseline 43 3 difference 9.992007221626409e-16
+Replay 39 fmri_baseline 43 4 difference 4.773959005888173e-15
+Replay 40 fmri_baseline 43 5 difference 1.1102230246251565e-16
+Replay 41 fmri_baseline 44 1 difference 1.0658141036401503e-14
+Replay 42 fmri_baseline 44 2 difference 4.996003610813204e-16
+Replay 43 fmri_baseline 44 3 difference 1.1102230246251565e-16
+Replay 44 fmri_baseline 44 4 difference 1.1102230246251565e-16
+Replay 45 fmri_baseline 44 5 difference 2.4424906541753444e-15
+Replay 46 fmri_agentic 42 1 difference 1.1102230246251565e-16
+Replay 47 fmri_agentic 42 2 difference 1.1102230246251565e-16
+Replay 48 fmri_agentic 42 3 difference 1.1102230246251565e-16
+Replay 49 fmri_agentic 42 4 difference 1.1102230246251565e-16
+Replay 50 fmri_agentic 42 5 difference 1.1102230246251565e-16
+Replay 51 fmri_agentic 43 1 difference 1.1102230246251565e-16
+Replay 52 fmri_agentic 43 2 difference 1.1102230246251565e-16
+Replay 53 fmri_agentic 43 3 difference 3.3306690738754696e-16
+Replay 54 fmri_agentic 43 4 difference 1.1102230246251565e-16
+Replay 55 fmri_agentic 43 5 difference 1.1102230246251565e-16
+Replay 56 fmri_agentic 44 1 difference 1.1102230246251565e-16
+Replay 57 fmri_agentic 44 2 difference 2.220446049250313e-16
+Replay 58 fmri_agentic 44 3 difference 8.326672684688674e-17
+Replay 59 fmri_agentic 44 4 difference 1.1102230246251565e-16
+Replay 60 fmri_agentic 44 5 difference 1.1102230246251565e-16
+Replay 61 fmri_agentic_scratch_source 42 1 difference 0.0
+Replay 62 fmri_agentic_scratch_source 42 2 difference 0.0
+Replay 63 fmri_agentic_scratch_source 42 3 difference 0.0
+Replay 64 fmri_agentic_scratch_source 42 4 difference 0.0
+Replay 65 fmri_agentic_scratch_source 42 5 difference 0.0
+Replay 66 fmri_agentic_scratch_source 43 1 difference 0.0
+Replay 67 fmri_agentic_scratch_source 43 2 difference 0.0
+Replay 68 fmri_agentic_scratch_source 43 3 difference 0.0
+Replay 69 fmri_agentic_scratch_source 43 4 difference 0.0
+Replay 70 fmri_agentic_scratch_source 43 5 difference 0.0
+Replay 71 fmri_agentic_scratch_source 44 1 difference 0.0
+Replay 72 fmri_agentic_scratch_source 44 2 difference 0.0
+Replay 73 fmri_agentic_scratch_source 44 3 difference 0.0
+Replay 74 fmri_agentic_scratch_source 44 4 difference 0.0
+Replay 75 fmri_agentic_scratch_source 44 5 difference 0.0
+Replay 76 fmri_baseline_scratch_source 42 1 difference 0.0
+Replay 77 fmri_baseline_scratch_source 42 2 difference 0.0
+Replay 78 fmri_baseline_scratch_source 42 3 difference 0.0
+Replay 79 fmri_baseline_scratch_source 42 4 difference 0.0
+Replay 80 fmri_baseline_scratch_source 42 5 difference 0.0
+Replay 81 fmri_baseline_scratch_source 43 1 difference 0.0
+Replay 82 fmri_baseline_scratch_source 43 2 difference 0.0
+Replay 83 fmri_baseline_scratch_source 43 3 difference 0.0
+Replay 84 fmri_baseline_scratch_source 43 4 difference 0.0
+Replay 85 fmri_baseline_scratch_source 43 5 difference 0.0
+Replay 86 fmri_baseline_scratch_source 44 1 difference 0.0
+Replay 87 fmri_baseline_scratch_source 44 2 difference 0.0
+Replay 88 fmri_baseline_scratch_source 44 3 difference 0.0
+Replay 89 fmri_baseline_scratch_source 44 4 difference 0.0
+Replay 90 fmri_baseline_scratch_source 44 5 difference 0.0
+Replay 91 fmri_optuna 42 1 difference 0.0
+Replay 92 fmri_optuna 42 2 difference 0.0
+Replay 93 fmri_optuna 42 3 difference 0.0
+Replay 94 fmri_optuna 42 4 difference 0.0
+Replay 95 fmri_optuna 42 5 difference 0.0
+Replay 96 fmri_optuna 43 1 difference 0.0
+Replay 97 fmri_optuna 43 2 difference 0.0
+Replay 98 fmri_optuna 43 3 difference 0.0
+Replay 99 fmri_optuna 43 4 difference 0.0
+Replay 100 fmri_optuna 43 5 difference 0.0
+Replay 101 fmri_optuna 44 1 difference 0.0
+Replay 102 fmri_optuna 44 2 difference 0.0
+Replay 103 fmri_optuna 44 3 difference 0.0
+Replay 104 fmri_optuna 44 4 difference 0.0
+Replay 105 fmri_optuna 44 5 difference 0.0
+Replay 106 fmri_random 42 1 difference 0.0
+Replay 107 fmri_random 42 2 difference 0.0
+Replay 108 fmri_random 42 3 difference 0.0
+Replay 109 fmri_random 42 4 difference 0.0
+Replay 110 fmri_random 42 5 difference 0.0
+Replay 111 fmri_random 43 1 difference 0.0
+Replay 112 fmri_random 43 2 difference 0.0
+Replay 113 fmri_random 43 3 difference 0.0
+Replay 114 fmri_random 43 4 difference 0.0
+Replay 115 fmri_random 43 5 difference 0.0
+Replay 116 fmri_random 44 1 difference 0.0
+Replay 117 fmri_random 44 2 difference 0.0
+Replay 118 fmri_random 44 3 difference 0.0
+Replay 119 fmri_random 44 4 difference 0.0
+Replay 120 fmri_random 44 5 difference 0.0
+Replay 121 fmri_rule 42 1 difference 0.0
+Replay 122 fmri_rule 42 2 difference 0.0
+Replay 123 fmri_rule 42 3 difference 0.0
+Replay 124 fmri_rule 42 4 difference 0.0
+Replay 125 fmri_rule 42 5 difference 0.0
+Replay 126 fmri_rule 43 1 difference 0.0
+Replay 127 fmri_rule 43 2 difference 0.0
+Replay 128 fmri_rule 43 3 difference 0.0
+Replay 129 fmri_rule 43 4 difference 0.0
+Replay 130 fmri_rule 43 5 difference 0.0
+Replay 131 fmri_rule 44 1 difference 0.0
+Replay 132 fmri_rule 44 2 difference 0.0
+Replay 133 fmri_rule 44 3 difference 0.0
+Replay 134 fmri_rule 44 4 difference 0.0
+Replay 135 fmri_rule 44 5 difference 0.0
+Replay 136 mri_agentic_scratch_source 42 1 difference 2.275957200481571e-14
+Replay 137 mri_agentic_scratch_source 42 2 difference 1.532107773982716e-14
+Replay 138 mri_agentic_scratch_source 42 3 difference 1.4099832412739488e-14
+Replay 139 mri_agentic_scratch_source 42 4 difference 1.2712053631958042e-14
+Replay 140 mri_agentic_scratch_source 42 5 difference 9.2148511043888e-15
+Replay 141 mri_agentic_scratch_source 43 1 difference 1.3156142841808105e-14
+Replay 142 mri_agentic_scratch_source 43 2 difference 1.2712053631958042e-14
+Replay 143 mri_agentic_scratch_source 43 3 difference 9.2148511043888e-15
+Replay 144 mri_agentic_scratch_source 43 4 difference 1.4988010832439613e-14
+Replay 145 mri_agentic_scratch_source 43 5 difference 7.327471962526033e-15
+Replay 146 mri_agentic_scratch_source 44 1 difference 2.015054789694659e-14
+Replay 147 mri_agentic_scratch_source 44 2 difference 2.0816681711721685e-14
+Replay 148 mri_agentic_scratch_source 44 3 difference 1.3988810110276972e-14
+Replay 149 mri_agentic_scratch_source 44 4 difference 1.6986412276764895e-14
+Replay 150 mri_agentic_scratch_source 44 5 difference 1.04638520070921e-14
+Replay 151 mri_baseline_scratch_source 42 1 difference 1.63202784619898e-14
+Replay 152 mri_baseline_scratch_source 42 2 difference 1.84297022087776e-14
+Replay 153 mri_baseline_scratch_source 42 3 difference 1.7208456881689926e-14
+Replay 154 mri_baseline_scratch_source 42 4 difference 1.426636586643326e-14
+Replay 155 mri_baseline_scratch_source 42 5 difference 1.765254609153999e-14
+Replay 156 mri_baseline_scratch_source 43 1 difference 1.5987211554602254e-14
+Replay 157 mri_baseline_scratch_source 43 2 difference 1.426636586643326e-14
+Replay 158 mri_baseline_scratch_source 43 3 difference 2.1871393585115584e-14
+Replay 159 mri_baseline_scratch_source 43 4 difference 1.3600232051658168e-14
+Replay 160 mri_baseline_scratch_source 43 5 difference 2.55351295663786e-14
+Replay 161 mri_baseline_scratch_source 44 1 difference 1.8207657603852567e-14
+Replay 162 mri_baseline_scratch_source 44 2 difference 1.8207657603852567e-14
+Replay 163 mri_baseline_scratch_source 44 3 difference 1.7541523789077473e-14
+Replay 164 mri_baseline_scratch_source 44 4 difference 1.4099832412739488e-14
+Replay 165 mri_baseline_scratch_source 44 5 difference 2.2426505097428162e-14
+Replay 166 mri_optuna 42 1 difference 3.0309088572266774e-14
+Replay 167 mri_optuna 42 2 difference 4.107825191113079e-14
+Replay 168 mri_optuna 42 3 difference 3.963496197911809e-14
+Replay 169 mri_optuna 42 4 difference 5.795364188543317e-14
+Replay 170 mri_optuna 42 5 difference 3.8746783559417963e-14
+Replay 171 mri_optuna 43 1 difference 3.6193270602780103e-14
+Replay 172 mri_optuna 43 2 difference 0.0
+Replay 173 mri_optuna 43 3 difference 0.0
+Replay 174 mri_optuna 43 4 difference 0.0
+Replay 175 mri_optuna 43 5 difference 0.0
+Replay 176 mri_optuna 44 1 difference 0.0
+Replay 177 mri_optuna 44 2 difference 0.0
+Replay 178 mri_optuna 44 3 difference 0.0
+Replay 179 mri_optuna 44 4 difference 0.0
+Replay 180 mri_optuna 44 5 difference 0.0
+Replay 181 mri_random 42 1 difference 1.6763806343078613e-05
+Replay 182 mri_random 42 2 difference 1.5407800674438477e-05
+Replay 183 mri_random 42 3 difference 1.722574234008789e-05
+Replay 184 mri_random 42 4 difference 9.655952453613281e-06
+Replay 185 mri_random 42 5 difference 1.5914440155029297e-05
+Replay 186 mri_random 43 1 difference 1.5407800674438477e-05
+Replay 187 mri_random 43 2 difference 2.2590160369873047e-05
+Replay 188 mri_random 43 3 difference 1.8864870071411133e-05
+Replay 189 mri_random 43 4 difference 2.014636993408203e-05
+Replay 190 mri_random 43 5 difference 1.055002212524414e-05
+Replay 191 mri_random 44 1 difference 1.710653305053711e-05
+Replay 192 mri_random 44 2 difference 2.282857894897461e-05
+Replay 193 mri_random 44 3 difference 1.4439225196838379e-05
+Replay 194 mri_random 44 4 difference 7.361173629760742e-06
+Replay 195 mri_random 44 5 difference 1.436471939086914e-05
+Replay 196 mri_rule 42 1 difference 7.927417755126953e-06
+Replay 197 mri_rule 42 2 difference 1.3530254364013672e-05
+Replay 198 mri_rule 42 3 difference 7.450580596923828e-06
+Replay 199 mri_rule 42 4 difference 1.8537044525146484e-05
+Replay 200 mri_rule 42 5 difference 1.519918441772461e-05
+Replay 201 mri_rule 43 1 difference 7.927417755126953e-06
+Replay 202 mri_rule 43 2 difference 1.0877847671508789e-05
+Replay 203 mri_rule 43 3 difference 1.519918441772461e-05
+Replay 204 mri_rule 43 4 difference 1.3232231140136719e-05
+Replay 205 mri_rule 43 5 difference 8.64267349243164e-06
+Replay 206 mri_rule 44 1 difference 1.7821788787841797e-05
+Replay 207 mri_rule 44 2 difference 1.0251998901367188e-05
+Replay 208 mri_rule 44 3 difference 2.726912498474121e-05
+Replay 209 mri_rule 44 4 difference 1.0877847671508789e-05
+Replay 210 mri_rule 44 5 difference 7.450580596923828e-06
+Replay 211 agentic / equal_soft_voting 42 1 difference 1.1102230246251565e-16
+Replay 212 agentic / equal_soft_voting 42 2 difference 1.1102230246251565e-16
+Replay 213 agentic / equal_soft_voting 42 3 difference 1.1102230246251565e-16
+Replay 214 agentic / equal_soft_voting 42 4 difference 1.0547118733938987e-15
+Replay 215 agentic / equal_soft_voting 42 5 difference 2.7755575615628914e-17
+Replay 216 agentic / equal_soft_voting 43 1 difference 1.1102230246251565e-16
+Replay 217 agentic / equal_soft_voting 43 2 difference 2.220446049250313e-16
+Replay 218 agentic / equal_soft_voting 43 3 difference 2.7755575615628914e-17
+Replay 219 agentic / equal_soft_voting 43 4 difference 1.1102230246251565e-16
+Replay 220 agentic / equal_soft_voting 43 5 difference 1.1102230246251565e-16
+Replay 221 agentic / equal_soft_voting 44 1 difference 2.220446049250313e-16
+Replay 222 agentic / equal_soft_voting 44 2 difference 1.304512053934559e-15
+Replay 223 agentic / equal_soft_voting 44 3 difference 5.551115123125783e-17
+Replay 224 agentic / equal_soft_voting 44 4 difference 5.551115123125783e-16
+Replay 225 agentic / equal_soft_voting 44 5 difference 3.3306690738754696e-16
+Replay 226 agentic / fixed_weighted_fmri 42 1 difference 1.1102230246251565e-16
+Replay 227 agentic / fixed_weighted_fmri 42 2 difference 1.1102230246251565e-16
+Replay 228 agentic / fixed_weighted_fmri 42 3 difference 1.1102230246251565e-16
+Replay 229 agentic / fixed_weighted_fmri 42 4 difference 8.326672684688674e-16
+Replay 230 agentic / fixed_weighted_fmri 42 5 difference 1.1102230246251565e-16
+Replay 231 agentic / fixed_weighted_fmri 43 1 difference 2.220446049250313e-16
+Replay 232 agentic / fixed_weighted_fmri 43 2 difference 1.1102230246251565e-16
+Replay 233 agentic / fixed_weighted_fmri 43 3 difference 2.220446049250313e-16
+Replay 234 agentic / fixed_weighted_fmri 43 4 difference 1.1102230246251565e-16
+Replay 235 agentic / fixed_weighted_fmri 43 5 difference 1.1102230246251565e-16
+Replay 236 agentic / fixed_weighted_fmri 44 1 difference 1.6653345369377348e-16
+Replay 237 agentic / fixed_weighted_fmri 44 2 difference 9.992007221626409e-16
+Replay 238 agentic / fixed_weighted_fmri 44 3 difference 5.551115123125783e-17
+Replay 239 agentic / fixed_weighted_fmri 44 4 difference 4.440892098500626e-16
+Replay 240 agentic / fixed_weighted_fmri 44 5 difference 2.220446049250313e-16
+Replay 241 agentic / fixed_weighted_mri 42 1 difference 2.220446049250313e-16
+Replay 242 agentic / fixed_weighted_mri 42 2 difference 2.220446049250313e-16
+Replay 243 agentic / fixed_weighted_mri 42 3 difference 2.220446049250313e-16
+Replay 244 agentic / fixed_weighted_mri 42 4 difference 1.3322676295501878e-15
+Replay 245 agentic / fixed_weighted_mri 42 5 difference 1.1102230246251565e-16
+Replay 246 agentic / fixed_weighted_mri 43 1 difference 2.220446049250313e-16
+Replay 247 agentic / fixed_weighted_mri 43 2 difference 0.0
+Replay 248 agentic / fixed_weighted_mri 43 3 difference 1.1102230246251565e-16
+Replay 249 agentic / fixed_weighted_mri 43 4 difference 1.1102230246251565e-16
+Replay 250 agentic / fixed_weighted_mri 43 5 difference 1.1102230246251565e-16
+Replay 251 agentic / fixed_weighted_mri 44 1 difference 2.7755575615628914e-16
+Replay 252 agentic / fixed_weighted_mri 44 2 difference 1.582067810090848e-15
+Replay 253 agentic / fixed_weighted_mri 44 3 difference 1.1102230246251565e-16
+Replay 254 agentic / fixed_weighted_mri 44 4 difference 6.661338147750939e-16
+Replay 255 agentic / fixed_weighted_mri 44 5 difference 4.440892098500626e-16
+Replay 256 agentic / hard_voting_tie_negative 42 1 difference 0.0
+Replay 257 agentic / hard_voting_tie_negative 42 2 difference 0.0
+Replay 258 agentic / hard_voting_tie_negative 42 3 difference 0.0
+Replay 259 agentic / hard_voting_tie_negative 42 4 difference 0.0
+Replay 260 agentic / hard_voting_tie_negative 42 5 difference 0.0
+Replay 261 agentic / hard_voting_tie_negative 43 1 difference 0.0
+Replay 262 agentic / hard_voting_tie_negative 43 2 difference 0.0
+Replay 263 agentic / hard_voting_tie_negative 43 3 difference 0.0
+Replay 264 agentic / hard_voting_tie_negative 43 4 difference 0.0
+Replay 265 agentic / hard_voting_tie_negative 43 5 difference 0.0
+Replay 266 agentic / hard_voting_tie_negative 44 1 difference 0.0
+Replay 267 agentic / hard_voting_tie_negative 44 2 difference 0.0
+Replay 268 agentic / hard_voting_tie_negative 44 3 difference 0.0
+Replay 269 agentic / hard_voting_tie_negative 44 4 difference 0.0
+Replay 270 agentic / hard_voting_tie_negative 44 5 difference 0.0
+Replay 271 agentic / hard_voting_tie_positive 42 1 difference 0.0
+Replay 272 agentic / hard_voting_tie_positive 42 2 difference 0.0
+Replay 273 agentic / hard_voting_tie_positive 42 3 difference 0.0
+Replay 274 agentic / hard_voting_tie_positive 42 4 difference 0.0
+Replay 275 agentic / hard_voting_tie_positive 42 5 difference 0.0
+Replay 276 agentic / hard_voting_tie_positive 43 1 difference 0.0
+Replay 277 agentic / hard_voting_tie_positive 43 2 difference 0.0
+Replay 278 agentic / hard_voting_tie_positive 43 3 difference 0.0
+Replay 279 agentic / hard_voting_tie_positive 43 4 difference 0.0
+Replay 280 agentic / hard_voting_tie_positive 43 5 difference 0.0
+Replay 281 agentic / hard_voting_tie_positive 44 1 difference 0.0
+Replay 282 agentic / hard_voting_tie_positive 44 2 difference 0.0
+Replay 283 agentic / hard_voting_tie_positive 44 3 difference 0.0
+Replay 284 agentic / hard_voting_tie_positive 44 4 difference 0.0
+Replay 285 agentic / hard_voting_tie_positive 44 5 difference 0.0
+Replay 286 agentic / stacking_logit 42 1 difference 3.3306690738754696e-16
+Replay 287 agentic / stacking_logit 42 2 difference 1.1102230246251565e-16
+Replay 288 agentic / stacking_logit 42 3 difference 1.1102230246251565e-16
+Replay 289 agentic / stacking_logit 42 4 difference 9.71445146547012e-16
+Replay 290 agentic / stacking_logit 42 5 difference 1.1102230246251565e-16
+Replay 291 agentic / stacking_logit 43 1 difference 1.1102230246251565e-16
+Replay 292 agentic / stacking_logit 43 2 difference 5.551115123125783e-17
+Replay 293 agentic / stacking_logit 43 3 difference 1.1102230246251565e-16
+Replay 294 agentic / stacking_logit 43 4 difference 2.220446049250313e-16
+Replay 295 agentic / stacking_logit 43 5 difference 2.220446049250313e-16
+Replay 296 agentic / stacking_logit 44 1 difference 2.220446049250313e-16
+Replay 297 agentic / stacking_logit 44 2 difference 7.355227538141662e-16
+Replay 298 agentic / stacking_logit 44 3 difference 3.3306690738754696e-16
+Replay 299 agentic / stacking_logit 44 4 difference 1.9984014443252818e-15
+Replay 300 agentic / stacking_logit 44 5 difference 2.914335439641036e-16
+Replay 301 agentic / stacking_probability 42 1 difference 1.1102230246251565e-16
+Replay 302 agentic / stacking_probability 42 2 difference 1.1102230246251565e-16
+Replay 303 agentic / stacking_probability 42 3 difference 1.1102230246251565e-16
+Replay 304 agentic / stacking_probability 42 4 difference 1.1657341758564144e-15
+Replay 305 agentic / stacking_probability 42 5 difference 1.1102230246251565e-16
+Replay 306 agentic / stacking_probability 43 1 difference 1.1102230246251565e-16
+Replay 307 agentic / stacking_probability 43 2 difference 1.1102230246251565e-16
+Replay 308 agentic / stacking_probability 43 3 difference 1.1102230246251565e-16
+Replay 309 agentic / stacking_probability 43 4 difference 2.220446049250313e-16
+Replay 310 agentic / stacking_probability 43 5 difference 2.220446049250313e-16
+Replay 311 agentic / stacking_probability 44 1 difference 1.1102230246251565e-16
+Replay 312 agentic / stacking_probability 44 2 difference 9.08995101411847e-16
+Replay 313 agentic / stacking_probability 44 3 difference 1.1102230246251565e-16
+Replay 314 agentic / stacking_probability 44 4 difference 2.6645352591003757e-15
+Replay 315 agentic / stacking_probability 44 5 difference 1.1102230246251565e-16
+Replay 316 agentic / validation_weighted 42 1 difference 1.1102230246251565e-16
+Replay 317 agentic / validation_weighted 42 2 difference 1.1102230246251565e-16
+Replay 318 agentic / validation_weighted 42 3 difference 1.1102230246251565e-16
+Replay 319 agentic / validation_weighted 42 4 difference 2.1649348980190553e-15
+Replay 320 agentic / validation_weighted 42 5 difference 0.0
+Replay 321 agentic / validation_weighted 43 1 difference 1.1102230246251565e-16
+Replay 322 agentic / validation_weighted 43 2 difference 1.1102230246251565e-16
+Replay 323 agentic / validation_weighted 43 3 difference 3.3306690738754696e-16
+Replay 324 agentic / validation_weighted 43 4 difference 1.942890293094024e-16
+Replay 325 agentic / validation_weighted 43 5 difference 1.1102230246251565e-16
+Replay 326 agentic / validation_weighted 44 1 difference 4.440892098500626e-16
+Replay 327 agentic / validation_weighted 44 2 difference 2.220446049250313e-16
+Replay 328 agentic / validation_weighted 44 3 difference 8.326672684688674e-17
+Replay 329 agentic / validation_weighted 44 4 difference 1.1102230246251565e-16
+Replay 330 agentic / validation_weighted 44 5 difference 1.1102230246251565e-16
+Replay 331 baseline / equal_soft_voting 42 1 difference 1.1533498764038086e-05
+Replay 332 baseline / equal_soft_voting 42 2 difference 6.616115570678982e-06
+Replay 333 baseline / equal_soft_voting 42 3 difference 8.791685104259095e-06
+Replay 334 baseline / equal_soft_voting 42 4 difference 1.0102987289428711e-05
+Replay 335 baseline / equal_soft_voting 42 5 difference 1.856684684753418e-05
+Replay 336 baseline / equal_soft_voting 43 1 difference 1.7136335372924805e-05
+Replay 337 baseline / equal_soft_voting 43 2 difference 9.804964065551758e-06
+Replay 338 baseline / equal_soft_voting 43 3 difference 1.0818243026622376e-05
+Replay 339 baseline / equal_soft_voting 43 4 difference 6.794929503062264e-06
+Replay 340 baseline / equal_soft_voting 43 5 difference 1.0341405868530273e-05
+Replay 341 baseline / equal_soft_voting 44 1 difference 6.794929504394531e-06
+Replay 342 baseline / equal_soft_voting 44 2 difference 1.77919864654541e-05
+Replay 343 baseline / equal_soft_voting 44 3 difference 5.364418029785156e-06
+Replay 344 baseline / equal_soft_voting 44 4 difference 5.453824996948242e-06
+Replay 345 baseline / equal_soft_voting 44 5 difference 8.150935173034668e-06
+Replay 346 baseline / fixed_weighted_fmri 42 1 difference 9.226799011219367e-06
+Replay 347 baseline / fixed_weighted_fmri 42 2 difference 5.29289245676523e-06
+Replay 348 baseline / fixed_weighted_fmri 42 3 difference 7.033348083274049e-06
+Replay 349 baseline / fixed_weighted_fmri 42 4 difference 8.082389831742809e-06
+Replay 350 baseline / fixed_weighted_fmri 42 5 difference 1.4853477477982935e-05
+Replay 351 baseline / fixed_weighted_fmri 43 1 difference 1.3709068298339844e-05
+Replay 352 baseline / fixed_weighted_fmri 43 2 difference 7.843971252419202e-06
+Replay 353 baseline / fixed_weighted_fmri 43 3 difference 8.65459442134231e-06
+Replay 354 baseline / fixed_weighted_fmri 43 4 difference 5.4359436018058815e-06
+Replay 355 baseline / fixed_weighted_fmri 43 5 difference 8.27312469497965e-06
+Replay 356 baseline / fixed_weighted_fmri 44 1 difference 5.435943603471216e-06
+Replay 357 baseline / fixed_weighted_fmri 44 2 difference 1.423358917240769e-05
+Replay 358 baseline / fixed_weighted_fmri 44 3 difference 4.291534423828125e-06
+Replay 359 baseline / fixed_weighted_fmri 44 4 difference 4.3630599974031625e-06
+Replay 360 baseline / fixed_weighted_fmri 44 5 difference 6.520748138422183e-06
+Replay 361 baseline / fixed_weighted_mri 42 1 difference 1.3840198516856805e-05
+Replay 362 baseline / fixed_weighted_mri 42 2 difference 7.939338684592734e-06
+Replay 363 baseline / fixed_weighted_mri 42 3 difference 1.055002212524414e-05
+Replay 364 baseline / fixed_weighted_mri 42 4 difference 1.2123584747225635e-05
+Replay 365 baseline / fixed_weighted_mri 42 5 difference 2.2280216217085425e-05
+Replay 366 baseline / fixed_weighted_mri 43 1 difference 2.0563602447509766e-05
+Replay 367 baseline / fixed_weighted_mri 43 2 difference 1.1765956878684314e-05
+Replay 368 baseline / fixed_weighted_mri 43 3 difference 1.2981891631902442e-05
+Replay 369 baseline / fixed_weighted_mri 43 4 difference 8.153915404096601e-06
+Replay 370 baseline / fixed_weighted_mri 43 5 difference 1.240968704219192e-05
+Replay 371 baseline / fixed_weighted_mri 44 1 difference 8.153915405317846e-06
+Replay 372 baseline / fixed_weighted_mri 44 2 difference 2.1350383758500513e-05
+Replay 373 baseline / fixed_weighted_mri 44 3 difference 6.4373016357421875e-06
+Replay 374 baseline / fixed_weighted_mri 44 4 difference 6.5445899963822995e-06
+Replay 375 baseline / fixed_weighted_mri 44 5 difference 9.781122207647153e-06
+Replay 376 baseline / hard_voting_tie_negative 42 1 difference 0.0
+Replay 377 baseline / hard_voting_tie_negative 42 2 difference 0.0
+Replay 378 baseline / hard_voting_tie_negative 42 3 difference 0.0
+Replay 379 baseline / hard_voting_tie_negative 42 4 difference 0.0
+Replay 380 baseline / hard_voting_tie_negative 42 5 difference 0.0
+Replay 381 baseline / hard_voting_tie_negative 43 1 difference 0.0
+Replay 382 baseline / hard_voting_tie_negative 43 2 difference 0.0
+Replay 383 baseline / hard_voting_tie_negative 43 3 difference 0.0
+Replay 384 baseline / hard_voting_tie_negative 43 4 difference 0.0
+Replay 385 baseline / hard_voting_tie_negative 43 5 difference 0.0
+Replay 386 baseline / hard_voting_tie_negative 44 1 difference 0.0
+Replay 387 baseline / hard_voting_tie_negative 44 2 difference 0.0
+Replay 388 baseline / hard_voting_tie_negative 44 3 difference 0.0
+Replay 389 baseline / hard_voting_tie_negative 44 4 difference 0.0
+Replay 390 baseline / hard_voting_tie_negative 44 5 difference 0.0
+Replay 391 baseline / hard_voting_tie_positive 42 1 difference 0.0
+Replay 392 baseline / hard_voting_tie_positive 42 2 difference 0.0
+Replay 393 baseline / hard_voting_tie_positive 42 3 difference 0.0
+Replay 394 baseline / hard_voting_tie_positive 42 4 difference 0.0
+Replay 395 baseline / hard_voting_tie_positive 42 5 difference 0.0
+Replay 396 baseline / hard_voting_tie_positive 43 1 difference 0.0
+Replay 397 baseline / hard_voting_tie_positive 43 2 difference 0.0
+Replay 398 baseline / hard_voting_tie_positive 43 3 difference 0.0
+Replay 399 baseline / hard_voting_tie_positive 43 4 difference 0.0
+Replay 400 baseline / hard_voting_tie_positive 43 5 difference 0.0
+Replay 401 baseline / hard_voting_tie_positive 44 1 difference 0.0
+Replay 402 baseline / hard_voting_tie_positive 44 2 difference 0.0
+Replay 403 baseline / hard_voting_tie_positive 44 3 difference 0.0
+Replay 404 baseline / hard_voting_tie_positive 44 4 difference 0.0
+Replay 405 baseline / hard_voting_tie_positive 44 5 difference 0.0
+Replay 406 baseline / stacking_logit 42 1 difference 1.1641508296245107e-06
+Replay 407 baseline / stacking_logit 42 2 difference 2.0145145758987404e-05
+Replay 408 baseline / stacking_logit 42 3 difference 4.386684312573941e-06
+Replay 409 baseline / stacking_logit 42 4 difference 1.6529471620563285e-05
+Replay 410 baseline / stacking_logit 42 5 difference 1.7200094133418276e-06
+Replay 411 baseline / stacking_logit 43 1 difference 1.3801596088214296e-05
+Replay 412 baseline / stacking_logit 43 2 difference 1.4254605701480294e-05
+Replay 413 baseline / stacking_logit 43 3 difference 1.0911213908726403e-05
+Replay 414 baseline / stacking_logit 43 4 difference 5.03610566496282e-06
+Replay 415 baseline / stacking_logit 43 5 difference 2.3212185605858693e-06
+Replay 416 baseline / stacking_logit 44 1 difference 1.621303168874988e-05
+Replay 417 baseline / stacking_logit 44 2 difference 7.654567881293373e-06
+Replay 418 baseline / stacking_logit 44 3 difference 1.490558994567473e-06
+Replay 419 baseline / stacking_logit 44 4 difference 3.798769621379816e-06
+Replay 420 baseline / stacking_logit 44 5 difference 1.6168697779539443e-06
+Replay 421 baseline / stacking_probability 42 1 difference 4.884240610431023e-07
+Replay 422 baseline / stacking_probability 42 2 difference 1.2228956548995806e-06
+Replay 423 baseline / stacking_probability 42 3 difference 6.161292479545111e-07
+Replay 424 baseline / stacking_probability 42 4 difference 9.560198916847007e-06
+Replay 425 baseline / stacking_probability 42 5 difference 3.412275154435207e-06
+Replay 426 baseline / stacking_probability 43 1 difference 1.5082994483273104e-05
+Replay 427 baseline / stacking_probability 43 2 difference 7.912444467239599e-06
+Replay 428 baseline / stacking_probability 43 3 difference 1.0343905491150274e-05
+Replay 429 baseline / stacking_probability 43 4 difference 3.0040249727747437e-06
+Replay 430 baseline / stacking_probability 43 5 difference 2.313733991066158e-07
+Replay 431 baseline / stacking_probability 44 1 difference 2.274192516893425e-05
+Replay 432 baseline / stacking_probability 44 2 difference 7.1302519745741755e-06
+Replay 433 baseline / stacking_probability 44 3 difference 7.517766012956478e-07
+Replay 434 baseline / stacking_probability 44 4 difference 5.281011630220434e-07
+Replay 435 baseline / stacking_probability 44 5 difference 2.5991935093117036e-07
+Replay 436 baseline / validation_weighted 42 1 difference 1.1102230246251565e-16
+Replay 437 baseline / validation_weighted 42 2 difference 1.2212453270876722e-15
+Replay 438 baseline / validation_weighted 42 3 difference 1.1102230246251565e-16
+Replay 439 baseline / validation_weighted 42 4 difference 2.0205974578857422e-05
+Replay 440 baseline / validation_weighted 42 5 difference 7.993605777301127e-15
+Replay 441 baseline / validation_weighted 43 1 difference 1.5422701835632324e-05
+Replay 442 baseline / validation_weighted 43 2 difference 1.9609928131103516e-05
+Replay 443 baseline / validation_weighted 43 3 difference 9.992007221626409e-16
+Replay 444 baseline / validation_weighted 43 4 difference 1.3589859008789062e-05
+Replay 445 baseline / validation_weighted 43 5 difference 1.1102230246251565e-16
+Replay 446 baseline / validation_weighted 44 1 difference 1.0658141036401503e-14
+Replay 447 baseline / validation_weighted 44 2 difference 4.996003610813204e-16
+Replay 448 baseline / validation_weighted 44 3 difference 1.1102230246251565e-16
+Replay 449 baseline / validation_weighted 44 4 difference 1.1102230246251565e-16
+Replay 450 baseline / validation_weighted 44 5 difference 2.4424906541753444e-15
+Replay 451 Warm-adapter Soft Voting 42 1 difference 0.0
+Replay 452 Stochastic Neural Stacking 42 1 difference 0.0
+Replay 453 Agent-controlled Feature Fusion 42 1 difference 5.960464477539063e-08
+Replay 454 Warm-adapter Soft Voting 42 2 difference 0.0
+Replay 455 Stochastic Neural Stacking 42 2 difference 0.0
+Replay 456 Agent-controlled Feature Fusion 42 2 difference 5.960464477539063e-08
+Replay 457 Warm-adapter Soft Voting 42 3 difference 0.0
+Replay 458 Stochastic Neural Stacking 42 3 difference 0.0
+Replay 459 Agent-controlled Feature Fusion 42 3 difference 0.0
+Replay 460 Warm-adapter Soft Voting 42 4 difference 0.0
+Replay 461 Stochastic Neural Stacking 42 4 difference 0.0
+Replay 462 Agent-controlled Feature Fusion 42 4 difference 1.4901161193847656e-08
+Replay 463 Warm-adapter Soft Voting 42 5 difference 0.0
+Replay 464 Stochastic Neural Stacking 42 5 difference 0.0
+Replay 465 Agent-controlled Feature Fusion 42 5 difference 2.2351741790771484e-08
+Replay 466 Warm-adapter Soft Voting 43 1 difference 0.0
+Replay 467 Stochastic Neural Stacking 43 1 difference 0.0
+Replay 468 Agent-controlled Feature Fusion 43 1 difference 3.725290298461914e-08
+Replay 469 Warm-adapter Soft Voting 43 2 difference 0.0
+Replay 470 Stochastic Neural Stacking 43 2 difference 0.0
+Replay 471 Agent-controlled Feature Fusion 43 2 difference 5.960464477539063e-08
+Replay 472 Warm-adapter Soft Voting 43 3 difference 0.0
+Replay 473 Stochastic Neural Stacking 43 3 difference 0.0
+Replay 474 Agent-controlled Feature Fusion 43 3 difference 2.9802322387695312e-08
+Replay 475 Warm-adapter Soft Voting 43 4 difference 0.0
+Replay 476 Stochastic Neural Stacking 43 4 difference 0.0
+Replay 477 Agent-controlled Feature Fusion 43 4 difference 5.960464477539063e-08
+Replay 478 Warm-adapter Soft Voting 43 5 difference 0.0
+Replay 479 Stochastic Neural Stacking 43 5 difference 0.0
+Replay 480 Agent-controlled Feature Fusion 43 5 difference 5.960464477539063e-08
+Replay 481 Warm-adapter Soft Voting 44 1 difference 0.0
+Replay 482 Stochastic Neural Stacking 44 1 difference 0.0
+Replay 483 Agent-controlled Feature Fusion 44 1 difference 1.1920928955078125e-07
+Replay 484 Warm-adapter Soft Voting 44 2 difference 0.0
+Replay 485 Stochastic Neural Stacking 44 2 difference 0.0
+Replay 486 Agent-controlled Feature Fusion 44 2 difference 5.960464477539063e-08
+Replay 487 Warm-adapter Soft Voting 44 3 difference 0.0
+Replay 488 Stochastic Neural Stacking 44 3 difference 0.0
+Replay 489 Agent-controlled Feature Fusion 44 3 difference 2.9802322387695312e-08
+Replay 490 Warm-adapter Soft Voting 44 4 difference 0.0
+Replay 491 Stochastic Neural Stacking 44 4 difference 0.0
+Replay 492 Agent-controlled Feature Fusion 44 4 difference 1.1920928955078125e-07
+Replay 493 Warm-adapter Soft Voting 44 5 difference 0.0
+Replay 494 Stochastic Neural Stacking 44 5 difference 0.0
+Replay 495 Agent-controlled Feature Fusion 44 5 difference 5.960464477539063e-08
+ALL33 REQUESTED RESULTS REPRODUCED
+Regenerated features: mri 0.0
+Regenerated features: fmri 0.0
+Replay 1 mri_baseline 42 1 difference 0.0
+Replay 2 mri_baseline 42 2 difference 0.0
+Replay 3 mri_baseline 42 3 difference 0.0
+Replay 4 mri_baseline 42 4 difference 0.0
+Replay 5 mri_baseline 42 5 difference 0.0
+Replay 6 mri_baseline 43 1 difference 0.0
+Replay 7 mri_baseline 43 2 difference 0.0
+Replay 8 mri_baseline 43 3 difference 0.0
+Replay 9 mri_baseline 43 4 difference 0.0
+Replay 10 mri_baseline 43 5 difference 0.0
+Replay 11 mri_baseline 44 1 difference 0.0
+Replay 12 mri_baseline 44 2 difference 0.0
+Replay 13 mri_baseline 44 3 difference 0.0
+Replay 14 mri_baseline 44 4 difference 0.0
+Replay 15 mri_baseline 44 5 difference 0.0
+Replay 16 mri_agentic 42 1 difference 1.1102230246251565e-16
+Replay 17 mri_agentic 42 2 difference 1.1102230246251565e-16
+Replay 18 mri_agentic 42 3 difference 3.3306690738754696e-16
+Replay 19 mri_agentic 42 4 difference 2.1649348980190553e-15
+Replay 20 mri_agentic 42 5 difference 1.1102230246251565e-16
+Replay 21 mri_agentic 43 1 difference 1.1102230246251565e-16
+Replay 22 mri_agentic 43 2 difference 1.1102230246251565e-16
+Replay 23 mri_agentic 43 3 difference 1.1102230246251565e-16
+Replay 24 mri_agentic 43 4 difference 1.942890293094024e-16
+Replay 25 mri_agentic 43 5 difference 1.1102230246251565e-16
+Replay 26 mri_agentic 44 1 difference 4.440892098500626e-16
+Replay 27 mri_agentic 44 2 difference 2.609024107869118e-15
+Replay 28 mri_agentic 44 3 difference 1.1102230246251565e-16
+Replay 29 mri_agentic 44 4 difference 9.992007221626409e-16
+Replay 30 mri_agentic 44 5 difference 5.551115123125783e-16
+Replay 31 fmri_baseline 42 1 difference 1.1102230246251565e-16
+Replay 32 fmri_baseline 42 2 difference 1.2212453270876722e-15
+Replay 33 fmri_baseline 42 3 difference 1.1102230246251565e-16
+Replay 34 fmri_baseline 42 4 difference 2.220446049250313e-16
+Replay 35 fmri_baseline 42 5 difference 7.993605777301127e-15
+Replay 36 fmri_baseline 43 1 difference 1.1102230246251565e-16
+Replay 37 fmri_baseline 43 2 difference 1.1102230246251565e-16
+Replay 38 fmri_baseline 43 3 difference 9.992007221626409e-16
+Replay 39 fmri_baseline 43 4 difference 4.773959005888173e-15
+Replay 40 fmri_baseline 43 5 difference 1.1102230246251565e-16
+Replay 41 fmri_baseline 44 1 difference 1.0658141036401503e-14
+Replay 42 fmri_baseline 44 2 difference 4.996003610813204e-16
+Replay 43 fmri_baseline 44 3 difference 1.1102230246251565e-16
+Replay 44 fmri_baseline 44 4 difference 1.1102230246251565e-16
+Replay 45 fmri_baseline 44 5 difference 2.4424906541753444e-15
+Replay 46 fmri_agentic 42 1 difference 1.1102230246251565e-16
+Replay 47 fmri_agentic 42 2 difference 1.1102230246251565e-16
+Replay 48 fmri_agentic 42 3 difference 1.1102230246251565e-16
+Replay 49 fmri_agentic 42 4 difference 1.1102230246251565e-16
+Replay 50 fmri_agentic 42 5 difference 1.1102230246251565e-16
+Replay 51 fmri_agentic 43 1 difference 1.1102230246251565e-16
+Replay 52 fmri_agentic 43 2 difference 1.1102230246251565e-16
+Replay 53 fmri_agentic 43 3 difference 3.3306690738754696e-16
+Replay 54 fmri_agentic 43 4 difference 1.1102230246251565e-16
+Replay 55 fmri_agentic 43 5 difference 1.1102230246251565e-16
+Replay 56 fmri_agentic 44 1 difference 1.1102230246251565e-16
+Replay 57 fmri_agentic 44 2 difference 2.220446049250313e-16
+Replay 58 fmri_agentic 44 3 difference 8.326672684688674e-17
+Replay 59 fmri_agentic 44 4 difference 1.1102230246251565e-16
+Replay 60 fmri_agentic 44 5 difference 1.1102230246251565e-16
+Replay 61 fmri_agentic_scratch_source 42 1 difference 0.0
+Replay 62 fmri_agentic_scratch_source 42 2 difference 0.0
+Replay 63 fmri_agentic_scratch_source 42 3 difference 0.0
+Replay 64 fmri_agentic_scratch_source 42 4 difference 0.0
+Replay 65 fmri_agentic_scratch_source 42 5 difference 0.0
+Replay 66 fmri_agentic_scratch_source 43 1 difference 0.0
+Replay 67 fmri_agentic_scratch_source 43 2 difference 0.0
+Replay 68 fmri_agentic_scratch_source 43 3 difference 0.0
+Replay 69 fmri_agentic_scratch_source 43 4 difference 0.0
+Replay 70 fmri_agentic_scratch_source 43 5 difference 0.0
+Replay 71 fmri_agentic_scratch_source 44 1 difference 0.0
+Replay 72 fmri_agentic_scratch_source 44 2 difference 0.0
+Replay 73 fmri_agentic_scratch_source 44 3 difference 0.0
+Replay 74 fmri_agentic_scratch_source 44 4 difference 0.0
+Replay 75 fmri_agentic_scratch_source 44 5 difference 0.0
+Replay 76 fmri_baseline_scratch_source 42 1 difference 0.0
+Replay 77 fmri_baseline_scratch_source 42 2 difference 0.0
+Replay 78 fmri_baseline_scratch_source 42 3 difference 0.0
+Replay 79 fmri_baseline_scratch_source 42 4 difference 0.0
+Replay 80 fmri_baseline_scratch_source 42 5 difference 0.0
+Replay 81 fmri_baseline_scratch_source 43 1 difference 0.0
+Replay 82 fmri_baseline_scratch_source 43 2 difference 0.0
+Replay 83 fmri_baseline_scratch_source 43 3 difference 0.0
+Replay 84 fmri_baseline_scratch_source 43 4 difference 0.0
+Replay 85 fmri_baseline_scratch_source 43 5 difference 0.0
+Replay 86 fmri_baseline_scratch_source 44 1 difference 0.0
+Replay 87 fmri_baseline_scratch_source 44 2 difference 0.0
+Replay 88 fmri_baseline_scratch_source 44 3 difference 0.0
+Replay 89 fmri_baseline_scratch_source 44 4 difference 0.0
+Replay 90 fmri_baseline_scratch_source 44 5 difference 0.0
+Replay 91 fmri_optuna 42 1 difference 0.0
+Replay 92 fmri_optuna 42 2 difference 0.0
+Replay 93 fmri_optuna 42 3 difference 0.0
+Replay 94 fmri_optuna 42 4 difference 0.0
+Replay 95 fmri_optuna 42 5 difference 0.0
+Replay 96 fmri_optuna 43 1 difference 0.0
+Replay 97 fmri_optuna 43 2 difference 0.0
+Replay 98 fmri_optuna 43 3 difference 0.0
+Replay 99 fmri_optuna 43 4 difference 0.0
+Replay 100 fmri_optuna 43 5 difference 0.0
+Replay 101 fmri_optuna 44 1 difference 0.0
+Replay 102 fmri_optuna 44 2 difference 0.0
+Replay 103 fmri_optuna 44 3 difference 0.0
+Replay 104 fmri_optuna 44 4 difference 0.0
+Replay 105 fmri_optuna 44 5 difference 0.0
+Replay 106 fmri_random 42 1 difference 0.0
+Replay 107 fmri_random 42 2 difference 0.0
+Replay 108 fmri_random 42 3 difference 0.0
+Replay 109 fmri_random 42 4 difference 0.0
+Replay 110 fmri_random 42 5 difference 0.0
+Replay 111 fmri_random 43 1 difference 0.0
+Replay 112 fmri_random 43 2 difference 0.0
+Replay 113 fmri_random 43 3 difference 0.0
+Replay 114 fmri_random 43 4 difference 0.0
+Replay 115 fmri_random 43 5 difference 0.0
+Replay 116 fmri_random 44 1 difference 0.0
+Replay 117 fmri_random 44 2 difference 0.0
+Replay 118 fmri_random 44 3 difference 0.0
+Replay 119 fmri_random 44 4 difference 0.0
+Replay 120 fmri_random 44 5 difference 0.0
+Replay 121 fmri_rule 42 1 difference 0.0
+Replay 122 fmri_rule 42 2 difference 0.0
+Replay 123 fmri_rule 42 3 difference 0.0
+Replay 124 fmri_rule 42 4 difference 0.0
+Replay 125 fmri_rule 42 5 difference 0.0
+Replay 126 fmri_rule 43 1 difference 0.0
+Replay 127 fmri_rule 43 2 difference 0.0
+Replay 128 fmri_rule 43 3 difference 0.0
+Replay 129 fmri_rule 43 4 difference 0.0
+Replay 130 fmri_rule 43 5 difference 0.0
+Replay 131 fmri_rule 44 1 difference 0.0
+Replay 132 fmri_rule 44 2 difference 0.0
+Replay 133 fmri_rule 44 3 difference 0.0
+Replay 134 fmri_rule 44 4 difference 0.0
+Replay 135 fmri_rule 44 5 difference 0.0
+Replay 136 mri_agentic_scratch_source 42 1 difference 2.275957200481571e-14
+Replay 137 mri_agentic_scratch_source 42 2 difference 1.532107773982716e-14
+Replay 138 mri_agentic_scratch_source 42 3 difference 1.4099832412739488e-14
+Replay 139 mri_agentic_scratch_source 42 4 difference 1.2712053631958042e-14
+Replay 140 mri_agentic_scratch_source 42 5 difference 9.2148511043888e-15
+Replay 141 mri_agentic_scratch_source 43 1 difference 1.3156142841808105e-14
+Replay 142 mri_agentic_scratch_source 43 2 difference 1.2712053631958042e-14
+Replay 143 mri_agentic_scratch_source 43 3 difference 9.2148511043888e-15
+Replay 144 mri_agentic_scratch_source 43 4 difference 1.4988010832439613e-14
+Replay 145 mri_agentic_scratch_source 43 5 difference 7.327471962526033e-15
+Replay 146 mri_agentic_scratch_source 44 1 difference 2.015054789694659e-14
+Replay 147 mri_agentic_scratch_source 44 2 difference 2.0816681711721685e-14
+Replay 148 mri_agentic_scratch_source 44 3 difference 1.3988810110276972e-14
+Replay 149 mri_agentic_scratch_source 44 4 difference 1.6986412276764895e-14
+Replay 150 mri_agentic_scratch_source 44 5 difference 1.04638520070921e-14
+Replay 151 mri_baseline_scratch_source 42 1 difference 1.63202784619898e-14
+Replay 152 mri_baseline_scratch_source 42 2 difference 1.84297022087776e-14
+Replay 153 mri_baseline_scratch_source 42 3 difference 1.7208456881689926e-14
+Replay 154 mri_baseline_scratch_source 42 4 difference 1.426636586643326e-14
+Replay 155 mri_baseline_scratch_source 42 5 difference 1.765254609153999e-14
+Replay 156 mri_baseline_scratch_source 43 1 difference 1.5987211554602254e-14
+Replay 157 mri_baseline_scratch_source 43 2 difference 1.426636586643326e-14
+Replay 158 mri_baseline_scratch_source 43 3 difference 2.1871393585115584e-14
+Replay 159 mri_baseline_scratch_source 43 4 difference 1.3600232051658168e-14
+Replay 160 mri_baseline_scratch_source 43 5 difference 2.55351295663786e-14
+Replay 161 mri_baseline_scratch_source 44 1 difference 1.8207657603852567e-14
+Replay 162 mri_baseline_scratch_source 44 2 difference 1.8207657603852567e-14
+Replay 163 mri_baseline_scratch_source 44 3 difference 1.7541523789077473e-14
+Replay 164 mri_baseline_scratch_source 44 4 difference 1.4099832412739488e-14
+Replay 165 mri_baseline_scratch_source 44 5 difference 2.2426505097428162e-14
+Replay 166 mri_optuna 42 1 difference 3.0309088572266774e-14
+Replay 167 mri_optuna 42 2 difference 4.107825191113079e-14
+Replay 168 mri_optuna 42 3 difference 3.963496197911809e-14
+Replay 169 mri_optuna 42 4 difference 5.795364188543317e-14
+Replay 170 mri_optuna 42 5 difference 3.8746783559417963e-14
+Replay 171 mri_optuna 43 1 difference 3.6193270602780103e-14
+Replay 172 mri_optuna 43 2 difference 0.0
+Replay 173 mri_optuna 43 3 difference 0.0
+Replay 174 mri_optuna 43 4 difference 0.0
+Replay 175 mri_optuna 43 5 difference 0.0
+Replay 176 mri_optuna 44 1 difference 0.0
+Replay 177 mri_optuna 44 2 difference 0.0
+Replay 178 mri_optuna 44 3 difference 0.0
+Replay 179 mri_optuna 44 4 difference 0.0
+Replay 180 mri_optuna 44 5 difference 0.0
+Replay 181 mri_random 42 1 difference 1.6763806343078613e-05
+Replay 182 mri_random 42 2 difference 1.5407800674438477e-05
+Replay 183 mri_random 42 3 difference 1.722574234008789e-05
+Replay 184 mri_random 42 4 difference 9.655952453613281e-06
+Replay 185 mri_random 42 5 difference 1.5914440155029297e-05
+Replay 186 mri_random 43 1 difference 1.5407800674438477e-05
+Replay 187 mri_random 43 2 difference 2.2590160369873047e-05
+Replay 188 mri_random 43 3 difference 1.8864870071411133e-05
+Replay 189 mri_random 43 4 difference 2.014636993408203e-05
+Replay 190 mri_random 43 5 difference 1.055002212524414e-05
+Replay 191 mri_random 44 1 difference 1.710653305053711e-05
+Replay 192 mri_random 44 2 difference 2.282857894897461e-05
+Replay 193 mri_random 44 3 difference 1.4439225196838379e-05
+Replay 194 mri_random 44 4 difference 7.361173629760742e-06
+Replay 195 mri_random 44 5 difference 1.436471939086914e-05
+Replay 196 mri_rule 42 1 difference 7.927417755126953e-06
+Replay 197 mri_rule 42 2 difference 1.3530254364013672e-05
+Replay 198 mri_rule 42 3 difference 7.450580596923828e-06
+Replay 199 mri_rule 42 4 difference 1.8537044525146484e-05
+Replay 200 mri_rule 42 5 difference 1.519918441772461e-05
+Replay 201 mri_rule 43 1 difference 7.927417755126953e-06
+Replay 202 mri_rule 43 2 difference 1.0877847671508789e-05
+Replay 203 mri_rule 43 3 difference 1.519918441772461e-05
+Replay 204 mri_rule 43 4 difference 1.3232231140136719e-05
+Replay 205 mri_rule 43 5 difference 8.64267349243164e-06
+Replay 206 mri_rule 44 1 difference 1.7821788787841797e-05
+Replay 207 mri_rule 44 2 difference 1.0251998901367188e-05
+Replay 208 mri_rule 44 3 difference 2.726912498474121e-05
+Replay 209 mri_rule 44 4 difference 1.0877847671508789e-05
+Replay 210 mri_rule 44 5 difference 7.450580596923828e-06
+Replay 211 agentic / equal_soft_voting 42 1 difference 1.1102230246251565e-16
+Replay 212 agentic / equal_soft_voting 42 2 difference 1.1102230246251565e-16
+Replay 213 agentic / equal_soft_voting 42 3 difference 1.1102230246251565e-16
+Replay 214 agentic / equal_soft_voting 42 4 difference 1.0547118733938987e-15
+Replay 215 agentic / equal_soft_voting 42 5 difference 2.7755575615628914e-17
+Replay 216 agentic / equal_soft_voting 43 1 difference 1.1102230246251565e-16
+Replay 217 agentic / equal_soft_voting 43 2 difference 2.220446049250313e-16
+Replay 218 agentic / equal_soft_voting 43 3 difference 2.7755575615628914e-17
+Replay 219 agentic / equal_soft_voting 43 4 difference 1.1102230246251565e-16
+Replay 220 agentic / equal_soft_voting 43 5 difference 1.1102230246251565e-16
+Replay 221 agentic / equal_soft_voting 44 1 difference 2.220446049250313e-16
+Replay 222 agentic / equal_soft_voting 44 2 difference 1.304512053934559e-15
+Replay 223 agentic / equal_soft_voting 44 3 difference 5.551115123125783e-17
+Replay 224 agentic / equal_soft_voting 44 4 difference 5.551115123125783e-16
+Replay 225 agentic / equal_soft_voting 44 5 difference 3.3306690738754696e-16
+Replay 226 agentic / fixed_weighted_fmri 42 1 difference 1.1102230246251565e-16
+Replay 227 agentic / fixed_weighted_fmri 42 2 difference 1.1102230246251565e-16
+Replay 228 agentic / fixed_weighted_fmri 42 3 difference 1.1102230246251565e-16
+Replay 229 agentic / fixed_weighted_fmri 42 4 difference 8.326672684688674e-16
+Replay 230 agentic / fixed_weighted_fmri 42 5 difference 1.1102230246251565e-16
+Replay 231 agentic / fixed_weighted_fmri 43 1 difference 2.220446049250313e-16
+Replay 232 agentic / fixed_weighted_fmri 43 2 difference 1.1102230246251565e-16
+Replay 233 agentic / fixed_weighted_fmri 43 3 difference 2.220446049250313e-16
+Replay 234 agentic / fixed_weighted_fmri 43 4 difference 1.1102230246251565e-16
+Replay 235 agentic / fixed_weighted_fmri 43 5 difference 1.1102230246251565e-16
+Replay 236 agentic / fixed_weighted_fmri 44 1 difference 1.6653345369377348e-16
+Replay 237 agentic / fixed_weighted_fmri 44 2 difference 9.992007221626409e-16
+Replay 238 agentic / fixed_weighted_fmri 44 3 difference 5.551115123125783e-17
+Replay 239 agentic / fixed_weighted_fmri 44 4 difference 4.440892098500626e-16
+Replay 240 agentic / fixed_weighted_fmri 44 5 difference 2.220446049250313e-16
+Replay 241 agentic / fixed_weighted_mri 42 1 difference 2.220446049250313e-16
+Replay 242 agentic / fixed_weighted_mri 42 2 difference 2.220446049250313e-16
+Replay 243 agentic / fixed_weighted_mri 42 3 difference 2.220446049250313e-16
+Replay 244 agentic / fixed_weighted_mri 42 4 difference 1.3322676295501878e-15
+Replay 245 agentic / fixed_weighted_mri 42 5 difference 1.1102230246251565e-16
+Replay 246 agentic / fixed_weighted_mri 43 1 difference 2.220446049250313e-16
+Replay 247 agentic / fixed_weighted_mri 43 2 difference 0.0
+Replay 248 agentic / fixed_weighted_mri 43 3 difference 1.1102230246251565e-16
+Replay 249 agentic / fixed_weighted_mri 43 4 difference 1.1102230246251565e-16
+Replay 250 agentic / fixed_weighted_mri 43 5 difference 1.1102230246251565e-16
+Replay 251 agentic / fixed_weighted_mri 44 1 difference 2.7755575615628914e-16
+Replay 252 agentic / fixed_weighted_mri 44 2 difference 1.582067810090848e-15
+Replay 253 agentic / fixed_weighted_mri 44 3 difference 1.1102230246251565e-16
+Replay 254 agentic / fixed_weighted_mri 44 4 difference 6.661338147750939e-16
+Replay 255 agentic / fixed_weighted_mri 44 5 difference 4.440892098500626e-16
+Replay 256 agentic / hard_voting_tie_negative 42 1 difference 0.0
+Replay 257 agentic / hard_voting_tie_negative 42 2 difference 0.0
+Replay 258 agentic / hard_voting_tie_negative 42 3 difference 0.0
+Replay 259 agentic / hard_voting_tie_negative 42 4 difference 0.0
+Replay 260 agentic / hard_voting_tie_negative 42 5 difference 0.0
+Replay 261 agentic / hard_voting_tie_negative 43 1 difference 0.0
+Replay 262 agentic / hard_voting_tie_negative 43 2 difference 0.0
+Replay 263 agentic / hard_voting_tie_negative 43 3 difference 0.0
+Replay 264 agentic / hard_voting_tie_negative 43 4 difference 0.0
+Replay 265 agentic / hard_voting_tie_negative 43 5 difference 0.0
+Replay 266 agentic / hard_voting_tie_negative 44 1 difference 0.0
+Replay 267 agentic / hard_voting_tie_negative 44 2 difference 0.0
+Replay 268 agentic / hard_voting_tie_negative 44 3 difference 0.0
+Replay 269 agentic / hard_voting_tie_negative 44 4 difference 0.0
+Replay 270 agentic / hard_voting_tie_negative 44 5 difference 0.0
+Replay 271 agentic / hard_voting_tie_positive 42 1 difference 0.0
+Replay 272 agentic / hard_voting_tie_positive 42 2 difference 0.0
+Replay 273 agentic / hard_voting_tie_positive 42 3 difference 0.0
+Replay 274 agentic / hard_voting_tie_positive 42 4 difference 0.0
+Replay 275 agentic / hard_voting_tie_positive 42 5 difference 0.0
+Replay 276 agentic / hard_voting_tie_positive 43 1 difference 0.0
+Replay 277 agentic / hard_voting_tie_positive 43 2 difference 0.0
+Replay 278 agentic / hard_voting_tie_positive 43 3 difference 0.0
+Replay 279 agentic / hard_voting_tie_positive 43 4 difference 0.0
+Replay 280 agentic / hard_voting_tie_positive 43 5 difference 0.0
+Replay 281 agentic / hard_voting_tie_positive 44 1 difference 0.0
+Replay 282 agentic / hard_voting_tie_positive 44 2 difference 0.0
+Replay 283 agentic / hard_voting_tie_positive 44 3 difference 0.0
+Replay 284 agentic / hard_voting_tie_positive 44 4 difference 0.0
+Replay 285 agentic / hard_voting_tie_positive 44 5 difference 0.0
+Replay 286 agentic / stacking_logit 42 1 difference 3.3306690738754696e-16
+Replay 287 agentic / stacking_logit 42 2 difference 1.1102230246251565e-16
+Replay 288 agentic / stacking_logit 42 3 difference 1.1102230246251565e-16
+Replay 289 agentic / stacking_logit 42 4 difference 9.71445146547012e-16
+Replay 290 agentic / stacking_logit 42 5 difference 1.1102230246251565e-16
+Replay 291 agentic / stacking_logit 43 1 difference 1.1102230246251565e-16
+Replay 292 agentic / stacking_logit 43 2 difference 5.551115123125783e-17
+Replay 293 agentic / stacking_logit 43 3 difference 1.1102230246251565e-16
+Replay 294 agentic / stacking_logit 43 4 difference 2.220446049250313e-16
+Replay 295 agentic / stacking_logit 43 5 difference 2.220446049250313e-16
+Replay 296 agentic / stacking_logit 44 1 difference 2.220446049250313e-16
+Replay 297 agentic / stacking_logit 44 2 difference 7.355227538141662e-16
+Replay 298 agentic / stacking_logit 44 3 difference 3.3306690738754696e-16
+Replay 299 agentic / stacking_logit 44 4 difference 1.9984014443252818e-15
+Replay 300 agentic / stacking_logit 44 5 difference 2.914335439641036e-16
+Replay 301 agentic / stacking_probability 42 1 difference 1.1102230246251565e-16
+Replay 302 agentic / stacking_probability 42 2 difference 1.1102230246251565e-16
+Replay 303 agentic / stacking_probability 42 3 difference 1.1102230246251565e-16
+Replay 304 agentic / stacking_probability 42 4 difference 1.1657341758564144e-15
+Replay 305 agentic / stacking_probability 42 5 difference 1.1102230246251565e-16
+Replay 306 agentic / stacking_probability 43 1 difference 1.1102230246251565e-16
+Replay 307 agentic / stacking_probability 43 2 difference 1.1102230246251565e-16
+Replay 308 agentic / stacking_probability 43 3 difference 1.1102230246251565e-16
+Replay 309 agentic / stacking_probability 43 4 difference 2.220446049250313e-16
+Replay 310 agentic / stacking_probability 43 5 difference 2.220446049250313e-16
+Replay 311 agentic / stacking_probability 44 1 difference 1.1102230246251565e-16
+Replay 312 agentic / stacking_probability 44 2 difference 9.08995101411847e-16
+Replay 313 agentic / stacking_probability 44 3 difference 1.1102230246251565e-16
+Replay 314 agentic / stacking_probability 44 4 difference 2.6645352591003757e-15
+Replay 315 agentic / stacking_probability 44 5 difference 1.1102230246251565e-16
+Replay 316 agentic / validation_weighted 42 1 difference 1.1102230246251565e-16
+Replay 317 agentic / validation_weighted 42 2 difference 1.1102230246251565e-16
+Replay 318 agentic / validation_weighted 42 3 difference 1.1102230246251565e-16
+Replay 319 agentic / validation_weighted 42 4 difference 2.1649348980190553e-15
+Replay 320 agentic / validation_weighted 42 5 difference 0.0
+Replay 321 agentic / validation_weighted 43 1 difference 1.1102230246251565e-16
+Replay 322 agentic / validation_weighted 43 2 difference 1.1102230246251565e-16
+Replay 323 agentic / validation_weighted 43 3 difference 3.3306690738754696e-16
+Replay 324 agentic / validation_weighted 43 4 difference 1.942890293094024e-16
+Replay 325 agentic / validation_weighted 43 5 difference 1.1102230246251565e-16
+Replay 326 agentic / validation_weighted 44 1 difference 4.440892098500626e-16
+Replay 327 agentic / validation_weighted 44 2 difference 2.220446049250313e-16
+Replay 328 agentic / validation_weighted 44 3 difference 8.326672684688674e-17
+Replay 329 agentic / validation_weighted 44 4 difference 1.1102230246251565e-16
+Replay 330 agentic / validation_weighted 44 5 difference 1.1102230246251565e-16
+Replay 331 baseline / equal_soft_voting 42 1 difference 1.1533498764038086e-05
+Replay 332 baseline / equal_soft_voting 42 2 difference 6.616115570678982e-06
+Replay 333 baseline / equal_soft_voting 42 3 difference 8.791685104259095e-06
+Replay 334 baseline / equal_soft_voting 42 4 difference 1.0102987289428711e-05
+Replay 335 baseline / equal_soft_voting 42 5 difference 1.856684684753418e-05
+Replay 336 baseline / equal_soft_voting 43 1 difference 1.7136335372924805e-05
+Replay 337 baseline / equal_soft_voting 43 2 difference 9.804964065551758e-06
+Replay 338 baseline / equal_soft_voting 43 3 difference 1.0818243026622376e-05
+Replay 339 baseline / equal_soft_voting 43 4 difference 6.794929503062264e-06
+Replay 340 baseline / equal_soft_voting 43 5 difference 1.0341405868530273e-05
+Replay 341 baseline / equal_soft_voting 44 1 difference 6.794929504394531e-06
+Replay 342 baseline / equal_soft_voting 44 2 difference 1.77919864654541e-05
+Replay 343 baseline / equal_soft_voting 44 3 difference 5.364418029785156e-06
+Replay 344 baseline / equal_soft_voting 44 4 difference 5.453824996948242e-06
+Replay 345 baseline / equal_soft_voting 44 5 difference 8.150935173034668e-06
+Replay 346 baseline / fixed_weighted_fmri 42 1 difference 9.226799011219367e-06
+Replay 347 baseline / fixed_weighted_fmri 42 2 difference 5.29289245676523e-06
+Replay 348 baseline / fixed_weighted_fmri 42 3 difference 7.033348083274049e-06
+Replay 349 baseline / fixed_weighted_fmri 42 4 difference 8.082389831742809e-06
+Replay 350 baseline / fixed_weighted_fmri 42 5 difference 1.4853477477982935e-05
+Replay 351 baseline / fixed_weighted_fmri 43 1 difference 1.3709068298339844e-05
+Replay 352 baseline / fixed_weighted_fmri 43 2 difference 7.843971252419202e-06
+Replay 353 baseline / fixed_weighted_fmri 43 3 difference 8.65459442134231e-06
+Replay 354 baseline / fixed_weighted_fmri 43 4 difference 5.4359436018058815e-06
+Replay 355 baseline / fixed_weighted_fmri 43 5 difference 8.27312469497965e-06
+Replay 356 baseline / fixed_weighted_fmri 44 1 difference 5.435943603471216e-06
+Replay 357 baseline / fixed_weighted_fmri 44 2 difference 1.423358917240769e-05
+Replay 358 baseline / fixed_weighted_fmri 44 3 difference 4.291534423828125e-06
+Replay 359 baseline / fixed_weighted_fmri 44 4 difference 4.3630599974031625e-06
+Replay 360 baseline / fixed_weighted_fmri 44 5 difference 6.520748138422183e-06
+Replay 361 baseline / fixed_weighted_mri 42 1 difference 1.3840198516856805e-05
+Replay 362 baseline / fixed_weighted_mri 42 2 difference 7.939338684592734e-06
+Replay 363 baseline / fixed_weighted_mri 42 3 difference 1.055002212524414e-05
+Replay 364 baseline / fixed_weighted_mri 42 4 difference 1.2123584747225635e-05
+Replay 365 baseline / fixed_weighted_mri 42 5 difference 2.2280216217085425e-05
+Replay 366 baseline / fixed_weighted_mri 43 1 difference 2.0563602447509766e-05
+Replay 367 baseline / fixed_weighted_mri 43 2 difference 1.1765956878684314e-05
+Replay 368 baseline / fixed_weighted_mri 43 3 difference 1.2981891631902442e-05
+Replay 369 baseline / fixed_weighted_mri 43 4 difference 8.153915404096601e-06
+Replay 370 baseline / fixed_weighted_mri 43 5 difference 1.240968704219192e-05
+Replay 371 baseline / fixed_weighted_mri 44 1 difference 8.153915405317846e-06
+Replay 372 baseline / fixed_weighted_mri 44 2 difference 2.1350383758500513e-05
+Replay 373 baseline / fixed_weighted_mri 44 3 difference 6.4373016357421875e-06
+Replay 374 baseline / fixed_weighted_mri 44 4 difference 6.5445899963822995e-06
+Replay 375 baseline / fixed_weighted_mri 44 5 difference 9.781122207647153e-06
+Replay 376 baseline / hard_voting_tie_negative 42 1 difference 0.0
+Replay 377 baseline / hard_voting_tie_negative 42 2 difference 0.0
+Replay 378 baseline / hard_voting_tie_negative 42 3 difference 0.0
+Replay 379 baseline / hard_voting_tie_negative 42 4 difference 0.0
+Replay 380 baseline / hard_voting_tie_negative 42 5 difference 0.0
+Replay 381 baseline / hard_voting_tie_negative 43 1 difference 0.0
+Replay 382 baseline / hard_voting_tie_negative 43 2 difference 0.0
+Replay 383 baseline / hard_voting_tie_negative 43 3 difference 0.0
+Replay 384 baseline / hard_voting_tie_negative 43 4 difference 0.0
+Replay 385 baseline / hard_voting_tie_negative 43 5 difference 0.0
+Replay 386 baseline / hard_voting_tie_negative 44 1 difference 0.0
+Replay 387 baseline / hard_voting_tie_negative 44 2 difference 0.0
+Replay 388 baseline / hard_voting_tie_negative 44 3 difference 0.0
+Replay 389 baseline / hard_voting_tie_negative 44 4 difference 0.0
+Replay 390 baseline / hard_voting_tie_negative 44 5 difference 0.0
+Replay 391 baseline / hard_voting_tie_positive 42 1 difference 0.0
+Replay 392 baseline / hard_voting_tie_positive 42 2 difference 0.0
+Replay 393 baseline / hard_voting_tie_positive 42 3 difference 0.0
+Replay 394 baseline / hard_voting_tie_positive 42 4 difference 0.0
+Replay 395 baseline / hard_voting_tie_positive 42 5 difference 0.0
+Replay 396 baseline / hard_voting_tie_positive 43 1 difference 0.0
+Replay 397 baseline / hard_voting_tie_positive 43 2 difference 0.0
+Replay 398 baseline / hard_voting_tie_positive 43 3 difference 0.0
+Replay 399 baseline / hard_voting_tie_positive 43 4 difference 0.0
+Replay 400 baseline / hard_voting_tie_positive 43 5 difference 0.0
+Replay 401 baseline / hard_voting_tie_positive 44 1 difference 0.0
+Replay 402 baseline / hard_voting_tie_positive 44 2 difference 0.0
+Replay 403 baseline / hard_voting_tie_positive 44 3 difference 0.0
+Replay 404 baseline / hard_voting_tie_positive 44 4 difference 0.0
+Replay 405 baseline / hard_voting_tie_positive 44 5 difference 0.0
+Replay 406 baseline / stacking_logit 42 1 difference 1.1641508296245107e-06
+Replay 407 baseline / stacking_logit 42 2 difference 2.0145145758987404e-05
+Replay 408 baseline / stacking_logit 42 3 difference 4.386684312573941e-06
+Replay 409 baseline / stacking_logit 42 4 difference 1.6529471620563285e-05
+Replay 410 baseline / stacking_logit 42 5 difference 1.7200094133418276e-06
+Replay 411 baseline / stacking_logit 43 1 difference 1.3801596088214296e-05
+Replay 412 baseline / stacking_logit 43 2 difference 1.4254605701480294e-05
+Replay 413 baseline / stacking_logit 43 3 difference 1.0911213908726403e-05
+Replay 414 baseline / stacking_logit 43 4 difference 5.03610566496282e-06
+Replay 415 baseline / stacking_logit 43 5 difference 2.3212185605858693e-06
+Replay 416 baseline / stacking_logit 44 1 difference 1.621303168874988e-05
+Replay 417 baseline / stacking_logit 44 2 difference 7.654567881293373e-06
+Replay 418 baseline / stacking_logit 44 3 difference 1.490558994567473e-06
+Replay 419 baseline / stacking_logit 44 4 difference 3.798769621379816e-06
+Replay 420 baseline / stacking_logit 44 5 difference 1.6168697779539443e-06
+Replay 421 baseline / stacking_probability 42 1 difference 4.884240610431023e-07
+Replay 422 baseline / stacking_probability 42 2 difference 1.2228956548995806e-06
+Replay 423 baseline / stacking_probability 42 3 difference 6.161292479545111e-07
+Replay 424 baseline / stacking_probability 42 4 difference 9.560198916847007e-06
+Replay 425 baseline / stacking_probability 42 5 difference 3.412275154435207e-06
+Replay 426 baseline / stacking_probability 43 1 difference 1.5082994483273104e-05
+Replay 427 baseline / stacking_probability 43 2 difference 7.912444467239599e-06
+Replay 428 baseline / stacking_probability 43 3 difference 1.0343905491150274e-05
+Replay 429 baseline / stacking_probability 43 4 difference 3.0040249727747437e-06
+Replay 430 baseline / stacking_probability 43 5 difference 2.313733991066158e-07
+Replay 431 baseline / stacking_probability 44 1 difference 2.274192516893425e-05
+Replay 432 baseline / stacking_probability 44 2 difference 7.1302519745741755e-06
+Replay 433 baseline / stacking_probability 44 3 difference 7.517766012956478e-07
+Replay 434 baseline / stacking_probability 44 4 difference 5.281011630220434e-07
+Replay 435 baseline / stacking_probability 44 5 difference 2.5991935093117036e-07
+Replay 436 baseline / validation_weighted 42 1 difference 1.1102230246251565e-16
+Replay 437 baseline / validation_weighted 42 2 difference 1.2212453270876722e-15
+Replay 438 baseline / validation_weighted 42 3 difference 1.1102230246251565e-16
+Replay 439 baseline / validation_weighted 42 4 difference 2.0205974578857422e-05
+Replay 440 baseline / validation_weighted 42 5 difference 7.993605777301127e-15
+Replay 441 baseline / validation_weighted 43 1 difference 1.5422701835632324e-05
+Replay 442 baseline / validation_weighted 43 2 difference 1.9609928131103516e-05
+Replay 443 baseline / validation_weighted 43 3 difference 9.992007221626409e-16
+Replay 444 baseline / validation_weighted 43 4 difference 1.3589859008789062e-05
+Replay 445 baseline / validation_weighted 43 5 difference 1.1102230246251565e-16
+Replay 446 baseline / validation_weighted 44 1 difference 1.0658141036401503e-14
+Replay 447 baseline / validation_weighted 44 2 difference 4.996003610813204e-16
+Replay 448 baseline / validation_weighted 44 3 difference 1.1102230246251565e-16
+Replay 449 baseline / validation_weighted 44 4 difference 1.1102230246251565e-16
+Replay 450 baseline / validation_weighted 44 5 difference 2.4424906541753444e-15
+Replay 451 Warm-adapter Soft Voting 42 1 difference 0.0
+Replay 452 Stochastic Neural Stacking 42 1 difference 0.0
+Replay 453 Agent-controlled Feature Fusion 42 1 difference 5.960464477539063e-08
+Replay 454 Warm-adapter Soft Voting 42 2 difference 0.0
+Replay 455 Stochastic Neural Stacking 42 2 difference 0.0
+Replay 456 Agent-controlled Feature Fusion 42 2 difference 5.960464477539063e-08
+Replay 457 Warm-adapter Soft Voting 42 3 difference 0.0
+Replay 458 Stochastic Neural Stacking 42 3 difference 0.0
+Replay 459 Agent-controlled Feature Fusion 42 3 difference 0.0
+Replay 460 Warm-adapter Soft Voting 42 4 difference 0.0
+Replay 461 Stochastic Neural Stacking 42 4 difference 0.0
+Replay 462 Agent-controlled Feature Fusion 42 4 difference 1.4901161193847656e-08
+Replay 463 Warm-adapter Soft Voting 42 5 difference 0.0
+Replay 464 Stochastic Neural Stacking 42 5 difference 0.0
+Replay 465 Agent-controlled Feature Fusion 42 5 difference 2.2351741790771484e-08
+Replay 466 Warm-adapter Soft Voting 43 1 difference 0.0
+Replay 467 Stochastic Neural Stacking 43 1 difference 0.0
+Replay 468 Agent-controlled Feature Fusion 43 1 difference 3.725290298461914e-08
+Replay 469 Warm-adapter Soft Voting 43 2 difference 0.0
+Replay 470 Stochastic Neural Stacking 43 2 difference 0.0
+Replay 471 Agent-controlled Feature Fusion 43 2 difference 5.960464477539063e-08
+Replay 472 Warm-adapter Soft Voting 43 3 difference 0.0
+Replay 473 Stochastic Neural Stacking 43 3 difference 0.0
+Replay 474 Agent-controlled Feature Fusion 43 3 difference 2.9802322387695312e-08
+Replay 475 Warm-adapter Soft Voting 43 4 difference 0.0
+Replay 476 Stochastic Neural Stacking 43 4 difference 0.0
+Replay 477 Agent-controlled Feature Fusion 43 4 difference 5.960464477539063e-08
+Replay 478 Warm-adapter Soft Voting 43 5 difference 0.0
+Replay 479 Stochastic Neural Stacking 43 5 difference 0.0
+Replay 480 Agent-controlled Feature Fusion 43 5 difference 5.960464477539063e-08
+Replay 481 Warm-adapter Soft Voting 44 1 difference 0.0
+Replay 482 Stochastic Neural Stacking 44 1 difference 0.0
+Replay 483 Agent-controlled Feature Fusion 44 1 difference 1.1920928955078125e-07
+Replay 484 Warm-adapter Soft Voting 44 2 difference 0.0
+Replay 485 Stochastic Neural Stacking 44 2 difference 0.0
+Replay 486 Agent-controlled Feature Fusion 44 2 difference 5.960464477539063e-08
+Replay 487 Warm-adapter Soft Voting 44 3 difference 0.0
+Replay 488 Stochastic Neural Stacking 44 3 difference 0.0
+Replay 489 Agent-controlled Feature Fusion 44 3 difference 2.9802322387695312e-08
+Replay 490 Warm-adapter Soft Voting 44 4 difference 0.0
+Replay 491 Stochastic Neural Stacking 44 4 difference 0.0
+Replay 492 Agent-controlled Feature Fusion 44 4 difference 1.1920928955078125e-07
+Replay 493 Warm-adapter Soft Voting 44 5 difference 0.0
+Replay 494 Stochastic Neural Stacking 44 5 difference 0.0
+Replay 495 Agent-controlled Feature Fusion 44 5 difference 5.960464477539063e-08
+ALL33 REQUESTED RESULTS REPRODUCED

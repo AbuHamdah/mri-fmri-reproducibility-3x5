@@ -1,0 +1,34 @@
+{
+  "arm": "last_layer",
+  "seed": 43,
+  "fold": 5,
+  "test_n": 8,
+  "correct": 8,
+  "test_metrics": {
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "kappa": 1.0,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "brier": 0.03503245529597463,
+    "ece": 0.18011980596929789
+  },
+  "selected_epoch": 35,
+  "disclosed_test_ids": [],
+  "model_sha256": "2b9be5aa9a612f9b94f4b6062db2e616b6637def4fdd46d93b7371eae2193d1c",
+  "seconds": 9.000994205474854,
+  "max_reload_difference": 0.0,
+  "non_disclosed_test_metrics": {
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "kappa": 1.0,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "brier": 0.03503245529597463,
+    "ece": 0.18011980596929789
+  }
+}

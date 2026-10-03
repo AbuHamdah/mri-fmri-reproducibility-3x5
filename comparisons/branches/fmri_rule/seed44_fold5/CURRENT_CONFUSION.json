@@ -1,0 +1,36 @@
+{
+  "seed": 44,
+  "fold": 5,
+  "series": "fmri_rule",
+  "test_n": 8,
+  "threshold": 0.7468165059884389,
+  "confusion_matrix": {
+    "TP": 3,
+    "TN": 4,
+    "FP": 0,
+    "FN": 1
+  },
+  "false_negatives": [
+    {
+      "subject_id": "sub-047EPKL012014",
+      "true_label": 1,
+      "probability": 0.6817888021469116,
+      "run_probabilities": [
+        0.6691012382507324,
+        0.6539308428764343,
+        0.7223343253135681
+      ],
+      "input_paths": [
+        "inputs/fmri/sub-047EPKL012014_run01.npy",
+        "inputs/fmri/sub-047EPKL012014_run02.npy",
+        "inputs/fmri/sub-047EPKL012014_run03.npy"
+      ],
+      "seed": 44,
+      "test_fold": 5,
+      "model_id": "fmri_rule_seed44_fold5",
+      "selected_threshold": 0.7468165059884389,
+      "predicted_label": 0
+    }
+  ],
+  "false_positives": []
+}

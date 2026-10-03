@@ -1,0 +1,130 @@
+[
+  {
+    "subject_id": "sub-047EPKL011012",
+    "true_label": 1,
+    "probability": 0.9999475941570717,
+    "predicted_label": 1,
+    "source_run_probabilities": [
+      0.722765686539418,
+      0.722765686539418,
+      0.722765686539418
+    ],
+    "parent_child_logit": 0.9582220270009533,
+    "seed": 44,
+    "test_fold": 3,
+    "model_id": "fmri_baseline_seed44_fold3_rbf_residual",
+    "selected_threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011049",
+    "true_label": 1,
+    "probability": 2.665526957828483e-16,
+    "predicted_label": 0,
+    "source_run_probabilities": [
+      0.4249707998980265,
+      0.2832515444860538,
+      0.3414688508699902
+    ],
+    "parent_child_logit": -0.619491736632389,
+    "seed": 44,
+    "test_fold": 3,
+    "model_id": "fmri_baseline_seed44_fold3_rbf_residual",
+    "selected_threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011063",
+    "true_label": 1,
+    "probability": 0.9999996501759472,
+    "predicted_label": 1,
+    "source_run_probabilities": [
+      0.8472648344606285,
+      0.9391815310165621,
+      0.7410271126291305
+    ],
+    "parent_child_logit": 1.676881509821135,
+    "seed": 44,
+    "test_fold": 3,
+    "model_id": "fmri_baseline_seed44_fold3_rbf_residual",
+    "selected_threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011068",
+    "true_label": 1,
+    "probability": 0.9999999999992928,
+    "predicted_label": 1,
+    "source_run_probabilities": [
+      0.8927773991445045,
+      0.7455375170566562,
+      0.5133943986487022
+    ],
+    "parent_child_logit": 0.9307945726777164,
+    "seed": 44,
+    "test_fold": 3,
+    "model_id": "fmri_baseline_seed44_fold3_rbf_residual",
+    "selected_threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014020",
+    "true_label": 0,
+    "probability": 2.3635034478907085e-25,
+    "predicted_label": 0,
+    "source_run_probabilities": [
+      0.5580576409075383,
+      0.1804714168530692,
+      0.15202146573196568
+    ],
+    "parent_child_logit": -0.8623424427991291,
+    "seed": 44,
+    "test_fold": 3,
+    "model_id": "fmri_baseline_seed44_fold3_rbf_residual",
+    "selected_threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014036",
+    "true_label": 0,
+    "probability": 2.8710916859514826e-22,
+    "predicted_label": 0,
+    "source_run_probabilities": [
+      0.21791981907609717,
+      0.07409764364801107,
+      0.24880365560996123
+    ],
+    "parent_child_logit": -1.5144941734333979,
+    "seed": 44,
+    "test_fold": 3,
+    "model_id": "fmri_baseline_seed44_fold3_rbf_residual",
+    "selected_threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014038",
+    "true_label": 0,
+    "probability": 1.983270987614509e-15,
+    "predicted_label": 0,
+    "source_run_probabilities": [
+      0.06501369442123003,
+      0.10679406645102912,
+      0.08328177579971734
+    ],
+    "parent_child_logit": -2.3758890972157363,
+    "seed": 44,
+    "test_fold": 3,
+    "model_id": "fmri_baseline_seed44_fold3_rbf_residual",
+    "selected_threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014048",
+    "true_label": 0,
+    "probability": 1.5400292445487012e-27,
+    "predicted_label": 0,
+    "source_run_probabilities": [
+      0.27421707007259344,
+      0.037739014012970674,
+      0.028719045952635813
+    ],
+    "parent_child_logit": -2.0548982591199016,
+    "seed": 44,
+    "test_fold": 3,
+    "model_id": "fmri_baseline_seed44_fold3_rbf_residual",
+    "selected_threshold": 0.5
+  }
+]

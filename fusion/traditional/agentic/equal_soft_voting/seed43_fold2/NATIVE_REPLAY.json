@@ -1,0 +1,12 @@
+{
+  "mode": "agentic",
+  "method": "equal_soft_voting",
+  "seed": 43,
+  "fold": 2,
+  "model": "fusion/agentic/equal_soft_voting/seed43_fold2/model.keras",
+  "model_sha256": "7bd0fb451a8521fd75d4863af94b1a5d2ea7f20e25c22dc4aedf5aaf14bd5f30",
+  "all_subjects": 42,
+  "maximum_probability_difference": 0.0,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

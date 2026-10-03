@@ -1,0 +1,92 @@
+[
+  {
+    "subject_id": "sub-047EPKL011049",
+    "true_label": 1,
+    "probability": 0.07087680697441101,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 2,
+    "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+  },
+  {
+    "subject_id": "sub-047EPKL012015",
+    "true_label": 1,
+    "probability": 0.8881210088729858,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 2,
+    "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+  },
+  {
+    "subject_id": "sub-047EPKL012069",
+    "true_label": 1,
+    "probability": 0.7033835649490356,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 2,
+    "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+  },
+  {
+    "subject_id": "sub-047EPKL012074",
+    "true_label": 1,
+    "probability": 0.8295523524284363,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 2,
+    "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+  },
+  {
+    "subject_id": "sub-047EPKL014010",
+    "true_label": 0,
+    "probability": 0.03992462158203125,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 2,
+    "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+  },
+  {
+    "subject_id": "sub-047EPKL014020",
+    "true_label": 0,
+    "probability": 0.1436968743801117,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 2,
+    "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+  },
+  {
+    "subject_id": "sub-047EPKL014031",
+    "true_label": 0,
+    "probability": 0.012402818538248539,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 2,
+    "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+  },
+  {
+    "subject_id": "sub-047EPKL014037",
+    "true_label": 0,
+    "probability": 0.020582063123583794,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 2,
+    "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+  },
+  {
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.19012722373008728,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 2,
+    "model_id": "seed42_fold2_Warm-adapter Soft Voting"
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "model": "comparisons/branches/mri_random/seed42_fold2/model.keras",
+  "model_sha256": "e3552be7ac8ac9f23298903bc7cce8740025a8c429ef3067c85862b464b61f36",
+  "subject_ids": [
+    "sub-047EPKL011049",
+    "sub-047EPKL012015",
+    "sub-047EPKL012069",
+    "sub-047EPKL012074",
+    "sub-047EPKL014010",
+    "sub-047EPKL014020",
+    "sub-047EPKL014031",
+    "sub-047EPKL014037",
+    "sub-047EPKL014043"
+  ],
+  "input_groups": [
+    [
+      "inputs/mri/sub-047EPKL011049.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL012015.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL012069.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL012074.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014010.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014020.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014031.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014037.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014043.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "fb4ef2a18163fd6d6e2ffe3ad57c496b9b221ed19ec23f88394e99b829a2c335"
+    ],
+    [
+      "b9dc90689a29efb7953827925033b09def14fc351d6c088e794d977935d72402"
+    ],
+    [
+      "f4cbb390e54b4bbf0554a4ede4f7cc06b147b55e14747cc099ae5e00baec3915"
+    ],
+    [
+      "9d784af4f990bad02c880d76e49859b3369213fc6c83104e5446d8fecbdde83d"
+    ],
+    [
+      "c009826ae53a9f79caa59f13debedb0a39adda21fc41a8ba8b605aab3dce682b"
+    ],
+    [
+      "55bb4fe4633f661beac96683190711f7ee5fe80c5e868bc2b651eafed133358e"
+    ],
+    [
+      "ec40d2d83c044eed7b6b8022fb7e5126deba4e2b3f9adff9fc5f04329cd6d837"
+    ],
+    [
+      "a20b002ed2d4c85fcf827601208f032780d53d64c0b6deb3ef74c842d774a78f"
+    ],
+    [
+      "c3b38a115ad026e20a00bef036a085a23e27f19f21a04d6de1f0ac61ca69d123"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.7006112337112427,
+    0.7779443264007568,
+    0.8442229628562927,
+    0.8465586304664612,
+    0.202182799577713,
+    0.11970317363739014,
+    0.711307168006897,
+    0.13907714188098907,
+    0.13182716071605682
+  ],
+  "maximum_probability_difference": 1.5407800674438477e-05,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

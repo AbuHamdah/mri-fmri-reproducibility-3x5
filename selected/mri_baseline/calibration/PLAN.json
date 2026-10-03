@@ -1,0 +1,5 @@
+{
+  "selection": "Maximum validation F1, then maximum validation balanced accuracy, then closest to 0.5, then higher threshold. Candidate thresholds: 0, 0.5, 1 and midpoints between distinct validation probabilities. Validation labels only; no test-label selection.",
+  "runs": 15,
+  "all_runs_retained": true
+}

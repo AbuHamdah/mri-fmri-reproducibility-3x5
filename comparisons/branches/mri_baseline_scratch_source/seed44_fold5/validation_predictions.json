@@ -1,0 +1,114 @@
+[
+  {
+    "subject_id": "sub-047EPKL011041",
+    "true_label": 1,
+    "probability": 0.896521839432655,
+    "run_probabilities": [
+      0.896521839432655
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL011041.npy"
+    ],
+    "seed": 44,
+    "test_fold": 5,
+    "model_id": "mri_baseline_scratch_source_seed44_fold5",
+    "selected_threshold": 0.5,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL011047",
+    "true_label": 1,
+    "probability": 0.20334195127273394,
+    "run_probabilities": [
+      0.20334195127273394
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL011047.npy"
+    ],
+    "seed": 44,
+    "test_fold": 5,
+    "model_id": "mri_baseline_scratch_source_seed44_fold5",
+    "selected_threshold": 0.5,
+    "predicted_label": 0
+  },
+  {
+    "subject_id": "sub-047EPKL011056",
+    "true_label": 1,
+    "probability": 0.9415228172994144,
+    "run_probabilities": [
+      0.9415228172994144
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL011056.npy"
+    ],
+    "seed": 44,
+    "test_fold": 5,
+    "model_id": "mri_baseline_scratch_source_seed44_fold5",
+    "selected_threshold": 0.5,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL014008",
+    "true_label": 0,
+    "probability": 0.36080608547030163,
+    "run_probabilities": [
+      0.36080608547030163
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL014008.npy"
+    ],
+    "seed": 44,
+    "test_fold": 5,
+    "model_id": "mri_baseline_scratch_source_seed44_fold5",
+    "selected_threshold": 0.5,
+    "predicted_label": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014010",
+    "true_label": 0,
+    "probability": 0.3386658938819351,
+    "run_probabilities": [
+      0.3386658938819351
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL014010.npy"
+    ],
+    "seed": 44,
+    "test_fold": 5,
+    "model_id": "mri_baseline_scratch_source_seed44_fold5",
+    "selected_threshold": 0.5,
+    "predicted_label": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014031",
+    "true_label": 0,
+    "probability": 0.19614494619750977,
+    "run_probabilities": [
+      0.19614494619750977
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL014031.npy"
+    ],
+    "seed": 44,
+    "test_fold": 5,
+    "model_id": "mri_baseline_scratch_source_seed44_fold5",
+    "selected_threshold": 0.5,
+    "predicted_label": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014048",
+    "true_label": 0,
+    "probability": 0.2233009610146549,
+    "run_probabilities": [
+      0.2233009610146549
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL014048.npy"
+    ],
+    "seed": 44,
+    "test_fold": 5,
+    "model_id": "mri_baseline_scratch_source_seed44_fold5",
+    "selected_threshold": 0.5,
+    "predicted_label": 0
+  }
+]

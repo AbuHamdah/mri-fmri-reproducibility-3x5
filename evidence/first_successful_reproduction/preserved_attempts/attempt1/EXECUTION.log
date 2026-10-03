@@ -1,0 +1,8 @@
+Regenerated features: mri 2.4437904357910156e-06
+Regenerated features: fmri 7.450580596923828e-09
+Traceback (most recent call last):
+  File "/package/source/replay.py", line 50, in <module>
+    d=P/'selected/mri_baseline/adopted_models'/f'seed{seed}_fold{fold}';c=read(P/'selected/mri_baseline/calibration'/f'seed{seed}_fold{fold}.json');m=loadmodel(d/'model.keras');rows=c['predictions'];prob=[one(m,bykind['mri'][r['subject_id']][0]) for r in rows];add('mri_baseline',seed,fold,d,rows,prob,c['selected_threshold'],str((d/'model.keras').relative_to(P)));del m;tf.keras.backend.clear_session()
+  File "/package/source/replay.py", line 26, in add
+    pp=np.asarray(prob).ravel();expected=np.array([r['probability'] for r in rows]);delta=float(np.max(abs(pp-expected)));assert delta<=1e-4,(key,seed,fold,delta)
+AssertionError: ('mri_baseline', 42, 1, 0.0003744363784790039)

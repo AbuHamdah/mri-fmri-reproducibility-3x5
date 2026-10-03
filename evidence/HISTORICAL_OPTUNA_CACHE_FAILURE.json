@@ -1,0 +1,4 @@
+{
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/out/source/train_branches.py\", line 74, in <module>\n    features=np.concatenate(ff);np.save(cache/'features.npy',features);head=make_head();delta=float(np.max(abs(head(features,training=False).numpy().ravel()-orig)));assert delta<=1e-4\nAssertionError\n"
+}

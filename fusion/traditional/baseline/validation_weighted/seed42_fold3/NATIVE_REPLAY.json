@@ -1,0 +1,12 @@
+{
+  "mode": "baseline",
+  "method": "validation_weighted",
+  "seed": 42,
+  "fold": 3,
+  "model": "fusion/baseline/validation_weighted/seed42_fold3/model.keras",
+  "model_sha256": "2a9cac10ad8e27709951d6284af51b244daa9bec66882426a83860d49e93d054",
+  "all_subjects": 42,
+  "maximum_probability_difference": 0.0,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

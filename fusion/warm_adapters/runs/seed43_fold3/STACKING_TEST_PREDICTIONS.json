@@ -1,0 +1,82 @@
+[
+  {
+    "subject_id": "sub-047EPKL011005",
+    "true_label": 1,
+    "probability": 0.9867231528861826,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL011049",
+    "true_label": 1,
+    "probability": 0.10190745800083828,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL011056",
+    "true_label": 1,
+    "probability": 0.3498501466528487,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL012014",
+    "true_label": 1,
+    "probability": 0.9785972599637708,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014008",
+    "true_label": 0,
+    "probability": 0.0047879717764349634,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014038",
+    "true_label": 0,
+    "probability": 0.010924314530895492,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.009131896941782427,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014066",
+    "true_label": 0,
+    "probability": 0.007854629013449988,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "seed43_fold3_Warm-adapter Logit Stacking"
+  }
+]

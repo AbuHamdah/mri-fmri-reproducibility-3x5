@@ -1,0 +1,12 @@
+{
+  "mode": "agentic",
+  "method": "stacking_probability",
+  "seed": 44,
+  "fold": 5,
+  "model": "fusion/agentic/stacking_probability/seed44_fold5/model.keras",
+  "model_sha256": "3a2560cca90e23ab69e3e59dc4f881b3b7a809912a900a9bd8c8cbb806d8b106",
+  "all_subjects": 42,
+  "maximum_probability_difference": 1.1102230246251565e-16,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

@@ -1,0 +1,83 @@
+{
+  "threshold": 0.0,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.18249029960995913,
+      "f1": 0.4444444444444444,
+      "balanced_accuracy": 0.3333333333333333
+    },
+    {
+      "threshold": 0.2114846609113592,
+      "f1": 0.5,
+      "balanced_accuracy": 0.4583333333333333
+    },
+    {
+      "threshold": 0.4676753227189683,
+      "f1": 0.5714285714285714,
+      "balanced_accuracy": 0.5833333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.5714285714285714,
+      "balanced_accuracy": 0.5833333333333333
+    },
+    {
+      "threshold": 0.7733583411854154,
+      "f1": 0.3333333333333333,
+      "balanced_accuracy": 0.41666666666666663
+    },
+    {
+      "threshold": 0.8507007297477485,
+      "f1": 0.4,
+      "balanced_accuracy": 0.5416666666666666
+    },
+    {
+      "threshold": 0.8562557129481014,
+      "f1": 0.0,
+      "balanced_accuracy": 0.375
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.875,
+    "f1": 0.8571428571428571,
+    "kappa": 0.75,
+    "auc": 0.875,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.1401308985666337,
+    "ece": 0.2887751147618389
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.5,
+    "f1": 0.6666666666666666,
+    "kappa": 0.0,
+    "auc": 0.875,
+    "precision": 0.5,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "brier": 0.1401308985666337,
+    "ece": 0.2887751147618389
+  },
+  "test_n": 8,
+  "fixed_correct": 7,
+  "calibrated_correct": 4,
+  "series": "mri_baseline_scratch_source",
+  "seed": 42,
+  "fold": 4,
+  "selected_epoch": 0,
+  "model_sha256": "8bc66505cc0da7fbdd1d5921f4f0e959840d7bae10d485ed8720ed6c9515ed6c",
+  "reload_max_difference": 1.3417280168015466e-05,
+  "seconds": 10.561568021774292,
+  "source_model": "initial_models/supplemental_completion/completion_pilots_v1/mri_baseline_scratch_source/model.keras"
+}

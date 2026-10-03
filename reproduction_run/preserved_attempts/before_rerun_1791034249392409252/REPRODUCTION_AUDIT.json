@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "result_rows": 33,
+  "repeated_seed_metrics": 99,
+  "result_model_records": 495,
+  "checkpoint_probability_tolerance": 0.0001,
+  "discrete_metrics_match_exactly": true,
+  "continuous_metrics_match_within_tolerance": true,
+  "input_scope": "Copied processed arrays; copied extractors regenerate features; parent models replayed; complete downstream saved-checkpoint inference. Raw NIfTI preprocessing and training not repeated.",
+  "elapsed_seconds": 301.4146738052368,
+  "native_full_model_phase": {
+    "models": 197,
+    "cache_sha256": "f9ceb063a24e98482f2008fe2e0606451ff876f9f355ecbae43a68e45e07f0d4",
+    "elapsed_seconds": 580.8055057525635,
+    "proof": "Full saved-model inference from copied processed arrays in independent 2/2-thread TensorFlow processes; model and input hashes checked again in this phase.",
+    "recorded_cache_sha256": "9a8e47a6ae507e5c030fb6158a65f6070d14d12d215ec0f3fad6a51f2614edf4",
+    "metadata_revision_note": "Current archive fingerprints updated after metadata-only edits; original execution was not repeated."
+  }
+}

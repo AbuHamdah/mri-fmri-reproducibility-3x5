@@ -1,0 +1,112 @@
+{
+  "model": "comparisons/branches/fmri_agentic_scratch_source/seed44_fold4/model.keras",
+  "model_sha256": "285eedccbd3bb86fe8d4a548e24f82842a34f5e236fdd9f71be20703c2d56263",
+  "subject_ids": [
+    "sub-047EPKL011005",
+    "sub-047EPKL011011",
+    "sub-047EPKL011059",
+    "sub-047EPKL012071",
+    "sub-047EPKL014010",
+    "sub-047EPKL014031",
+    "sub-047EPKL014045",
+    "sub-047EPKL014062"
+  ],
+  "input_groups": [
+    [
+      "inputs/fmri/sub-047EPKL011005_run01.npy",
+      "inputs/fmri/sub-047EPKL011005_run02.npy",
+      "inputs/fmri/sub-047EPKL011005_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL011011_run01.npy",
+      "inputs/fmri/sub-047EPKL011011_run02.npy",
+      "inputs/fmri/sub-047EPKL011011_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL011059_run01.npy",
+      "inputs/fmri/sub-047EPKL011059_run02.npy",
+      "inputs/fmri/sub-047EPKL011059_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL012071_run01.npy",
+      "inputs/fmri/sub-047EPKL012071_run02.npy",
+      "inputs/fmri/sub-047EPKL012071_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014010_run01.npy",
+      "inputs/fmri/sub-047EPKL014010_run02.npy",
+      "inputs/fmri/sub-047EPKL014010_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014031_run01.npy",
+      "inputs/fmri/sub-047EPKL014031_run02.npy",
+      "inputs/fmri/sub-047EPKL014031_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014045_run01.npy",
+      "inputs/fmri/sub-047EPKL014045_run02.npy",
+      "inputs/fmri/sub-047EPKL014045_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014062_run01.npy",
+      "inputs/fmri/sub-047EPKL014062_run02.npy",
+      "inputs/fmri/sub-047EPKL014062_run03.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "96dbe92eaab64d0e48bfccc8fbae4c9e9eaa019c50ab9327854f82bdaf272209",
+      "5ae64e2b4b916265f4f1b0457e1050609d39d21ee814ea1398bf356540b5a454",
+      "9d218863fb3c7bf4a1cf297bcc2df866ee53043dd7b6c5b324d7129e2fc558a1"
+    ],
+    [
+      "5abe5d408618d1ff7391d86cfa75ee207d9d0631b21f2cc79157235c4b9d1e7f",
+      "c1a83d4a5bedd23f3f340ff54e27b3380ec4f2485a6bae2cb985c24e3cd61f63",
+      "68596ab2a116070ad6bef55143f78d0ea7affcb93299a26db00ed7c61a0e888f"
+    ],
+    [
+      "3db2d4d7a82f0a41a9f00dd1750c75fb24f2920703fbd2ed4de1878dc24da3af",
+      "89fb136d20edde1b8ba873a80fc2aa5037308103946ecb55a67b6eef03755ba5",
+      "18a949f74a40f2358f89fbfb70b4002a902bb1d1e3c90f2ac67115a7dec7307f"
+    ],
+    [
+      "87a9da04da017377b8a0ac4c130da4ea7b663b71dc09226fb8c7236a62505cec",
+      "55976cd69fa670df6693592202078653aeb1359066953310d6694c485f77f950",
+      "3780375d0536511101e2a6c3316d2f6734a90599d7458966cb6692a47af14d11"
+    ],
+    [
+      "2b217f7d1ac852f6f1c8372b4123bccfd714d2c609697a5d3e0e600b96446446",
+      "62788a7ff4eee0469a034e0e01acde1e5fc41f1b3aa28545231642b45990afb4",
+      "704e89cfe8837eaa26721e40a80a60eaa420f9d2e8319a4e1ec3b192b482b94c"
+    ],
+    [
+      "6871a3994b99a7e40122f67d40f89c347d30d3a0bc121abb4e4ec64fdc0d7848",
+      "c0ac46f42230362cf4e8786eb8f3fd8605dc7f65fc07733e8e92ea6d662b18fc",
+      "50942dd81b731c6c222dd031fe9dffc324ac079fa47c23d0462bb09cff5ef7e7"
+    ],
+    [
+      "7cb5efd7cf9056ecb23c66997da20301e69c5bef09776b7c34703e109280d47d",
+      "e7ce72562c51816645c2601c72edc3e4b3a8ed1ebdee1bda6d728083d1eebb7b",
+      "743bab953b9f2b55d0614fe1e8e1e39d40db03b60b2ffa7aeea05c3df0b29b60"
+    ],
+    [
+      "13ccc4e3bec9712a0657231a92d37edd10fb497f53dcaf03b84bf0b0f9878ba2",
+      "697f12e3c600e704511b40b24787db6c610115ac6abe3b594d42f71de37e5958",
+      "187f4fe6dc24567ff1eb8e000f031b019913658bce67f5dee441066a0c47ce1c"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.9174159015287146,
+    0.8831174250061792,
+    0.7477468761196905,
+    0.7807573975105161,
+    0.1887107004394359,
+    0.7098675595565987,
+    0.33868900474598823,
+    0.2836312097024074
+  ],
+  "maximum_probability_difference": 0.0,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

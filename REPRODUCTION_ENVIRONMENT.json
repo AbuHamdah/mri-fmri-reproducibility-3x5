@@ -1,0 +1,22 @@
+{
+  "docker_image": "dyslexia-pipeline-tf212-py310:latest",
+  "docker_image_id": "sha256:1afede9925046727d60d3a374ecbe32fe6984326a7aafc08167832a7d9fb307b",
+  "python": "3.10.12",
+  "packages": {
+    "tensorflow": "2.12.0",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1",
+    "h5py": "3.16.0"
+  },
+  "network": "disabled for verification",
+  "only_host_mount": "This delivery folder mapped to /package",
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2,
+  "deterministic_ops": true,
+  "cuda_disabled": true,
+  "portable_image_archive": "environment/tf212_py310_image.tar",
+  "portable_image_archive_sha256": "16c23a54a79da80da763bbdb38181c43518a8849ff83b6f9bcf179802932c50e",
+  "native_replay_parallel_processes": 8,
+  "docker_cpu_limit": 16,
+  "docker_memory_limit": "24g"
+}

@@ -1,0 +1,42 @@
+{
+  "branches": [
+    "fmri_baseline",
+    "fmri_agentic"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "learning_rates": [
+    0.05,
+    0.15,
+    0.3
+  ],
+  "leaf_l2": [
+    0.1,
+    1.0
+  ],
+  "staged_rounds": [
+    5,
+    10,
+    20
+  ],
+  "minimum_train_children_per_leaf": 3,
+  "maximum_absolute_leaf_correction": 2.0,
+  "class_weight_rule": "n_train/(2*n_train_class), computed separately inside each current training partition; validation metrics remain unweighted",
+  "method": "Class-balanced Newton gradient-boosted decision stumps for true-label train BCE, residual to frozen parent logit,19 numeric input features",
+  "threshold_candidates": "Midpoints of current training feature values only",
+  "selection": "Validation balanced accuracy, minimum validation BCE, fewer trees, stronger leaf regularization, smaller learning rate",
+  "threshold": 0.5,
+  "current_test_fitting": false,
+  "repeatedly_examined_cohort": true,
+  "target_guarantee": false
+}

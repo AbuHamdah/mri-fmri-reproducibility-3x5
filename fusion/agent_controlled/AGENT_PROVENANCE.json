@@ -1,0 +1,13 @@
+{
+  "model": "qwen2.5:3b",
+  "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+  "actual_api_attempts": 30,
+  "successful_decisions": 30,
+  "action_counts": {
+    "continue": 27,
+    "increase_dropout": 1,
+    "reduce_lr": 2
+  },
+  "role": "Actual control of fresh fusion-head gradient training: LR, Dropout, continuation/stopping",
+  "encoders_and_original_branch_training_not_controlled": true
+}

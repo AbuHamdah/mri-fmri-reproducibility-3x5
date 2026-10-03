@@ -1,0 +1,129 @@
+{
+  "scope": "Exploratory inherited last-dense-layer fine-tuning and validation-threshold calibration.  Historical source labels do not imply new Qwen, HPO or from-scratch full-network training.",
+  "series": [
+    {
+      "series": "mri_baseline",
+      "kind": "mri",
+      "source_model": "initial_models/artifacts/consistent_v3/a/mri_baseline_pretrained_seed42_fold1/model.keras",
+      "historical_controller": "fixed"
+    },
+    {
+      "series": "mri_baseline_scratch_source",
+      "kind": "mri",
+      "source_model": "initial_models/supplemental_completion/completion_pilots_v1/mri_baseline_scratch_source/model.keras",
+      "historical_controller": "fixed"
+    },
+    {
+      "series": "mri_agentic",
+      "kind": "mri",
+      "source_model": "initial_models/artifacts/consistent_v3/a/mri_agentic_pretrained_seed42_fold1/model.keras",
+      "historical_controller": "fixed"
+    },
+    {
+      "series": "mri_agentic_scratch_source",
+      "kind": "mri",
+      "source_model": "initial_models/supplemental_completion/completion_pilots_v1/mri_agentic_scratch_source/model.keras",
+      "historical_controller": "fixed"
+    },
+    {
+      "series": "mri_rule",
+      "kind": "mri",
+      "source_model": "initial_models/artifacts/consistent_v3/a/mri_rule_pretrained_seed42_fold1/model.keras",
+      "historical_controller": "rule"
+    },
+    {
+      "series": "mri_random",
+      "kind": "mri",
+      "source_model": "initial_models/artifacts/consistent_v3/a/mri_random_pretrained_seed42_fold1/model.keras",
+      "historical_controller": "random"
+    },
+    {
+      "series": "mri_optuna",
+      "kind": "mri",
+      "source_model": "initial_models/supplemental_completion/completion_pilots_v1/mri_optuna_head/model.keras",
+      "historical_controller": "optuna"
+    },
+    {
+      "series": "fmri_baseline",
+      "kind": "fmri",
+      "source_model": "initial_models/artifacts/consistent_v3/pretrained_dense_repair_v2/cpu_a/fmri_baseline_external_pretrained_no_stc_seed42_fold1/model.keras",
+      "historical_controller": "fixed"
+    },
+    {
+      "series": "fmri_baseline_scratch_source",
+      "kind": "fmri",
+      "source_model": "initial_models/supplemental_completion/completion_pilots_v1/fmri_baseline_scratch_source/model.keras",
+      "historical_controller": "fixed"
+    },
+    {
+      "series": "fmri_agentic",
+      "kind": "fmri",
+      "source_model": "initial_models/artifacts/consistent_v3/pretrained_dense_repair_v2/cpu_a/fmri_agentic_external_pretrained_no_stc_seed42_fold1/model.keras",
+      "historical_controller": "fixed"
+    },
+    {
+      "series": "fmri_agentic_scratch_source",
+      "kind": "fmri",
+      "source_model": "initial_models/supplemental_completion/completion_pilots_v1/fmri_agentic_scratch_source/model.keras",
+      "historical_controller": "fixed"
+    },
+    {
+      "series": "fmri_rule",
+      "kind": "fmri",
+      "source_model": "initial_models/artifacts/consistent_v3/a/fmri_rule_from_scratch_ablation_seed42_fold1/model.keras",
+      "historical_controller": "rule"
+    },
+    {
+      "series": "fmri_random",
+      "kind": "fmri",
+      "source_model": "initial_models/artifacts/consistent_v3/a/fmri_random_from_scratch_ablation_seed42_fold1/model.keras",
+      "historical_controller": "random"
+    },
+    {
+      "series": "fmri_optuna",
+      "kind": "fmri",
+      "source_model": "initial_models/supplemental_completion/completion_pilots_v1/fmri_optuna_head/model.keras",
+      "historical_controller": "optuna"
+    }
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "epochs": 50,
+  "learning_rate": 0.0001,
+  "batch_size": 8,
+  "checkpoint_selection": "minimum subject-level validation BCE including epoch0",
+  "threshold_selection": "maximum validation F1, then validation balanced accuracy, then closest to 0.5, then larger threshold",
+  "fmri_aggregation": "Mean of three run probabilities per child; training on run samples with equal counts per child.",
+  "mri_trainable": [
+    "features128",
+    "prediction"
+  ],
+  "fmri_trainable": [
+    "dense64",
+    "prediction"
+  ],
+  "dropout": "Inactive; preceding encoder, including BiLSTM for fMRI, frozen.",
+  "fusion_methods": [
+    "equal_soft_voting",
+    "fixed_weighted",
+    "validation_weighted",
+    "hard_voting",
+    "stacking",
+    "feature"
+  ],
+  "fusion_scope": "baseline and agentic paired branches, 15 partitions each. Stacking uses in-sample branch training predictions, not nested OOF. Feature fusion uses trained branch embeddings. ",
+  "fusion_head_epochs": 50,
+  "fusion_head_learning_rate": 0.001,
+  "all_runs_retained": true,
+  "reuse_mri_baseline": "Verified complete 15-run prior last-layer experiment copied without retraining."
+}

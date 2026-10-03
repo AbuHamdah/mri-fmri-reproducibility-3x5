@@ -1,0 +1,83 @@
+{
+  "threshold": 0.5,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.17751527577638626,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.2630827724933624,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.4868227392435074,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.7083176076412201,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.7804511189460754,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.867016613483429,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8571428571428571,
+    "kappa": 0.7692307692307692,
+    "auc": 0.75,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.11660019050668383,
+    "ece": 0.18394219047493404
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8571428571428571,
+    "kappa": 0.7692307692307692,
+    "auc": 0.75,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.11660019050668383,
+    "ece": 0.18394219047493404
+  },
+  "test_n": 9,
+  "fixed_correct": 8,
+  "calibrated_correct": 8,
+  "series": "mri_rule",
+  "seed": 42,
+  "fold": 1,
+  "selected_epoch": 0,
+  "model_sha256": "989b1d2f79a23a33d4a142d3dea56c673f79936484b6d538683cb880642faa34",
+  "reload_max_difference": 1.710653305053711e-05,
+  "seconds": 10.68221402168274,
+  "source_model": "initial_models/artifacts/consistent_v3/a/mri_rule_pretrained_seed42_fold1/model.keras"
+}

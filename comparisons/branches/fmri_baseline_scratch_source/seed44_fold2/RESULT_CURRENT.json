@@ -1,0 +1,83 @@
+{
+  "threshold": 0.5,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.10826468046129498,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.1523404675552564,
+      "f1": 0.5,
+      "balanced_accuracy": 0.4583333333333333
+    },
+    {
+      "threshold": 0.18368039150558974,
+      "f1": 0.5714285714285714,
+      "balanced_accuracy": 0.5833333333333333
+    },
+    {
+      "threshold": 0.23370962433829573,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.5276240264842773,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.8527088912132434,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.7777777777777778,
+    "f1": 0.6666666666666666,
+    "kappa": 0.5263157894736842,
+    "auc": 0.7,
+    "precision": 1.0,
+    "recall": 0.5,
+    "specificity": 1.0,
+    "brier": 0.18930437473090792,
+    "ece": 0.2606287675044201
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.7777777777777778,
+    "f1": 0.6666666666666666,
+    "kappa": 0.5263157894736842,
+    "auc": 0.7,
+    "precision": 1.0,
+    "recall": 0.5,
+    "specificity": 1.0,
+    "brier": 0.18930437473090792,
+    "ece": 0.2606287675044201
+  },
+  "test_n": 9,
+  "fixed_correct": 7,
+  "calibrated_correct": 7,
+  "series": "fmri_baseline_scratch_source",
+  "seed": 44,
+  "fold": 2,
+  "selected_epoch": 0,
+  "model_sha256": "1db340a7a7907ba9dd2aeb5e28b824bdc384d44f502a6ab45293f1701fc6670a",
+  "reload_max_difference": 0.0,
+  "seconds": 25.00660800933838,
+  "source_model": "initial_models/supplemental_completion/completion_pilots_v1/fmri_baseline_scratch_source/model.keras"
+}

@@ -1,0 +1,12 @@
+{
+  "mode": "agentic",
+  "method": "stacking_logit",
+  "seed": 44,
+  "fold": 4,
+  "model": "fusion/agentic/stacking_logit/seed44_fold4/model.keras",
+  "model_sha256": "9596c5b0597acd91f6112a9afa26d87b8b6fec3f5bc25610bf0cfdba5dab39f6",
+  "all_subjects": 42,
+  "maximum_probability_difference": 1.1102230246251565e-16,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

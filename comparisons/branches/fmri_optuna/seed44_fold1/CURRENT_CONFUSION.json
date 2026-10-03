@@ -1,0 +1,36 @@
+{
+  "seed": 44,
+  "fold": 1,
+  "series": "fmri_optuna",
+  "test_n": 9,
+  "threshold": 0.614744718340429,
+  "confusion_matrix": {
+    "TP": 4,
+    "TN": 4,
+    "FP": 1,
+    "FN": 0
+  },
+  "false_negatives": [],
+  "false_positives": [
+    {
+      "subject_id": "sub-047EPKL014029",
+      "true_label": 0,
+      "probability": 0.6216202120806463,
+      "run_probabilities": [
+        0.6258826087730058,
+        0.6130954186959273,
+        0.6258826087730058
+      ],
+      "input_paths": [
+        "inputs/fmri/sub-047EPKL014029_run01.npy",
+        "inputs/fmri/sub-047EPKL014029_run02.npy",
+        "inputs/fmri/sub-047EPKL014029_run03.npy"
+      ],
+      "seed": 44,
+      "test_fold": 1,
+      "model_id": "fmri_optuna_seed44_fold1",
+      "selected_threshold": 0.614744718340429,
+      "predicted_label": 1
+    }
+  ]
+}

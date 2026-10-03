@@ -1,0 +1,406 @@
+[
+  {
+    "mri_weight": 0.0,
+    "validation_bce": 0.2832761530715965
+  },
+  {
+    "mri_weight": 0.01,
+    "validation_bce": 0.28279177504327874
+  },
+  {
+    "mri_weight": 0.02,
+    "validation_bce": 0.28231261159405513
+  },
+  {
+    "mri_weight": 0.03,
+    "validation_bce": 0.2818386118105366
+  },
+  {
+    "mri_weight": 0.04,
+    "validation_bce": 0.28136972566981494
+  },
+  {
+    "mri_weight": 0.05,
+    "validation_bce": 0.2809059040197967
+  },
+  {
+    "mri_weight": 0.06,
+    "validation_bce": 0.28044709856008443
+  },
+  {
+    "mri_weight": 0.07,
+    "validation_bce": 0.2799932618233889
+  },
+  {
+    "mri_weight": 0.08,
+    "validation_bce": 0.27954434715745324
+  },
+  {
+    "mri_weight": 0.09,
+    "validation_bce": 0.27910030870747315
+  },
+  {
+    "mri_weight": 0.1,
+    "validation_bce": 0.27866110139899575
+  },
+  {
+    "mri_weight": 0.11,
+    "validation_bce": 0.2782266809212837
+  },
+  {
+    "mri_weight": 0.12,
+    "validation_bce": 0.277797003711128
+  },
+  {
+    "mri_weight": 0.13,
+    "validation_bce": 0.2773720269370948
+  },
+  {
+    "mri_weight": 0.14,
+    "validation_bce": 0.27695170848419404
+  },
+  {
+    "mri_weight": 0.15,
+    "validation_bce": 0.2765360069389552
+  },
+  {
+    "mri_weight": 0.16,
+    "validation_bce": 0.27612488157489745
+  },
+  {
+    "mri_weight": 0.17,
+    "validation_bce": 0.2757182923383828
+  },
+  {
+    "mri_weight": 0.18,
+    "validation_bce": 0.2753161998348387
+  },
+  {
+    "mri_weight": 0.19,
+    "validation_bce": 0.2749185653153405
+  },
+  {
+    "mri_weight": 0.2,
+    "validation_bce": 0.27452535066354106
+  },
+  {
+    "mri_weight": 0.21,
+    "validation_bce": 0.2741365183829376
+  },
+  {
+    "mri_weight": 0.22,
+    "validation_bce": 0.27375203158446576
+  },
+  {
+    "mri_weight": 0.23,
+    "validation_bce": 0.2733718539744098
+  },
+  {
+    "mri_weight": 0.24,
+    "validation_bce": 0.2729959498426211
+  },
+  {
+    "mri_weight": 0.25,
+    "validation_bce": 0.27262428405103406
+  },
+  {
+    "mri_weight": 0.26,
+    "validation_bce": 0.27225682202247115
+  },
+  {
+    "mri_weight": 0.27,
+    "validation_bce": 0.2718935297297292
+  },
+  {
+    "mri_weight": 0.28,
+    "validation_bce": 0.2715343736849369
+  },
+  {
+    "mri_weight": 0.29,
+    "validation_bce": 0.2711793209291776
+  },
+  {
+    "mri_weight": 0.3,
+    "validation_bce": 0.2708283390223677
+  },
+  {
+    "mri_weight": 0.31,
+    "validation_bce": 0.27048139603338467
+  },
+  {
+    "mri_weight": 0.32,
+    "validation_bce": 0.27013846053043633
+  },
+  {
+    "mri_weight": 0.33,
+    "validation_bce": 0.26979950157166577
+  },
+  {
+    "mri_weight": 0.34,
+    "validation_bce": 0.2694644886959828
+  },
+  {
+    "mri_weight": 0.35,
+    "validation_bce": 0.26913339191411856
+  },
+  {
+    "mri_weight": 0.36,
+    "validation_bce": 0.26880618169989445
+  },
+  {
+    "mri_weight": 0.37,
+    "validation_bce": 0.2684828289817002
+  },
+  {
+    "mri_weight": 0.38,
+    "validation_bce": 0.2681633051341755
+  },
+  {
+    "mri_weight": 0.39,
+    "validation_bce": 0.26784758197008907
+  },
+  {
+    "mri_weight": 0.4,
+    "validation_bce": 0.26753563173240913
+  },
+  {
+    "mri_weight": 0.41,
+    "validation_bce": 0.267227427086562
+  },
+  {
+    "mri_weight": 0.42,
+    "validation_bce": 0.26692294111287024
+  },
+  {
+    "mri_weight": 0.43,
+    "validation_bce": 0.26662214729916944
+  },
+  {
+    "mri_weight": 0.44,
+    "validation_bce": 0.26632501953359483
+  },
+  {
+    "mri_weight": 0.45,
+    "validation_bce": 0.26603153209753655
+  },
+  {
+    "mri_weight": 0.46,
+    "validation_bce": 0.2657416596587557
+  },
+  {
+    "mri_weight": 0.47,
+    "validation_bce": 0.26545537726466034
+  },
+  {
+    "mri_weight": 0.48,
+    "validation_bce": 0.26517266033573367
+  },
+  {
+    "mri_weight": 0.49,
+    "validation_bce": 0.26489348465911344
+  },
+  {
+    "mri_weight": 0.5,
+    "validation_bce": 0.26461782638231596
+  },
+  {
+    "mri_weight": 0.51,
+    "validation_bce": 0.2643456620071026
+  },
+  {
+    "mri_weight": 0.52,
+    "validation_bce": 0.2640769683834844
+  },
+  {
+    "mri_weight": 0.53,
+    "validation_bce": 0.26381172270386116
+  },
+  {
+    "mri_weight": 0.54,
+    "validation_bce": 0.26354990249729177
+  },
+  {
+    "mri_weight": 0.55,
+    "validation_bce": 0.2632914856238918
+  },
+  {
+    "mri_weight": 0.56,
+    "validation_bce": 0.2630364502693557
+  },
+  {
+    "mri_weight": 0.57,
+    "validation_bce": 0.26278477493959984
+  },
+  {
+    "mri_weight": 0.58,
+    "validation_bce": 0.2625364384555243
+  },
+  {
+    "mri_weight": 0.59,
+    "validation_bce": 0.2622914199478888
+  },
+  {
+    "mri_weight": 0.6,
+    "validation_bce": 0.26204969885230117
+  },
+  {
+    "mri_weight": 0.61,
+    "validation_bce": 0.26181125490431517
+  },
+  {
+    "mri_weight": 0.62,
+    "validation_bce": 0.26157606813463474
+  },
+  {
+    "mri_weight": 0.63,
+    "validation_bce": 0.2613441188644217
+  },
+  {
+    "mri_weight": 0.64,
+    "validation_bce": 0.2611153877007057
+  },
+  {
+    "mri_weight": 0.65,
+    "validation_bce": 0.2608898555318916
+  },
+  {
+    "mri_weight": 0.66,
+    "validation_bce": 0.2606675035233647
+  },
+  {
+    "mri_weight": 0.67,
+    "validation_bce": 0.26044831311318867
+  },
+  {
+    "mri_weight": 0.68,
+    "validation_bce": 0.26023226600789556
+  },
+  {
+    "mri_weight": 0.69,
+    "validation_bce": 0.2600193441783654
+  },
+  {
+    "mri_weight": 0.7,
+    "validation_bce": 0.2598095298557931
+  },
+  {
+    "mri_weight": 0.71,
+    "validation_bce": 0.25960280552774023
+  },
+  {
+    "mri_weight": 0.72,
+    "validation_bce": 0.2593991539342698
+  },
+  {
+    "mri_weight": 0.73,
+    "validation_bce": 0.25919855806416303
+  },
+  {
+    "mri_weight": 0.74,
+    "validation_bce": 0.25900100115121427
+  },
+  {
+    "mri_weight": 0.75,
+    "validation_bce": 0.25880646667060375
+  },
+  {
+    "mri_weight": 0.76,
+    "validation_bce": 0.2586149383353459
+  },
+  {
+    "mri_weight": 0.77,
+    "validation_bce": 0.2584264000928113
+  },
+  {
+    "mri_weight": 0.78,
+    "validation_bce": 0.2582408361213206
+  },
+  {
+    "mri_weight": 0.79,
+    "validation_bce": 0.2580582308268088
+  },
+  {
+    "mri_weight": 0.8,
+    "validation_bce": 0.2578785688395586
+  },
+  {
+    "mri_weight": 0.81,
+    "validation_bce": 0.2577018350110002
+  },
+  {
+    "mri_weight": 0.82,
+    "validation_bce": 0.2575280144105772
+  },
+  {
+    "mri_weight": 0.83,
+    "validation_bce": 0.25735709232267684
+  },
+  {
+    "mri_weight": 0.84,
+    "validation_bce": 0.25718905424362204
+  },
+  {
+    "mri_weight": 0.85,
+    "validation_bce": 0.25702388587872577
+  },
+  {
+    "mri_weight": 0.86,
+    "validation_bce": 0.2568615731394043
+  },
+  {
+    "mri_weight": 0.87,
+    "validation_bce": 0.2567021021403496
+  },
+  {
+    "mri_weight": 0.88,
+    "validation_bce": 0.2565454591967589
+  },
+  {
+    "mri_weight": 0.89,
+    "validation_bce": 0.2563916308216199
+  },
+  {
+    "mri_weight": 0.9,
+    "validation_bce": 0.25624060372305113
+  },
+  {
+    "mri_weight": 0.91,
+    "validation_bce": 0.2560923648016956
+  },
+  {
+    "mri_weight": 0.92,
+    "validation_bce": 0.2559469011481668
+  },
+  {
+    "mri_weight": 0.93,
+    "validation_bce": 0.2558042000405459
+  },
+  {
+    "mri_weight": 0.94,
+    "validation_bce": 0.2556642489419295
+  },
+  {
+    "mri_weight": 0.95,
+    "validation_bce": 0.25552703549802597
+  },
+  {
+    "mri_weight": 0.96,
+    "validation_bce": 0.25539254753479973
+  },
+  {
+    "mri_weight": 0.97,
+    "validation_bce": 0.25526077305616307
+  },
+  {
+    "mri_weight": 0.98,
+    "validation_bce": 0.25513170024171355
+  },
+  {
+    "mri_weight": 0.99,
+    "validation_bce": 0.2550053174445162
+  },
+  {
+    "mri_weight": 1.0,
+    "validation_bce": 0.25488161318893054
+  }
+]

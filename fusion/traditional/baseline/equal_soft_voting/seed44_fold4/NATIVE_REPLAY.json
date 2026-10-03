@@ -1,0 +1,12 @@
+{
+  "mode": "baseline",
+  "method": "equal_soft_voting",
+  "seed": 44,
+  "fold": 4,
+  "model": "fusion/baseline/equal_soft_voting/seed44_fold4/model.keras",
+  "model_sha256": "ae9723775c423209cc8973c32315c73d77a79744b35937c33beb3112e3e68108",
+  "all_subjects": 42,
+  "maximum_probability_difference": 0.0,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

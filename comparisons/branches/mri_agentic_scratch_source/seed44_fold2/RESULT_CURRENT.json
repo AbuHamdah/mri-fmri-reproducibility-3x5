@@ -1,0 +1,83 @@
+{
+  "threshold": 0.5,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.10595253911305376,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.18090389922243322,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.2411060294621734,
+      "f1": 0.5714285714285714,
+      "balanced_accuracy": 0.5833333333333333
+    },
+    {
+      "threshold": 0.32578613753310864,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.6301299479127138,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.9027224848088591,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8571428571428571,
+    "kappa": 0.7692307692307692,
+    "auc": 0.9,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.11294630372278082,
+    "ece": 0.19597124134031543
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8571428571428571,
+    "kappa": 0.7692307692307692,
+    "auc": 0.9,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.11294630372278082,
+    "ece": 0.19597124134031543
+  },
+  "test_n": 9,
+  "fixed_correct": 8,
+  "calibrated_correct": 8,
+  "series": "mri_agentic_scratch_source",
+  "seed": 44,
+  "fold": 2,
+  "selected_epoch": 11,
+  "model_sha256": "1e70c7d5ad56b7300441fb0d3ef174c5cc177f1c8b16d327be366af22f33d8c9",
+  "reload_max_difference": 6.469286378929517e-06,
+  "seconds": 9.761199235916138,
+  "source_model": "initial_models/supplemental_completion/completion_pilots_v1/mri_agentic_scratch_source/model.keras"
+}

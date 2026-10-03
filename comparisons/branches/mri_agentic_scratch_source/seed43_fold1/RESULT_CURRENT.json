@@ -1,0 +1,83 @@
+{
+  "threshold": 0.5,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.12981417614139096,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.20385699463512802,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.2729485353888247,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.5,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.5346752370958351,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.8083593739882684,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.9016591791662272,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8571428571428571,
+    "kappa": 0.7692307692307692,
+    "auc": 0.85,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.1216246779566594,
+    "ece": 0.15246751949388732
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8571428571428571,
+    "kappa": 0.7692307692307692,
+    "auc": 0.85,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.1216246779566594,
+    "ece": 0.15246751949388732
+  },
+  "test_n": 9,
+  "fixed_correct": 8,
+  "calibrated_correct": 8,
+  "series": "mri_agentic_scratch_source",
+  "seed": 43,
+  "fold": 1,
+  "selected_epoch": 38,
+  "model_sha256": "a5f6642dfa4f8154b767f1ad7f3817c2bb65b75cd53b27d4c7688ba3da0109ac",
+  "reload_max_difference": 7.75959776735946e-06,
+  "seconds": 9.954380989074707,
+  "source_model": "initial_models/supplemental_completion/completion_pilots_v1/mri_agentic_scratch_source/model.keras"
+}

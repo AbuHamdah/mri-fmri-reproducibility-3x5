@@ -1,0 +1,102 @@
+[
+  {
+    "path": "branches\\fmri_baseline\\seed42_fold1\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim."
+  },
+  {
+    "path": "branches\\mri_baseline\\seed42_fold1\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.042348861694336
+  },
+  {
+    "path": "branches\\mri_baseline\\seed42_fold2\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.121444702148438
+  },
+  {
+    "path": "branches\\mri_baseline\\seed42_fold3\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 8.923823118209839
+  },
+  {
+    "path": "branches\\mri_baseline\\seed42_fold4\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 8.951318264007568
+  },
+  {
+    "path": "branches\\mri_baseline\\seed42_fold5\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 8.760875463485718
+  },
+  {
+    "path": "branches\\mri_baseline\\seed43_fold1\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.109634160995483
+  },
+  {
+    "path": "branches\\mri_baseline\\seed43_fold2\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.076935768127441
+  },
+  {
+    "path": "branches\\mri_baseline\\seed43_fold3\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.018357992172241
+  },
+  {
+    "path": "branches\\mri_baseline\\seed43_fold4\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.07656741142273
+  },
+  {
+    "path": "branches\\mri_baseline\\seed43_fold5\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.000994205474854
+  },
+  {
+    "path": "branches\\mri_baseline\\seed44_fold1\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.267348051071167
+  },
+  {
+    "path": "branches\\mri_baseline\\seed44_fold2\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.03677225112915
+  },
+  {
+    "path": "branches\\mri_baseline\\seed44_fold3\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.175635576248169
+  },
+  {
+    "path": "branches\\mri_baseline\\seed44_fold4\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.044254541397095
+  },
+  {
+    "path": "branches\\mri_baseline\\seed44_fold5\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim.",
+    "original_pilot_stage_seconds": 9.106962203979492
+  },
+  {
+    "path": "branches\\mri_optuna\\seed43_fold2\\RESULT_CURRENT.json",
+    "original_expansion_seconds_field": 0,
+    "interpretation": "No measured original duration for reused/recovered training; not a zero training-cost claim."
+  }
+]

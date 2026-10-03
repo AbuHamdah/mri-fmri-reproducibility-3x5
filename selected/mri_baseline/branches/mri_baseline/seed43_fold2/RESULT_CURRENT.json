@@ -1,0 +1,85 @@
+{
+  "threshold": 0.5,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.13115070760250092,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.17884399741888046,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.251328743994236,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.5,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.526844933629036,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.7609212100505829,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.7866330742835999,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.7777777777777778,
+    "f1": 0.75,
+    "kappa": 0.55,
+    "auc": 0.75,
+    "precision": 0.75,
+    "recall": 0.75,
+    "specificity": 0.8,
+    "brier": 0.18027758696776386,
+    "ece": 0.3201613128185272
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.7777777777777778,
+    "f1": 0.75,
+    "kappa": 0.55,
+    "auc": 0.75,
+    "precision": 0.75,
+    "recall": 0.75,
+    "specificity": 0.8,
+    "brier": 0.18027758696776386,
+    "ece": 0.3201613128185272
+  },
+  "test_n": 9,
+  "fixed_correct": 7,
+  "calibrated_correct": 7,
+  "series": "mri_baseline",
+  "seed": 43,
+  "fold": 2,
+  "selected_epoch": 50,
+  "model_sha256": "ccb8f324e43841e7d556acc1378281ad796230d62ceaf9bb8b0cde100066caf2",
+  "reload_max_difference": 0.0,
+  "seconds": null,
+  "source_model": "initial_models/artifacts/consistent_v3/a/mri_baseline_pretrained_seed42_fold1/model.keras",
+  "timing_scope": "Original stage duration not measured in this expansion: reused/recovered model.",
+  "original_pilot_stage_seconds": 9.076935768127441
+}

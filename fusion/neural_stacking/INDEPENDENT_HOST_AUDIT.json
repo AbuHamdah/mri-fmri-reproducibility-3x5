@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "run": "seed42_fold1",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed42_fold2",
+      "host_probability_difference": 3.725290298461914e-09
+    },
+    {
+      "run": "seed42_fold3",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed42_fold4",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed42_fold5",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed43_fold1",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed43_fold2",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed43_fold3",
+      "host_probability_difference": 9.313225746154785e-09
+    },
+    {
+      "run": "seed43_fold4",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed43_fold5",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed44_fold1",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed44_fold2",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed44_fold3",
+      "host_probability_difference": 1.4901161193847656e-08
+    },
+    {
+      "run": "seed44_fold4",
+      "host_probability_difference": 5.960464477539063e-08
+    },
+    {
+      "run": "seed44_fold5",
+      "host_probability_difference": 5.960464477539063e-08
+    }
+  ],
+  "models": 15,
+  "pooled_metrics_recalculated": 6,
+  "current_bootstrap_train_only": true,
+  "source_inputs_unchanged": true,
+  "labels_unchanged": true,
+  "all_runs_preserved": true
+}

@@ -1,0 +1,7 @@
+{
+  "status": "intentionally_stopped_for_parallel_execution",
+  "completed_result_records": 98,
+  "reason": "Full independent models were being replayed sequentially. A new eight-process native replay regenerates the same full-model outputs with the original two intra-op and two inter-op TensorFlow threads per process. All partial execution evidence was retained.",
+  "no_prediction_or_label_editing": true,
+  "not_a_complete_reproduction_audit": true
+}

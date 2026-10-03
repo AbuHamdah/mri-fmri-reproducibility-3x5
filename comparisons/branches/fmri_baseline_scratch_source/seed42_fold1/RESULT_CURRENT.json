@@ -1,0 +1,83 @@
+{
+  "threshold": 0.5,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.14153834911627616,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.2585211746143389,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.38604770292952106,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.5,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.6648956883212194,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.9196682907325067,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.9864038773351915,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.4444444444444444,
+    "f1": 0.5454545454545454,
+    "kappa": -0.04651162790697674,
+    "auc": 0.75,
+    "precision": 0.42857142857142855,
+    "recall": 0.75,
+    "specificity": 0.2,
+    "brier": 0.39333502007274734,
+    "ece": 0.4510148785420224
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.4444444444444444,
+    "f1": 0.5454545454545454,
+    "kappa": -0.04651162790697674,
+    "auc": 0.75,
+    "precision": 0.42857142857142855,
+    "recall": 0.75,
+    "specificity": 0.2,
+    "brier": 0.39333502007274734,
+    "ece": 0.4510148785420224
+  },
+  "test_n": 9,
+  "fixed_correct": 4,
+  "calibrated_correct": 4,
+  "series": "fmri_baseline_scratch_source",
+  "seed": 42,
+  "fold": 1,
+  "selected_epoch": 3,
+  "model_sha256": "66d2073ed04c6fd65f8cc1efc6dc3621cd32b496a2b8297341ec3303837cb416",
+  "reload_max_difference": 0.0,
+  "seconds": 25.843495845794678,
+  "source_model": "initial_models/supplemental_completion/completion_pilots_v1/fmri_baseline_scratch_source/model.keras"
+}

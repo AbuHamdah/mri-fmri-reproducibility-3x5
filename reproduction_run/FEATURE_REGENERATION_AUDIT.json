@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "kind": "mri",
+      "children": 42,
+      "processed_inputs": 42,
+      "maximum_feature_difference": 0.0
+    },
+    {
+      "kind": "fmri",
+      "children": 42,
+      "processed_inputs": 126,
+      "maximum_feature_difference": 0.0
+    }
+  ],
+  "raw_nifti_reprocessed": false
+}

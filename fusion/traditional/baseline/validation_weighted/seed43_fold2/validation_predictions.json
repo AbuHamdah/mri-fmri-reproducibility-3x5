@@ -1,0 +1,93 @@
+[
+  {
+    "subject_id": "sub-047EPKL011005",
+    "true_label": 1,
+    "probability": 0.7394301295280457,
+    "seed": 43,
+    "test_fold": 2,
+    "method": "validation_weighted",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL011012",
+    "true_label": 1,
+    "probability": 0.7908538579940796,
+    "seed": 43,
+    "test_fold": 2,
+    "method": "validation_weighted",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL012014",
+    "true_label": 1,
+    "probability": 0.7824122905731201,
+    "seed": 43,
+    "test_fold": 2,
+    "method": "validation_weighted",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL014020",
+    "true_label": 0,
+    "probability": 0.16929024457931519,
+    "seed": 43,
+    "test_fold": 2,
+    "method": "validation_weighted",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014036",
+    "true_label": 0,
+    "probability": 0.18839775025844574,
+    "seed": 43,
+    "test_fold": 2,
+    "method": "validation_weighted",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014037",
+    "true_label": 0,
+    "probability": 0.09301117062568665,
+    "seed": 43,
+    "test_fold": 2,
+    "method": "validation_weighted",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014039",
+    "true_label": 0,
+    "probability": 0.31425973773002625,
+    "seed": 43,
+    "test_fold": 2,
+    "method": "validation_weighted",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  }
+]

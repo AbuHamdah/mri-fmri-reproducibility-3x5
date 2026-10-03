@@ -1,0 +1,83 @@
+{
+  "threshold": 0.14181550964713097,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.11558513715863228,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.14181550964713097,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.20582818239927292,
+      "f1": 0.5714285714285714,
+      "balanced_accuracy": 0.5833333333333333
+    },
+    {
+      "threshold": 0.4405105412006378,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.6489249467849731,
+      "f1": 0.4,
+      "balanced_accuracy": 0.5416666666666666
+    },
+    {
+      "threshold": 0.7891456782817841,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "kappa": 1.0,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "brier": 0.04780561362186825,
+    "ece": 0.2025224231183529
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.625,
+    "f1": 0.7272727272727273,
+    "kappa": 0.25,
+    "auc": 1.0,
+    "precision": 0.5714285714285714,
+    "recall": 1.0,
+    "specificity": 0.25,
+    "brier": 0.04780561362186825,
+    "ece": 0.2025224231183529
+  },
+  "test_n": 8,
+  "fixed_correct": 8,
+  "calibrated_correct": 5,
+  "series": "mri_rule",
+  "seed": 42,
+  "fold": 4,
+  "selected_epoch": 32,
+  "model_sha256": "903fa3d8b65c6cb5b6fd55d4ff224f7ff289dcd669c6c24d711f7a5be33c4c56",
+  "reload_max_difference": 2.396106719970703e-05,
+  "seconds": 9.81896424293518,
+  "source_model": "initial_models/artifacts/consistent_v3/a/mri_rule_pretrained_seed42_fold1/model.keras"
+}

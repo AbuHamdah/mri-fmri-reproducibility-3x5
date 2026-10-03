@@ -1,0 +1,83 @@
+{
+  "threshold": 0.16522473376244307,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.1484819552861154,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.16522473376244307,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.20982859035332999,
+      "f1": 0.5714285714285714,
+      "balanced_accuracy": 0.5833333333333333
+    },
+    {
+      "threshold": 0.46607247988382977,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.6983498235543568,
+      "f1": 0.4,
+      "balanced_accuracy": 0.5416666666666666
+    },
+    {
+      "threshold": 0.7726806998252869,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "kappa": 1.0,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "brier": 0.05535376496383243,
+    "ece": 0.21707758140595013
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.75,
+    "f1": 0.8,
+    "kappa": 0.5,
+    "auc": 1.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "specificity": 0.5,
+    "brier": 0.05535376496383243,
+    "ece": 0.21707758140595013
+  },
+  "test_n": 8,
+  "fixed_correct": 8,
+  "calibrated_correct": 6,
+  "series": "fmri_rule",
+  "seed": 42,
+  "fold": 4,
+  "selected_epoch": 0,
+  "model_sha256": "3ddd0df8a33ca0ad27935692db5d4c00cf0609fcc673b403fbc84248ce0bb7f0",
+  "reload_max_difference": 0.0,
+  "seconds": 24.717015027999878,
+  "source_model": "initial_models/artifacts/consistent_v3/a/fmri_rule_from_scratch_ablation_seed42_fold1/model.keras"
+}

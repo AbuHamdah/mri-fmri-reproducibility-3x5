@@ -1,0 +1,83 @@
+{
+  "threshold": 0.7468165059884389,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.19475645494336885,
+      "f1": 0.4444444444444444,
+      "balanced_accuracy": 0.3333333333333333
+    },
+    {
+      "threshold": 0.23757161122436324,
+      "f1": 0.5,
+      "balanced_accuracy": 0.4583333333333333
+    },
+    {
+      "threshold": 0.2961606088404854,
+      "f1": 0.5714285714285714,
+      "balanced_accuracy": 0.5833333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5221030889078975,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.7468165059884389,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.8224958578745525,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "kappa": 1.0,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "brier": 0.03292983816550754,
+    "ece": 0.17041782646750409
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.875,
+    "f1": 0.8571428571428571,
+    "kappa": 0.75,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 0.75,
+    "specificity": 1.0,
+    "brier": 0.03292983816550754,
+    "ece": 0.17041782646750409
+  },
+  "test_n": 8,
+  "fixed_correct": 8,
+  "calibrated_correct": 7,
+  "series": "fmri_rule",
+  "seed": 44,
+  "fold": 5,
+  "selected_epoch": 0,
+  "model_sha256": "ec14d5840ca89e4d9c959952c49372f8ec198756a2599722c4625804a6edfe4f",
+  "reload_max_difference": 0.0,
+  "seconds": 24.650591135025024,
+  "source_model": "initial_models/artifacts/consistent_v3/a/fmri_rule_from_scratch_ablation_seed42_fold1/model.keras"
+}

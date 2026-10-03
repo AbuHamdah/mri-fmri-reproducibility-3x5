@@ -1,0 +1,279 @@
+{
+  "passed": true,
+  "selected_models": 30,
+  "all_subject_head_predictions": 1260,
+  "model_records": [
+    {
+      "branch": "fmri_baseline",
+      "seed": 42,
+      "fold": 1,
+      "children": 42,
+      "maximum_probability_difference": 2.220446049250313e-16,
+      "all_classifications_match": true,
+      "model_sha256": "69937c2b7cfea3fe7db6fb49787f1a19ac5ddeb1a2c17a6cfbd0e90dfe953296"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 42,
+      "fold": 2,
+      "children": 42,
+      "maximum_probability_difference": 1.2212453270876722e-15,
+      "all_classifications_match": true,
+      "model_sha256": "0339540b229840d508d64f67f5cd1ddbc2b49e012772ed8d3f980a6e9c4fc49a"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 42,
+      "fold": 3,
+      "children": 42,
+      "maximum_probability_difference": 1.3877787807814457e-16,
+      "all_classifications_match": true,
+      "model_sha256": "eec787d8315513e047d053114010c1fc178035158f7d159c7bc0c6092653210f"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 42,
+      "fold": 4,
+      "children": 42,
+      "maximum_probability_difference": 2.220446049250313e-16,
+      "all_classifications_match": true,
+      "model_sha256": "c32daa38072deb116a4abec976dd6f403ca71511dd9fbb24530a601f1564974f"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 42,
+      "fold": 5,
+      "children": 42,
+      "maximum_probability_difference": 7.993605777301127e-15,
+      "all_classifications_match": true,
+      "model_sha256": "bac2c2250cff2d1202b06eb541a49113712c7bbd52d5a8e42b8b3094cf751edc"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 43,
+      "fold": 1,
+      "children": 42,
+      "maximum_probability_difference": 1.6653345369377348e-16,
+      "all_classifications_match": true,
+      "model_sha256": "e340be76090b60ed3a46ef38a663b48398a8b4b516946e39f15a9637a90153e6"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 43,
+      "fold": 2,
+      "children": 42,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "all_classifications_match": true,
+      "model_sha256": "75495b147033c2dad2550e9c1a62b9cc7ade7c757e447c2d24a8f3c2a982ce32"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 43,
+      "fold": 3,
+      "children": 42,
+      "maximum_probability_difference": 9.992007221626409e-16,
+      "all_classifications_match": true,
+      "model_sha256": "217d3ef3ab74bc6169f5aee56a0b3f1e20225b4b1fa5dc534fcc78f304492a52"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 43,
+      "fold": 4,
+      "children": 42,
+      "maximum_probability_difference": 4.773959005888173e-15,
+      "all_classifications_match": true,
+      "model_sha256": "9d48b3bc1c97a675a51730f28e8d60edb45a9ec77ebf4a534d4d6319d4b9faea"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 43,
+      "fold": 5,
+      "children": 42,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "all_classifications_match": true,
+      "model_sha256": "daf5cf3f87304f4d061bd1098f377d77e7af4cf54e1207efd5d3de8baa9ed608"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 44,
+      "fold": 1,
+      "children": 42,
+      "maximum_probability_difference": 1.7208456881689926e-14,
+      "all_classifications_match": true,
+      "model_sha256": "fbe87d21acae50f5414880f7d5adb842e644c88bd4c8d3229b33a4b9d0658367"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 44,
+      "fold": 2,
+      "children": 42,
+      "maximum_probability_difference": 2.9698465908722937e-15,
+      "all_classifications_match": true,
+      "model_sha256": "fdc06d589e42b651d9069418bf390d02168fa2de2536745a0f8ea486cfe45299"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 44,
+      "fold": 3,
+      "children": 42,
+      "maximum_probability_difference": 3.4416913763379853e-15,
+      "all_classifications_match": true,
+      "model_sha256": "f3067c1245ac0b7dc0763e2b1dbc8433a83442c91c764080458808b3999bb161"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 44,
+      "fold": 4,
+      "children": 42,
+      "maximum_probability_difference": 2.220446049250313e-16,
+      "all_classifications_match": true,
+      "model_sha256": "b1e8b09e03ef9bb2b10ef8f26b82c4fbf1eef5e48620f6efd20aaa29bd0fa7f1"
+    },
+    {
+      "branch": "fmri_baseline",
+      "seed": 44,
+      "fold": 5,
+      "children": 42,
+      "maximum_probability_difference": 4.9960036108132044e-15,
+      "all_classifications_match": true,
+      "model_sha256": "89940a782803b8005301fdd201da178337e32e7d190224f178a671be8631c9da"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 42,
+      "fold": 1,
+      "children": 42,
+      "maximum_probability_difference": 2.220446049250313e-16,
+      "all_classifications_match": true,
+      "model_sha256": "117a79ba25adae425a633c8d38aa4144c3e90894bf5b0bc41a3b72e57c76839d"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 42,
+      "fold": 2,
+      "children": 42,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "all_classifications_match": true,
+      "model_sha256": "a4413d7409c7dfde4bf06aa9b998bdfc99e16de715bea9d32094607649386124"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 42,
+      "fold": 3,
+      "children": 42,
+      "maximum_probability_difference": 2.6645352591003757e-15,
+      "all_classifications_match": true,
+      "model_sha256": "50faeb3281fa5c1f3413fe0520619639d4e9a9e0819f2efaf3e9d923ef2f1c2a"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 42,
+      "fold": 4,
+      "children": 42,
+      "maximum_probability_difference": 2.220446049250313e-16,
+      "all_classifications_match": true,
+      "model_sha256": "4fc5876181f49c7e69ecebbd42584c06edda19b0c2f73377d66c39fbe886ae6e"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 42,
+      "fold": 5,
+      "children": 42,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "all_classifications_match": true,
+      "model_sha256": "78c807f5801ea29aa0a9aa4ac42ef34292a9fe9ace53d9bffe9e5a30d90be2cf"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 43,
+      "fold": 1,
+      "children": 42,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "all_classifications_match": true,
+      "model_sha256": "377d81eaee76d83e52a1cc975a2d9539fdd465f27a3681e0539f5d771f48156c"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 43,
+      "fold": 2,
+      "children": 42,
+      "maximum_probability_difference": 4.191091917959966e-15,
+      "all_classifications_match": true,
+      "model_sha256": "8e595646f962cc6a4dd6ae33dacc88960b4be2bc81eb806ccb03082218f53973"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 43,
+      "fold": 3,
+      "children": 42,
+      "maximum_probability_difference": 1.7763568394002505e-15,
+      "all_classifications_match": true,
+      "model_sha256": "6713440f65b1fb52e0588b054a20513637b611dace45aa27eb306cfdd1498915"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 43,
+      "fold": 4,
+      "children": 42,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "all_classifications_match": true,
+      "model_sha256": "bef3406da9560373c7475b67dfbb3d95a976696ea08b3776bd389c83050fd095"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 43,
+      "fold": 5,
+      "children": 42,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "all_classifications_match": true,
+      "model_sha256": "b5a3fa46085a7e8d6ec8633ac82be0745aed16730c7827c0dc497041bbae1b45"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 44,
+      "fold": 1,
+      "children": 42,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "all_classifications_match": true,
+      "model_sha256": "ee9faf5b5407bf2ff3e7f72f3c36b279534f0b36ac48dd2016507ac236aea93b"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 44,
+      "fold": 2,
+      "children": 42,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "all_classifications_match": true,
+      "model_sha256": "425ff1f935f9660a245505042f79999a9c6097b2077bfcf9492571f481893017"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 44,
+      "fold": 3,
+      "children": 42,
+      "maximum_probability_difference": 1.9984014443252818e-15,
+      "all_classifications_match": true,
+      "model_sha256": "f38a72a80d08e1ef1c9a58c037c6f9dd5188a64b0cc19f0e314e3d7da2b76ba2"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 44,
+      "fold": 4,
+      "children": 42,
+      "maximum_probability_difference": 2.275957200481571e-15,
+      "all_classifications_match": true,
+      "model_sha256": "6b65bc3f63398771bf9a2e488042cdd1c762733cabd8d21936ffe9214bc21dcc"
+    },
+    {
+      "branch": "fmri_agentic",
+      "seed": 44,
+      "fold": 5,
+      "children": 42,
+      "maximum_probability_difference": 8.548717289613705e-15,
+      "all_classifications_match": true,
+      "model_sha256": "8e6f3f6f04e87d08f13fe5fb07d5316e211e1c535e725b89c190dd1a6a9252d4"
+    }
+  ],
+  "actual_seconds": 21.187869548797607,
+  "scope": "All selected saved Keras heads on preserved native source probabilities. Parent/input native replay is inherited and separately audited; not raw NIfTI replay or independentCV."
+}

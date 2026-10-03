@@ -1,0 +1,281 @@
+{
+  "passed": true,
+  "changed_adapters": 30,
+  "replays": [
+    {
+      "seed": 42,
+      "fold": 1,
+      "kind": "mri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 42,
+      "fold": 1,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 42,
+      "fold": 2,
+      "kind": "mri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 42,
+      "fold": 2,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 42,
+      "fold": 3,
+      "kind": "mri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 42,
+      "fold": 3,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 42,
+      "fold": 4,
+      "kind": "mri",
+      "max_host_replay_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 42,
+      "fold": 4,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 42,
+      "fold": 5,
+      "kind": "mri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 42,
+      "fold": 5,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 43,
+      "fold": 1,
+      "kind": "mri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 43,
+      "fold": 1,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 43,
+      "fold": 2,
+      "kind": "mri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 43,
+      "fold": 2,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 43,
+      "fold": 3,
+      "kind": "mri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 43,
+      "fold": 3,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 43,
+      "fold": 4,
+      "kind": "mri",
+      "max_host_replay_difference": 8.940696716308594e-08
+    },
+    {
+      "seed": 43,
+      "fold": 4,
+      "kind": "fmri",
+      "max_host_replay_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 43,
+      "fold": 5,
+      "kind": "mri",
+      "max_host_replay_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 43,
+      "fold": 5,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 44,
+      "fold": 1,
+      "kind": "mri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 44,
+      "fold": 1,
+      "kind": "fmri",
+      "max_host_replay_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 44,
+      "fold": 2,
+      "kind": "mri",
+      "max_host_replay_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 44,
+      "fold": 2,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 44,
+      "fold": 3,
+      "kind": "mri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 44,
+      "fold": 3,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    },
+    {
+      "seed": 44,
+      "fold": 4,
+      "kind": "mri",
+      "max_host_replay_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 44,
+      "fold": 4,
+      "kind": "fmri",
+      "max_host_replay_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 44,
+      "fold": 5,
+      "kind": "mri",
+      "max_host_replay_difference": 1.1920928955078125e-07
+    },
+    {
+      "seed": 44,
+      "fold": 5,
+      "kind": "fmri",
+      "max_host_replay_difference": 5.960464477539063e-08
+    }
+  ],
+  "pooled_recalculations": [
+    {
+      "seed": 42,
+      "method": "VOTING",
+      "metrics": {
+        "accuracy": 0.9523809523809523,
+        "f1": 0.95,
+        "kappa": 0.9045454545454544,
+        "auc": 0.9568181818181818,
+        "precision": 0.95,
+        "recall": 0.95,
+        "specificity": 0.9545454545454546,
+        "brier": 0.07348854209566667,
+        "ece": 0.17204320024965067
+      }
+    },
+    {
+      "seed": 42,
+      "method": "STACKING",
+      "metrics": {
+        "accuracy": 0.9523809523809523,
+        "f1": 0.95,
+        "kappa": 0.9045454545454544,
+        "auc": 0.9522727272727273,
+        "precision": 0.95,
+        "recall": 0.95,
+        "specificity": 0.9545454545454546,
+        "brier": 0.05508290744999688,
+        "ece": 0.065296581798884
+      }
+    },
+    {
+      "seed": 43,
+      "method": "VOTING",
+      "metrics": {
+        "accuracy": 0.9047619047619048,
+        "f1": 0.9,
+        "kappa": 0.8090909090909091,
+        "auc": 0.9727272727272728,
+        "precision": 0.9,
+        "recall": 0.9,
+        "specificity": 0.9090909090909091,
+        "brier": 0.08258079529734594,
+        "ece": 0.1372083364320653
+      }
+    },
+    {
+      "seed": 43,
+      "method": "STACKING",
+      "metrics": {
+        "accuracy": 0.9047619047619048,
+        "f1": 0.9,
+        "kappa": 0.8090909090909091,
+        "auc": 0.9659090909090909,
+        "precision": 0.9,
+        "recall": 0.9,
+        "specificity": 0.9090909090909091,
+        "brier": 0.07243763407129558,
+        "ece": 0.0937964022371583
+      }
+    },
+    {
+      "seed": 44,
+      "method": "VOTING",
+      "metrics": {
+        "accuracy": 0.9047619047619048,
+        "f1": 0.9,
+        "kappa": 0.8090909090909091,
+        "auc": 0.9454545454545454,
+        "precision": 0.9,
+        "recall": 0.9,
+        "specificity": 0.9090909090909091,
+        "brier": 0.10427943766216756,
+        "ece": 0.16798994566003478
+      }
+    },
+    {
+      "seed": 44,
+      "method": "STACKING",
+      "metrics": {
+        "accuracy": 0.9047619047619048,
+        "f1": 0.9,
+        "kappa": 0.8090909090909091,
+        "auc": 0.9318181818181818,
+        "precision": 0.9,
+        "recall": 0.9,
+        "specificity": 0.9090909090909091,
+        "brier": 0.07610094416565684,
+        "ece": 0.0516715069983197
+      }
+    }
+  ],
+  "current_bootstrap_train_only": true,
+  "source_checkpoints_hash_unchanged": true,
+  "true_labels_unchanged": true
+}

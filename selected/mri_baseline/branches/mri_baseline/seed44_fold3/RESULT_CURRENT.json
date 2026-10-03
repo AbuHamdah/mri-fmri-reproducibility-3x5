@@ -1,0 +1,85 @@
+{
+  "threshold": 0.3030767887830734,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.19327086210250854,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.2472243383526802,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.3030767887830734,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.3814841955900192,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.6027991622686386,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.8294617235660553,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "kappa": 1.0,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "brier": 0.030330858017930173,
+    "ece": 0.17106180638074875
+  },
+  "calibrated_metrics": {
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "kappa": 1.0,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "brier": 0.030330858017930173,
+    "ece": 0.17106180638074875
+  },
+  "test_n": 8,
+  "fixed_correct": 8,
+  "calibrated_correct": 8,
+  "series": "mri_baseline",
+  "seed": 44,
+  "fold": 3,
+  "selected_epoch": 2,
+  "model_sha256": "2cbf5a22b302fb8c53bfe27763ae655c5d4645b7658b8daccde299400eb57971",
+  "reload_max_difference": 0.0,
+  "seconds": null,
+  "source_model": "initial_models/artifacts/consistent_v3/a/mri_baseline_pretrained_seed42_fold1/model.keras",
+  "timing_scope": "Original stage duration not measured in this expansion: reused/recovered model.",
+  "original_pilot_stage_seconds": 9.175635576248169
+}

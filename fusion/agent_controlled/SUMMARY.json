@@ -1,0 +1,43 @@
+{
+  "display_name": "Agent-controlled Feature Fusion — Qwen training controller",
+  "metrics": {
+    "accuracy": {
+      "mean": 0.9523809523809522,
+      "sd": 0.02380952380952378
+    },
+    "f1": {
+      "mean": 0.9503960808838858,
+      "sd": 0.023767328409750817
+    },
+    "kappa": {
+      "mean": 0.904617440266643,
+      "sd": 0.04751061688534037
+    },
+    "auc": {
+      "mean": 0.9765151515151516,
+      "sd": 0.009462118179391502
+    },
+    "precision": {
+      "mean": 0.9515873015873014,
+      "sd": 0.04763888475701244
+    },
+    "recall": {
+      "mean": 0.9499999999999998,
+      "sd": 1.3597399555105182e-16
+    },
+    "specificity": {
+      "mean": 0.9545454545454546,
+      "sd": 0.04545454545454547
+    },
+    "brier": {
+      "mean": 0.06655630733050516,
+      "sd": 0.0133845529309166
+    },
+    "ece": {
+      "mean": 0.1553684419227971,
+      "sd": 0.004612850291305664
+    }
+  },
+  "successful_agent_decisions": 30,
+  "agent_role": "Actual control of learning rate, dropout and stopping during new gradient training"
+}

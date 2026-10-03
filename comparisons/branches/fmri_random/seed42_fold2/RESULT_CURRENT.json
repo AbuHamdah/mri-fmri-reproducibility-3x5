@@ -1,0 +1,83 @@
+{
+  "threshold": 0.5,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.21217935656507808,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.24918629974126816,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.25977943340937293,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.4842337593436241,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.5,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.7490946849187214,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.8447025914986928,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8888888888888888,
+    "kappa": 0.7804878048780487,
+    "auc": 0.95,
+    "precision": 0.8,
+    "recall": 1.0,
+    "specificity": 0.8,
+    "brier": 0.0838680357995036,
+    "ece": 0.17934694665449635
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8888888888888888,
+    "kappa": 0.7804878048780487,
+    "auc": 0.95,
+    "precision": 0.8,
+    "recall": 1.0,
+    "specificity": 0.8,
+    "brier": 0.0838680357995036,
+    "ece": 0.17934694665449635
+  },
+  "test_n": 9,
+  "fixed_correct": 8,
+  "calibrated_correct": 8,
+  "series": "fmri_random",
+  "seed": 42,
+  "fold": 2,
+  "selected_epoch": 0,
+  "model_sha256": "e430a59b80b7dc9cc880a1cbb3ae0c8b624470a692a8b71514702963738f8e6f",
+  "reload_max_difference": 0.0,
+  "seconds": 23.963733673095703,
+  "source_model": "initial_models/artifacts/consistent_v3/a/fmri_random_from_scratch_ablation_seed42_fold1/model.keras"
+}

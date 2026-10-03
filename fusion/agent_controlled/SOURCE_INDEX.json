@@ -1,0 +1,482 @@
+[
+  {
+    "seed": 42,
+    "fold": 1,
+    "prior_file": "priors/seed42_fold1.npz",
+    "prior_sha256": "103e096a03829398b61cd8ba4b455e604aefd0ad9a27469ce08f7d9c94ef128d",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed42_fold1\\protocol.json",
+    "protocol_sha256": "6cf393440ed7e1d1a2f188d440cc3f28f3fd6ac830a886c281a45a0bf7cfb9f0",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed42_fold1\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "87a1ea0834cd7552bed434be586a41ecb5ab33ad7811014883a2362477e0151a",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold1\\model.keras",
+        "model_sha256": "bc88aea2d2286e20ae954eded5f1ccf04f8bae5f1839f8723985594e1d8934ab",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold1\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "caaf9d2f4a8a991965b6b952140d4fd7a086224f81f29b0ec15b6532f3717d2a",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold1\\SPLIT.json",
+        "split_sha256": "d2a6815b439dcb09c90c877fafe4414032551d15fde1f6c12669a8d1bbdca206"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold1\\model.keras",
+        "model_sha256": "e6720a019bab458292355416a2982aaf493b69b49e8f3b77a78208082c495246",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold1\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "163247a7e6a7c81cbae14e9569f2934e8faac5d2794927c68dc87212cd201786",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold1\\SPLIT.json",
+        "split_sha256": "18283a738e8a70c9b00d415b5e0b2a71b49427f860094a8a67af803179de5a80"
+      }
+    }
+  },
+  {
+    "seed": 42,
+    "fold": 2,
+    "prior_file": "priors/seed42_fold2.npz",
+    "prior_sha256": "531360d31ad3db9392f404a93f8b67c06eef8db68a97834aa5ff3848acfac303",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed42_fold2\\protocol.json",
+    "protocol_sha256": "50290e131d95cf4dd56df68bba1d5e7f801713726bfb950fc0a3523241a5f402",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed42_fold2\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "5caaf1f83eb239b08121a453e53f48621f9e31560660d927d7cfa367e1558824",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold2\\model.keras",
+        "model_sha256": "29013a1ee2545ce5d41420fb9ed32d12f4f8812ca69887488c16ccbc7e68c1e0",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold2\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "e6c571c534a28a4fcb4ff9f7c32086505c79e19f40b081c156911cab3c320c1c",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold2\\SPLIT.json",
+        "split_sha256": "dc8b4bbc6c05b6b419d25287b15972d448f8cbda1b865b1534992aeb3792b112"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold2\\model.keras",
+        "model_sha256": "3feaf1f9c6d16c9e8b266aa0af3149aba90e9973dcc631beba00f3ebe893d8ba",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold2\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "7453ea5ed3df4f6abb6311cad21c17aad4ce4667572a612a7e182fab2a096f77",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold2\\SPLIT.json",
+        "split_sha256": "43d6b1befa039fba003a8f7949bc0dfc93d571a43c86c4a3e56ebf663b4a3305"
+      }
+    }
+  },
+  {
+    "seed": 42,
+    "fold": 3,
+    "prior_file": "priors/seed42_fold3.npz",
+    "prior_sha256": "0c08cae43edd479cbad666cc088669bf17d6674bf9f84b41b761782d9b14909f",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed42_fold3\\protocol.json",
+    "protocol_sha256": "7ad9adf4ee72abddc30dac15442a1f8b430ff5ddd737a0d71af116683ff6b84c",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed42_fold3\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "966f80c7de2dac99843315e63c7fdded58a5af11978fd1d2113969f8931532dd",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold3\\model.keras",
+        "model_sha256": "6331d8e885a5632a2d165ba1537dffc15c6a50824503fecee958bb549fb3b7b3",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold3\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "2dafc7a619a6a03ea7e1ecb53d0bdb1f6f437a3b3535ff9f786cc7d9b8b04580",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold3\\SPLIT.json",
+        "split_sha256": "394b7e5e32e8a6730e9d7b0a2930173e191b52c4d687987abcfb095f15dbdb99"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold3\\model.keras",
+        "model_sha256": "af71688fe75467d91f113c906d2bde99fbae13bfe98a5bd130fbce2577a38bd0",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold3\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "e9aaf9934bb50149aa67d1888811a8914236ca678b56e1703593e2fd02645f74",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold3\\SPLIT.json",
+        "split_sha256": "431a3e29b3b56e5758638a02c947e15cb6becd904eccb5e2ba9b193c00dd5dd2"
+      }
+    }
+  },
+  {
+    "seed": 42,
+    "fold": 4,
+    "prior_file": "priors/seed42_fold4.npz",
+    "prior_sha256": "5f4855fc9773e010980a593cdd865c13bd41c38a601ef7efeb5a8344372e4cf5",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed42_fold4\\protocol.json",
+    "protocol_sha256": "5c8dc4cdda14067843c3dc072aae56f8b1a7b7bf87351855e6e785a169cfad7a",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed42_fold4\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "7d01371f8687b5ce15052a965cb1ccdd227dfef736c02882349f6f693ef34b21",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold4\\model.keras",
+        "model_sha256": "c4b5487d1fb6cffee03b936ea11ff98f367482a56d9658b7a5ecfba3503401eb",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold4\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "5814142b94956345da8d4ca4dec40e85bd44be5527830a7f3579f99aaec93fa3",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold4\\SPLIT.json",
+        "split_sha256": "88f917ebb7374feec7776612cca8104605f79b4827895cf0fc88d261a1459cbf"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold4\\model.keras",
+        "model_sha256": "72c9cf5d222a97ec0477ddcce1fda72d7de2947baeed9254121e66e7453048af",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold4\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "0e391983b168fb28819a0d83431d246861397acaf8ff2d9bf314c9168b728a14",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold4\\SPLIT.json",
+        "split_sha256": "a4b30ec6048e65aa9b8cc59e8674a147796266f2fda3cb88080e68fc453d5133"
+      }
+    }
+  },
+  {
+    "seed": 42,
+    "fold": 5,
+    "prior_file": "priors/seed42_fold5.npz",
+    "prior_sha256": "d8672108d014c024433d5afb8458bd8c0e7575eeedd166b49840fcfa0a642989",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed42_fold5\\protocol.json",
+    "protocol_sha256": "37bd21690744201eb145e1ffdbbb28a653b0fe8bdb9fde5561c52ad26cab5818",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed42_fold5\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "be6030d4ced3814007ff03a366afd5fe2cad937f9c56a915ddf3cbb5a4552b19",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold5\\model.keras",
+        "model_sha256": "71014064c425b38042280a0c615a7f5d582f26b49ed4b7aa88b9b1efceda393a",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold5\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "8959a54f1d90d0527e992f208162590580d214f6dc25fc10662155d7be86bb1f",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed42_fold5\\SPLIT.json",
+        "split_sha256": "8007e533b2102b6cc5bb773c55a1b60729096db1c1ab045e5c327520ad3c2410"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold5\\model.keras",
+        "model_sha256": "5902d7b40631b832fc0c88638cab3a773720e33aa5986e909c57f37b34afadb9",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold5\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "94ebda3ee6e205cd88bcf00e889862113b2b92bb1f2a2a6b5478048d719ccc05",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed42_fold5\\SPLIT.json",
+        "split_sha256": "7e80c3db55ff8a9e6c515fa1f60782dfa39b412d3c68d387328abfe094b17e82"
+      }
+    }
+  },
+  {
+    "seed": 43,
+    "fold": 1,
+    "prior_file": "priors/seed43_fold1.npz",
+    "prior_sha256": "a6f40222864df053acb091ffea90996fc624ac159cfe2b12514824c3ab9d7d5f",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed43_fold1\\protocol.json",
+    "protocol_sha256": "41c4927aa445e2cccbaa71e99985d264df1b9d49f1061f1dbfad2c95e47f22d1",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed43_fold1\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "2a7160a1bab6907774d4dd630ad7575375d417aad7e0aa1d651e36a5cff6eb62",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold1\\model.keras",
+        "model_sha256": "07dc29a6d446cdd038e0283f9aa8487a20707774199cc34992bdff4791b439a6",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold1\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "7b1f890710a3de203da0a4f146e8f8d2786cfb216a100aeca5a695cc2b7400b9",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold1\\SPLIT.json",
+        "split_sha256": "608ec657d98c7c8535777c81d4c835c17f91fb3f9969f403d33d0b8b979f7ded"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold1\\model.keras",
+        "model_sha256": "73f1e8a5f87667aa4e2e336ecf872984737d8f7d2b901b89ecdc5f50386e97e2",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold1\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "cc4d87270f19661a158975fcfc1981a3b7632d0e013186d4f74bfd8c7dfcd836",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold1\\SPLIT.json",
+        "split_sha256": "9a3c3f21cfa9486b31093dea0a96e9926a7596033c9bd3a1c659125c992ac92e"
+      }
+    }
+  },
+  {
+    "seed": 43,
+    "fold": 2,
+    "prior_file": "priors/seed43_fold2.npz",
+    "prior_sha256": "6db32399eaedd13cd166b2a56ee9389944daf98f335f429671c22828e3229dbb",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed43_fold2\\protocol.json",
+    "protocol_sha256": "c4e7d41a7a4c1bb3129e4ad0f0baa66122b67a3856645c16868542c2024c47cd",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed43_fold2\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "dd4e9c7865475338335bde741ccc6e3037b3e25209a9ed6eeee0172639bba448",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold2\\model.keras",
+        "model_sha256": "ab5e6e51ab8a10259b5a9e1487918103db282b9fc68cba1a5b7ebb96ded66a8b",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold2\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "89850304bd6c05c3e0bab5217b94c20b15ca1be5f9dc3da55291de62df522c6f",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold2\\SPLIT.json",
+        "split_sha256": "78b422c97fffea47077fb2257342dc51560a24cef902ceff51e5aa1a28168b78"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold2\\model.keras",
+        "model_sha256": "41bb4c74baf0613961ba22796b69c39e038fbb43af8e4fd5d5004647175cdb67",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold2\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "01122bc456c4c56c5975ce2fa4d72d39427dce0b1726cc4e467743334a29d792",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold2\\SPLIT.json",
+        "split_sha256": "9db9313e426c50129ac9b0853c4902d8fcfb7ddf231dd96ea6b5bde793a1db68"
+      }
+    }
+  },
+  {
+    "seed": 43,
+    "fold": 3,
+    "prior_file": "priors/seed43_fold3.npz",
+    "prior_sha256": "a5a0761338dd52d2c9f000e0735f1477889fd5065e31c43037f92791421b3f4b",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed43_fold3\\protocol.json",
+    "protocol_sha256": "bc5587b56738f14ad87f3829f3cc79476e5392ec1e7099db19422ce1f91ea412",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed43_fold3\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "e4938c08c41d73bb012d5cdd49d94d1e634553754e26024d6be224a4735cac84",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold3\\model.keras",
+        "model_sha256": "3cc2583f980cae0b8d110ad0d8f1eacd697a2929a7d7c9fd36ab23eb2d1260d3",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold3\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "76b37ad8360348aa9741ef7788b7da09e965d67d34fbe06791356b90e93a9067",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold3\\SPLIT.json",
+        "split_sha256": "2ec9bc88f7518c3fb678182c876a06d4e7f9c3c24c1bfd5da621df5d9864ae6f"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold3\\model.keras",
+        "model_sha256": "b78c26fd5c290e798226552fd7c05b914504b4b43f17e14d208da5c0ab436073",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold3\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "3cfcc0f3934b2866a45f7c053d30465ca2cff7e8f958beebccda5c6fdb735423",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold3\\SPLIT.json",
+        "split_sha256": "13cf3903e20fe67107c6ee63a2def8d2ed504f7f97d43a1b0a0293a16813ca4f"
+      }
+    }
+  },
+  {
+    "seed": 43,
+    "fold": 4,
+    "prior_file": "priors/seed43_fold4.npz",
+    "prior_sha256": "b05d88a5082f4616ed0a108f3e29eab66bb86db92df7256755e85b5c64b4d34b",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed43_fold4\\protocol.json",
+    "protocol_sha256": "d05b4ad499a3482357190778101b02db4c26643462ed1a21323f5b1f91cc9006",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed43_fold4\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "2274eda3f9fcaffb230c4eaec2d72c37d5b142dee618a79acc9d92eb28f02f23",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold4\\model.keras",
+        "model_sha256": "33b349bc01316f9548df53a0ec1e8b71648f42f0eeb2e1447d28f8cd892e228c",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold4\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "5a69d8b916680b34b77a3b4f002f13dcb6496e574f737937cdb84e7dba998b8f",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold4\\SPLIT.json",
+        "split_sha256": "e4fac5e7960d94567a34e74a2c430486a52352aa3715ea37e40783c398af6d6e"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold4\\model.keras",
+        "model_sha256": "34d85728e2367645aa378b0a5b29063dc98eedf7a164cda6558d403e9b755d1f",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold4\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "d7ff1a2ffc7d672034c37a5b53b04f1e06f7d875950ed2d14554899b1b9b7051",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold4\\SPLIT.json",
+        "split_sha256": "90bc6fc2ed80c40c55d14d7fed80cb7632b35155a812dad66fd7f5f43fffe6cb"
+      }
+    }
+  },
+  {
+    "seed": 43,
+    "fold": 5,
+    "prior_file": "priors/seed43_fold5.npz",
+    "prior_sha256": "3f2daf10c38b388f6f705e6c9482c856be21642ff1ba93103eaa7fb34abadeb2",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed43_fold5\\protocol.json",
+    "protocol_sha256": "e6f9204976dc3d7f499377733d522172f678bd9c8828075622103720142e4a47",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed43_fold5\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "0ee754142cc24208f3282a170570cd30033000f9ba350510fd70c0ac71551708",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold5\\model.keras",
+        "model_sha256": "8e6972af6ab1ade08d76f322783d7fb1b082935f0023b90eb8a9d69629a434d6",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold5\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "4bf3df976e145d2bae4ee390630201d130c0ead644fc494fcfb74031254eb48f",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed43_fold5\\SPLIT.json",
+        "split_sha256": "980896ce7d7878c3bd4382bc41a5daf1bda81551344d5ba2af13067791a0ef59"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold5\\model.keras",
+        "model_sha256": "94f675a06980d64c4022ba50aa1daf81d01cf84566e94da5bc01184f63ea10cf",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold5\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "43830432752f6729907c93c01d370d32cc2555dc18fce68f9ad0fbed582b767d",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed43_fold5\\SPLIT.json",
+        "split_sha256": "6c646d551969bd63b0bd84978ceced609c42546add075ff1dfc4c257528d51e1"
+      }
+    }
+  },
+  {
+    "seed": 44,
+    "fold": 1,
+    "prior_file": "priors/seed44_fold1.npz",
+    "prior_sha256": "fd875428a379c00e706cc50e0a2187b6c23a40a853aab2ca18a916e30e6c4ab2",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed44_fold1\\protocol.json",
+    "protocol_sha256": "d5888d7d131239d7839cde3d87fa50ea1a2c6ca79f893592f4f1c51a254f6f47",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed44_fold1\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "4abde8e8262be1deab2dbd554619f35d5caeb2003f1dd67be947c11fe1d08880",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold1\\model.keras",
+        "model_sha256": "a7680338b6bd1abd6c3f0558291ce3f5fab2a946983eda6b0eabf12749b1b44f",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold1\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "5a60c2b9f801004a861f1471f35270010b6b80cb2ce75cfddfec538b52744082",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold1\\SPLIT.json",
+        "split_sha256": "8598b819716b34429229247d6b064cae2980797a9aff35e76922c963330ea678"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold1\\model.keras",
+        "model_sha256": "780ee0bf220dfc09782c23176237c8be6827ab0abd84dd1b019452b5d602aa62",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold1\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "1f2959b03f5cf9f667be3a896eb6593633a8667dd2af2709a59f260d4257e669",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold1\\SPLIT.json",
+        "split_sha256": "10cba9970eb23637d5a535036723beeaaf3dc9c55c4a7957d329dd63c1044029"
+      }
+    }
+  },
+  {
+    "seed": 44,
+    "fold": 2,
+    "prior_file": "priors/seed44_fold2.npz",
+    "prior_sha256": "08411f1fadd57bf60530589b9eda0f27a68162681a2d56132e8185b41421e6f2",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed44_fold2\\protocol.json",
+    "protocol_sha256": "502d46156466cf9e187d4e0072d35e39be304d42c76979811b33187c448cf7b5",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed44_fold2\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "2d0bb929781e61cd484dac2a01452970b9ad55ea60885204df701302aaafb959",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold2\\model.keras",
+        "model_sha256": "d46a939f035af80c64026d7f3f5b1219dbffff9752602e7710edace07444716d",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold2\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "82c3e55eb92eebc1f88d175d4e82b263f5c755ec2f6d87a9434ff07fc9612475",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold2\\SPLIT.json",
+        "split_sha256": "dc266b15fd7df21ada5cf4478b3546330f421405cf7432072a65da3892ffdf01"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold2\\model.keras",
+        "model_sha256": "40f69479e3881eafac60452e06a3383cda0db2c355c1aab5e599d36117c51e2c",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold2\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "f2ef8dbb468c3cb343be27b4229e63696c70ece6053a21f00034a56025ca4c0d",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold2\\SPLIT.json",
+        "split_sha256": "cb9ef86f683d01bd864d86257ad0fddc0954a1c55bf53c362a20d126445f9844"
+      }
+    }
+  },
+  {
+    "seed": 44,
+    "fold": 3,
+    "prior_file": "priors/seed44_fold3.npz",
+    "prior_sha256": "7bb4d0f1f146419143d24a9ace7d5a1b8b4d042fe97dcfe53705e6400f9c10b6",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed44_fold3\\protocol.json",
+    "protocol_sha256": "6d1a0a8a405eae5a3a2c7e6b7fae7247268dbc48606921f82b6f178da30765b1",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed44_fold3\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "b78e0ed17eb6cdbc9aaf38e3a86e4005f09617721b113acad7864c872c31904e",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold3\\model.keras",
+        "model_sha256": "a9942d5f845b5bbeecc1718b196a34018e562be4a2a1eadbb7d3b416c27c6648",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold3\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "a13f3dfb48bed4c3e7f0379d79f65e24adc9205feb658a6808d92b1a0f0f3a48",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold3\\SPLIT.json",
+        "split_sha256": "6ebf6253e4d957956d4390f2ee520ce645746fb2c56d9649195183b54b283628"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold3\\model.keras",
+        "model_sha256": "59c7f69db3340b2efecb59689326f1fc32b78da643ac5c63c0ca78517bd692c7",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold3\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "34e0ffd23e606132f0615befd0d7b459aa1b0d6a64b775e1945eaec79c6f637c",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold3\\SPLIT.json",
+        "split_sha256": "0751749a173d8a14a871d8e3cc935f6ae212ea24960a3c05a974810ea4122d66"
+      }
+    }
+  },
+  {
+    "seed": 44,
+    "fold": 4,
+    "prior_file": "priors/seed44_fold4.npz",
+    "prior_sha256": "a3139ec5384305024744cb1f46416161523589d42772e6c5f314d9e5d5dc98ce",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed44_fold4\\protocol.json",
+    "protocol_sha256": "e48aa7656338cec4059a26515be4a01416404c5d339e683a184cb20f6b95b72b",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed44_fold4\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "67657b9a98944f7264dc4de30cf06cbd85908437af22de197d2f8eebee3f7dc6",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold4\\model.keras",
+        "model_sha256": "770a439c4beb6f447645c99b5e83f28f4a459648a9a73c2ff6e5c65af3473f04",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold4\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "4a8fc5c2b5b552f82b5224fef552ed49591447dee757cf1a086641ccea13c2c1",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold4\\SPLIT.json",
+        "split_sha256": "d0208cee78ed15ff3d7ebb45ffe92b1199b806c9b515372c1553ba29917433b9"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold4\\model.keras",
+        "model_sha256": "d0f8555fbbf9197f0c1415777604d9c275af5728c1101d37e1a74fce413729f0",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold4\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "18aa7cf7a38636424f7f8ad9014c9a07d5532b9a8838e063dfa5116342f38ef0",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold4\\SPLIT.json",
+        "split_sha256": "3b44594680c436c2e0acbccd9cd65e61ee5be9c8498971b0974e22b9ca8dfc67"
+      }
+    }
+  },
+  {
+    "seed": 44,
+    "fold": 5,
+    "prior_file": "priors/seed44_fold5.npz",
+    "prior_sha256": "887fbe543305b806e11156e0665d42503456d76d09da9061b7cf66264e56ae20",
+    "source_protocol": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed44_fold5\\protocol.json",
+    "protocol_sha256": "4511bad2fe4c399e4d85722d20765a56c96a1d99bb7cc295ac3c146d800fd5d7",
+    "source_predictions": "D:\\MRI_FMRI_SELECTED_BRANCH_FUSION_V1\\fusion\\agentic\\equal_soft_voting\\seed44_fold5\\ALL_SUBJECT_PREDICTIONS.json",
+    "predictions_sha256": "72f849fcbe8f95f2159f51247eeb524e000b097dae167f80ef974fc43f03f9da",
+    "source_branches": {
+      "mri": {
+        "series": "mri_agentic",
+        "root": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1",
+        "model": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold5\\model.keras",
+        "model_sha256": "3fe1826cf138f9c04a6020bd56b085a0ae10401ecc52ebfd4cf97b28eb4c7a96",
+        "all_predictions": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold5\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "079196b6684867ca8ed4d740e41e11198e4923582f9267085fcbd3176d085954",
+        "split": "D:\\MRI_AGENTIC_SMOOTHED_BOOTSTRAP_FIXED8_3X5_V1\\branches\\mri_agentic\\seed44_fold5\\SPLIT.json",
+        "split_sha256": "a7aaec1621a867dea78f827b6f92cc29c57c85ebf613c2ed53a27a420a3598b1"
+      },
+      "fmri": {
+        "series": "fmri_agentic",
+        "root": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1",
+        "model": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold5\\model.keras",
+        "model_sha256": "ac70fb580539025360642f0a98145462b1ad65e0ff60d174f7b8fa3085236194",
+        "all_predictions": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold5\\ALL_SUBJECT_PREDICTIONS.json",
+        "predictions_sha256": "09b00664a80093305bbc86944f369c5f8b6ee6fcf9c4dbf3d914d64a1a8bd99b",
+        "split": "D:\\MRI_FMRI_FMRI_BALANCED_STUMP_RESIDUAL_3X5_V1\\branches\\fmri_agentic\\seed44_fold5\\SPLIT.json",
+        "split_sha256": "37cf3e0bfb71c8330837e6bddbd138ee6f4f5ae36ac816625f49691a0a85ac89"
+      }
+    }
+  }
+]

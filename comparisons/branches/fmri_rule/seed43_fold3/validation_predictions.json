@@ -1,0 +1,142 @@
+[
+  {
+    "subject_id": "sub-047EPKL011060",
+    "true_label": 1,
+    "probability": 0.7617083589235941,
+    "run_probabilities": [
+      0.8010444641113281,
+      0.6931557059288025,
+      0.7909249067306519
+    ],
+    "input_paths": [
+      "inputs/fmri/sub-047EPKL011060_run01.npy",
+      "inputs/fmri/sub-047EPKL011060_run02.npy",
+      "inputs/fmri/sub-047EPKL011060_run03.npy"
+    ],
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "fmri_rule_seed43_fold3",
+    "selected_threshold": 0.5,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL012017",
+    "true_label": 1,
+    "probability": 0.7126221557458242,
+    "run_probabilities": [
+      0.9380256533622742,
+      0.9493594765663147,
+      0.25048133730888367
+    ],
+    "input_paths": [
+      "inputs/fmri/sub-047EPKL012017_run01.npy",
+      "inputs/fmri/sub-047EPKL012017_run02.npy",
+      "inputs/fmri/sub-047EPKL012017_run03.npy"
+    ],
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "fmri_rule_seed43_fold3",
+    "selected_threshold": 0.5,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL012073",
+    "true_label": 1,
+    "probability": 0.8576879898707072,
+    "run_probabilities": [
+      0.9622837901115417,
+      0.6403845548629761,
+      0.9703956246376038
+    ],
+    "input_paths": [
+      "inputs/fmri/sub-047EPKL012073_run01.npy",
+      "inputs/fmri/sub-047EPKL012073_run02.npy",
+      "inputs/fmri/sub-047EPKL012073_run03.npy"
+    ],
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "fmri_rule_seed43_fold3",
+    "selected_threshold": 0.5,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL014020",
+    "true_label": 0,
+    "probability": 0.10678936106463273,
+    "run_probabilities": [
+      0.040468115359544754,
+      0.015172822400927544,
+      0.2647271454334259
+    ],
+    "input_paths": [
+      "inputs/fmri/sub-047EPKL014020_run01.npy",
+      "inputs/fmri/sub-047EPKL014020_run02.npy",
+      "inputs/fmri/sub-047EPKL014020_run03.npy"
+    ],
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "fmri_rule_seed43_fold3",
+    "selected_threshold": 0.5,
+    "predicted_label": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014026",
+    "true_label": 0,
+    "probability": 0.10225807658086221,
+    "run_probabilities": [
+      0.1351565718650818,
+      0.15742585062980652,
+      0.014191807247698307
+    ],
+    "input_paths": [
+      "inputs/fmri/sub-047EPKL014026_run01.npy",
+      "inputs/fmri/sub-047EPKL014026_run02.npy",
+      "inputs/fmri/sub-047EPKL014026_run03.npy"
+    ],
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "fmri_rule_seed43_fold3",
+    "selected_threshold": 0.5,
+    "predicted_label": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014045",
+    "true_label": 0,
+    "probability": 0.3412404755751292,
+    "run_probabilities": [
+      0.1844179928302765,
+      0.22936630249023438,
+      0.6099371314048767
+    ],
+    "input_paths": [
+      "inputs/fmri/sub-047EPKL014045_run01.npy",
+      "inputs/fmri/sub-047EPKL014045_run02.npy",
+      "inputs/fmri/sub-047EPKL014045_run03.npy"
+    ],
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "fmri_rule_seed43_fold3",
+    "selected_threshold": 0.5,
+    "predicted_label": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014067",
+    "true_label": 0,
+    "probability": 0.249959796667099,
+    "run_probabilities": [
+      0.2484213262796402,
+      0.2940417230129242,
+      0.2074163407087326
+    ],
+    "input_paths": [
+      "inputs/fmri/sub-047EPKL014067_run01.npy",
+      "inputs/fmri/sub-047EPKL014067_run02.npy",
+      "inputs/fmri/sub-047EPKL014067_run03.npy"
+    ],
+    "seed": 43,
+    "test_fold": 3,
+    "model_id": "fmri_rule_seed43_fold3",
+    "selected_threshold": 0.5,
+    "predicted_label": 0
+  }
+]

@@ -1,0 +1,889 @@
+{
+  "encoder_fingerprint": "69a8bd91558d4411be6f5b60797a6b8f253587c30373fa29fe1859004cbed5ff",
+  "source_sha256": "6fbd34663e68411cbfbbb0c4a11ae742955432b0b9bc5c0fb8f329f81cdc0f40",
+  "cache_parity_max_difference": 5.3554773330688477e-05,
+  "inputs": [
+    {
+      "subject_id": "sub-047EPKL011005",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011005_run01.npy",
+      "sha256": "96dbe92eaab64d0e48bfccc8fbae4c9e9eaa019c50ab9327854f82bdaf272209"
+    },
+    {
+      "subject_id": "sub-047EPKL011005",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011005_run02.npy",
+      "sha256": "5ae64e2b4b916265f4f1b0457e1050609d39d21ee814ea1398bf356540b5a454"
+    },
+    {
+      "subject_id": "sub-047EPKL011005",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011005_run03.npy",
+      "sha256": "9d218863fb3c7bf4a1cf297bcc2df866ee53043dd7b6c5b324d7129e2fc558a1"
+    },
+    {
+      "subject_id": "sub-047EPKL011011",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011011_run01.npy",
+      "sha256": "5abe5d408618d1ff7391d86cfa75ee207d9d0631b21f2cc79157235c4b9d1e7f"
+    },
+    {
+      "subject_id": "sub-047EPKL011011",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011011_run02.npy",
+      "sha256": "c1a83d4a5bedd23f3f340ff54e27b3380ec4f2485a6bae2cb985c24e3cd61f63"
+    },
+    {
+      "subject_id": "sub-047EPKL011011",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011011_run03.npy",
+      "sha256": "68596ab2a116070ad6bef55143f78d0ea7affcb93299a26db00ed7c61a0e888f"
+    },
+    {
+      "subject_id": "sub-047EPKL011012",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011012_run01.npy",
+      "sha256": "995d1b983b2fa7ec3e1e36877cc6c70df9f6233cb91c485e593da80881cecf52"
+    },
+    {
+      "subject_id": "sub-047EPKL011012",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011012_run02.npy",
+      "sha256": "fec779837140b71e8fa1a05694092a5b11a60af1105f5dfeea70dd83d9aa80fe"
+    },
+    {
+      "subject_id": "sub-047EPKL011012",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011012_run03.npy",
+      "sha256": "4e5466a5878546b29c8776734c6d6ec1f3740e673d215f82ddd47790afcd1c95"
+    },
+    {
+      "subject_id": "sub-047EPKL011041",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011041_run01.npy",
+      "sha256": "7cc50127dc6a60b415bcd3bc60c3334341055cc5c3b370dfa1de269f6b99b9ad"
+    },
+    {
+      "subject_id": "sub-047EPKL011041",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011041_run02.npy",
+      "sha256": "b5eeb65ccfbcda41026b66b026b62f3dea056005dffa4b16df2a078aa396de42"
+    },
+    {
+      "subject_id": "sub-047EPKL011041",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011041_run03.npy",
+      "sha256": "c1c23c198c7e7c6e674334894ecaebfc00e29de1ea4f19a5a0b6da186d5b0301"
+    },
+    {
+      "subject_id": "sub-047EPKL011047",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011047_run01.npy",
+      "sha256": "762d974df8b2e49025448c1abe7e7e81678688197b32970b802d41aabbf7cd39"
+    },
+    {
+      "subject_id": "sub-047EPKL011047",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011047_run02.npy",
+      "sha256": "a1d4defef5f4d5313285071cf0c5064b75c4be11faa7c1a14f9a3e1502916bb6"
+    },
+    {
+      "subject_id": "sub-047EPKL011047",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011047_run03.npy",
+      "sha256": "e7bbaf471f9bf91eef346c53da50f519d72337580e2f38960fdb5e533d67e33b"
+    },
+    {
+      "subject_id": "sub-047EPKL011049",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011049_run01.npy",
+      "sha256": "b22311309ee31ee5b59b31403e5b6af2f15305fbef4a1b7b23f9a375d7871475"
+    },
+    {
+      "subject_id": "sub-047EPKL011049",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011049_run02.npy",
+      "sha256": "f3ba0a4fdc22242fe0fa1e22d05e3872ab1aa6b531b989531d862b88d5ce7f22"
+    },
+    {
+      "subject_id": "sub-047EPKL011049",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011049_run03.npy",
+      "sha256": "68a8bc18fabe9166c24112700c711baa31c24cde9b76d0b7f54ca21812defc43"
+    },
+    {
+      "subject_id": "sub-047EPKL011051",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011051_run01.npy",
+      "sha256": "29b23148a2d271ebf736609e54ec445cfb5aa97bd7d79fb049f3f256148652f0"
+    },
+    {
+      "subject_id": "sub-047EPKL011051",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011051_run02.npy",
+      "sha256": "a9eb2cb6458fbcfbf53d3f968ebf23880ed2c6bab8228f2060e86abd219fd63d"
+    },
+    {
+      "subject_id": "sub-047EPKL011051",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011051_run03.npy",
+      "sha256": "1f168e936dbeabb2a8eccd7310d3e6ec87d5096873c187acfbd10ec27ebc289f"
+    },
+    {
+      "subject_id": "sub-047EPKL011056",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011056_run01.npy",
+      "sha256": "0cd5e8fcfe3514336773b83df8cc43980237c2e3b00010e98a3dd786711d4345"
+    },
+    {
+      "subject_id": "sub-047EPKL011056",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011056_run02.npy",
+      "sha256": "cd043fcb2884a0b498430a854b971d819a2d67edef266596de69c0fe304e9cd1"
+    },
+    {
+      "subject_id": "sub-047EPKL011056",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011056_run03.npy",
+      "sha256": "41cf1e3fb2c6b6410362b08a467a072ba0f984d25cb70a5d084846758a011686"
+    },
+    {
+      "subject_id": "sub-047EPKL011058",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011058_run01.npy",
+      "sha256": "2db51a653a0723e6dd65d8f0faafe608b68cddde6148e7783614f6650ec6e137"
+    },
+    {
+      "subject_id": "sub-047EPKL011058",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011058_run02.npy",
+      "sha256": "56c8c95633e1436dbbc54b7b0a275461b0af9e213d5d8ba32e2b00d1c43f9f08"
+    },
+    {
+      "subject_id": "sub-047EPKL011058",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011058_run03.npy",
+      "sha256": "736b974a8cfb58ca04fb5d0d0c89eff44b8d6a46d65410386abd36196c97db77"
+    },
+    {
+      "subject_id": "sub-047EPKL011059",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011059_run01.npy",
+      "sha256": "3db2d4d7a82f0a41a9f00dd1750c75fb24f2920703fbd2ed4de1878dc24da3af"
+    },
+    {
+      "subject_id": "sub-047EPKL011059",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011059_run02.npy",
+      "sha256": "89fb136d20edde1b8ba873a80fc2aa5037308103946ecb55a67b6eef03755ba5"
+    },
+    {
+      "subject_id": "sub-047EPKL011059",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011059_run03.npy",
+      "sha256": "18a949f74a40f2358f89fbfb70b4002a902bb1d1e3c90f2ac67115a7dec7307f"
+    },
+    {
+      "subject_id": "sub-047EPKL011060",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011060_run01.npy",
+      "sha256": "131b18138f920d8015fbd0d102913896f750a294301cf14ea97e49a53b8bb691"
+    },
+    {
+      "subject_id": "sub-047EPKL011060",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011060_run02.npy",
+      "sha256": "1cc568712e48f4688dc9ed77d7ac9c326cb0da5fcdaebdefa4b3a4546b802a00"
+    },
+    {
+      "subject_id": "sub-047EPKL011060",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011060_run03.npy",
+      "sha256": "4dda24b4ae1bf799e64e5a5f5242cb509367abd455f1b0e8c29178fa75ddf9d0"
+    },
+    {
+      "subject_id": "sub-047EPKL011063",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011063_run01.npy",
+      "sha256": "ae0819bbb9f4c7b1fc0a7c3069914b9fbd9a16bb7896b3e85f4d39a6dc72189f"
+    },
+    {
+      "subject_id": "sub-047EPKL011063",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011063_run02.npy",
+      "sha256": "c644d52d92f6348868d06c2f2140adc36c57b2d0c12307a63f1b7cdd4e3c775e"
+    },
+    {
+      "subject_id": "sub-047EPKL011063",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011063_run03.npy",
+      "sha256": "0eea1a58d95352df01fb255e622b5ffc2f054ef5dc178491e9901932a0d4b763"
+    },
+    {
+      "subject_id": "sub-047EPKL011068",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011068_run01.npy",
+      "sha256": "fb19713f4362d0846a0cac372a7ce2b18b42115dc0c149d1d8985c72f1a0f1f0"
+    },
+    {
+      "subject_id": "sub-047EPKL011068",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011068_run02.npy",
+      "sha256": "155ff3796acb2b3c99a203396977c63be7c39e72140018d8b9afa912d1a9c597"
+    },
+    {
+      "subject_id": "sub-047EPKL011068",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL011068_run03.npy",
+      "sha256": "d57af4dc12318580316b68f07d07c185b40b7864841ed859ec295f1beacb7db8"
+    },
+    {
+      "subject_id": "sub-047EPKL012014",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012014_run01.npy",
+      "sha256": "26a5774c83ca25740e5fdb0fb844ac5d25a98b368917c8217fd9c12ea00af5af"
+    },
+    {
+      "subject_id": "sub-047EPKL012014",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012014_run02.npy",
+      "sha256": "16912a6bc7849e0292cf53db2482914ee0fb5e24a186c93b34e39d0933f8deed"
+    },
+    {
+      "subject_id": "sub-047EPKL012014",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012014_run03.npy",
+      "sha256": "281fdda5d2d4fa431b23ae7a94e4d334bfa2ed67de06bc5837c7f92f49094d95"
+    },
+    {
+      "subject_id": "sub-047EPKL012015",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012015_run01.npy",
+      "sha256": "a604275b3ba38aa228cbb2e643da4428b2531140d5a493cca9568b4721874007"
+    },
+    {
+      "subject_id": "sub-047EPKL012015",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012015_run02.npy",
+      "sha256": "f7afa7e7c822861aafe10b55b0ef2580017a8f18c86a98a94f4db0cf1df7ed78"
+    },
+    {
+      "subject_id": "sub-047EPKL012015",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012015_run03.npy",
+      "sha256": "fb6807dc27353b2903c6d3bbc4a9ab298156a66cb77ff1d50a9ec699df2d33dc"
+    },
+    {
+      "subject_id": "sub-047EPKL012017",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012017_run01.npy",
+      "sha256": "ee6eaf17285f28c1334e1ffdc17687816a92624103fc10efd3bab3d624f26cf4"
+    },
+    {
+      "subject_id": "sub-047EPKL012017",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012017_run02.npy",
+      "sha256": "26dc9ff24ac0b20f0773284c417310848e71efa026e037dec3d94a76a96425be"
+    },
+    {
+      "subject_id": "sub-047EPKL012017",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012017_run03.npy",
+      "sha256": "3689e6e462a2125fa9216279ad39fe9dd22f6cdbb2bd0db3a490d349840fde7a"
+    },
+    {
+      "subject_id": "sub-047EPKL012069",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012069_run01.npy",
+      "sha256": "6c62c12ce2d4857872672fe308c4d624d1181382639e4195cb9f986d8dc8c3fb"
+    },
+    {
+      "subject_id": "sub-047EPKL012069",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012069_run02.npy",
+      "sha256": "beccc6d26af1ff087b868b35f9e7fba6695620263e674f069f3491aff681cb90"
+    },
+    {
+      "subject_id": "sub-047EPKL012069",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012069_run03.npy",
+      "sha256": "8447635d1d0ddf0a46e8a544f4581561dd6853efea4c99aeb50ae2dad7810c4c"
+    },
+    {
+      "subject_id": "sub-047EPKL012071",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012071_run01.npy",
+      "sha256": "87a9da04da017377b8a0ac4c130da4ea7b663b71dc09226fb8c7236a62505cec"
+    },
+    {
+      "subject_id": "sub-047EPKL012071",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012071_run02.npy",
+      "sha256": "55976cd69fa670df6693592202078653aeb1359066953310d6694c485f77f950"
+    },
+    {
+      "subject_id": "sub-047EPKL012071",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012071_run03.npy",
+      "sha256": "3780375d0536511101e2a6c3316d2f6734a90599d7458966cb6692a47af14d11"
+    },
+    {
+      "subject_id": "sub-047EPKL012073",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012073_run01.npy",
+      "sha256": "98a6e1208b3ae25179606212ef2a97139acf5813c409dccfe374f35d787e48c8"
+    },
+    {
+      "subject_id": "sub-047EPKL012073",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012073_run02.npy",
+      "sha256": "8d1b39b4d0bb788818e112f2614a9decaf65237c9d5bcc6efa6c5e562c34c863"
+    },
+    {
+      "subject_id": "sub-047EPKL012073",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012073_run03.npy",
+      "sha256": "745e739f7c78e157c07c9e47fc29bc0e87a1f0c36b79ef4e3de10a4d6fc6e471"
+    },
+    {
+      "subject_id": "sub-047EPKL012074",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012074_run01.npy",
+      "sha256": "8a6c9c65eeba266f1ae23424889d7ad793441b4e19597303139d4b7a84aef829"
+    },
+    {
+      "subject_id": "sub-047EPKL012074",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012074_run02.npy",
+      "sha256": "5405a1a1385a4e159005f9520d619fd4936722887c5455eedfffe882aa81b902"
+    },
+    {
+      "subject_id": "sub-047EPKL012074",
+      "label": 1,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL012074_run03.npy",
+      "sha256": "08ef808726667fb4b777c46be6b9672ff8ce46021c0644640c4c524425cc5f92"
+    },
+    {
+      "subject_id": "sub-047EPKL014007",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014007_run01.npy",
+      "sha256": "d293ccb2ad6b790dd51b6f8d507773adfcce25e3f966c1249d716a833f7216a1"
+    },
+    {
+      "subject_id": "sub-047EPKL014007",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014007_run02.npy",
+      "sha256": "491a7ca83ba4ea422ab80ea176e74d86fbe042243d47b8911deab905db8857d9"
+    },
+    {
+      "subject_id": "sub-047EPKL014007",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014007_run03.npy",
+      "sha256": "cbb9133af39c19c6d63a823d64075c72601e17de5f1cddd2423e846dae26fe78"
+    },
+    {
+      "subject_id": "sub-047EPKL014008",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014008_run01.npy",
+      "sha256": "910a716079950cfacc0d45afa485d6438d475623f8d89561121f2897c69a6f24"
+    },
+    {
+      "subject_id": "sub-047EPKL014008",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014008_run02.npy",
+      "sha256": "3170d89dd330d59be46b6b50e24711fe46045803e05cb2d339260e4d53a31eb4"
+    },
+    {
+      "subject_id": "sub-047EPKL014008",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014008_run03.npy",
+      "sha256": "dfc0be5266d49261bdc5021369ede3f36f3af34ab2545ddf01b1cd82f8738ca5"
+    },
+    {
+      "subject_id": "sub-047EPKL014010",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014010_run01.npy",
+      "sha256": "2b217f7d1ac852f6f1c8372b4123bccfd714d2c609697a5d3e0e600b96446446"
+    },
+    {
+      "subject_id": "sub-047EPKL014010",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014010_run02.npy",
+      "sha256": "62788a7ff4eee0469a034e0e01acde1e5fc41f1b3aa28545231642b45990afb4"
+    },
+    {
+      "subject_id": "sub-047EPKL014010",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014010_run03.npy",
+      "sha256": "704e89cfe8837eaa26721e40a80a60eaa420f9d2e8319a4e1ec3b192b482b94c"
+    },
+    {
+      "subject_id": "sub-047EPKL014020",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014020_run01.npy",
+      "sha256": "4f1b6768fc01a17e917e31726ca98dd1b44fd73c3ce73c5c5945ca6cb15a7283"
+    },
+    {
+      "subject_id": "sub-047EPKL014020",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014020_run02.npy",
+      "sha256": "fc812ce1007212c808cae6141aeedba596524d357f6993e4fb4dbe8f86f54f20"
+    },
+    {
+      "subject_id": "sub-047EPKL014020",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014020_run03.npy",
+      "sha256": "523e1ea53acb29c707aa5b8375964ac353abe49494de8d7e87d10595e1b408a6"
+    },
+    {
+      "subject_id": "sub-047EPKL014024",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014024_run01.npy",
+      "sha256": "613cb031ab8db27e79c7e1939980c928dae2ade5a965e900eee4c4713eec543d"
+    },
+    {
+      "subject_id": "sub-047EPKL014024",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014024_run02.npy",
+      "sha256": "847b92b36e3733a10491b42b88103ce3f7d74e706ca77742db3e4e7f8a681e92"
+    },
+    {
+      "subject_id": "sub-047EPKL014024",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014024_run03.npy",
+      "sha256": "c3a620966729c7ee3a2dba8e8c53efe1fb0ea5cacc5ec8d7cfab6c3f36271fd3"
+    },
+    {
+      "subject_id": "sub-047EPKL014026",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014026_run01.npy",
+      "sha256": "dd1bd1fd8c0513c9e5f5249165ad534d6b7c009fe7876029addbc36eb71ad8dc"
+    },
+    {
+      "subject_id": "sub-047EPKL014026",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014026_run02.npy",
+      "sha256": "31fef27ebddce307c7c52f319e0bad28e083c89dbc217295bec2f1c207c30e88"
+    },
+    {
+      "subject_id": "sub-047EPKL014026",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014026_run03.npy",
+      "sha256": "c9082fffe2a26cdb5a854dd21176bfc94f071cdd7116b5fb4d1836b53d0e1816"
+    },
+    {
+      "subject_id": "sub-047EPKL014029",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014029_run01.npy",
+      "sha256": "542d087682c7b0654265b42591bb3cf0f1a319c127005d32275153086f6b0141"
+    },
+    {
+      "subject_id": "sub-047EPKL014029",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014029_run02.npy",
+      "sha256": "45af6fd2238c4e5297c310b9b3fd8209a646553d0e69ee239bc68a6b0156fd19"
+    },
+    {
+      "subject_id": "sub-047EPKL014029",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014029_run03.npy",
+      "sha256": "0211b9cbf7f111aa8ad6f93097af57ea5731e13d7ef1e10d9e9aed398ab939b7"
+    },
+    {
+      "subject_id": "sub-047EPKL014031",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014031_run01.npy",
+      "sha256": "6871a3994b99a7e40122f67d40f89c347d30d3a0bc121abb4e4ec64fdc0d7848"
+    },
+    {
+      "subject_id": "sub-047EPKL014031",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014031_run02.npy",
+      "sha256": "c0ac46f42230362cf4e8786eb8f3fd8605dc7f65fc07733e8e92ea6d662b18fc"
+    },
+    {
+      "subject_id": "sub-047EPKL014031",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014031_run03.npy",
+      "sha256": "50942dd81b731c6c222dd031fe9dffc324ac079fa47c23d0462bb09cff5ef7e7"
+    },
+    {
+      "subject_id": "sub-047EPKL014036",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014036_run01.npy",
+      "sha256": "b89ebe6f71b7777c7b807e73565b64ad1f47ec4dccc113b86af8b4f37844ef7f"
+    },
+    {
+      "subject_id": "sub-047EPKL014036",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014036_run02.npy",
+      "sha256": "bf0269e33d71c1b1a34904f7c2f295f3fba9079bb849bb9a58aa65fad453e9f1"
+    },
+    {
+      "subject_id": "sub-047EPKL014036",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014036_run03.npy",
+      "sha256": "e360ec9591d69d205e83014399602a780531a49c596ae99de9a3307bcbb4405f"
+    },
+    {
+      "subject_id": "sub-047EPKL014037",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014037_run01.npy",
+      "sha256": "a69c1eaa89be1233cca4856c98fcae0e11abbb505049210cb57ab7e433635bcc"
+    },
+    {
+      "subject_id": "sub-047EPKL014037",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014037_run02.npy",
+      "sha256": "b7fae6bb3e61833a1ccf3b540f9caa1ccceaf513b2948e42dabdf6b17f20e33f"
+    },
+    {
+      "subject_id": "sub-047EPKL014037",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014037_run03.npy",
+      "sha256": "952a16f827f90ab106839ae2f671fbf259afe67631fda71f4466c7f99c22c36a"
+    },
+    {
+      "subject_id": "sub-047EPKL014038",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014038_run01.npy",
+      "sha256": "6f7d92df460d792bd5aea15825b3244e9dbd75a847496586005d9402b758c894"
+    },
+    {
+      "subject_id": "sub-047EPKL014038",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014038_run02.npy",
+      "sha256": "a45aec2e81c1ab956a1639aeebf8569a6512e2c2295dc25ec10a24bd71b94bd6"
+    },
+    {
+      "subject_id": "sub-047EPKL014038",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014038_run03.npy",
+      "sha256": "2cc31efe34884a29cf05ac5138a33170f29bdf0d9f2419695392cfba0eaa5072"
+    },
+    {
+      "subject_id": "sub-047EPKL014039",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014039_run01.npy",
+      "sha256": "af7e5ff9012ee49feeff6cd872ca921a8ed97c61ba57a62aad78601fa7ee032a"
+    },
+    {
+      "subject_id": "sub-047EPKL014039",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014039_run02.npy",
+      "sha256": "bdc3e562e4a25307399be2783b592337f04a5b5d621873df28e0262acb826fce"
+    },
+    {
+      "subject_id": "sub-047EPKL014039",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014039_run03.npy",
+      "sha256": "e125d5093808b39fc380d709dbbbd2d1dcd187d20ae80fdf54183b1966bdf686"
+    },
+    {
+      "subject_id": "sub-047EPKL014040",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014040_run01.npy",
+      "sha256": "ceace7ffeba1aad01374aaa652814440b4bd4e89a4f7afddeb384469479a184a"
+    },
+    {
+      "subject_id": "sub-047EPKL014040",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014040_run02.npy",
+      "sha256": "e3598cad314bbcf22ae01c69e3177120fbfe1f1f00d8fc51d4754aeeb2aaba22"
+    },
+    {
+      "subject_id": "sub-047EPKL014040",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014040_run03.npy",
+      "sha256": "b19c743a4771b5b2a72b183834d07a866a616e2946cee59011175a10e4d270dc"
+    },
+    {
+      "subject_id": "sub-047EPKL014043",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014043_run01.npy",
+      "sha256": "11202f442bea90ee6b1caf043c94dffad6289e05af5eed11448e0c35a9910cc9"
+    },
+    {
+      "subject_id": "sub-047EPKL014043",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014043_run02.npy",
+      "sha256": "ccf408fa85e9988d28608104653a62407c1f9c05bba927f1a45cead1e77f54d0"
+    },
+    {
+      "subject_id": "sub-047EPKL014043",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014043_run03.npy",
+      "sha256": "6bf08f2abeabbb3228fac690141c61d34a1826d1638bf94dc96eaac5248885ec"
+    },
+    {
+      "subject_id": "sub-047EPKL014045",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014045_run01.npy",
+      "sha256": "7cb5efd7cf9056ecb23c66997da20301e69c5bef09776b7c34703e109280d47d"
+    },
+    {
+      "subject_id": "sub-047EPKL014045",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014045_run02.npy",
+      "sha256": "e7ce72562c51816645c2601c72edc3e4b3a8ed1ebdee1bda6d728083d1eebb7b"
+    },
+    {
+      "subject_id": "sub-047EPKL014045",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014045_run03.npy",
+      "sha256": "743bab953b9f2b55d0614fe1e8e1e39d40db03b60b2ffa7aeea05c3df0b29b60"
+    },
+    {
+      "subject_id": "sub-047EPKL014048",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014048_run01.npy",
+      "sha256": "dc31e413d87789f419b682853e2ef54367a54ea9c1eb270f2c9a51189e4f41cb"
+    },
+    {
+      "subject_id": "sub-047EPKL014048",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014048_run02.npy",
+      "sha256": "52317410d05bca62ffa73d2592e9a56605233b8fa8f7a188afd712ba66731c38"
+    },
+    {
+      "subject_id": "sub-047EPKL014048",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014048_run03.npy",
+      "sha256": "d39ec001ba435a29fe684bf51f3058b1ae98090b629931943579a04c25b75d7f"
+    },
+    {
+      "subject_id": "sub-047EPKL014050",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014050_run01.npy",
+      "sha256": "c155d2112af996920b642f8ce96c64a01b7a535fbc3b9d4cd30bafe0a47dc735"
+    },
+    {
+      "subject_id": "sub-047EPKL014050",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014050_run02.npy",
+      "sha256": "c177702690f9d31b4303466c5e3401b735c8f0e963997d6fd8c709375129b791"
+    },
+    {
+      "subject_id": "sub-047EPKL014050",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014050_run03.npy",
+      "sha256": "3885cfd77987bc006aab4b1251b37470608541d1c3f5ca3b32550902878a6cf8"
+    },
+    {
+      "subject_id": "sub-047EPKL014052",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014052_run01.npy",
+      "sha256": "3a4d65e87626fa22e7a0e4dd79b9723951b48e8e5da6aba6725dbac4ef87ebf5"
+    },
+    {
+      "subject_id": "sub-047EPKL014052",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014052_run02.npy",
+      "sha256": "6697ab34c2338237b2db25740826557a7207c39d961408d52bedf6fea34766e2"
+    },
+    {
+      "subject_id": "sub-047EPKL014052",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014052_run03.npy",
+      "sha256": "5d072522f855a8e1e2f017e4a1a1471274fa2f4079af9de278e87f22eb2db71a"
+    },
+    {
+      "subject_id": "sub-047EPKL014054",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014054_run01.npy",
+      "sha256": "267e2b2e9f765233aa2679ab5586468ee32845ff4b6707dd75056bf7818db000"
+    },
+    {
+      "subject_id": "sub-047EPKL014054",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014054_run02.npy",
+      "sha256": "fa45af8416ba19b5d06ea33e91087be1ba109bb198475372548dbbba2ea9e942"
+    },
+    {
+      "subject_id": "sub-047EPKL014054",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014054_run03.npy",
+      "sha256": "4a5bc5c2bdaae6412d1679210799e51fa44a929ac403515ceec204ad80d54065"
+    },
+    {
+      "subject_id": "sub-047EPKL014062",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014062_run01.npy",
+      "sha256": "13ccc4e3bec9712a0657231a92d37edd10fb497f53dcaf03b84bf0b0f9878ba2"
+    },
+    {
+      "subject_id": "sub-047EPKL014062",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014062_run02.npy",
+      "sha256": "697f12e3c600e704511b40b24787db6c610115ac6abe3b594d42f71de37e5958"
+    },
+    {
+      "subject_id": "sub-047EPKL014062",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014062_run03.npy",
+      "sha256": "187f4fe6dc24567ff1eb8e000f031b019913658bce67f5dee441066a0c47ce1c"
+    },
+    {
+      "subject_id": "sub-047EPKL014066",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014066_run01.npy",
+      "sha256": "a8d25dbf3800b4d8f2f3417fbd2a1ec1d72f3b945d7018f3a1baecfa084d330e"
+    },
+    {
+      "subject_id": "sub-047EPKL014066",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014066_run02.npy",
+      "sha256": "fea1ccf36489be7827a7cd24eabeeea695e872595e0bd53b15d53687b20ca6bf"
+    },
+    {
+      "subject_id": "sub-047EPKL014066",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014066_run03.npy",
+      "sha256": "016417b7bc5bcd3582a5b15df378171bfc67fd6156c67da9377db1107255cb52"
+    },
+    {
+      "subject_id": "sub-047EPKL014067",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014067_run01.npy",
+      "sha256": "8ccc44386f808f3096b144cd226aa87f8d446a3aa247d2571dbc18d4358e49ee"
+    },
+    {
+      "subject_id": "sub-047EPKL014067",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014067_run02.npy",
+      "sha256": "f902e639b3ecfc12dd41d3b2f82ed411f5702a38bd7f615b817795e090b8d794"
+    },
+    {
+      "subject_id": "sub-047EPKL014067",
+      "label": 0,
+      "kind": "fmri",
+      "path": "inputs/fmri/sub-047EPKL014067_run03.npy",
+      "sha256": "564fe8c4662f03e34307740aedaab20185efb8e3740bf8f383d5861b00d5b175"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "passed": true,
+  "models": 15,
+  "initializations_match_fixed_reference": 15,
+  "controller_action_checks": [
+    {
+      "seed": 42,
+      "fold": 1,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 42,
+      "fold": 1,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 42,
+      "fold": 2,
+      "epoch": 10,
+      "action": "increase_dropout",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 42,
+      "fold": 2,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 42,
+      "fold": 3,
+      "epoch": 10,
+      "action": "reduce_lr",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 42,
+      "fold": 3,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 42,
+      "fold": 4,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 42,
+      "fold": 4,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 42,
+      "fold": 5,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 42,
+      "fold": 5,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 43,
+      "fold": 1,
+      "epoch": 10,
+      "action": "reduce_lr",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 43,
+      "fold": 1,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 43,
+      "fold": 2,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 43,
+      "fold": 2,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 43,
+      "fold": 3,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 43,
+      "fold": 3,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 43,
+      "fold": 4,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 43,
+      "fold": 4,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 43,
+      "fold": 5,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 43,
+      "fold": 5,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 44,
+      "fold": 1,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 44,
+      "fold": 1,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 44,
+      "fold": 2,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 44,
+      "fold": 2,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 44,
+      "fold": 3,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 44,
+      "fold": 3,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 44,
+      "fold": 4,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 44,
+      "fold": 4,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 44,
+      "fold": 5,
+      "epoch": 10,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    },
+    {
+      "seed": 44,
+      "fold": 5,
+      "epoch": 20,
+      "action": "continue",
+      "applied_setting_verified": true,
+      "subsequent_gradient_updates": true
+    }
+  ],
+  "current_test_rows": 126,
+  "unique_children": 42,
+  "pooled_metric_recalculations": 3,
+  "choices_locked_before_current_test": true
+}

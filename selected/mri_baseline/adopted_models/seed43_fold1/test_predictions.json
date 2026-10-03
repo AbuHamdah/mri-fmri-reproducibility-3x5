@@ -1,0 +1,83 @@
+[
+  {
+    "subject_id": "sub-047EPKL011063",
+    "true_label": 1,
+    "probability": 0.8381860852241516,
+    "seed": 43,
+    "test_fold": 1,
+    "model_id": "last_layer_seed43_fold1",
+    "test_label_disclosed": false
+  },
+  {
+    "subject_id": "sub-047EPKL012015",
+    "true_label": 1,
+    "probability": 0.6875856518745422,
+    "seed": 43,
+    "test_fold": 1,
+    "model_id": "last_layer_seed43_fold1",
+    "test_label_disclosed": false
+  },
+  {
+    "subject_id": "sub-047EPKL012017",
+    "true_label": 1,
+    "probability": 0.6894314289093018,
+    "seed": 43,
+    "test_fold": 1,
+    "model_id": "last_layer_seed43_fold1",
+    "test_label_disclosed": false
+  },
+  {
+    "subject_id": "sub-047EPKL012073",
+    "true_label": 1,
+    "probability": 0.7839096188545227,
+    "seed": 43,
+    "test_fold": 1,
+    "model_id": "last_layer_seed43_fold1",
+    "test_label_disclosed": false
+  },
+  {
+    "subject_id": "sub-047EPKL014010",
+    "true_label": 0,
+    "probability": 0.08145751059055328,
+    "seed": 43,
+    "test_fold": 1,
+    "model_id": "last_layer_seed43_fold1",
+    "test_label_disclosed": false
+  },
+  {
+    "subject_id": "sub-047EPKL014048",
+    "true_label": 0,
+    "probability": 0.13759922981262207,
+    "seed": 43,
+    "test_fold": 1,
+    "model_id": "last_layer_seed43_fold1",
+    "test_label_disclosed": false
+  },
+  {
+    "subject_id": "sub-047EPKL014052",
+    "true_label": 0,
+    "probability": 0.11571682244539261,
+    "seed": 43,
+    "test_fold": 1,
+    "model_id": "last_layer_seed43_fold1",
+    "test_label_disclosed": false
+  },
+  {
+    "subject_id": "sub-047EPKL014054",
+    "true_label": 0,
+    "probability": 0.22350497543811798,
+    "seed": 43,
+    "test_fold": 1,
+    "model_id": "last_layer_seed43_fold1",
+    "test_label_disclosed": false
+  },
+  {
+    "subject_id": "sub-047EPKL014067",
+    "true_label": 0,
+    "probability": 0.10771443694829941,
+    "seed": 43,
+    "test_fold": 1,
+    "model_id": "last_layer_seed43_fold1",
+    "test_label_disclosed": false
+  }
+]

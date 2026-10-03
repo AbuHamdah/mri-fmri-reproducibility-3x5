@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-03",
+  "passed": true,
+  "result_rows_unchanged": 33,
+  "prediction_json_files_checked": 1504,
+  "prediction_values_and_labels_unchanged": true,
+  "binary_assets_sha256_unchanged_in_this_update": 1376,
+  "keras_models_checked": 605,
+  "h5_models_checked": 180,
+  "metadata_edited_archives_original_weights_and_configs_equal": [
+    {
+      "model": "parent_models/fmri_agentic.keras",
+      "all_nonstatus_members_equal": true,
+      "members_sha256": {
+        "metadata.json": "c8697ccfdff43dfeb05893472df115759161b8a67ca0b912786dd3724536eb10",
+        "config.json": "1cd38b0ef7390f401c51fa33283e68e0acd71bf4244e2cd9731f016f734506bc",
+        "model.weights.h5": "bc2290d06ae6b930c50f063fe49c63a7b1d0802e4a5058d14a0b97e5e69ae1b8"
+      }
+    },
+    {
+      "model": "parent_models/fmri_baseline.keras",
+      "all_nonstatus_members_equal": true,
+      "members_sha256": {
+        "metadata.json": "0298e773e1b190db0a69b05a61b862a1f87af14b15b62fd0bc0d3298aa80c226",
+        "config.json": "1cd38b0ef7390f401c51fa33283e68e0acd71bf4244e2cd9731f016f734506bc",
+        "model.weights.h5": "7da5735df4c875193acab34e6e521689297146f250f43a12ed4b0edc49229888"
+      }
+    },
+    {
+      "model": "parent_models/mri_features.keras",
+      "all_nonstatus_members_equal": true,
+      "members_sha256": {
+        "metadata.json": "26e39964cd9d81ca7cdbd80d37bde1ca6f6f7c9579d8f98cb4614aeaa5a41039",
+        "config.json": "bbaae6ca2d0dc146a404e966cc2c113ed42900fb6c21c4d9b1703e746c2ed93c",
+        "model.weights.h5": "bb09065e15c02bf93bfad925a9d26533cdbc6adcb04821ca517184ceefc7ff12"
+      }
+    }
+  ],
+  "renamed_split_files": 30,
+  "disabled_old_training_entrypoints": 9,
+  "protocol_unit_tests_passed": 6,
+  "fresh_architectures_tested": [
+    "mri",
+    "fmri"
+  ],
+  "fresh_training_or_optimizer_updates_run": false,
+  "full_inference_rerun_in_this_update": false,
+  "inference_computation_ast_unchanged_except_metadata": true,
+  "model_result_records_checked": 495,
+  "remaining_targeted_keys_in_active_json": 0,
+  "historical_evidence_retained": true,
+  "backup_directory": "C:\\Users\\moham\\AppData\\Local\\Temp\\adopted_full_update_moy59k0v",
+  "scope": "Current metadata, file integrity, result preservation and initialization/partition tests. Full new training execution and experimental-design validity are not established.",
+  "latest_full_replay": {
+    "date": "2026-10-03",
+    "passed": true,
+    "native_models": 197,
+    "result_model_records": 495,
+    "result_rows": 33,
+    "elapsed_seconds": 967.8937685489655,
+    "max_native_probability_difference": 3.9517879486083984e-05,
+    "max_final_probability_difference": 2.726912498474121e-05,
+    "probability_tolerance": 0.0001,
+    "discrete_metrics_match_exactly": true,
+    "continuous_metrics_match_within_tolerance": true,
+    "training_repeated": false,
+    "evidence": "reproduction_run/REPRODUCTION_AUDIT.json"
+  },
+  "cv_launcher_checks": {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "runs_per_branch": 15,
+    "all_mode_jobs": 45,
+    "subjects_per_pooled_seed": 42,
+    "scheduler_tests_passed": 5,
+    "cohort_training_started": false,
+    "summary": "Pooled five-fold predictions per seed, then mean and sample SD across seeds"
+  }
+}

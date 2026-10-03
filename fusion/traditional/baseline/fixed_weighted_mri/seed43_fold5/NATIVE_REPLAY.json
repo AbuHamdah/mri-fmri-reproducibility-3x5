@@ -1,0 +1,12 @@
+{
+  "mode": "baseline",
+  "method": "fixed_weighted_mri",
+  "seed": 43,
+  "fold": 5,
+  "model": "fusion/baseline/fixed_weighted_mri/seed43_fold5/model.keras",
+  "model_sha256": "a65e54ffea9dc01660675f7619282b5dc9a5314ae7d3850b667e69f3d5c617a6",
+  "all_subjects": 42,
+  "maximum_probability_difference": 0.0,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

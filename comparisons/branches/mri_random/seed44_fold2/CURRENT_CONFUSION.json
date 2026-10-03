@@ -1,0 +1,64 @@
+{
+  "seed": 44,
+  "fold": 2,
+  "series": "mri_random",
+  "test_n": 9,
+  "threshold": 0.37470777332782745,
+  "confusion_matrix": {
+    "TP": 4,
+    "TN": 2,
+    "FP": 3,
+    "FN": 0
+  },
+  "false_negatives": [],
+  "false_positives": [
+    {
+      "subject_id": "sub-047EPKL014008",
+      "true_label": 0,
+      "probability": 0.4233923852443695,
+      "run_probabilities": [
+        0.4233923852443695
+      ],
+      "input_paths": [
+        "inputs/mri/sub-047EPKL014008.npy"
+      ],
+      "seed": 44,
+      "test_fold": 2,
+      "model_id": "mri_random_seed44_fold2",
+      "selected_threshold": 0.37470777332782745,
+      "predicted_label": 1
+    },
+    {
+      "subject_id": "sub-047EPKL014039",
+      "true_label": 0,
+      "probability": 0.41471320390701294,
+      "run_probabilities": [
+        0.41471320390701294
+      ],
+      "input_paths": [
+        "inputs/mri/sub-047EPKL014039.npy"
+      ],
+      "seed": 44,
+      "test_fold": 2,
+      "model_id": "mri_random_seed44_fold2",
+      "selected_threshold": 0.37470777332782745,
+      "predicted_label": 1
+    },
+    {
+      "subject_id": "sub-047EPKL014054",
+      "true_label": 0,
+      "probability": 0.5226566195487976,
+      "run_probabilities": [
+        0.5226566195487976
+      ],
+      "input_paths": [
+        "inputs/mri/sub-047EPKL014054.npy"
+      ],
+      "seed": 44,
+      "test_fold": 2,
+      "model_id": "mri_random_seed44_fold2",
+      "selected_threshold": 0.37470777332782745,
+      "predicted_label": 1
+    }
+  ]
+}

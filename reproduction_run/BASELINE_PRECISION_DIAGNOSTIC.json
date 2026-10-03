@@ -1,0 +1,82 @@
+{
+  "thread_count": 2,
+  "cached_features_shape": [
+    42,
+    256
+  ],
+  "head_type": "Sequential",
+  "records": [
+    {
+      "subject_id": "sub-047EPKL011005",
+      "expected": 0.7284393310546875,
+      "raw_full_model": 0.7284393310546875,
+      "cached_head_batch42": 0.7284495830535889,
+      "cached_head_single": 0.7284393310546875,
+      "encoder_feature_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL011041",
+      "expected": 0.7068759799003601,
+      "raw_full_model": 0.7068759799003601,
+      "cached_head_batch42": 0.7068848609924316,
+      "cached_head_single": 0.7068759799003601,
+      "encoder_feature_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL011056",
+      "expected": 0.7577218413352966,
+      "raw_full_model": 0.7577218413352966,
+      "cached_head_batch42": 0.7577117085456848,
+      "cached_head_single": 0.7577218413352966,
+      "encoder_feature_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL011063",
+      "expected": 0.8389606475830078,
+      "raw_full_model": 0.8389606475830078,
+      "cached_head_batch42": 0.8389603495597839,
+      "cached_head_single": 0.8389606475830078,
+      "encoder_feature_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL014024",
+      "expected": 0.3979358971118927,
+      "raw_full_model": 0.3979358971118927,
+      "cached_head_batch42": 0.3979128301143646,
+      "cached_head_single": 0.3979358971118927,
+      "encoder_feature_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL014036",
+      "expected": 0.17966867983341217,
+      "raw_full_model": 0.17966867983341217,
+      "cached_head_batch42": 0.17966432869434357,
+      "cached_head_single": 0.17966867983341217,
+      "encoder_feature_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL014038",
+      "expected": 0.17151495814323425,
+      "raw_full_model": 0.17151495814323425,
+      "cached_head_batch42": 0.17150303721427917,
+      "cached_head_single": 0.17151495814323425,
+      "encoder_feature_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL014062",
+      "expected": 0.1597183644771576,
+      "raw_full_model": 0.1597183644771576,
+      "cached_head_batch42": 0.1597338616847992,
+      "cached_head_single": 0.1597183644771576,
+      "encoder_feature_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL014067",
+      "expected": 0.10822346061468124,
+      "raw_full_model": 0.10822346061468124,
+      "cached_head_batch42": 0.10820956528186798,
+      "cached_head_single": 0.10822346061468124,
+      "encoder_feature_difference": 0.0
+    }
+  ]
+}

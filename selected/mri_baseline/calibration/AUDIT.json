@@ -1,0 +1,7 @@
+{
+  "validation_test_overlap": 0,
+  "complete_partition_coverage_per_seed": 42,
+  "children_with_classification_changes_across_seeds": 2,
+  "no_probability_changes": true,
+  "no_test_labels_used_for_threshold_selection": true
+}

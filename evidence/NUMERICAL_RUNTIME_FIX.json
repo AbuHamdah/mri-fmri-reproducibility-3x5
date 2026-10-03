@@ -1,0 +1,7 @@
+{
+  "reason": "Batch vs single-sample Dense inference numerical discrepancy reached 0.000103108; same encoder/weights and single-sample outputs matched exactly.",
+  "fix": "Final inference and native-parity comparison use single sample for remaining runs; checkpoint validation selection remains originally batched. Existing completed runs retain their recorded inference and tolerances.",
+  "completed_runs_before_fix": 96,
+  "retraining_completed_runs": false,
+  "saved_failed_selected_model_recovered_without_retraining": true
+}

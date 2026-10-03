@@ -1,0 +1,1120 @@
+[
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold1\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold1/history.json",
+    "bytes": 22911,
+    "sha256": "e9e62595d95f9a4132da57e20b0a239e3ab7ebbb67c9252d6be62b1decd48379"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold1\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold1/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold1\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold1/model.keras",
+    "bytes": 34835959,
+    "sha256": "99eb67568735f6ad00df45947d3438a88ba09f6c74e2e3c4ad68484ad0cea944"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold1\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold1/protocol.json",
+    "bytes": 893,
+    "sha256": "fb1a36f2dec25b28b9f2372140f414c091a9303a826d8d97e31242219dbb4ba6",
+    "original_copy_sha256": "a8beefe1dad299c6ec0a67ee87fda01eab2dd8c950ac137e9b6a78176c9bbd15",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold1\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold1/RESULT.json",
+    "bytes": 786,
+    "sha256": "ff14427a37df64c80cf192261ff48b5a7e64213d16dffe21204d11efbe76eae5",
+    "original_copy_sha256": "23a2503a82448124304deb2809b816fbfe5172602541303226434a03412659b6",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold1\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold1/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "b0f6a69dab5e2f1bb495afc308de3b30426d66732b2089a1e1425e7be622ec55"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold1\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold1/SPLIT_DETAILS.json",
+    "bytes": 1908,
+    "sha256": "0c9e9bdf3faf5d22f3885662887de10506fcc9804a4d9af86363d3465cb8f53a",
+    "original_copy_sha256": "4add0dac7d7df934fa1e66bbc26232944a38cdb583635507ee0c9903aca1ccfc",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold1\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold1/test_predictions.json",
+    "bytes": 1994,
+    "sha256": "82d7295a3318b227946146151e7690f092660bcfca2b980c6eb69b7778775d90"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold1\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold1/validation_predictions.json",
+    "bytes": 755,
+    "sha256": "db7e1d3e73740d0360e7d931c1456ce2b6d3560aa625cd01cf5b10bbcb008d54"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold2\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold2/history.json",
+    "bytes": 18357,
+    "sha256": "9fe58efa4a3d2102c54950629b2526b2f8b4a71ec9127355c670ecbbca9348bc"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold2\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold2/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold2\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold2/model.keras",
+    "bytes": 34835959,
+    "sha256": "e29529e4ac42171659c512093d8fac46185c5d59272534e0b849299d8cd95f69"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold2\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold2/protocol.json",
+    "bytes": 893,
+    "sha256": "1ac1b47d332736475cc874fc5b64257ab02a7fbc628d638c5b74942ed7f672d0",
+    "original_copy_sha256": "502e55a45fee3961896c2b91ff4e3a06f14637f6f453c21f87f6b4c30a317bf1",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold2\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold2/RESULT.json",
+    "bytes": 781,
+    "sha256": "d1f8e802137b1123a55108ca08ad26f0c80756c3446f614c5c5214ca1b96779f",
+    "original_copy_sha256": "f82cded901f9da0787fdb5e273d77f4453aac854f4d8bb9089e670b9efdb7fa2",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold2\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold2/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "6e36934d4b0dfa2f66b71e3b780a0abfc152538e4781d21fb2d8abbc3563f2d8"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold2\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold2/SPLIT_DETAILS.json",
+    "bytes": 1908,
+    "sha256": "fcc4bad5f54577dcdba1e8b9f0c96527a6aa02cbfdb0c592c479bcb03bbc7c35",
+    "original_copy_sha256": "ded7dbfa3a5db22cfdc680e77d5eb2c8838e9c145d6e78bcd5b71a004ce0e318",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold2\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold2/test_predictions.json",
+    "bytes": 1994,
+    "sha256": "dcecb2737495f08930f0fc564d2552422aee3c024ca60f703fae8a90235dcf13"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold2\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold2/validation_predictions.json",
+    "bytes": 754,
+    "sha256": "1817e5daf47a7d1881fcc5b94ad55c12702e85ed798c3d37d93e99f2d1871d55"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold3\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold3/history.json",
+    "bytes": 20619,
+    "sha256": "930c248c1e7a1557ac62ae1e40fc484bfc3ebf7eb8cfa7b39642b22433e628d9"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold3\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold3/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold3\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold3/model.keras",
+    "bytes": 34835959,
+    "sha256": "95e59fb5b8ea43c59b6af2a432f778a1231cf7196a4319b3e15cf8938d9855ad"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold3\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold3/protocol.json",
+    "bytes": 875,
+    "sha256": "edfef2e1b0411bb432888179d930ab61ad28d920c075aa35ef552e89df3efdd7",
+    "original_copy_sha256": "233a0fac8ebc4fe28c7a98105546d09445f6f7e2d5a617a007b406fa22074524",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold3\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold3/RESULT.json",
+    "bytes": 827,
+    "sha256": "682a2c65582e0cac5bef825b3c26b663430dfb1811fd715d706a0114641f6db0",
+    "original_copy_sha256": "f48be15ef42653880f9b99cc1cb0b39e179b01519cc08406492babd7f8798907",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold3\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold3/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "66b47a8ad1bf9e0bdc5ae727fcbf1d4b2c4d8270cdbd5877d8dab26a10a3bb8d"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold3\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold3/SPLIT_DETAILS.json",
+    "bytes": 1934,
+    "sha256": "c9b8ae6f7d91223b6854f2201b01bb32efda8d6e9565c26d8810acddf8f4de6f",
+    "original_copy_sha256": "a03ec60d78ceb470d8f1053da9664b773a62150283ffbb26ad29a2ed95496a2c",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold3\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold3/test_predictions.json",
+    "bytes": 1773,
+    "sha256": "0dce93fde5383c3c4f452a7156203fa652fc757e6c031b76bc2e65222624c22e"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold3\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold3/validation_predictions.json",
+    "bytes": 753,
+    "sha256": "8b9b60e7c85cef8485671a65e6e089f0908fc7ab680e7d504c90f50a01cb9c17"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold4\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold4/history.json",
+    "bytes": 18373,
+    "sha256": "73588d36874536f997de1b58e2c3bc808017a8ab7526c11d6c934edf9241dde3"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold4\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold4/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold4\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold4/model.keras",
+    "bytes": 34835959,
+    "sha256": "2f2ade4f4542e2db40b70bf6c20889541b39756f7bd5e00f6b448ebe72e9549d"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold4\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold4/protocol.json",
+    "bytes": 893,
+    "sha256": "fd20b43acf9f1e9fc332fac346396d4cbf1cb9e17963d04a63e2475c097eb3a5",
+    "original_copy_sha256": "bbf4080a3a97e7e84acab05b7897a68e9eb49281e976bbdb16d9b1bca7fefbab",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold4\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold4/RESULT.json",
+    "bytes": 824,
+    "sha256": "14d196ac5d3c8a9a14b385c85aacb3350b23925d7f73f186c072e9a3741a4751",
+    "original_copy_sha256": "0fbfa9792dfed9a4c1abf038132537312c9355eaa20b3771f26502d39ffaa2fe",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold4\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold4/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "7086caf0183362e15f10e356c133ffa9b63e4e0e74aad4c225fb7ae637629dbe"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold4\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold4/SPLIT_DETAILS.json",
+    "bytes": 1934,
+    "sha256": "910999d6b87edd3024fed4ddaf9b3d5346c45b556b13e90e81a039fababcf552",
+    "original_copy_sha256": "ec3e1678e28d3b9283ab91b36bc86b4ca138ae21fe1fb1c2eb7fb9ff70c8e9a4",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold4\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold4/test_predictions.json",
+    "bytes": 1771,
+    "sha256": "959d646e856a4aa13f925a472a9396c270b594c10b003ea2cb3351d3e81420f2"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold4\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold4/validation_predictions.json",
+    "bytes": 755,
+    "sha256": "7fc35adc6179c87508c70650bab3b7c3dad250710ba34d67e7bca6ed24947151"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold5\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold5/history.json",
+    "bytes": 21468,
+    "sha256": "f87b8685d059a62cbe77d651164602f11f8b3bd0e3b5ed8c35e5e32ffb137b3e"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold5\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold5/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold5\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold5/model.keras",
+    "bytes": 34835959,
+    "sha256": "3ea6ea73849bacc5c6656de1aa3da37b5fd250ecfb0a8ee649367457c773f6fb"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold5\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold5/protocol.json",
+    "bytes": 892,
+    "sha256": "d4f0747abef0cd0f2e2a047f0389a5b4f5016272cee2b1b56e752d130042b214",
+    "original_copy_sha256": "55ccf0901bb6b1b28bdbbf300ea14e8e089852ed7228d99324560fafcc1fbb00",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold5\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold5/RESULT.json",
+    "bytes": 822,
+    "sha256": "3cce4a593712c9d38a135064395df9f8a5627ffda9b20c8644adcf30083cda21",
+    "original_copy_sha256": "20d688e477a3c41da729e46619ced71c97d59904fff2b257f3b6f3ade763695e",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold5\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold5/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "a716b0f29a59dd4ef31b2b609d808a979ccd6f8bbc17095e50a98c8561ad3b69"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold5\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold5/SPLIT_DETAILS.json",
+    "bytes": 1934,
+    "sha256": "c3e5966ae298aac2fa138027fb5851246a28e868f2853af6c8809066b435e90b",
+    "original_copy_sha256": "e8e18cb5427760f59074943185e02f885433b0dd0e0b219bb0fe337d4b828994",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold5\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold5/test_predictions.json",
+    "bytes": 1773,
+    "sha256": "eaa6cb61a664863441dcc8892d00ef30668700ca88128f2fa5e53b23208b8275"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed42_fold5\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed42_fold5/validation_predictions.json",
+    "bytes": 753,
+    "sha256": "42509419aeb89da038cae3604533dd54d5349c29fc205fea43fe9e8a3f33422b"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold1\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold1/history.json",
+    "bytes": 20737,
+    "sha256": "928962f9bfdd6706db103a10be7aa6f3b9d5f65d9c40966c8831cffd7452eb13"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold1\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold1/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold1\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold1/model.keras",
+    "bytes": 34835959,
+    "sha256": "90eccec1fe303ef7a989114fa8ef237eb73d07d38fc7d46b7ec8a0b47646b4d5"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold1\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold1/protocol.json",
+    "bytes": 893,
+    "sha256": "28b01966694e9571e39801588fa40e333fd06f5a51d3257246f226f08fa9d83a",
+    "original_copy_sha256": "2560bbce9365eb60eb5cb2329d7a91a37a5b1e33bc58f873325d6c387e79b3b6",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold1\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold1/RESULT.json",
+    "bytes": 784,
+    "sha256": "a89c767d452de650c0fdf10b9d4e8afc542813a3b59b80591b821844032486a2",
+    "original_copy_sha256": "e95550948cfbe67d15fa62f906f9dff65a7720832971f1762bd156053f2815bb",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold1\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold1/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "58f2ed47b2725e3a17ef90153ab6ed8a53ee54994f9696d8a7be176631afdfa9"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold1\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold1/SPLIT_DETAILS.json",
+    "bytes": 1908,
+    "sha256": "25ad678fb98900753ae4134d5876faeefde61e09c601b70d0503b9526bec15d2",
+    "original_copy_sha256": "e44997927dbcfe97fd0c7ce7afabad9517f7f15f9e9f861231dc82751a8a8ff5",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold1\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold1/test_predictions.json",
+    "bytes": 1996,
+    "sha256": "915966244070898a561144e2dffee98804f93a12fc58a4fa2d4e9568835e10c7"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold1\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold1/validation_predictions.json",
+    "bytes": 751,
+    "sha256": "76880d264c47be77eec7ec3c0a30243c401b13e18981969abed6c79d1051f7a5"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold2\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold2/history.json",
+    "bytes": 18363,
+    "sha256": "3b43cb02ea4fbc3e94247b190b2b6176ba703f58becfbf657838309eb23d4259"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold2\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold2/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold2\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold2/model.keras",
+    "bytes": 34835959,
+    "sha256": "ccb8f324e43841e7d556acc1378281ad796230d62ceaf9bb8b0cde100066caf2"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold2\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold2/protocol.json",
+    "bytes": 892,
+    "sha256": "0bb637720d40146d63531ca7855302d239ecfa3797e56b336da87c2359a39a49",
+    "original_copy_sha256": "b39ff18830fbb5c5cc1b35b64f79ba2b84e7aa5e1c15a23d4ec54dc8ea3d54cb",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold2\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold2/RESULT.json",
+    "bytes": 822,
+    "sha256": "f1b888e66851c3bde7115b50c08e5aa7ebccc36e6811bfb7ac438acdd72207dd",
+    "original_copy_sha256": "dd3c859674e5e1e6c8ae17e93e0fe7fed412eddd74cbfedf5b6241f893738e0c",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold2\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold2/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "3a09080dc610fa3db1d7c13ed38addcfbba7f33745d521cf0a546556b48fe4a7"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold2\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold2/SPLIT_DETAILS.json",
+    "bytes": 1908,
+    "sha256": "b58c3bc15531e2a771256d3e0ee2f01f3592c6f96888dad5a4834e6d53a691a0",
+    "original_copy_sha256": "09dc9ae5f102e7e3e052b32039de134a936983491220eea49cbf5703eb8d13e9",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold2\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold2/test_predictions.json",
+    "bytes": 1993,
+    "sha256": "ccb18546a74f0ded14f12ced27d092805b6add4c637665c051c6d9ec41e725f5"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold2\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold2/validation_predictions.json",
+    "bytes": 752,
+    "sha256": "b1417cb73ebbba76f35937b3b9e334f82fcb696f06faa8996a4111ce7a48664f"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold3\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold3/history.json",
+    "bytes": 18362,
+    "sha256": "dbbff77269fd215941a2846e8be2a1ac11505369138990605309503048759fe3"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold3\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold3/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold3\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold3/model.keras",
+    "bytes": 34835959,
+    "sha256": "4b5cb93f955bd4538d6e7cb6ce6a8d5f5d6bb8efb8914b82e20ed24f3a94c012"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold3\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold3/protocol.json",
+    "bytes": 893,
+    "sha256": "f4c110317799c8f5002b6a96f264ef665db1544fd87ecf4be313fd094d731bbe",
+    "original_copy_sha256": "92e3de5b67fbc21ab5b28686f773a3665df78d4a46486ebbf57f3f3e998c04c9",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold3\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold3/RESULT.json",
+    "bytes": 824,
+    "sha256": "19771d99b2954fca6c5fe01ed258cf4afe1cd6674c6a005428ce076d50e0d746",
+    "original_copy_sha256": "01ec68d3435148a82d483fb84b869d8b96c2819f5873dbef6c42039459960ba4",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold3\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold3/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "d967f613af304acb85383bed61c5e64b0079411f04d9ec3166890125f56fc356"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold3\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold3/SPLIT_DETAILS.json",
+    "bytes": 1934,
+    "sha256": "0bfa02dbfba74574a2ee14e8afc3125d7d48e3f92cf257512c4fc89047943f06",
+    "original_copy_sha256": "e45df60ec50fa9457395a4dfabfcad1cb8486ecbccada0abd82b0e2c3b60c6bd",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold3\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold3/test_predictions.json",
+    "bytes": 1772,
+    "sha256": "9debdd77d6254185c885d31ab6aa9e9f71b048d5642fc2556d8aa59d4605ba6d"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold3\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold3/validation_predictions.json",
+    "bytes": 751,
+    "sha256": "31de737168e89ef780c45590e60bbebf05553f382d6234390b5999e81c7147c9"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold4\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold4/history.json",
+    "bytes": 18366,
+    "sha256": "68bc03255cc41a2bb200440f728490ddf881ff2e9e080a30ac1e06745586d1ea"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold4\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold4/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold4\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold4/model.keras",
+    "bytes": 34835959,
+    "sha256": "9444502b743dfabcf3969d74fbe6ef1766c3ba639852f7c44af31b3acb6f8c54"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold4\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold4/protocol.json",
+    "bytes": 893,
+    "sha256": "e35ab4b2953fe02bc964d515986ca2cf21251ea7e0584b8d256946346aa0a871",
+    "original_copy_sha256": "68a316586dd4029835c58ec40d31c760fb3ddb67c195ae5e285a7af1c1284c33",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold4\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold4/RESULT.json",
+    "bytes": 783,
+    "sha256": "489cefe59826a651142dc88ead6fadf92ab6a9547869187e95e60194529d6082",
+    "original_copy_sha256": "dd151ce15aeb5c72d80853ce4649b7ba7cac2260f0aca313d5a611bc8fc52068",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold4\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold4/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "8cb5321602699e14cb32aa4059e9bc35f56acd6051e148b1bef83a843e538c6a"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold4\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold4/SPLIT_DETAILS.json",
+    "bytes": 1934,
+    "sha256": "34cae4cf7ae4048df19ba57b2fa10f1be2ed8fdb631da54139f3b9aca487b58d",
+    "original_copy_sha256": "6c4637e608ef51d866e060e6b512a1bc4a224ea728ba21c0247137225e2df837",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold4\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold4/test_predictions.json",
+    "bytes": 1771,
+    "sha256": "ccb3c813d7f8be6fd67b6715455703a9e017503f23c05621edd1c5cdfb22600a"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold4\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold4/validation_predictions.json",
+    "bytes": 753,
+    "sha256": "477eaa602c21637c918cd0e1cee7da1ff1aa616fff3f48609d836965eae1e7c7"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold5\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold5/history.json",
+    "bytes": 18364,
+    "sha256": "4556516e7d998e45a388260da12dc57c28ce8d2de74b8384b0a07dc1d3ebcf34"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold5\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold5/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold5\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold5/model.keras",
+    "bytes": 34835962,
+    "sha256": "2b9be5aa9a612f9b94f4b6062db2e616b6637def4fdd46d93b7371eae2193d1c"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold5\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold5/protocol.json",
+    "bytes": 893,
+    "sha256": "432f0ddea2e2484d6d6adece801f042e04a2da1b0c99bce12e00fa5dd1d65107",
+    "original_copy_sha256": "b87d139a1f6a8f106c1221641e1d518569ba3e1b85c3f2fbb6896daa4db791f3",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold5\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold5/RESULT.json",
+    "bytes": 784,
+    "sha256": "ff3438a625a8fe1cf7c5fe5c3e472481f68f7ec7e1a0a5f75edd2f5c947f3651",
+    "original_copy_sha256": "683dafecaa94fdd5e31a717b55240c7bb6b78120ac2b98351ea53a69f3ed483e",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold5\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold5/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "5639ea6b327e20f141e14937e96d8e3069dc3a6acdae24d3137c58f8f90c24b2"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold5\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold5/SPLIT_DETAILS.json",
+    "bytes": 1934,
+    "sha256": "402875b5f89b0683093be6fdf23cb837fbfd5384d3b6ab73e7095da8a9b7cd49",
+    "original_copy_sha256": "24fe827c0a2aafa084fdd9c26e5a86370287aded45bd7f5d8b37ba00d196e2e9",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold5\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold5/test_predictions.json",
+    "bytes": 1774,
+    "sha256": "c8e8085c04b1462a519372e22509a3d40813206775b127e7c07a377a604332ca"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed43_fold5\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed43_fold5/validation_predictions.json",
+    "bytes": 755,
+    "sha256": "c69511f5d11205f92694f47a6da09a024ef5676ae9ef9a518761b1d534541719"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold1\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold1/history.json",
+    "bytes": 18357,
+    "sha256": "11ff22a2a07bf3363b74d05ec002506e62fc89508c6be506e8bdba3ff515471f"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold1\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold1/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold1\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold1/model.keras",
+    "bytes": 34835962,
+    "sha256": "d09695528e0918a53a436074016e88bfb26094d38b582cbfee09adbe399b749a"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold1\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold1/protocol.json",
+    "bytes": 891,
+    "sha256": "ac9996e20c523b310e128931f50d88a70e6335a1403c9f16d3d7876b55e0e1b9",
+    "original_copy_sha256": "48a11a2cd966e7151beecaba65cab448850364ea5a98455ba60f29553eb7cf1a",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold1\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold1/RESULT.json",
+    "bytes": 866,
+    "sha256": "126a8d77126c04befa5a8be190f9b05810495cabd6353f615fbc32a9cc045f21",
+    "original_copy_sha256": "abbf89ebcda131b56ed0b0e64c6894bcc2daab666d2a3b4478fda1ef72db0678",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold1\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold1/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "94e8a64ca4c91542863521c6af12d781c758f52b92a04194e49828ffc53a71df"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold1\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold1/SPLIT_DETAILS.json",
+    "bytes": 1908,
+    "sha256": "8fb112734174aa377104791c038275cba4d43e30cbddebdb5cd7265f2d1a125d",
+    "original_copy_sha256": "63a40883a9a78691e42530db11b707c9735a0d602153e50bd47c399c441e6fb1",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold1\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold1/test_predictions.json",
+    "bytes": 1994,
+    "sha256": "2bb584a3595be7e3e14766a324c80f8f6f6e3b1ce9e03c9d9cab1776a8da2aea"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold1\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold1/validation_predictions.json",
+    "bytes": 754,
+    "sha256": "2a4c821b028589c67d216739800bf218b322eab0af29c79cbfde8d02ad3d68a0"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold2\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold2/history.json",
+    "bytes": 18323,
+    "sha256": "baf94434dc4efa2c22f530aee4f3ce743887678952e65aa24aae42ccabf54b40"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold2\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold2/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold2\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold2/model.keras",
+    "bytes": 34835962,
+    "sha256": "4619a9ff9c0c84d803420878c6e935303883d3425772243dab7172a5a605af28"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold2\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold2/protocol.json",
+    "bytes": 893,
+    "sha256": "6d39b0725bdd09751b5114bf6f78c5b3d79f84217edb28f9d1655e7f473f0f0c",
+    "original_copy_sha256": "87977b0f03151f34b33b3069e3e330ad39db6e857dd615f4170dd1763e8e75b9",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold2\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold2/RESULT.json",
+    "bytes": 868,
+    "sha256": "047562a24324e10bcf713c3f4b9d10de552a87b1410bb377d385abc55ca8980d",
+    "original_copy_sha256": "0454353249f33426628f4ecb89d59770726fc94052daa5a323050a3f53cc5eb0",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold2\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold2/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "df1a5911915d802e107d3caea4dc03c9c8412a0e197a612fcc07c60318706b26"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold2\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold2/SPLIT_DETAILS.json",
+    "bytes": 1908,
+    "sha256": "89abac8641693db43268c5a487993cf2b24562359c13d97b1cd6fd8c6dce201c",
+    "original_copy_sha256": "d5b44d917d03f72e985d02b714759168775500087ff7123b0b9a6cfe8d628a3a",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold2\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold2/test_predictions.json",
+    "bytes": 1989,
+    "sha256": "966d49a69d46b8edf08026982b190158b45de71ad1a3ee161b87072ab6121828"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold2\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold2/validation_predictions.json",
+    "bytes": 752,
+    "sha256": "69e801baae60e040827af3e56b9e33a92aedd276a69ac8081064e7233a15f970"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold3\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold3/history.json",
+    "bytes": 21370,
+    "sha256": "7a563aff335327a9f675fa6282130910f0c0c67f810bb619fa2b1e987735c140"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold3\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold3/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold3\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold3/model.keras",
+    "bytes": 34835962,
+    "sha256": "2cbf5a22b302fb8c53bfe27763ae655c5d4645b7658b8daccde299400eb57971"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold3\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold3/protocol.json",
+    "bytes": 892,
+    "sha256": "0caf1dbf8b1d20cdf05bc679c6fdee574c77a1b66f2627da699f70b5eb2e38bc",
+    "original_copy_sha256": "71b40896597c4e37f4a7bacbbf277bc7e553f4f49608b744ee52f40bdfab330e",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold3\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold3/RESULT.json",
+    "bytes": 783,
+    "sha256": "9c02d9ef046f0c79d907a7baf66e2e5906c2be29689141f5d282ee75f712f6cb",
+    "original_copy_sha256": "c06626dc4d03ad0ec62bb88041192af69188f57f8e22a311cdd3b83754ed18f1",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold3\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold3/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "5f6e28a0c17d794b12135ae396142c83711626755edab71a3368659a4fa385d3"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold3\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold3/SPLIT_DETAILS.json",
+    "bytes": 1934,
+    "sha256": "0414a4b953d457d9944b23be7f2b921407e1d270791db903e070a47123a9561b",
+    "original_copy_sha256": "fcde336f29b1c44474167de29b7428878247ba0593b8bb9acd6939d6fb8ba25a",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold3\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold3/test_predictions.json",
+    "bytes": 1774,
+    "sha256": "47cc506fd7a2a13839fe9bc5c03760d8e9d9bbc9b4a034b08188b7586656da20"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold3\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold3/validation_predictions.json",
+    "bytes": 754,
+    "sha256": "6d5d0ebe9a4e7816b969e67b2bd51e90e2d3bfffe2a16e69af0a5ef218a82072"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold4\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold4/history.json",
+    "bytes": 21484,
+    "sha256": "e13e6257810375f71ce4df200b4c3d226e78d2d5bbcbb8e0716ba2fbbad4bfd2"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold4\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold4/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold4\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold4/model.keras",
+    "bytes": 34835962,
+    "sha256": "87324c70a36a45c8babc1c267c3cb7c8bf5a97ed54d89117c7a85cc9f965b044"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold4\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold4/protocol.json",
+    "bytes": 892,
+    "sha256": "5e860e381372d937709d1891d72a78a19cda0fcd2d11780df3f4ba1ec141c1a6",
+    "original_copy_sha256": "b452879eb7b07d5d7ff59d7eaefd5e0b1e5988239dd16605007657668d57fad4",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold4\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold4/RESULT.json",
+    "bytes": 822,
+    "sha256": "c66beeec8bf4c67cdeb19955ea0094471c15e4c4b98481475480987c348146bb",
+    "original_copy_sha256": "324d68f2fbcbcec209dcd9c0104a534ddab16f2488c5cf75d67b590572ca3329",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold4\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold4/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "0a4b911ac512475a7d0475106297c806c886785f2d462f8b80f49855637d630b"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold4\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold4/SPLIT_DETAILS.json",
+    "bytes": 1934,
+    "sha256": "f6c1edb413ffcbeedfdeed2ce9eb399c127f7aa7f5882ebf100b6fadc2d427a8",
+    "original_copy_sha256": "3e084f0157b408532f8cbbbdec8b1faae8fe397a275d3e11fd16e92208c3f2f9",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold4\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold4/test_predictions.json",
+    "bytes": 1773,
+    "sha256": "842277157e3bd27c4c07129d24115c0064001516dfe87b518d283596006c5578"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold4\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold4/validation_predictions.json",
+    "bytes": 752,
+    "sha256": "e1d9105af26f4bbbbc819e47b1beafff8c2ad3fffb9f767e810683cfd40e1519"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold5\\history.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold5/history.json",
+    "bytes": 20758,
+    "sha256": "a5fdf17af52b85cb1f54e4efae04320b4e0cb1e5a5d102b06d81abb0d09f37d3"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold5\\initial_head_weights.npz",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold5/initial_head_weights.npz",
+    "bytes": 133134,
+    "sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold5\\model.keras",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold5/model.keras",
+    "bytes": 34835962,
+    "sha256": "3f7dd86bb6d7dfcb3a7c74d42cf4516faf2306c2039c873664d9574a9c24f20f"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold5\\protocol.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold5/protocol.json",
+    "bytes": 893,
+    "sha256": "c748422f8f43d84ed689031e2ff979159b9214cfa934fdb392071e6de11f48c7",
+    "original_copy_sha256": "3dd14ecc94622d6a3491b1f9588086f6cffe580dc6d5cf86f695b358f3cd1a1d",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold5\\RESULT.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold5/RESULT.json",
+    "bytes": 786,
+    "sha256": "165ec7f424a9bded2819dc080afb5e5898fd64b3ac3d5aeaa1729ed4471017a2",
+    "original_copy_sha256": "219a52f60d2b430165899d073c9e1515771b643fb535b776f0fc981d5b8411be",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold5\\selected.weights.h5",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold5/selected.weights.h5",
+    "bytes": 34831136,
+    "sha256": "104239b3599bc7dfb491c7a0a9b14d2c76b803abf07a897c6221f01b8d7778ee"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold5\\SPLIT_AND_LEAKAGE.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold5/SPLIT_DETAILS.json",
+    "bytes": 1934,
+    "sha256": "0032d3cb5e17628fbf5ab1001f93433a2974bc5f9d1aa8afd1a7671c7c349080",
+    "original_copy_sha256": "7bcce7af7ba5188a86ad21ba4bb4df5a01d6b52eb657b57a366f55cbb9797842",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold5\\test_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold5/test_predictions.json",
+    "bytes": 1772,
+    "sha256": "028f11915a7051eb5a8ae5cf3a1f8c6956e7e45a631159c34211db486a359bab"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\runs\\last_layer\\seed44_fold5\\validation_predictions.json",
+    "path": "selected/mri_baseline/adopted_models/seed44_fold5/validation_predictions.json",
+    "bytes": 752,
+    "sha256": "1383ee2ddf556fa297d1c9c1c7754ac5cc4c431a26cdbfd43037e9052e7fd3c7"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\cached_features.npy",
+    "path": "selected/mri_baseline/cached_features.npy",
+    "bytes": 43136,
+    "sha256": "f65726fd73d8cd5bccabe2053b917736afc604aceaa086d716f33a1e8200c5ac"
+  },
+  {
+    "source": "D:\\MRI_BASELINE_LAST_LAYER_3X5_V1\\CACHE_AUDIT.json",
+    "path": "selected/mri_baseline/CACHE_AUDIT.json",
+    "bytes": 9267,
+    "sha256": "3070417272e05a58f9753b97fa5a589509ba07f5a43057bffe81252a3bf04fbe",
+    "original_copy_sha256": "0370e3c5a20e7d440520c330628f53f9c9d6ee6ae1f200b9e6ab2788f366d7d1",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LIVE_QWEN_FEATURE_FUSION_3X5_V1\\extractors\\fmri_features128.keras",
+    "path": "extractors/fmri_features128.keras",
+    "bytes": 68408616,
+    "sha256": "c624af532b199a0901217789054026a86a05240a37cb07b9467198584fd26564"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LIVE_QWEN_FEATURE_FUSION_3X5_V1\\extractors\\mri_features128.keras",
+    "path": "extractors/mri_features128.keras",
+    "bytes": 34829896,
+    "sha256": "1124c597bc6d9475fd7948f5eef00af1f35fb6aab5864085d02c2a30c67965e9"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LIVE_QWEN_FEATURE_FUSION_3X5_V1\\cache\\INPUT_MANIFEST.json",
+    "path": "extractors/INPUT_MANIFEST.json",
+    "bytes": 55820,
+    "sha256": "a2f9b4911b782a9f6cf670bab442c4ae6c0610a5f1077a4c5e6b347c68a6b3f3"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\mri_baseline_scratch_source\\CACHE_AUDIT.json",
+    "path": "comparisons/cache/mri_baseline_scratch_source/CACHE_AUDIT.json",
+    "bytes": 9955,
+    "sha256": "02c34ac10b646dfde24ced76875269b911bc703765215f76c19a0984c234967e",
+    "original_copy_sha256": "3c4fc0b4d894143fd2f0d81da2c243a55e48ae68ba5f53581907823bac0d8262",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\mri_baseline_scratch_source\\features.npy",
+    "path": "comparisons/cache/mri_baseline_scratch_source/features.npy",
+    "bytes": 43136,
+    "sha256": "03849a46589a62f87585e233e12d65e5718fa502e68fa9c938cdf268ed350a4e"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\mri_agentic_scratch_source\\CACHE_AUDIT.json",
+    "path": "comparisons/cache/mri_agentic_scratch_source/CACHE_AUDIT.json",
+    "bytes": 9957,
+    "sha256": "109851aa317d884c9feaed3b0362da9d06b8de0657fb2b112179b79db446edaf",
+    "original_copy_sha256": "522058cb87a9f24e69b17ed0564c955ae697f4751f2acfa73e9d7edbf56f7f1f",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\mri_agentic_scratch_source\\features.npy",
+    "path": "comparisons/cache/mri_agentic_scratch_source/features.npy",
+    "bytes": 43136,
+    "sha256": "03849a46589a62f87585e233e12d65e5718fa502e68fa9c938cdf268ed350a4e"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\mri_rule\\CACHE_AUDIT.json",
+    "path": "comparisons/cache/mri_rule/CACHE_AUDIT.json",
+    "bytes": 9956,
+    "sha256": "49ed4cb7b839033128070eb246cb828e1e268c8a1ffa10f80bb49a3c5b27e676",
+    "original_copy_sha256": "f539a41a34d30aef914ee6c5c679d4c186ad88dcc25aabff6b03b360dbc9b236",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\mri_rule\\features.npy",
+    "path": "comparisons/cache/mri_rule/features.npy",
+    "bytes": 43136,
+    "sha256": "f65726fd73d8cd5bccabe2053b917736afc604aceaa086d716f33a1e8200c5ac"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\mri_random\\CACHE_AUDIT.json",
+    "path": "comparisons/cache/mri_random/CACHE_AUDIT.json",
+    "bytes": 9957,
+    "sha256": "65b49e8c8f9c6c405e3c9305fe45aa62379464c015ee189ca924bfa1867b7bbb",
+    "original_copy_sha256": "ec35c8b02aa7ce9668d80fec8bcead10648723f2946dee55dd47545865de76fa",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\mri_random\\features.npy",
+    "path": "comparisons/cache/mri_random/features.npy",
+    "bytes": 43136,
+    "sha256": "f65726fd73d8cd5bccabe2053b917736afc604aceaa086d716f33a1e8200c5ac"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\mri_optuna\\CACHE_AUDIT.json",
+    "path": "comparisons/cache/mri_optuna/CACHE_AUDIT.json",
+    "bytes": 9956,
+    "sha256": "380c44a566dacf2f2ca74f55414af1396a490cb16dc01aac29cac80a1db6a05e",
+    "original_copy_sha256": "d864a984e45a1ee7b850e4b674831ceb13958e8f2534f9005d5695f322a73212",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\mri_optuna\\features.npy",
+    "path": "comparisons/cache/mri_optuna/features.npy",
+    "bytes": 43136,
+    "sha256": "f65726fd73d8cd5bccabe2053b917736afc604aceaa086d716f33a1e8200c5ac"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_baseline_scratch_source\\CACHE_AUDIT.json",
+    "path": "comparisons/cache/fmri_baseline_scratch_source/CACHE_AUDIT.json",
+    "bytes": 30631,
+    "sha256": "f8bc400c1d1ae4c1b7fb0589be4305e5f6c2713cf3a6989193936d3a6585093f",
+    "original_copy_sha256": "0293ddda9b5b88e15f140f48ca4835bf9d8bd0f366c2579067c493bc171de1fd",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_baseline_scratch_source\\features.npy",
+    "path": "comparisons/cache/fmri_baseline_scratch_source/features.npy",
+    "bytes": 64640,
+    "sha256": "f9ecdc19bf82e25c26a2d50a65ee07b382917471de348fa14437be9981a07594"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_agentic_scratch_source\\CACHE_AUDIT.json",
+    "path": "comparisons/cache/fmri_agentic_scratch_source/CACHE_AUDIT.json",
+    "bytes": 30772,
+    "sha256": "3157cfbd5faebece222960d08088655d936e97302225715b97c0d8e4a433a047",
+    "original_copy_sha256": "bcfda4da50da7e8660824cf9d7b1a2985369b86fd08f558c8df74b49a3755a37",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_agentic_scratch_source\\features.npy",
+    "path": "comparisons/cache/fmri_agentic_scratch_source/features.npy",
+    "bytes": 64640,
+    "sha256": "f9ecdc19bf82e25c26a2d50a65ee07b382917471de348fa14437be9981a07594"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_rule\\CACHE_AUDIT.json",
+    "path": "comparisons/cache/fmri_rule/CACHE_AUDIT.json",
+    "bytes": 30631,
+    "sha256": "883f219dd63d93a6192966448f5f4a3d33bd00f70f99e7493809532a90e920ac",
+    "original_copy_sha256": "11691ebfdd269ab6f9fd58893ea1486ab364fd2586df9cadb7d24c15356112f9",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_rule\\features.npy",
+    "path": "comparisons/cache/fmri_rule/features.npy",
+    "bytes": 64640,
+    "sha256": "2030142c98137d0348fdd4d1fadb38198ae82747692eb22d1f8580f9c895620e"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_random\\CACHE_AUDIT.json",
+    "path": "comparisons/cache/fmri_random/CACHE_AUDIT.json",
+    "bytes": 30631,
+    "sha256": "70f2f992a3184852a0aff246b2c62a9397d539f8cfa357cadd446ef8b15d9039",
+    "original_copy_sha256": "80403e4bb647ff3d6674e374b6dbe337968f7a690835c91fe56ea9b29b8b6025",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_random\\features.npy",
+    "path": "comparisons/cache/fmri_random/features.npy",
+    "bytes": 64640,
+    "sha256": "6878deccfbef7c4326f079085838869c5a95de4a22213c761443dd95b9fb5839"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_optuna\\CACHE_AUDIT.json",
+    "path": "comparisons/cache/fmri_optuna/CACHE_AUDIT.json",
+    "bytes": 30706,
+    "sha256": "63e491b8d27faf1200d6d3d6f887f462338f820283009e70ecb02702b3f77cf5",
+    "original_copy_sha256": "0cc52e998dc18bc6a7be684207cf830b24d5c4214ca4906e503931134649e7af",
+    "current_metadata_revision": true
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_optuna\\features.npy",
+    "path": "comparisons/cache/fmri_optuna/features.npy",
+    "bytes": 64640,
+    "sha256": "b080b78367499696a4ba9fcdf501c4850ecba849ee4b03b20ebc826e9df2cf7a"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\cache\\fmri_optuna\\source_native_probabilities.npy",
+    "path": "comparisons/cache/fmri_optuna/source_native_probabilities.npy",
+    "bytes": 1136,
+    "sha256": "6bdcdd0cef675a52af6a24318c5e1d144d26b18d994a308bf4afd0ebcddc8a85"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\PLAN.json",
+    "path": "evidence/SOURCE_COMPARISON_PLAN.json",
+    "bytes": 4861,
+    "sha256": "ae90836c3a40150859bbe89ee68de559ed260d56b07f9552de8177ce677cd8be",
+    "original_copy_sha256": "a241dcaf6ac0379c97818209608a21749314bd832ed93fa9dbba13fb1a9fd21d"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\SOURCE_ENCODER_EQUIVALENCE.json",
+    "path": "evidence/SOURCE_ENCODER_EQUIVALENCE.json",
+    "bytes": 2737,
+    "sha256": "8a159947024077a8adce8f8b1fdb7a7e8c450adcb6ac9c8fce878d3fda46beec"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\FMRI_NATIVE_INPUT_REPLAY.json",
+    "path": "evidence/FMRI_NATIVE_INPUT_REPLAY.json",
+    "bytes": 3706,
+    "sha256": "d350c17ced9339275ebad8272024ec892bd84ed951247436c280439369a558c9",
+    "original_copy_sha256": "ab8bcd8f7f11ec2b163b6ddaf0bfb352ba5036567c52c32b2813a73f48488e5a"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\FMRI_RAW_REPLAY.json",
+    "path": "evidence/FMRI_RAW_REPLAY.json",
+    "bytes": 3492,
+    "sha256": "95c8056a789cb5acf3b83e113728b3ce0bb3b34c33e0bea1d90e746dd3172efb",
+    "original_copy_sha256": "1fce99bfe6c76b20150ddebcf97f8beed89a0c38f7f8bfa34d7cb935eb43b42f"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\HISTORICAL_OPTUNA_CACHE_FAILURE.json",
+    "path": "evidence/HISTORICAL_OPTUNA_CACHE_FAILURE.json",
+    "bytes": 353,
+    "sha256": "ea6442c634c6dd03f8a2494e70546d35a83abc68388de6d999fd462a7fd70f00"
+  },
+  {
+    "source": "D:\\MRI_FMRI_LAST_LAYER_ALL_3X5_V1\\INPUT_SOURCE_COPY_MANIFEST.json",
+    "path": "evidence/INPUT_SOURCE_COPY_MANIFEST.json",
+    "bytes": 40446,
+    "sha256": "b03a029e068e4d91776b8fb0de23130b1ac5d101e92fb83e8b6b9f7d9f9dd8e5",
+    "original_copy_sha256": "f63d82edd206e61d450aa79ad4d33c978a8065c8c8abba73ad4ca15c0e5d33b5"
+  }
+]

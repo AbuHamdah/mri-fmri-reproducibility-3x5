@@ -1,0 +1,124 @@
+{
+  "series": "fmri_baseline",
+  "seed": 42,
+  "fold": 1,
+  "native_model_replay": [
+    {
+      "subject_id": "sub-047EPKL011005",
+      "probability": 0.7784729442044993,
+      "run_probabilities": [
+        0.9598910052399565,
+        0.44552947903572404,
+        0.9299983483378171
+      ],
+      "threshold": 0.423955228671005,
+      "predicted_label": 1,
+      "stored_probability": 0.7784729442044993,
+      "absolute_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL011041",
+      "probability": 0.5487301420750123,
+      "run_probabilities": [
+        0.7895387949966418,
+        0.19852162554331115,
+        0.658130005685084
+      ],
+      "threshold": 0.423955228671005,
+      "predicted_label": 1,
+      "stored_probability": 0.5487301420750123,
+      "absolute_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL011056",
+      "probability": 0.6313722509800717,
+      "run_probabilities": [
+        0.5019450243312171,
+        0.5019450243312171,
+        0.8902267042777808
+      ],
+      "threshold": 0.423955228671005,
+      "predicted_label": 1,
+      "stored_probability": 0.6313722509800717,
+      "absolute_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL011063",
+      "probability": 0.7202140986555404,
+      "run_probabilities": [
+        0.47413702367238786,
+        0.9629261276276327,
+        0.7235791446666003
+      ],
+      "threshold": 0.423955228671005,
+      "predicted_label": 1,
+      "stored_probability": 0.7202140986555404,
+      "absolute_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL014024",
+      "probability": 0.2490087440651112,
+      "run_probabilities": [
+        0.2544336064158931,
+        0.3720177321288744,
+        0.12057489365056619
+      ],
+      "threshold": 0.423955228671005,
+      "predicted_label": 0,
+      "stored_probability": 0.2490087440651112,
+      "absolute_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL014036",
+      "probability": 0.5083693183022212,
+      "run_probabilities": [
+        0.24335763731053156,
+        0.4027372366354417,
+        0.8790130809606902
+      ],
+      "threshold": 0.423955228671005,
+      "predicted_label": 1,
+      "stored_probability": 0.5083693183022212,
+      "absolute_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL014038",
+      "probability": 0.16428458077122643,
+      "run_probabilities": [
+        0.11828113042197157,
+        0.3550918564299257,
+        0.01948075546178202
+      ],
+      "threshold": 0.423955228671005,
+      "predicted_label": 0,
+      "stored_probability": 0.16428458077122643,
+      "absolute_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL014062",
+      "probability": 0.4498507680684127,
+      "run_probabilities": [
+        0.053643279916454664,
+        0.6333376795668388,
+        0.6625713447219443
+      ],
+      "threshold": 0.423955228671005,
+      "predicted_label": 1,
+      "stored_probability": 0.4498507680684127,
+      "absolute_difference": 0.0
+    },
+    {
+      "subject_id": "sub-047EPKL014067",
+      "probability": 0.3333862587454926,
+      "run_probabilities": [
+        0.2127512867352825,
+        0.16223304146896775,
+        0.6251744480322275
+      ],
+      "threshold": 0.423955228671005,
+      "predicted_label": 0,
+      "stored_probability": 0.3333862587454926,
+      "absolute_difference": 0.0
+    }
+  ]
+}

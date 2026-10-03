@@ -1,0 +1,32 @@
+{
+  "seed": 44,
+  "fold": 1,
+  "series": "mri_agentic_scratch_source",
+  "test_n": 9,
+  "threshold": 0.5,
+  "confusion_matrix": {
+    "TP": 4,
+    "TN": 4,
+    "FP": 1,
+    "FN": 0
+  },
+  "false_negatives": [],
+  "false_positives": [
+    {
+      "subject_id": "sub-047EPKL014066",
+      "true_label": 0,
+      "probability": 0.5758277544363422,
+      "run_probabilities": [
+        0.5758277544363422
+      ],
+      "input_paths": [
+        "inputs/mri/sub-047EPKL014066.npy"
+      ],
+      "seed": 44,
+      "test_fold": 1,
+      "model_id": "mri_agentic_scratch_source_seed44_fold1",
+      "selected_threshold": 0.5,
+      "predicted_label": 1
+    }
+  ]
+}

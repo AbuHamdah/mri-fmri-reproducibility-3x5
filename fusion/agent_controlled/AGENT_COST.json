@@ -1,0 +1,10 @@
+{
+  "actual_api_attempts": 30,
+  "successful_decisions": 30,
+  "successful_wait_seconds": 114.17903179279529,
+  "server_total_seconds": 113.525944855,
+  "prompt_tokens": 9949,
+  "generated_tokens": 183,
+  "monetary_cost_measured": false,
+  "timing_scope": "Reported training seconds include inference/serialization overhead; successful agent waiting subtracted, not isolated pure gradient time."
+}

@@ -1,0 +1,129 @@
+{
+  "status": "user_adopted",
+  "adoption_date": "2026-10-03",
+  "display_name": "Agent-controlled Feature Fusion",
+  "method_name": "Agent-controlled Feature Fusion",
+  "experiment": "MRI_FMRI_QWEN_CONTROLLED_FEATURE_FUSION_3X5_V26",
+  "package_path": "D:\\MRI_FMRI_QWEN_CONTROLLED_FEATURE_FUSION_3X5_V26",
+  "selected_policy": "live_qwen_training_controller",
+  "scope": "",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "partitions_per_seed": 5,
+  "current_models": 15,
+  "summary": {
+    "display_name": "Agent-controlled Feature Fusion — Qwen training controller",
+    "metrics": {
+      "accuracy": {
+        "mean": 0.9523809523809522,
+        "sd": 0.02380952380952378
+      },
+      "f1": {
+        "mean": 0.9503960808838858,
+        "sd": 0.023767328409750817
+      },
+      "kappa": {
+        "mean": 0.904617440266643,
+        "sd": 0.04751061688534037
+      },
+      "auc": {
+        "mean": 0.9765151515151516,
+        "sd": 0.009462118179391502
+      },
+      "precision": {
+        "mean": 0.9515873015873014,
+        "sd": 0.04763888475701244
+      },
+      "recall": {
+        "mean": 0.9499999999999998,
+        "sd": 1.3597399555105182e-16
+      },
+      "specificity": {
+        "mean": 0.9545454545454546,
+        "sd": 0.04545454545454547
+      },
+      "brier": {
+        "mean": 0.06655630733050516,
+        "sd": 0.0133845529309166
+      },
+      "ece": {
+        "mean": 0.1553684419227971,
+        "sd": 0.004612850291305664
+      }
+    },
+    "successful_agent_decisions": 30,
+    "agent_role": "Actual control of learning rate, dropout and stopping during new gradient training"
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "n": 42,
+      "metrics": {
+        "accuracy": 0.9761904761904762,
+        "f1": 0.9743589743589743,
+        "kappa": 0.9521640091116172,
+        "auc": 0.9840909090909091,
+        "precision": 1.0,
+        "recall": 0.95,
+        "specificity": 1.0,
+        "brier": 0.05334835102273645,
+        "ece": 0.15388703576865648
+      }
+    },
+    {
+      "seed": 43,
+      "n": 42,
+      "metrics": {
+        "accuracy": 0.9285714285714286,
+        "f1": 0.926829268292683,
+        "kappa": 0.8571428571428572,
+        "auc": 0.9795454545454545,
+        "precision": 0.9047619047619048,
+        "recall": 0.95,
+        "specificity": 0.9090909090909091,
+        "brier": 0.06620984126912077,
+        "ece": 0.15167829128248353
+      }
+    },
+    {
+      "seed": 44,
+      "n": 42,
+      "metrics": {
+        "accuracy": 0.9523809523809523,
+        "f1": 0.95,
+        "kappa": 0.9045454545454544,
+        "auc": 0.9659090909090909,
+        "precision": 0.95,
+        "recall": 0.95,
+        "specificity": 0.9545454545454546,
+        "brier": 0.08011072969965825,
+        "ece": 0.16053999871725128
+      }
+    }
+  ],
+  "summary_sha256": "39dda210ce1e09e06835f663fb82db450e9da0b0c1427cf45e486ec4de128a96",
+  "predictions_sha256": "0aada7947d8597707fde4c7a3e4c98307911cad608f1fbd9a86266c995cfbd3a",
+  "agent_provenance": {
+    "model": "qwen2.5:3b",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "actual_api_attempts": 30,
+    "successful_decisions": 30,
+    "action_counts": {
+      "continue": 27,
+      "increase_dropout": 1,
+      "reduce_lr": 2
+    },
+    "role": "Actual control of fresh fusion-head gradient training: LR, Dropout, continuation/stopping",
+    "encoders_and_original_branch_training_not_controlled": true
+  },
+  "agent_decision_index_sha256": "6d65da2d013a9a3f2bb00dc3ff6dca7d04a2a5ff50566c7e7c169836ea31f2ff",
+  "host_audit_sha256": "ed72680c1328b7531e8f87bb200940a46f12f6ee6fa5704dd465f017431c4e27",
+  "selected_after_inspection_of_exploratory_test_results": true,
+  "current_test_not_supplied_to_agent": true,
+  "source_encoders_and_original_branches_not_newly_agent_controlled": true,
+  "prior_package_preserved": "D:\\MRI_FMRI_BOOTSTRAP_RESIDUAL_3X5_V24",
+  "target96_reached": false
+}

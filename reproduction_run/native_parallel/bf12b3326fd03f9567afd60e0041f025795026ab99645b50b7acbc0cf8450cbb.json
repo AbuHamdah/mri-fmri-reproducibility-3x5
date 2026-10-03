@@ -1,0 +1,124 @@
+{
+  "model": "comparisons/branches/fmri_baseline_scratch_source/seed43_fold2/model.keras",
+  "model_sha256": "74d8066ae5cb04ad1a9276c2fe7f22f0359d5f15192e818a0db98b8164a583f4",
+  "subject_ids": [
+    "sub-047EPKL011011",
+    "sub-047EPKL011047",
+    "sub-047EPKL011060",
+    "sub-047EPKL012074",
+    "sub-047EPKL014024",
+    "sub-047EPKL014026",
+    "sub-047EPKL014031",
+    "sub-047EPKL014040",
+    "sub-047EPKL014045"
+  ],
+  "input_groups": [
+    [
+      "inputs/fmri/sub-047EPKL011011_run01.npy",
+      "inputs/fmri/sub-047EPKL011011_run02.npy",
+      "inputs/fmri/sub-047EPKL011011_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL011047_run01.npy",
+      "inputs/fmri/sub-047EPKL011047_run02.npy",
+      "inputs/fmri/sub-047EPKL011047_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL011060_run01.npy",
+      "inputs/fmri/sub-047EPKL011060_run02.npy",
+      "inputs/fmri/sub-047EPKL011060_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL012074_run01.npy",
+      "inputs/fmri/sub-047EPKL012074_run02.npy",
+      "inputs/fmri/sub-047EPKL012074_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014024_run01.npy",
+      "inputs/fmri/sub-047EPKL014024_run02.npy",
+      "inputs/fmri/sub-047EPKL014024_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014026_run01.npy",
+      "inputs/fmri/sub-047EPKL014026_run02.npy",
+      "inputs/fmri/sub-047EPKL014026_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014031_run01.npy",
+      "inputs/fmri/sub-047EPKL014031_run02.npy",
+      "inputs/fmri/sub-047EPKL014031_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014040_run01.npy",
+      "inputs/fmri/sub-047EPKL014040_run02.npy",
+      "inputs/fmri/sub-047EPKL014040_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014045_run01.npy",
+      "inputs/fmri/sub-047EPKL014045_run02.npy",
+      "inputs/fmri/sub-047EPKL014045_run03.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "5abe5d408618d1ff7391d86cfa75ee207d9d0631b21f2cc79157235c4b9d1e7f",
+      "c1a83d4a5bedd23f3f340ff54e27b3380ec4f2485a6bae2cb985c24e3cd61f63",
+      "68596ab2a116070ad6bef55143f78d0ea7affcb93299a26db00ed7c61a0e888f"
+    ],
+    [
+      "762d974df8b2e49025448c1abe7e7e81678688197b32970b802d41aabbf7cd39",
+      "a1d4defef5f4d5313285071cf0c5064b75c4be11faa7c1a14f9a3e1502916bb6",
+      "e7bbaf471f9bf91eef346c53da50f519d72337580e2f38960fdb5e533d67e33b"
+    ],
+    [
+      "131b18138f920d8015fbd0d102913896f750a294301cf14ea97e49a53b8bb691",
+      "1cc568712e48f4688dc9ed77d7ac9c326cb0da5fcdaebdefa4b3a4546b802a00",
+      "4dda24b4ae1bf799e64e5a5f5242cb509367abd455f1b0e8c29178fa75ddf9d0"
+    ],
+    [
+      "8a6c9c65eeba266f1ae23424889d7ad793441b4e19597303139d4b7a84aef829",
+      "5405a1a1385a4e159005f9520d619fd4936722887c5455eedfffe882aa81b902",
+      "08ef808726667fb4b777c46be6b9672ff8ce46021c0644640c4c524425cc5f92"
+    ],
+    [
+      "613cb031ab8db27e79c7e1939980c928dae2ade5a965e900eee4c4713eec543d",
+      "847b92b36e3733a10491b42b88103ce3f7d74e706ca77742db3e4e7f8a681e92",
+      "c3a620966729c7ee3a2dba8e8c53efe1fb0ea5cacc5ec8d7cfab6c3f36271fd3"
+    ],
+    [
+      "dd1bd1fd8c0513c9e5f5249165ad534d6b7c009fe7876029addbc36eb71ad8dc",
+      "31fef27ebddce307c7c52f319e0bad28e083c89dbc217295bec2f1c207c30e88",
+      "c9082fffe2a26cdb5a854dd21176bfc94f071cdd7116b5fb4d1836b53d0e1816"
+    ],
+    [
+      "6871a3994b99a7e40122f67d40f89c347d30d3a0bc121abb4e4ec64fdc0d7848",
+      "c0ac46f42230362cf4e8786eb8f3fd8605dc7f65fc07733e8e92ea6d662b18fc",
+      "50942dd81b731c6c222dd031fe9dffc324ac079fa47c23d0462bb09cff5ef7e7"
+    ],
+    [
+      "ceace7ffeba1aad01374aaa652814440b4bd4e89a4f7afddeb384469479a184a",
+      "e3598cad314bbcf22ae01c69e3177120fbfe1f1f00d8fc51d4754aeeb2aaba22",
+      "b19c743a4771b5b2a72b183834d07a866a616e2946cee59011175a10e4d270dc"
+    ],
+    [
+      "7cb5efd7cf9056ecb23c66997da20301e69c5bef09776b7c34703e109280d47d",
+      "e7ce72562c51816645c2601c72edc3e4b3a8ed1ebdee1bda6d728083d1eebb7b",
+      "743bab953b9f2b55d0614fe1e8e1e39d40db03b60b2ffa7aeea05c3df0b29b60"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.8820912675752011,
+    0.18109673998485754,
+    0.13584989188228536,
+    0.8595298754102617,
+    0.2015667816784338,
+    0.09570126333866869,
+    0.1839090669993041,
+    0.07817060357359117,
+    0.33863701670950747
+  ],
+  "maximum_probability_difference": 0.0,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

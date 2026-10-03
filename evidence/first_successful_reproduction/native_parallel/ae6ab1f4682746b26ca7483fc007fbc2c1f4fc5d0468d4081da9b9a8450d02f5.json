@@ -1,0 +1,80 @@
+{
+  "model": "comparisons/branches/mri_random/seed42_fold4/model.keras",
+  "model_sha256": "333696f5c034cf3717138a2a8b8faffbdc215821ef6152c0995481ab27119a09",
+  "subject_ids": [
+    "sub-047EPKL011012",
+    "sub-047EPKL011060",
+    "sub-047EPKL012017",
+    "sub-047EPKL012073",
+    "sub-047EPKL014026",
+    "sub-047EPKL014040",
+    "sub-047EPKL014045",
+    "sub-047EPKL014050"
+  ],
+  "input_groups": [
+    [
+      "inputs/mri/sub-047EPKL011012.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL011060.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL012017.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL012073.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014026.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014040.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014045.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014050.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "589ed6cef4dce3a30316b197b90c95d5ceac3842fd2d810987f2bcdb5982942f"
+    ],
+    [
+      "3f577bce69632db19ddb9c306d702136bfb934734ae1642b7e4db2ad53c04ced"
+    ],
+    [
+      "122cbea7d18db097b344f0d5e5c8e11f6a3655bc08a58303bbbcd8e112a1cca9"
+    ],
+    [
+      "c901f8a700ec0a700b87dd88d625dad0e9bf9e7c04b8409d18d8860221f2d6aa"
+    ],
+    [
+      "27277f86fd2eef188966997ffb5a22ca6b7b292df2359ebfeaed6e7d5b5f06ac"
+    ],
+    [
+      "08b28ed6dc5125d20b36ca80fa84c0eb3c2c448fe6e7aef3dff63ecc568b55cd"
+    ],
+    [
+      "6fa298acdd487d2c3c4a307baec1ea289d0989561d72b792cb0683d856d38f77"
+    ],
+    [
+      "7bc1786c2e3075dd7dd7dc9dbe6a36544d87f4905b87356f5cf5fcef62c3293a"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.6982189416885376,
+    0.7584200501441956,
+    0.7084119915962219,
+    0.865741491317749,
+    0.13746744394302368,
+    0.09276679903268814,
+    0.34043145179748535,
+    0.25526878237724304
+  ],
+  "maximum_probability_difference": 9.655952453613281e-06,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

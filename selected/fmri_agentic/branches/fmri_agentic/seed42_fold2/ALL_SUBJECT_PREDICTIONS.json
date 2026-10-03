@@ -1,0 +1,380 @@
+[
+  {
+    "subject_id": "sub-047EPKL011005",
+    "true_label": 1,
+    "probability": 0.9536953446988095,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011011",
+    "true_label": 1,
+    "probability": 0.9737247042417966,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011012",
+    "true_label": 1,
+    "probability": 0.6153627920383002,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011041",
+    "true_label": 1,
+    "probability": 0.9716721308024577,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011047",
+    "true_label": 1,
+    "probability": 0.9595019328486697,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011049",
+    "true_label": 1,
+    "probability": 0.15664087354211553,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011051",
+    "true_label": 1,
+    "probability": 0.9793965540788082,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011056",
+    "true_label": 1,
+    "probability": 0.7741402876749235,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011058",
+    "true_label": 1,
+    "probability": 0.9437657288696826,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011059",
+    "true_label": 1,
+    "probability": 0.7744174519798472,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011060",
+    "true_label": 1,
+    "probability": 0.9650084284838799,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011063",
+    "true_label": 1,
+    "probability": 0.9270222982709659,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL011068",
+    "true_label": 1,
+    "probability": 0.9575734695324599,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL012014",
+    "true_label": 1,
+    "probability": 0.9790310492255261,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL012015",
+    "true_label": 1,
+    "probability": 0.927710211845818,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL012017",
+    "true_label": 1,
+    "probability": 0.961534747273272,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL012069",
+    "true_label": 1,
+    "probability": 0.9147921029423614,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL012071",
+    "true_label": 1,
+    "probability": 0.941311214111596,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL012073",
+    "true_label": 1,
+    "probability": 0.6560816743649532,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL012074",
+    "true_label": 1,
+    "probability": 0.9007021825928406,
+    "predicted_label": 1,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014007",
+    "true_label": 0,
+    "probability": 0.05821028804878598,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014008",
+    "true_label": 0,
+    "probability": 0.029919873412904866,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014010",
+    "true_label": 0,
+    "probability": 0.09110565128354431,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014020",
+    "true_label": 0,
+    "probability": 0.040246293066592914,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014024",
+    "true_label": 0,
+    "probability": 0.04566279236418874,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014026",
+    "true_label": 0,
+    "probability": 0.02465594243075461,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014029",
+    "true_label": 0,
+    "probability": 0.052148598277464396,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014031",
+    "true_label": 0,
+    "probability": 0.015285736354690292,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014036",
+    "true_label": 0,
+    "probability": 0.015370285658253687,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014037",
+    "true_label": 0,
+    "probability": 0.014541560612531214,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014038",
+    "true_label": 0,
+    "probability": 0.02536505781240347,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014039",
+    "true_label": 0,
+    "probability": 0.015805945768624142,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014040",
+    "true_label": 0,
+    "probability": 0.03436582341753434,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.02588556361065869,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014045",
+    "true_label": 0,
+    "probability": 0.05168953545260267,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014048",
+    "true_label": 0,
+    "probability": 0.04864862790112625,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014050",
+    "true_label": 0,
+    "probability": 0.0229422887445923,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014052",
+    "true_label": 0,
+    "probability": 0.014303305494064332,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014054",
+    "true_label": 0,
+    "probability": 0.048542313087081304,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014062",
+    "true_label": 0,
+    "probability": 0.4420553817949637,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014066",
+    "true_label": 0,
+    "probability": 0.021969211559481464,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  },
+  {
+    "subject_id": "sub-047EPKL014067",
+    "true_label": 0,
+    "probability": 0.05731284173945542,
+    "predicted_label": 0,
+    "seed": 42,
+    "test_fold": 2,
+    "threshold": 0.5
+  }
+]

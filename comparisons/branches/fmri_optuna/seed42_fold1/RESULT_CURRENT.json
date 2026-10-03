@@ -1,0 +1,83 @@
+{
+  "threshold": 0.6593612799191775,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.18253797894500742,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.445879359407843,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.6593612799191775,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.6999060041880651,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.7045294898713651,
+      "f1": 0.4,
+      "balanced_accuracy": 0.5416666666666666
+    },
+    {
+      "threshold": 0.7590491987459632,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.7777777777777778,
+    "f1": 0.6666666666666666,
+    "kappa": 0.5263157894736842,
+    "auc": 0.6,
+    "precision": 1.0,
+    "recall": 0.5,
+    "specificity": 1.0,
+    "brier": 0.19831538357216869,
+    "ece": 0.21880229086746794
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.6666666666666666,
+    "f1": 0.4,
+    "kappa": 0.27027027027027023,
+    "auc": 0.6,
+    "precision": 1.0,
+    "recall": 0.25,
+    "specificity": 1.0,
+    "brier": 0.19831538357216869,
+    "ece": 0.21880229086746794
+  },
+  "test_n": 9,
+  "fixed_correct": 7,
+  "calibrated_correct": 6,
+  "series": "fmri_optuna",
+  "seed": 42,
+  "fold": 1,
+  "selected_epoch": 0,
+  "model_sha256": "226380220f8b715ec48527a347dcbea0d7c46d13bd8c74c615e771a613854fad",
+  "reload_max_difference": 0.0,
+  "seconds": 24.107398986816406,
+  "source_model": "initial_models/supplemental_completion/completion_pilots_v1/fmri_optuna_head/model.keras"
+}

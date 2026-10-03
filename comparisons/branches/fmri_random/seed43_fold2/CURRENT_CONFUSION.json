@@ -1,0 +1,76 @@
+{
+  "seed": 43,
+  "fold": 2,
+  "series": "fmri_random",
+  "test_n": 9,
+  "threshold": 0.19063024471203485,
+  "confusion_matrix": {
+    "TP": 4,
+    "TN": 2,
+    "FP": 3,
+    "FN": 0
+  },
+  "false_negatives": [],
+  "false_positives": [
+    {
+      "subject_id": "sub-047EPKL014024",
+      "true_label": 0,
+      "probability": 0.20073311775922775,
+      "run_probabilities": [
+        0.24097217619419098,
+        0.100620798766613,
+        0.2606063783168793
+      ],
+      "input_paths": [
+        "inputs/fmri/sub-047EPKL014024_run01.npy",
+        "inputs/fmri/sub-047EPKL014024_run02.npy",
+        "inputs/fmri/sub-047EPKL014024_run03.npy"
+      ],
+      "seed": 43,
+      "test_fold": 2,
+      "model_id": "fmri_random_seed43_fold2",
+      "selected_threshold": 0.19063024471203485,
+      "predicted_label": 1
+    },
+    {
+      "subject_id": "sub-047EPKL014031",
+      "true_label": 0,
+      "probability": 0.7098414103190104,
+      "run_probabilities": [
+        0.7395987510681152,
+        0.7676840424537659,
+        0.6222414374351501
+      ],
+      "input_paths": [
+        "inputs/fmri/sub-047EPKL014031_run01.npy",
+        "inputs/fmri/sub-047EPKL014031_run02.npy",
+        "inputs/fmri/sub-047EPKL014031_run03.npy"
+      ],
+      "seed": 43,
+      "test_fold": 2,
+      "model_id": "fmri_random_seed43_fold2",
+      "selected_threshold": 0.19063024471203485,
+      "predicted_label": 1
+    },
+    {
+      "subject_id": "sub-047EPKL014045",
+      "true_label": 0,
+      "probability": 0.3386736462513606,
+      "run_probabilities": [
+        0.3556985855102539,
+        0.4270091950893402,
+        0.2333131581544876
+      ],
+      "input_paths": [
+        "inputs/fmri/sub-047EPKL014045_run01.npy",
+        "inputs/fmri/sub-047EPKL014045_run02.npy",
+        "inputs/fmri/sub-047EPKL014045_run03.npy"
+      ],
+      "seed": 43,
+      "test_fold": 2,
+      "model_id": "fmri_random_seed43_fold2",
+      "selected_threshold": 0.19063024471203485,
+      "predicted_label": 1
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "subject_id": "sub-047EPKL011041",
+    "true_label": 1,
+    "probability": 0.9978296841849612,
+    "seed": 44,
+    "test_fold": 5,
+    "method": "stacking_probability",
+    "mode": "agentic",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL011047",
+    "true_label": 1,
+    "probability": 0.999087828164383,
+    "seed": 44,
+    "test_fold": 5,
+    "method": "stacking_probability",
+    "mode": "agentic",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL011056",
+    "true_label": 1,
+    "probability": 0.9924189816827387,
+    "seed": 44,
+    "test_fold": 5,
+    "method": "stacking_probability",
+    "mode": "agentic",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL014008",
+    "true_label": 0,
+    "probability": 0.0016427875799676166,
+    "seed": 44,
+    "test_fold": 5,
+    "method": "stacking_probability",
+    "mode": "agentic",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014010",
+    "true_label": 0,
+    "probability": 0.0037070802705599544,
+    "seed": 44,
+    "test_fold": 5,
+    "method": "stacking_probability",
+    "mode": "agentic",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014031",
+    "true_label": 0,
+    "probability": 0.0005931134611325236,
+    "seed": 44,
+    "test_fold": 5,
+    "method": "stacking_probability",
+    "mode": "agentic",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014048",
+    "true_label": 0,
+    "probability": 0.0040241092699553754,
+    "seed": 44,
+    "test_fold": 5,
+    "method": "stacking_probability",
+    "mode": "agentic",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.5,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  }
+]

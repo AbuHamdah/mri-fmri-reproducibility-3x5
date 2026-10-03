@@ -1,0 +1,92 @@
+[
+  {
+    "subject_id": "sub-047EPKL011005",
+    "true_label": 1,
+    "probability": 0.9981882641737687,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 1,
+    "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL011041",
+    "true_label": 1,
+    "probability": 0.995074373006492,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 1,
+    "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL011056",
+    "true_label": 1,
+    "probability": 0.9852744722884093,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 1,
+    "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL011063",
+    "true_label": 1,
+    "probability": 0.995656072437047,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 1,
+    "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014024",
+    "true_label": 0,
+    "probability": 0.25562735472086756,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 1,
+    "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014036",
+    "true_label": 0,
+    "probability": 0.00241073762435161,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 1,
+    "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014038",
+    "true_label": 0,
+    "probability": 0.0018647396610904153,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 1,
+    "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014062",
+    "true_label": 0,
+    "probability": 0.9660805448487165,
+    "predicted_label": 1,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 1,
+    "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+  },
+  {
+    "subject_id": "sub-047EPKL014067",
+    "true_label": 0,
+    "probability": 0.005630647751119071,
+    "predicted_label": 0,
+    "threshold": 0.5,
+    "seed": 42,
+    "test_fold": 1,
+    "model_id": "seed42_fold1_Warm-adapter Logit Stacking"
+  }
+]

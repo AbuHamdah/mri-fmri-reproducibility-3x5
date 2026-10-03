@@ -1,0 +1,1262 @@
+[
+  {
+    "seed": 42,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL011005",
+    "true_label": 1,
+    "probability": 0.9389535784721375,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold1/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL011041",
+    "true_label": 1,
+    "probability": 0.8456220030784607,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold1/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL011056",
+    "true_label": 1,
+    "probability": 0.8395715355873108,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold1/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL011063",
+    "true_label": 1,
+    "probability": 0.8254989981651306,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold1/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014024",
+    "true_label": 0,
+    "probability": 0.3086232542991638,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold1/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014036",
+    "true_label": 0,
+    "probability": 0.29783886671066284,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold1/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014038",
+    "true_label": 0,
+    "probability": 0.08597976714372635,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold1/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014062",
+    "true_label": 0,
+    "probability": 0.48365920782089233,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold1/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014067",
+    "true_label": 0,
+    "probability": 0.10769683867692947,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold1/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL011049",
+    "true_label": 1,
+    "probability": 0.2179906964302063,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL012015",
+    "true_label": 1,
+    "probability": 0.9079008102416992,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL012069",
+    "true_label": 1,
+    "probability": 0.8057253360748291,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL012074",
+    "true_label": 1,
+    "probability": 0.7290123105049133,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014010",
+    "true_label": 0,
+    "probability": 0.11002602428197861,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014020",
+    "true_label": 0,
+    "probability": 0.08064739406108856,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014031",
+    "true_label": 0,
+    "probability": 0.08439596742391586,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014037",
+    "true_label": 0,
+    "probability": 0.13142336905002594,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.19467012584209442,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold2/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL011047",
+    "true_label": 1,
+    "probability": 0.9078508019447327,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold3/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL011051",
+    "true_label": 1,
+    "probability": 0.7153928279876709,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold3/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL011068",
+    "true_label": 1,
+    "probability": 0.9098407030105591,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold3/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL012071",
+    "true_label": 1,
+    "probability": 0.857415497303009,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold3/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014008",
+    "true_label": 0,
+    "probability": 0.06403091549873352,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold3/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014039",
+    "true_label": 0,
+    "probability": 0.12979821860790253,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold3/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014048",
+    "true_label": 0,
+    "probability": 0.16583533585071564,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold3/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014054",
+    "true_label": 0,
+    "probability": 0.10677776485681534,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold3/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL011012",
+    "true_label": 1,
+    "probability": 0.627507746219635,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold4/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL011060",
+    "true_label": 1,
+    "probability": 0.9199731349945068,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold4/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL012017",
+    "true_label": 1,
+    "probability": 0.8741945028305054,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold4/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL012073",
+    "true_label": 1,
+    "probability": 0.8084235787391663,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold4/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014026",
+    "true_label": 0,
+    "probability": 0.2711229920387268,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold4/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014040",
+    "true_label": 0,
+    "probability": 0.31571701169013977,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold4/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014045",
+    "true_label": 0,
+    "probability": 0.17655164003372192,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold4/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014050",
+    "true_label": 0,
+    "probability": 0.23711109161376953,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold4/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL011011",
+    "true_label": 1,
+    "probability": 0.7921710014343262,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold5/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL011058",
+    "true_label": 1,
+    "probability": 0.8879328370094299,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold5/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL011059",
+    "true_label": 1,
+    "probability": 0.771721363067627,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold5/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL012014",
+    "true_label": 1,
+    "probability": 0.7545824646949768,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold5/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014007",
+    "true_label": 0,
+    "probability": 0.13061799108982086,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold5/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014029",
+    "true_label": 0,
+    "probability": 0.23382830619812012,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold5/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014052",
+    "true_label": 0,
+    "probability": 0.09943869709968567,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold5/model.keras"
+  },
+  {
+    "seed": 42,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014066",
+    "true_label": 0,
+    "probability": 0.14876505732536316,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed42_fold5/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL011063",
+    "true_label": 1,
+    "probability": 0.8177922964096069,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold1/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL012015",
+    "true_label": 1,
+    "probability": 0.7940724492073059,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold1/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL012017",
+    "true_label": 1,
+    "probability": 0.8521944284439087,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold1/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL012073",
+    "true_label": 1,
+    "probability": 0.8592097163200378,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold1/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014010",
+    "true_label": 0,
+    "probability": 0.2468479573726654,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold1/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014048",
+    "true_label": 0,
+    "probability": 0.13713009655475616,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold1/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014052",
+    "true_label": 0,
+    "probability": 0.11675572395324707,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold1/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014054",
+    "true_label": 0,
+    "probability": 0.16130779683589935,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold1/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014067",
+    "true_label": 0,
+    "probability": 0.09334276616573334,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold1/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL011011",
+    "true_label": 1,
+    "probability": 0.8823527693748474,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold2/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL011047",
+    "true_label": 1,
+    "probability": 0.8663092255592346,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold2/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL011060",
+    "true_label": 1,
+    "probability": 0.8080697655677795,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold2/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL012074",
+    "true_label": 1,
+    "probability": 0.70383220911026,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold2/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014024",
+    "true_label": 0,
+    "probability": 0.32230454683303833,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold2/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014026",
+    "true_label": 0,
+    "probability": 0.1898985356092453,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold2/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014031",
+    "true_label": 0,
+    "probability": 0.1039261668920517,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold2/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014040",
+    "true_label": 0,
+    "probability": 0.15380360186100006,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold2/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014045",
+    "true_label": 0,
+    "probability": 0.1065509095788002,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold2/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL011005",
+    "true_label": 1,
+    "probability": 0.9251407384872437,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold3/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL011049",
+    "true_label": 1,
+    "probability": 0.204050213098526,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold3/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL011056",
+    "true_label": 1,
+    "probability": 0.5423832535743713,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold3/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL012014",
+    "true_label": 1,
+    "probability": 0.8921626806259155,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold3/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014008",
+    "true_label": 0,
+    "probability": 0.09023812413215637,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold3/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014038",
+    "true_label": 0,
+    "probability": 0.10612576454877853,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold3/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.12677276134490967,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold3/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014066",
+    "true_label": 0,
+    "probability": 0.09811187535524368,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold3/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL011041",
+    "true_label": 1,
+    "probability": 0.8239943385124207,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold4/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL011051",
+    "true_label": 1,
+    "probability": 0.7757266163825989,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold4/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL011058",
+    "true_label": 1,
+    "probability": 0.8415701389312744,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold4/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL011068",
+    "true_label": 1,
+    "probability": 0.816201388835907,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold4/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014020",
+    "true_label": 0,
+    "probability": 0.2064606100320816,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold4/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014029",
+    "true_label": 0,
+    "probability": 0.2645091414451599,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold4/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014039",
+    "true_label": 0,
+    "probability": 0.16964136064052582,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold4/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014050",
+    "true_label": 0,
+    "probability": 0.20423293113708496,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold4/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL011012",
+    "true_label": 1,
+    "probability": 0.7472255825996399,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold5/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL011059",
+    "true_label": 1,
+    "probability": 0.7378005981445312,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold5/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL012069",
+    "true_label": 1,
+    "probability": 0.8607775568962097,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold5/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL012071",
+    "true_label": 1,
+    "probability": 0.8090884685516357,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold5/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014007",
+    "true_label": 0,
+    "probability": 0.13181072473526,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold5/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014036",
+    "true_label": 0,
+    "probability": 0.5152820348739624,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold5/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014037",
+    "true_label": 0,
+    "probability": 0.22804901003837585,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold5/model.keras"
+  },
+  {
+    "seed": 43,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014062",
+    "true_label": 0,
+    "probability": 0.664473295211792,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed43_fold5/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL011041",
+    "true_label": 1,
+    "probability": 0.7992972731590271,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold1/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL011056",
+    "true_label": 1,
+    "probability": 0.6170052886009216,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold1/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL012017",
+    "true_label": 1,
+    "probability": 0.7966346144676208,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold1/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL012074",
+    "true_label": 1,
+    "probability": 0.7214996218681335,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold1/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014029",
+    "true_label": 0,
+    "probability": 0.288711279630661,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold1/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014040",
+    "true_label": 0,
+    "probability": 0.31890761852264404,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold1/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014050",
+    "true_label": 0,
+    "probability": 0.20131883025169373,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold1/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014066",
+    "true_label": 0,
+    "probability": 0.1624859720468521,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold1/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 1,
+    "subject_id": "sub-047EPKL014067",
+    "true_label": 0,
+    "probability": 0.16013461351394653,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold1/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL011047",
+    "true_label": 1,
+    "probability": 0.8935564756393433,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold2/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL011058",
+    "true_label": 1,
+    "probability": 0.8499601483345032,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold2/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL011060",
+    "true_label": 1,
+    "probability": 0.818538248538971,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold2/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL012015",
+    "true_label": 1,
+    "probability": 0.7731742858886719,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold2/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014008",
+    "true_label": 0,
+    "probability": 0.1904921531677246,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold2/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014037",
+    "true_label": 0,
+    "probability": 0.25441211462020874,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold2/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014039",
+    "true_label": 0,
+    "probability": 0.12474138289690018,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold2/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.18849697709083557,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold2/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 2,
+    "subject_id": "sub-047EPKL014054",
+    "true_label": 0,
+    "probability": 0.15815962851047516,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold2/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL011012",
+    "true_label": 1,
+    "probability": 0.5459069609642029,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold3/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL011049",
+    "true_label": 1,
+    "probability": 0.1920013576745987,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold3/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL011063",
+    "true_label": 1,
+    "probability": 0.8442877531051636,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold3/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL011068",
+    "true_label": 1,
+    "probability": 0.7514411211013794,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold3/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014020",
+    "true_label": 0,
+    "probability": 0.08132250607013702,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold3/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014036",
+    "true_label": 0,
+    "probability": 0.39086174964904785,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold3/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014038",
+    "true_label": 0,
+    "probability": 0.08521219342947006,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold3/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 3,
+    "subject_id": "sub-047EPKL014048",
+    "true_label": 0,
+    "probability": 0.06975720077753067,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold3/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL011005",
+    "true_label": 1,
+    "probability": 0.8495612144470215,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold4/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL011011",
+    "true_label": 1,
+    "probability": 0.6767969727516174,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold4/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL011059",
+    "true_label": 1,
+    "probability": 0.6510893106460571,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold4/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL012071",
+    "true_label": 1,
+    "probability": 0.9075390696525574,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold4/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014010",
+    "true_label": 0,
+    "probability": 0.49280649423599243,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold4/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014031",
+    "true_label": 0,
+    "probability": 0.07658184319734573,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold4/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014045",
+    "true_label": 0,
+    "probability": 0.15280026197433472,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold4/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 4,
+    "subject_id": "sub-047EPKL014062",
+    "true_label": 0,
+    "probability": 0.7593399882316589,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold4/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL011051",
+    "true_label": 1,
+    "probability": 0.838692843914032,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold5/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL012014",
+    "true_label": 1,
+    "probability": 0.8253073692321777,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold5/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL012069",
+    "true_label": 1,
+    "probability": 0.8290976881980896,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold5/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL012073",
+    "true_label": 1,
+    "probability": 0.8266040682792664,
+    "prediction": 1,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold5/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014007",
+    "true_label": 0,
+    "probability": 0.19110046327114105,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold5/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014024",
+    "true_label": 0,
+    "probability": 0.252348929643631,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold5/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014026",
+    "true_label": 0,
+    "probability": 0.19932784140110016,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold5/model.keras"
+  },
+  {
+    "seed": 44,
+    "test_fold": 5,
+    "subject_id": "sub-047EPKL014052",
+    "true_label": 0,
+    "probability": 0.08602885156869888,
+    "prediction": 0,
+    "threshold": 0.5,
+    "model": "runs/seed44_fold5/model.keras"
+  }
+]

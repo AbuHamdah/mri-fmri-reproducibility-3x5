@@ -1,0 +1,15 @@
+{
+  "seed": 43,
+  "fold": 5,
+  "series": "mri_optuna",
+  "test_n": 8,
+  "threshold": 0.5,
+  "confusion_matrix": {
+    "TP": 4,
+    "TN": 4,
+    "FP": 0,
+    "FN": 0
+  },
+  "false_negatives": [],
+  "false_positives": []
+}

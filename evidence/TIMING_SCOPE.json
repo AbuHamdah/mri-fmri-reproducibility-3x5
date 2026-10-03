@@ -1,0 +1,10 @@
+{
+  "new_Qwen_calls": 0,
+  "new_HPO_searches": 0,
+  "new_LLM_wait_seconds": 0,
+  "LLM_policy_comparison": "Historical source weights only; no new controller/policy trial.",
+  "branch_seconds": "Measured adaptation + checkpoint + native verification stage, excluding common feature extraction and later result annotations. Zero in imported/recovered records indicates missing original stage timing, not zero training cost. Final timing audit will mark unavailable timings explicitly.",
+  "fusion_per_method_duration": "Not individually measured; container start/finish timestamps will be retained.",
+  "RAM_VRAM": "Docker memory limits are limits, not measured peak use; CPU execution with CUDA disabled. No peak RAM/VRAM or monetary compute cost fabricated.",
+  "historical_costs": "Not inferred from copied historical model names."
+}

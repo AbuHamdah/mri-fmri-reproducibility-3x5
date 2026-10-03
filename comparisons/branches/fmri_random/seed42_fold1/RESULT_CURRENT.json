@@ -1,0 +1,83 @@
+{
+  "threshold": 0.5,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.0005215417423490484,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.0011971728915038209,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.06284519499361825,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.35686705633997917,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.5,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.6260232478380203,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.8093760510285695,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.5555555555555556,
+    "f1": 0.3333333333333333,
+    "kappa": 0.05263157894736842,
+    "auc": 0.55,
+    "precision": 0.5,
+    "recall": 0.25,
+    "specificity": 0.8,
+    "brier": 0.4114234826767144,
+    "ece": 0.41566377379112296
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.5555555555555556,
+    "f1": 0.3333333333333333,
+    "kappa": 0.05263157894736842,
+    "auc": 0.55,
+    "precision": 0.5,
+    "recall": 0.25,
+    "specificity": 0.8,
+    "brier": 0.4114234826767144,
+    "ece": 0.41566377379112296
+  },
+  "test_n": 9,
+  "fixed_correct": 5,
+  "calibrated_correct": 5,
+  "series": "fmri_random",
+  "seed": 42,
+  "fold": 1,
+  "selected_epoch": 8,
+  "model_sha256": "7a9d1d4fcf6ec0ff4a1f37722de1cd79d7e9030c9eaab415376e18d088349671",
+  "reload_max_difference": 0.0,
+  "seconds": 24.06890630722046,
+  "source_model": "initial_models/artifacts/consistent_v3/a/fmri_random_from_scratch_ablation_seed42_fold1/model.keras"
+}

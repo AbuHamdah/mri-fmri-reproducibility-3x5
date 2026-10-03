@@ -1,0 +1,12 @@
+{
+  "mode": "baseline",
+  "method": "stacking_probability",
+  "seed": 44,
+  "fold": 5,
+  "model": "fusion/baseline/stacking_probability/seed44_fold5/model.keras",
+  "model_sha256": "cd1485c5c6c2c062da82b31025d581a9c78ae02b26ec00de7a69c0290de20b9d",
+  "all_subjects": 42,
+  "maximum_probability_difference": 2.7755575615628914e-16,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

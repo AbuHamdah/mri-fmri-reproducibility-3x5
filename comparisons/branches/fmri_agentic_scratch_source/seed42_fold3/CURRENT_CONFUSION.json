@@ -1,0 +1,76 @@
+{
+  "seed": 42,
+  "fold": 3,
+  "series": "fmri_agentic_scratch_source",
+  "test_n": 8,
+  "threshold": 0.5,
+  "confusion_matrix": {
+    "TP": 1,
+    "TN": 4,
+    "FP": 0,
+    "FN": 3
+  },
+  "false_negatives": [
+    {
+      "subject_id": "sub-047EPKL011047",
+      "true_label": 1,
+      "probability": 1.643005104615984e-08,
+      "run_probabilities": [
+        1.1613498359460586e-09,
+        4.555229790965723e-08,
+        2.5765053928762304e-09
+      ],
+      "input_paths": [
+        "inputs/fmri/sub-047EPKL011047_run01.npy",
+        "inputs/fmri/sub-047EPKL011047_run02.npy",
+        "inputs/fmri/sub-047EPKL011047_run03.npy"
+      ],
+      "seed": 42,
+      "test_fold": 3,
+      "model_id": "fmri_agentic_scratch_source_seed42_fold3",
+      "selected_threshold": 0.5,
+      "predicted_label": 0
+    },
+    {
+      "subject_id": "sub-047EPKL011051",
+      "true_label": 1,
+      "probability": 0.003949758036162551,
+      "run_probabilities": [
+        0.0034511242746340493,
+        0.006073148634248488,
+        0.002325001199605116
+      ],
+      "input_paths": [
+        "inputs/fmri/sub-047EPKL011051_run01.npy",
+        "inputs/fmri/sub-047EPKL011051_run02.npy",
+        "inputs/fmri/sub-047EPKL011051_run03.npy"
+      ],
+      "seed": 42,
+      "test_fold": 3,
+      "model_id": "fmri_agentic_scratch_source_seed42_fold3",
+      "selected_threshold": 0.5,
+      "predicted_label": 0
+    },
+    {
+      "subject_id": "sub-047EPKL011068",
+      "true_label": 1,
+      "probability": 3.1005710321786926e-06,
+      "run_probabilities": [
+        6.442555514829666e-07,
+        8.452873832358723e-06,
+        2.0458371269438788e-07
+      ],
+      "input_paths": [
+        "inputs/fmri/sub-047EPKL011068_run01.npy",
+        "inputs/fmri/sub-047EPKL011068_run02.npy",
+        "inputs/fmri/sub-047EPKL011068_run03.npy"
+      ],
+      "seed": 42,
+      "test_fold": 3,
+      "model_id": "fmri_agentic_scratch_source_seed42_fold3",
+      "selected_threshold": 0.5,
+      "predicted_label": 0
+    }
+  ],
+  "false_positives": []
+}

@@ -1,0 +1,12 @@
+{
+  "mode": "baseline",
+  "method": "hard_voting_tie_negative",
+  "seed": 44,
+  "fold": 2,
+  "model": "fusion/baseline/hard_voting_tie_negative/seed44_fold2/model.keras",
+  "model_sha256": "bb3e08e66984127286fcb775dd698d50ba102196188b75364a4328565e844484",
+  "all_subjects": 42,
+  "maximum_probability_difference": 0.0,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

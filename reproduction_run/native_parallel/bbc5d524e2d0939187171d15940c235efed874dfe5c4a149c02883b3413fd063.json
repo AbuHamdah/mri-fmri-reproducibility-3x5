@@ -1,0 +1,88 @@
+{
+  "model": "selected/mri_baseline/adopted_models/seed42_fold2/model.keras",
+  "model_sha256": "e29529e4ac42171659c512093d8fac46185c5d59272534e0b849299d8cd95f69",
+  "subject_ids": [
+    "sub-047EPKL011049",
+    "sub-047EPKL012015",
+    "sub-047EPKL012069",
+    "sub-047EPKL012074",
+    "sub-047EPKL014010",
+    "sub-047EPKL014020",
+    "sub-047EPKL014031",
+    "sub-047EPKL014037",
+    "sub-047EPKL014043"
+  ],
+  "input_groups": [
+    [
+      "inputs/mri/sub-047EPKL011049.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL012015.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL012069.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL012074.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014010.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014020.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014031.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014037.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014043.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "fb4ef2a18163fd6d6e2ffe3ad57c496b9b221ed19ec23f88394e99b829a2c335"
+    ],
+    [
+      "b9dc90689a29efb7953827925033b09def14fc351d6c088e794d977935d72402"
+    ],
+    [
+      "f4cbb390e54b4bbf0554a4ede4f7cc06b147b55e14747cc099ae5e00baec3915"
+    ],
+    [
+      "9d784af4f990bad02c880d76e49859b3369213fc6c83104e5446d8fecbdde83d"
+    ],
+    [
+      "c009826ae53a9f79caa59f13debedb0a39adda21fc41a8ba8b605aab3dce682b"
+    ],
+    [
+      "55bb4fe4633f661beac96683190711f7ee5fe80c5e868bc2b651eafed133358e"
+    ],
+    [
+      "ec40d2d83c044eed7b6b8022fb7e5126deba4e2b3f9adff9fc5f04329cd6d837"
+    ],
+    [
+      "a20b002ed2d4c85fcf827601208f032780d53d64c0b6deb3ef74c842d774a78f"
+    ],
+    [
+      "c3b38a115ad026e20a00bef036a085a23e27f19f21a04d6de1f0ac61ca69d123"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.7863516211509705,
+    0.7024660706520081,
+    0.7883017659187317,
+    0.7774743437767029,
+    0.08650032430887222,
+    0.1700410097837448,
+    0.2021304965019226,
+    0.09341082721948624,
+    0.18689198791980743
+  ],
+  "maximum_probability_difference": 0.0,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

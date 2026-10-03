@@ -1,0 +1,93 @@
+[
+  {
+    "subject_id": "sub-047EPKL011012",
+    "true_label": 1,
+    "probability": 0.7800607068463615,
+    "seed": 43,
+    "test_fold": 4,
+    "method": "fixed_weighted_fmri",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.4,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL011049",
+    "true_label": 1,
+    "probability": 0.4461393596049095,
+    "seed": 43,
+    "test_fold": 4,
+    "method": "fixed_weighted_fmri",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.4,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL011063",
+    "true_label": 1,
+    "probability": 0.879555785482109,
+    "seed": 43,
+    "test_fold": 4,
+    "method": "fixed_weighted_fmri",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.4,
+    "predicted_fixed": 1,
+    "predicted_validation_threshold": 1
+  },
+  {
+    "subject_id": "sub-047EPKL014007",
+    "true_label": 0,
+    "probability": 0.08743544011509904,
+    "seed": 43,
+    "test_fold": 4,
+    "method": "fixed_weighted_fmri",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.4,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014010",
+    "true_label": 0,
+    "probability": 0.09387984857213336,
+    "seed": 43,
+    "test_fold": 4,
+    "method": "fixed_weighted_fmri",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.4,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014031",
+    "true_label": 0,
+    "probability": 0.11029242418250915,
+    "seed": 43,
+    "test_fold": 4,
+    "method": "fixed_weighted_fmri",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.4,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014043",
+    "true_label": 0,
+    "probability": 0.1192113927596417,
+    "seed": 43,
+    "test_fold": 4,
+    "method": "fixed_weighted_fmri",
+    "mode": "baseline",
+    "fixed_threshold": 0.5,
+    "validation_selected_threshold": 0.4,
+    "predicted_fixed": 0,
+    "predicted_validation_threshold": 0
+  }
+]

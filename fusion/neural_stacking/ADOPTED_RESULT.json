@@ -1,0 +1,106 @@
+{
+  "status": "user_adopted",
+  "adoption_date": "2026-10-03",
+  "category": "Probability-level Voting and Stacking comparisons",
+  "methods": [
+    {
+      "method": "Warm-adapter Soft Voting",
+      "metrics": {
+        "accuracy": {
+          "mean": 0.9206349206349206,
+          "sd": 0.027492869961410715
+        },
+        "f1": {
+          "mean": 0.9166666666666666,
+          "sd": 0.028867513459481253
+        },
+        "kappa": {
+          "mean": 0.8409090909090908,
+          "sd": 0.055110707513555124
+        },
+        "auc": {
+          "mean": 0.9583333333333334,
+          "sd": 0.013699349484867554
+        },
+        "precision": {
+          "mean": 0.9166666666666666,
+          "sd": 0.028867513459481253
+        },
+        "recall": {
+          "mean": 0.9166666666666666,
+          "sd": 0.028867513459481253
+        },
+        "specificity": {
+          "mean": 0.9242424242424243,
+          "sd": 0.026243194054073937
+        },
+        "brier": {
+          "mean": 0.0867829250183934,
+          "sd": 0.01581971027203639
+        },
+        "ece": {
+          "mean": 0.15908049411391692,
+          "sd": 0.019049952216131576
+        }
+      }
+    },
+    {
+      "method": "Stochastic Neural Stacking",
+      "metrics": {
+        "accuracy": {
+          "mean": 0.9285714285714285,
+          "sd": 0.02380952380952378
+        },
+        "f1": {
+          "mean": 0.9243589743589743,
+          "sd": 0.02502464268710655
+        },
+        "kappa": {
+          "mean": 0.8567094636570718,
+          "sd": 0.047727644200181635
+        },
+        "auc": {
+          "mean": 0.9674242424242424,
+          "sd": 0.009462118179391521
+        },
+        "precision": {
+          "mean": 0.9324561403508772,
+          "sd": 0.02813862268832529
+        },
+        "recall": {
+          "mean": 0.9166666666666666,
+          "sd": 0.028867513459481253
+        },
+        "specificity": {
+          "mean": 0.9393939393939394,
+          "sd": 0.02624319405407394
+        },
+        "brier": {
+          "mean": 0.05632525828198095,
+          "sd": 0.009401745327822326
+        },
+        "ece": {
+          "mean": 0.08164308247958414,
+          "sd": 0.03322231359350748
+        }
+      }
+    }
+  ],
+  "package_path": "D:\\MRI_FMRI_STOCHASTIC_NEURAL_STACKING_V1",
+  "report": "D:\\MRI_FMRI_STOCHASTIC_NEURAL_STACKING_V1\\REPORT_EN.html",
+  "summary_sha256": "e4c30b60999116b8e7e60ab43d178f2199d4092b4dcc00091ec11a22efea5124",
+  "pooled_predictions_sha256": "53f49389f41ed0c2bd81d8200a7a6c7729733a2aefaf2a11b188ed88e7ac76fa",
+  "host_audit_sha256": "a400973630489b1a41f55176052ebc10ec44d75562836247c00d4a751e3ce3e8",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "partitions_per_seed": 5,
+  "repeated_exploratory_test_inspection": true,
+  "new_qwen_calls": false,
+  "source_branch_weights_frozen": true,
+  "role": "Comparison methods; separately adopted Agent-controlled Feature Fusion remains its own experiment",
+  "scope": "Soft Voting averages warm residual-adapter branch probabilities. Stacking trains a stochastic Dense8/tanh residual meta-head. Current training inputs for the meta-head are in-sample; not nested OOF.",
+  "prior_results_preserved": true
+}

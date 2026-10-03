@@ -1,0 +1,83 @@
+{
+  "threshold": 0.16981568067397873,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.1443123715990854,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.16981568067397873,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.2102471027529224,
+      "f1": 0.5714285714285714,
+      "balanced_accuracy": 0.5833333333333333
+    },
+    {
+      "threshold": 0.4678327061691714,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.7030092285622642,
+      "f1": 0.4,
+      "balanced_accuracy": 0.5416666666666666
+    },
+    {
+      "threshold": 0.7801824333398486,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "kappa": 1.0,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "brier": 0.053679176172533156,
+    "ece": 0.2105783091996849
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.75,
+    "f1": 0.8,
+    "kappa": 0.5,
+    "auc": 1.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "specificity": 0.5,
+    "brier": 0.053679176172533156,
+    "ece": 0.2105783091996849
+  },
+  "test_n": 8,
+  "fixed_correct": 8,
+  "calibrated_correct": 6,
+  "series": "fmri_agentic_scratch_source",
+  "seed": 42,
+  "fold": 4,
+  "selected_epoch": 0,
+  "model_sha256": "29416ab2508d06b8c9d4319fe2824fb55d9fc895f9c86c0ff6325d1570c84254",
+  "reload_max_difference": 0.0,
+  "seconds": 26.46013116836548,
+  "source_model": "initial_models/supplemental_completion/completion_pilots_v1/fmri_agentic_scratch_source/model.keras"
+}

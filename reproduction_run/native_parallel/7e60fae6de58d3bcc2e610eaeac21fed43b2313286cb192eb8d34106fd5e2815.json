@@ -1,0 +1,80 @@
+{
+  "model": "comparisons/branches/mri_optuna/seed44_fold4/model.keras",
+  "model_sha256": "65a9b90784d63e0ec6ca936ca8abf53fa8378386a35dad2c54d1031555cbb221",
+  "subject_ids": [
+    "sub-047EPKL011005",
+    "sub-047EPKL011011",
+    "sub-047EPKL011059",
+    "sub-047EPKL012071",
+    "sub-047EPKL014010",
+    "sub-047EPKL014031",
+    "sub-047EPKL014045",
+    "sub-047EPKL014062"
+  ],
+  "input_groups": [
+    [
+      "inputs/mri/sub-047EPKL011005.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL011011.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL011059.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL012071.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014010.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014031.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014045.npy"
+    ],
+    [
+      "inputs/mri/sub-047EPKL014062.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "000549316f990cd70c7387d43a5be804cacf87e4becafa089f6fca9f13073154"
+    ],
+    [
+      "723f74285e9d73b49d34d420d38c9e1ef5e035632b14be8db4c8bb8412c3a3b6"
+    ],
+    [
+      "cc21451c6149d5a555875758a8b2e36c4db1a19c72404e4b3439d665a3b2eb08"
+    ],
+    [
+      "71352d2e7a4d56c55c56b0f01cbaa7fbc01cd3fd44b0a6b3ad448b8b8b8f3140"
+    ],
+    [
+      "c009826ae53a9f79caa59f13debedb0a39adda21fc41a8ba8b605aab3dce682b"
+    ],
+    [
+      "ec40d2d83c044eed7b6b8022fb7e5126deba4e2b3f9adff9fc5f04329cd6d837"
+    ],
+    [
+      "6fa298acdd487d2c3c4a307baec1ea289d0989561d72b792cb0683d856d38f77"
+    ],
+    [
+      "a7212475eed804b0a3e691eeff3b090f3b6645f7591fb0579fe95b6ace63e06b"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.1528012399855755,
+    0.719895151968008,
+    0.3828291367184444,
+    0.8951110730070987,
+    0.4090498802664012,
+    0.8901584243731744,
+    0.26305820844185274,
+    0.676983380154255
+  ],
+  "maximum_probability_difference": 0.0,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

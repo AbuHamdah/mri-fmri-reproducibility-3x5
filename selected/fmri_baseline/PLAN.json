@@ -1,0 +1,47 @@
+{
+  "method": "Train-only RBF residual correction to frozen parent child logit",
+  "branches": [
+    "fmri_baseline",
+    "fmri_agentic"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "gamma_grid": [
+    0.001,
+    0.01,
+    0.1,
+    0.5,
+    2.0,
+    20.0,
+    200.0
+  ],
+  "lambda_grid": [
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "normalization": "Training children only; std floor1e-6",
+  "centers": "Every current training child normalized three-run probability vector",
+  "objective": "True-label train BCE plus lambda/2 squared residual coefficients, including intercept; frozen native parent logit offset",
+  "selection": "Validation accuracy, then minimum validation BCE, stronger regularization, smaller gamma; unfitted identity is strongest",
+  "threshold": 0.5,
+  "current_test_fitting": false,
+  "exploratory_examined_cohort": true,
+  "target_guarantee": false,
+  "all_candidates_retained": true
+}

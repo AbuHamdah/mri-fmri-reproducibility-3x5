@@ -1,0 +1,83 @@
+{
+  "threshold": 0.1941419318318367,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.12938497960567474,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.15242964774370193,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.17260805517435074,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.1941419318318367,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.4452306628227234,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.6899178922176361,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8888888888888888,
+    "kappa": 0.7804878048780487,
+    "auc": 0.95,
+    "precision": 0.8,
+    "recall": 1.0,
+    "specificity": 0.8,
+    "brier": 0.1006587454479438,
+    "ece": 0.208172217839294
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.6666666666666666,
+    "f1": 0.7272727272727273,
+    "kappa": 0.3720930232558139,
+    "auc": 0.95,
+    "precision": 0.5714285714285714,
+    "recall": 1.0,
+    "specificity": 0.4,
+    "brier": 0.1006587454479438,
+    "ece": 0.208172217839294
+  },
+  "test_n": 9,
+  "fixed_correct": 8,
+  "calibrated_correct": 6,
+  "series": "mri_random",
+  "seed": 43,
+  "fold": 2,
+  "selected_epoch": 0,
+  "model_sha256": "5ae9fe5f82c7a065e2207917572555ce743ae32d6b4b1656c0043014f369e30f",
+  "reload_max_difference": 2.2590160369873047e-05,
+  "seconds": 8.539966344833374,
+  "source_model": "initial_models/artifacts/consistent_v3/a/mri_random_pretrained_seed42_fold1/model.keras"
+}

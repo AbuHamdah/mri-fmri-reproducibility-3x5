@@ -1,0 +1,112 @@
+{
+  "model": "comparisons/branches/fmri_agentic_scratch_source/seed43_fold5/model.keras",
+  "model_sha256": "c63d0cc07754b108482392dd21505fc921cd6fcd762709764511d71aa33ecda6",
+  "subject_ids": [
+    "sub-047EPKL011012",
+    "sub-047EPKL011059",
+    "sub-047EPKL012069",
+    "sub-047EPKL012071",
+    "sub-047EPKL014007",
+    "sub-047EPKL014036",
+    "sub-047EPKL014037",
+    "sub-047EPKL014062"
+  ],
+  "input_groups": [
+    [
+      "inputs/fmri/sub-047EPKL011012_run01.npy",
+      "inputs/fmri/sub-047EPKL011012_run02.npy",
+      "inputs/fmri/sub-047EPKL011012_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL011059_run01.npy",
+      "inputs/fmri/sub-047EPKL011059_run02.npy",
+      "inputs/fmri/sub-047EPKL011059_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL012069_run01.npy",
+      "inputs/fmri/sub-047EPKL012069_run02.npy",
+      "inputs/fmri/sub-047EPKL012069_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL012071_run01.npy",
+      "inputs/fmri/sub-047EPKL012071_run02.npy",
+      "inputs/fmri/sub-047EPKL012071_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014007_run01.npy",
+      "inputs/fmri/sub-047EPKL014007_run02.npy",
+      "inputs/fmri/sub-047EPKL014007_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014036_run01.npy",
+      "inputs/fmri/sub-047EPKL014036_run02.npy",
+      "inputs/fmri/sub-047EPKL014036_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014037_run01.npy",
+      "inputs/fmri/sub-047EPKL014037_run02.npy",
+      "inputs/fmri/sub-047EPKL014037_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014062_run01.npy",
+      "inputs/fmri/sub-047EPKL014062_run02.npy",
+      "inputs/fmri/sub-047EPKL014062_run03.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "995d1b983b2fa7ec3e1e36877cc6c70df9f6233cb91c485e593da80881cecf52",
+      "fec779837140b71e8fa1a05694092a5b11a60af1105f5dfeea70dd83d9aa80fe",
+      "4e5466a5878546b29c8776734c6d6ec1f3740e673d215f82ddd47790afcd1c95"
+    ],
+    [
+      "3db2d4d7a82f0a41a9f00dd1750c75fb24f2920703fbd2ed4de1878dc24da3af",
+      "89fb136d20edde1b8ba873a80fc2aa5037308103946ecb55a67b6eef03755ba5",
+      "18a949f74a40f2358f89fbfb70b4002a902bb1d1e3c90f2ac67115a7dec7307f"
+    ],
+    [
+      "6c62c12ce2d4857872672fe308c4d624d1181382639e4195cb9f986d8dc8c3fb",
+      "beccc6d26af1ff087b868b35f9e7fba6695620263e674f069f3491aff681cb90",
+      "8447635d1d0ddf0a46e8a544f4581561dd6853efea4c99aeb50ae2dad7810c4c"
+    ],
+    [
+      "87a9da04da017377b8a0ac4c130da4ea7b663b71dc09226fb8c7236a62505cec",
+      "55976cd69fa670df6693592202078653aeb1359066953310d6694c485f77f950",
+      "3780375d0536511101e2a6c3316d2f6734a90599d7458966cb6692a47af14d11"
+    ],
+    [
+      "d293ccb2ad6b790dd51b6f8d507773adfcce25e3f966c1249d716a833f7216a1",
+      "491a7ca83ba4ea422ab80ea176e74d86fbe042243d47b8911deab905db8857d9",
+      "cbb9133af39c19c6d63a823d64075c72601e17de5f1cddd2423e846dae26fe78"
+    ],
+    [
+      "b89ebe6f71b7777c7b807e73565b64ad1f47ec4dccc113b86af8b4f37844ef7f",
+      "bf0269e33d71c1b1a34904f7c2f295f3fba9079bb849bb9a58aa65fad453e9f1",
+      "e360ec9591d69d205e83014399602a780531a49c596ae99de9a3307bcbb4405f"
+    ],
+    [
+      "a69c1eaa89be1233cca4856c98fcae0e11abbb505049210cb57ab7e433635bcc",
+      "b7fae6bb3e61833a1ccf3b540f9caa1ccceaf513b2948e42dabdf6b17f20e33f",
+      "952a16f827f90ab106839ae2f671fbf259afe67631fda71f4466c7f99c22c36a"
+    ],
+    [
+      "13ccc4e3bec9712a0657231a92d37edd10fb497f53dcaf03b84bf0b0f9878ba2",
+      "697f12e3c600e704511b40b24787db6c610115ac6abe3b594d42f71de37e5958",
+      "187f4fe6dc24567ff1eb8e000f031b019913658bce67f5dee441066a0c47ce1c"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.7080030372584668,
+    0.7477468761196905,
+    0.8504973071230985,
+    0.7807573975105161,
+    0.07723819602182684,
+    0.16492996995886608,
+    0.1407369046580712,
+    0.2836312097024074
+  ],
+  "maximum_probability_difference": 0.0,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

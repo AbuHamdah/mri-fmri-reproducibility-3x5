@@ -1,0 +1,277 @@
+{
+  "models": [
+    {
+      "run": "seed42_fold1",
+      "kind": "mri",
+      "path": "runs/seed42_fold1/mri/MODEL.keras",
+      "sha256": "44f9ed0779cd5c4fedbcbbc6176119b829739446a89cf311036619138fbf1beb",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed42_fold1",
+      "kind": "fmri",
+      "path": "runs/seed42_fold1/fmri/MODEL.keras",
+      "sha256": "32b72b9f4bc3048667de21f6f455ea4efc22152e691d58d2356e08479be7c310",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed42_fold2",
+      "kind": "mri",
+      "path": "runs/seed42_fold2/mri/MODEL.keras",
+      "sha256": "33f2c944f57353b9df1adba350f672739ca4320e2541423ad2129f1de119a719",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed42_fold2",
+      "kind": "fmri",
+      "path": "runs/seed42_fold2/fmri/MODEL.keras",
+      "sha256": "9726e697c063a558763f680e626e2cd9ddaa905572ec928bd49648be0a9dbbad",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed42_fold3",
+      "kind": "mri",
+      "path": "runs/seed42_fold3/mri/MODEL.keras",
+      "sha256": "4373311636be83f86a2781ddaf1d5da620c6cebe1c753ef796b87966fb3dbbc2",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed42_fold3",
+      "kind": "fmri",
+      "path": "runs/seed42_fold3/fmri/MODEL.keras",
+      "sha256": "75d80d4f3ec373e9d0e960eca0d81cba9a516528967c95dac543fc7ad5b8fa23",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed42_fold4",
+      "kind": "mri",
+      "path": "runs/seed42_fold4/mri/MODEL.keras",
+      "sha256": "7e66bfe4b223d57f0cf077bcf4476d94e820a26d967ae77828e669efe57f27b1",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed42_fold4",
+      "kind": "fmri",
+      "path": "runs/seed42_fold4/fmri/MODEL.keras",
+      "sha256": "76ce783386378e9f3d8e16bd0fb256ffa8277c3e5451d9e02040c2008f2a5896",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed42_fold5",
+      "kind": "mri",
+      "path": "runs/seed42_fold5/mri/MODEL.keras",
+      "sha256": "cb4714d8a27dec773fcc187bd76db1ddde9c5d6c5ce7eacd890dfff76cde5c2d",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed42_fold5",
+      "kind": "fmri",
+      "path": "runs/seed42_fold5/fmri/MODEL.keras",
+      "sha256": "1a7b307af7a4e5cb4188836a243b44169b3250a41e8ec33d7d22015ffbc61a99",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed43_fold1",
+      "kind": "mri",
+      "path": "runs/seed43_fold1/mri/MODEL.keras",
+      "sha256": "b4b822b2817938cb933201575bd93773e0d088d4f3d4a3917c1de941f67da7f3",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed43_fold1",
+      "kind": "fmri",
+      "path": "runs/seed43_fold1/fmri/MODEL.keras",
+      "sha256": "71745908748313c7b286a4b065553862755142c7e814bfa9d5ff7d3d9959af4e",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed43_fold2",
+      "kind": "mri",
+      "path": "runs/seed43_fold2/mri/MODEL.keras",
+      "sha256": "92f2aba93c953bb0fbe05aea2c36c34fb32e8ef6e9b8786d7ba7a97859e20f22",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed43_fold2",
+      "kind": "fmri",
+      "path": "runs/seed43_fold2/fmri/MODEL.keras",
+      "sha256": "1ec04613686c901293e28d380d035382d70f380f18e2ee1bdf54b62bbc985ee3",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed43_fold3",
+      "kind": "mri",
+      "path": "runs/seed43_fold3/mri/MODEL.keras",
+      "sha256": "e760cf2a15f52d530e3594d8c575611a616099716e6964fed9aacfc74d5b1192",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed43_fold3",
+      "kind": "fmri",
+      "path": "runs/seed43_fold3/fmri/MODEL.keras",
+      "sha256": "f5543c2d7bfa796f100d572ec5fb4ba927b36cd73b5c5cee554862606908eb30",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed43_fold4",
+      "kind": "mri",
+      "path": "runs/seed43_fold4/mri/MODEL.keras",
+      "sha256": "f821ead48a2559161d7239dbad28d3e58e74637b8874e3b8a857b7b72c5b1e0c",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed43_fold4",
+      "kind": "fmri",
+      "path": "runs/seed43_fold4/fmri/MODEL.keras",
+      "sha256": "5ec85729ee48718b680f4814a9104bbc72d15e527435c87a971386d6ead213ae",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed43_fold5",
+      "kind": "mri",
+      "path": "runs/seed43_fold5/mri/MODEL.keras",
+      "sha256": "53926ba64229d67c3ba458b46e604164b7fa749b7f2e783f7bcc5d9e17dc54c3",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed43_fold5",
+      "kind": "fmri",
+      "path": "runs/seed43_fold5/fmri/MODEL.keras",
+      "sha256": "17b41aca829ce2f09d4aa1b39e93558971ac825be05dc8a6234fc7cf54b44888",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed44_fold1",
+      "kind": "mri",
+      "path": "runs/seed44_fold1/mri/MODEL.keras",
+      "sha256": "b3d395fdf3d44baa8ee249464560cdd3e1ef110cf7c30cad2bbaff427a3eede0",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed44_fold1",
+      "kind": "fmri",
+      "path": "runs/seed44_fold1/fmri/MODEL.keras",
+      "sha256": "3817f5624c0fd8041ce9f5d666a87cf5d1ca38b7178d783abade1c61735872f7",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed44_fold2",
+      "kind": "mri",
+      "path": "runs/seed44_fold2/mri/MODEL.keras",
+      "sha256": "a397f9114e1ca85d83378afb66f6be9d4db1689d7c4d51c7171a10f464be886e",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed44_fold2",
+      "kind": "fmri",
+      "path": "runs/seed44_fold2/fmri/MODEL.keras",
+      "sha256": "4bbdca3166d0561eb60a840ef168e287c640707a17cd47483b7f09c974a9aaae",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed44_fold3",
+      "kind": "mri",
+      "path": "runs/seed44_fold3/mri/MODEL.keras",
+      "sha256": "ed47aad92f2cc128efce1563c17a83879ff0644c50a49e372138007c428860b7",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed44_fold3",
+      "kind": "fmri",
+      "path": "runs/seed44_fold3/fmri/MODEL.keras",
+      "sha256": "1fcec8ef89430b6266d2ab99cbe8767471033c24e5f19852d931675837bd890a",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed44_fold4",
+      "kind": "mri",
+      "path": "runs/seed44_fold4/mri/MODEL.keras",
+      "sha256": "f983d16e2f6e1fea60d4869b982d9ff049d8df172757dc947bf3b37ab4aa01dd",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed44_fold4",
+      "kind": "fmri",
+      "path": "runs/seed44_fold4/fmri/MODEL.keras",
+      "sha256": "10351d8e674f0247041c4e2fd62158acdc9c13ba5dac5700c4bb3d3ec9b56b82",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed44_fold5",
+      "kind": "mri",
+      "path": "runs/seed44_fold5/mri/MODEL.keras",
+      "sha256": "059492d2fd7f149e4cac37e5eff91c109dfb812d023ed96947df50f02ed2fc78",
+      "reload_difference": 0.0
+    },
+    {
+      "run": "seed44_fold5",
+      "kind": "fmri",
+      "path": "runs/seed44_fold5/fmri/MODEL.keras",
+      "sha256": "3ee2cf45490909f8d5148877db2b3f0fb151b8c561930a1a0c5dc47ece5eb581",
+      "reload_difference": 0.0
+    }
+  ],
+  "stackers": [
+    {
+      "run": "seed42_fold1",
+      "sha256": "202f10cde2e5a66bf5fbf6bfd04115f301f881187f6a9a56aca46feef17a2572"
+    },
+    {
+      "run": "seed42_fold2",
+      "sha256": "15d5fc06cc9d7edd3cdc7ad4a9f2b322d378c227efb0386519ea89ffdfb35b85"
+    },
+    {
+      "run": "seed42_fold3",
+      "sha256": "d4cf2c9fc79a8f75cb9e243d07fd251e46403bbd55493889ff5fab5a13a4c21e"
+    },
+    {
+      "run": "seed42_fold4",
+      "sha256": "dcc273d529bb50a5b6144b77539f3179bbee67c5ec9291aa32b998c35ea7f29e"
+    },
+    {
+      "run": "seed42_fold5",
+      "sha256": "4c54bf7051a054bb848f6fe5980ef8c3c06f82a0ff78bcca817169b8b5138085"
+    },
+    {
+      "run": "seed43_fold1",
+      "sha256": "c5a63aa3d165967f4386d440bb7233fd6338ccd06004abb774e540da91a7dde2"
+    },
+    {
+      "run": "seed43_fold2",
+      "sha256": "46bea3608caa6d302a892274b82eb9b130d38c8346951df2debd61e185c7f52d"
+    },
+    {
+      "run": "seed43_fold3",
+      "sha256": "197a21e62b9ecad991943f314f42a67e7ede8a9f6a0575059b345a54c88057fb"
+    },
+    {
+      "run": "seed43_fold4",
+      "sha256": "3ac5f5b38fb4e28f1babf7ef7e93ab2245e17647a023a67a0029f4c8ad2e0e4e"
+    },
+    {
+      "run": "seed43_fold5",
+      "sha256": "d4dbad847b9a4830e2fa804a328d552963ef730e224d8ff74ab71412241b71b0"
+    },
+    {
+      "run": "seed44_fold1",
+      "sha256": "75ff3bd3ac04ff23b0adc9fee728b67afe85ade52799dfee09928b47ec975730"
+    },
+    {
+      "run": "seed44_fold2",
+      "sha256": "e28564bf60069cd1fc1e0c75d6de2f56ef7407a6a8ff395f15ed7a4f654080a8"
+    },
+    {
+      "run": "seed44_fold3",
+      "sha256": "ff14f508eb44e517ef7a715ba29a30f3a1066165df4cd92dfa826db5d7c5aa6f"
+    },
+    {
+      "run": "seed44_fold4",
+      "sha256": "372c3e0bb64eaf4c632336ece3c013a415394e7056c48447f20a6a9605a3c95d"
+    },
+    {
+      "run": "seed44_fold5",
+      "sha256": "bba2c8e5d345e1df09188a6b7d7a163192dd0003767749fec58a5d18de313ea7"
+    }
+  ],
+  "current_test_metrics_generated": false
+}

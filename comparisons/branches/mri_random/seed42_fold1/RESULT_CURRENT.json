@@ -1,0 +1,83 @@
+{
+  "threshold": 0.5,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.2029334008693695,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.269734188914299,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.4846128970384598,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.7047300040721893,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.7777560651302338,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.8533012866973877,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.7777777777777778,
+    "f1": 0.6666666666666666,
+    "kappa": 0.5263157894736842,
+    "auc": 0.65,
+    "precision": 1.0,
+    "recall": 0.5,
+    "specificity": 1.0,
+    "brier": 0.18847978409609692,
+    "ece": 0.13295142352581024
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.7777777777777778,
+    "f1": 0.6666666666666666,
+    "kappa": 0.5263157894736842,
+    "auc": 0.65,
+    "precision": 1.0,
+    "recall": 0.5,
+    "specificity": 1.0,
+    "brier": 0.18847978409609692,
+    "ece": 0.13295142352581024
+  },
+  "test_n": 9,
+  "fixed_correct": 7,
+  "calibrated_correct": 7,
+  "series": "mri_random",
+  "seed": 42,
+  "fold": 1,
+  "selected_epoch": 0,
+  "model_sha256": "8e71e8b7a1e95c0cab1adf9d8e9f33d33a1118d92b5700971028d55bd63ce05b",
+  "reload_max_difference": 2.466142177581787e-05,
+  "seconds": 9.164129734039307,
+  "source_model": "initial_models/artifacts/consistent_v3/a/mri_random_pretrained_seed42_fold1/model.keras"
+}

@@ -1,0 +1,124 @@
+{
+  "model": "comparisons/branches/fmri_agentic_scratch_source/seed42_fold1/model.keras",
+  "model_sha256": "e01b6bf28493c355714eb0c5d9330b2604a0ff7ce374b3874844175faccff215",
+  "subject_ids": [
+    "sub-047EPKL011005",
+    "sub-047EPKL011041",
+    "sub-047EPKL011056",
+    "sub-047EPKL011063",
+    "sub-047EPKL014024",
+    "sub-047EPKL014036",
+    "sub-047EPKL014038",
+    "sub-047EPKL014062",
+    "sub-047EPKL014067"
+  ],
+  "input_groups": [
+    [
+      "inputs/fmri/sub-047EPKL011005_run01.npy",
+      "inputs/fmri/sub-047EPKL011005_run02.npy",
+      "inputs/fmri/sub-047EPKL011005_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL011041_run01.npy",
+      "inputs/fmri/sub-047EPKL011041_run02.npy",
+      "inputs/fmri/sub-047EPKL011041_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL011056_run01.npy",
+      "inputs/fmri/sub-047EPKL011056_run02.npy",
+      "inputs/fmri/sub-047EPKL011056_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL011063_run01.npy",
+      "inputs/fmri/sub-047EPKL011063_run02.npy",
+      "inputs/fmri/sub-047EPKL011063_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014024_run01.npy",
+      "inputs/fmri/sub-047EPKL014024_run02.npy",
+      "inputs/fmri/sub-047EPKL014024_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014036_run01.npy",
+      "inputs/fmri/sub-047EPKL014036_run02.npy",
+      "inputs/fmri/sub-047EPKL014036_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014038_run01.npy",
+      "inputs/fmri/sub-047EPKL014038_run02.npy",
+      "inputs/fmri/sub-047EPKL014038_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014062_run01.npy",
+      "inputs/fmri/sub-047EPKL014062_run02.npy",
+      "inputs/fmri/sub-047EPKL014062_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014067_run01.npy",
+      "inputs/fmri/sub-047EPKL014067_run02.npy",
+      "inputs/fmri/sub-047EPKL014067_run03.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "96dbe92eaab64d0e48bfccc8fbae4c9e9eaa019c50ab9327854f82bdaf272209",
+      "5ae64e2b4b916265f4f1b0457e1050609d39d21ee814ea1398bf356540b5a454",
+      "9d218863fb3c7bf4a1cf297bcc2df866ee53043dd7b6c5b324d7129e2fc558a1"
+    ],
+    [
+      "7cc50127dc6a60b415bcd3bc60c3334341055cc5c3b370dfa1de269f6b99b9ad",
+      "b5eeb65ccfbcda41026b66b026b62f3dea056005dffa4b16df2a078aa396de42",
+      "c1c23c198c7e7c6e674334894ecaebfc00e29de1ea4f19a5a0b6da186d5b0301"
+    ],
+    [
+      "0cd5e8fcfe3514336773b83df8cc43980237c2e3b00010e98a3dd786711d4345",
+      "cd043fcb2884a0b498430a854b971d819a2d67edef266596de69c0fe304e9cd1",
+      "41cf1e3fb2c6b6410362b08a467a072ba0f984d25cb70a5d084846758a011686"
+    ],
+    [
+      "ae0819bbb9f4c7b1fc0a7c3069914b9fbd9a16bb7896b3e85f4d39a6dc72189f",
+      "c644d52d92f6348868d06c2f2140adc36c57b2d0c12307a63f1b7cdd4e3c775e",
+      "0eea1a58d95352df01fb255e622b5ffc2f054ef5dc178491e9901932a0d4b763"
+    ],
+    [
+      "613cb031ab8db27e79c7e1939980c928dae2ade5a965e900eee4c4713eec543d",
+      "847b92b36e3733a10491b42b88103ce3f7d74e706ca77742db3e4e7f8a681e92",
+      "c3a620966729c7ee3a2dba8e8c53efe1fb0ea5cacc5ec8d7cfab6c3f36271fd3"
+    ],
+    [
+      "b89ebe6f71b7777c7b807e73565b64ad1f47ec4dccc113b86af8b4f37844ef7f",
+      "bf0269e33d71c1b1a34904f7c2f295f3fba9079bb849bb9a58aa65fad453e9f1",
+      "e360ec9591d69d205e83014399602a780531a49c596ae99de9a3307bcbb4405f"
+    ],
+    [
+      "6f7d92df460d792bd5aea15825b3244e9dbd75a847496586005d9402b758c894",
+      "a45aec2e81c1ab956a1639aeebf8569a6512e2c2295dc25ec10a24bd71b94bd6",
+      "2cc31efe34884a29cf05ac5138a33170f29bdf0d9f2419695392cfba0eaa5072"
+    ],
+    [
+      "13ccc4e3bec9712a0657231a92d37edd10fb497f53dcaf03b84bf0b0f9878ba2",
+      "697f12e3c600e704511b40b24787db6c610115ac6abe3b594d42f71de37e5958",
+      "187f4fe6dc24567ff1eb8e000f031b019913658bce67f5dee441066a0c47ce1c"
+    ],
+    [
+      "8ccc44386f808f3096b144cd226aa87f8d446a3aa247d2571dbc18d4358e49ee",
+      "f902e639b3ecfc12dd41d3b2f82ed411f5702a38bd7f615b817795e090b8d794",
+      "564fe8c4662f03e34307740aedaab20185efb8e3740bf8f383d5861b00d5b175"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.9999775093616412,
+    0.7916363880130213,
+    0.999966080327836,
+    0.9431806172408744,
+    0.8772439223730499,
+    0.9968426150935957,
+    0.6001076795671475,
+    0.9281481582017254,
+    0.9997931602073992
+  ],
+  "maximum_probability_difference": 0.0,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

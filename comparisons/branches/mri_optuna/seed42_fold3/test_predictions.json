@@ -1,0 +1,130 @@
+[
+  {
+    "subject_id": "sub-047EPKL011047",
+    "true_label": 1,
+    "probability": 0.6631049798121139,
+    "run_probabilities": [
+      0.6631049798121139
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL011047.npy"
+    ],
+    "seed": 42,
+    "test_fold": 3,
+    "model_id": "mri_optuna_seed42_fold3",
+    "selected_threshold": 0.19017666683042994,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL011051",
+    "true_label": 1,
+    "probability": 0.8549144455428607,
+    "run_probabilities": [
+      0.8549144455428607
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL011051.npy"
+    ],
+    "seed": 42,
+    "test_fold": 3,
+    "model_id": "mri_optuna_seed42_fold3",
+    "selected_threshold": 0.19017666683042994,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL011068",
+    "true_label": 1,
+    "probability": 0.7067837118989891,
+    "run_probabilities": [
+      0.7067837118989891
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL011068.npy"
+    ],
+    "seed": 42,
+    "test_fold": 3,
+    "model_id": "mri_optuna_seed42_fold3",
+    "selected_threshold": 0.19017666683042994,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL012071",
+    "true_label": 1,
+    "probability": 0.7812620499270202,
+    "run_probabilities": [
+      0.7812620499270202
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL012071.npy"
+    ],
+    "seed": 42,
+    "test_fold": 3,
+    "model_id": "mri_optuna_seed42_fold3",
+    "selected_threshold": 0.19017666683042994,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL014008",
+    "true_label": 0,
+    "probability": 0.26673584812149936,
+    "run_probabilities": [
+      0.26673584812149936
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL014008.npy"
+    ],
+    "seed": 42,
+    "test_fold": 3,
+    "model_id": "mri_optuna_seed42_fold3",
+    "selected_threshold": 0.19017666683042994,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL014039",
+    "true_label": 0,
+    "probability": 0.15848914753276958,
+    "run_probabilities": [
+      0.15848914753276958
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL014039.npy"
+    ],
+    "seed": 42,
+    "test_fold": 3,
+    "model_id": "mri_optuna_seed42_fold3",
+    "selected_threshold": 0.19017666683042994,
+    "predicted_label": 0
+  },
+  {
+    "subject_id": "sub-047EPKL014048",
+    "true_label": 0,
+    "probability": 0.32256194366387025,
+    "run_probabilities": [
+      0.32256194366387025
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL014048.npy"
+    ],
+    "seed": 42,
+    "test_fold": 3,
+    "model_id": "mri_optuna_seed42_fold3",
+    "selected_threshold": 0.19017666683042994,
+    "predicted_label": 1
+  },
+  {
+    "subject_id": "sub-047EPKL014054",
+    "true_label": 0,
+    "probability": 0.3407758702116328,
+    "run_probabilities": [
+      0.3407758702116328
+    ],
+    "input_paths": [
+      "inputs/mri/sub-047EPKL014054.npy"
+    ],
+    "seed": 42,
+    "test_fold": 3,
+    "model_id": "mri_optuna_seed42_fold3",
+    "selected_threshold": 0.19017666683042994,
+    "predicted_label": 1
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "arm": "last_layer",
+  "source": "/package/initial_models/artifacts/consistent_v3/a/mri_baseline_pretrained_seed42_fold1/model.keras",
+  "source_sha256": "f4547cf406eb0b4ca1d6b5af8e425df54bab5b78f440a6c5510a7650f47e8655",
+  "epochs": 50,
+  "batch_size": 8,
+  "learning_rate": 0.0001,
+  "selection": "minimum true-label validation BCE including epoch0; no test metrics used for selection",
+  "selected_epoch": 38,
+  "gradient_updates": 200,
+  "frozen_encoder": true,
+  "trainable_layers": [
+    "features128",
+    "prediction"
+  ],
+  "selected_weight_l2_change": 0.009212146825551234,
+  "dropout_during_feature_extraction": false,
+  "true_labels_unchanged": true,
+  "head_initialization": "inherited Dense128 and prediction weights",
+  "initial_head_weights_sha256": "375b57eef6f395f16c8a6c93184bae1f4565369a497c173222fd41692f264967",
+  "max_reload_difference": 0.0
+}

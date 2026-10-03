@@ -1,0 +1,32 @@
+{
+  "seed": 43,
+  "fold": 1,
+  "series": "mri_random",
+  "test_n": 9,
+  "threshold": 0.5,
+  "confusion_matrix": {
+    "TP": 3,
+    "TN": 5,
+    "FP": 0,
+    "FN": 1
+  },
+  "false_negatives": [
+    {
+      "subject_id": "sub-047EPKL011063",
+      "true_label": 1,
+      "probability": 0.13905306160449982,
+      "run_probabilities": [
+        0.13905306160449982
+      ],
+      "input_paths": [
+        "inputs/mri/sub-047EPKL011063.npy"
+      ],
+      "seed": 43,
+      "test_fold": 1,
+      "model_id": "mri_random_seed43_fold1",
+      "selected_threshold": 0.5,
+      "predicted_label": 0
+    }
+  ],
+  "false_positives": []
+}

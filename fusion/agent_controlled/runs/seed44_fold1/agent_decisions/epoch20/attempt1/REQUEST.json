@@ -1,0 +1,40 @@
+{
+  "model": "qwen2.5:3b",
+  "stream": false,
+  "format": {
+    "type": "object",
+    "properties": {
+      "action": {
+        "type": "string",
+        "enum": [
+          "continue",
+          "reduce_lr",
+          "increase_dropout",
+          "stop"
+        ]
+      }
+    },
+    "required": [
+      "action"
+    ],
+    "additionalProperties": false
+  },
+  "options": {
+    "temperature": 0,
+    "seed": 44,
+    "num_ctx": 2048,
+    "num_predict": 32,
+    "num_thread": 4,
+    "num_gpu": 0
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "Control feature-fusion training using only supplied TRAIN and VALIDATION evidence. Continue if improving; reduce_lr halves learning rate; increase_dropout adds0.1 up to0.5; stop ends training now. No target test score. Choose one action. JSON action field only."
+    },
+    {
+      "role": "user",
+      "content": "{\"epoch\":20,\"max_epochs\":25,\"learning_rate\":0.00075,\"dropout\":0.2,\"recent_history\":[{\"epoch\":18,\"loss\":0.204698,\"val_loss\":0.298451,\"learning_rate\":0.00075,\"dropout\":0.2,\"optimizer_iterations\":72},{\"epoch\":19,\"loss\":0.207418,\"val_loss\":0.297157,\"learning_rate\":0.00075,\"dropout\":0.2,\"optimizer_iterations\":76},{\"epoch\":20,\"loss\":0.199339,\"val_loss\":0.298183,\"learning_rate\":0.00075,\"dropout\":0.2,\"optimizer_iterations\":80}],\"training\":{\"n\":26,\"balanced_accuracy\":0.961538,\"brier\":0.049739,\"accuracy\":0.961538},\"validation\":{\"n\":7,\"balanced_accuracy\":1.0,\"brier\":0.067992,\"accuracy\":1.0},\"actions\":[\"continue\",\"reduce_lr\",\"increase_dropout\",\"stop\"]}"
+    }
+  ]
+}

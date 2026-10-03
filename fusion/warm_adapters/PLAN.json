@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "epochs": 25,
+  "learning_rate": 0.003,
+  "dropout": 0.3,
+  "residual_bound": 3.0,
+  "residual_penalty": 0.01,
+  "stacking_ridge": 0.1,
+  "threshold": 0.5,
+  "hyperparameter_search": false,
+  "new_qwen_calls": false,
+  "old_results_modified": false,
+  "scope": "Frozen parent branch plus newly trained warm-start residual adapters; not fine-tuning original checkpoint weights"
+}

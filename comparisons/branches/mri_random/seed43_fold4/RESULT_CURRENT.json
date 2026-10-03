@@ -1,0 +1,83 @@
+{
+  "threshold": 0.2485501393675804,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.13119222223758698,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.19380955398082733,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.2485501393675804,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.41445255279541016,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "threshold": 0.5601873695850372,
+      "f1": 0.4,
+      "balanced_accuracy": 0.5416666666666666
+    },
+    {
+      "threshold": 0.6407847106456757,
+      "f1": 0.0,
+      "balanced_accuracy": 0.375
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "kappa": 1.0,
+    "auc": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "brier": 0.066880939291872,
+    "ece": 0.23549234587699175
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.875,
+    "f1": 0.8888888888888888,
+    "kappa": 0.75,
+    "auc": 1.0,
+    "precision": 0.8,
+    "recall": 1.0,
+    "specificity": 0.75,
+    "brier": 0.066880939291872,
+    "ece": 0.23549234587699175
+  },
+  "test_n": 8,
+  "fixed_correct": 8,
+  "calibrated_correct": 7,
+  "series": "mri_random",
+  "seed": 43,
+  "fold": 4,
+  "selected_epoch": 49,
+  "model_sha256": "be4519dda47841cab448de4ac10d476b4fac6ebc58448a8f36531574198754bf",
+  "reload_max_difference": 4.106760025024414e-05,
+  "seconds": 8.390812873840332,
+  "source_model": "initial_models/artifacts/consistent_v3/a/mri_random_pretrained_seed42_fold1/model.keras"
+}

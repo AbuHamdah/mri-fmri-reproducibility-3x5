@@ -1,0 +1,112 @@
+{
+  "model": "comparisons/branches/fmri_random/seed42_fold3/model.keras",
+  "model_sha256": "789cf1fa37f134aefc12771aad872d5cf4fb844340833ea78d1254a22efefd0b",
+  "subject_ids": [
+    "sub-047EPKL011047",
+    "sub-047EPKL011051",
+    "sub-047EPKL011068",
+    "sub-047EPKL012071",
+    "sub-047EPKL014008",
+    "sub-047EPKL014039",
+    "sub-047EPKL014048",
+    "sub-047EPKL014054"
+  ],
+  "input_groups": [
+    [
+      "inputs/fmri/sub-047EPKL011047_run01.npy",
+      "inputs/fmri/sub-047EPKL011047_run02.npy",
+      "inputs/fmri/sub-047EPKL011047_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL011051_run01.npy",
+      "inputs/fmri/sub-047EPKL011051_run02.npy",
+      "inputs/fmri/sub-047EPKL011051_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL011068_run01.npy",
+      "inputs/fmri/sub-047EPKL011068_run02.npy",
+      "inputs/fmri/sub-047EPKL011068_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL012071_run01.npy",
+      "inputs/fmri/sub-047EPKL012071_run02.npy",
+      "inputs/fmri/sub-047EPKL012071_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014008_run01.npy",
+      "inputs/fmri/sub-047EPKL014008_run02.npy",
+      "inputs/fmri/sub-047EPKL014008_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014039_run01.npy",
+      "inputs/fmri/sub-047EPKL014039_run02.npy",
+      "inputs/fmri/sub-047EPKL014039_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014048_run01.npy",
+      "inputs/fmri/sub-047EPKL014048_run02.npy",
+      "inputs/fmri/sub-047EPKL014048_run03.npy"
+    ],
+    [
+      "inputs/fmri/sub-047EPKL014054_run01.npy",
+      "inputs/fmri/sub-047EPKL014054_run02.npy",
+      "inputs/fmri/sub-047EPKL014054_run03.npy"
+    ]
+  ],
+  "input_sha256": [
+    [
+      "762d974df8b2e49025448c1abe7e7e81678688197b32970b802d41aabbf7cd39",
+      "a1d4defef5f4d5313285071cf0c5064b75c4be11faa7c1a14f9a3e1502916bb6",
+      "e7bbaf471f9bf91eef346c53da50f519d72337580e2f38960fdb5e533d67e33b"
+    ],
+    [
+      "29b23148a2d271ebf736609e54ec445cfb5aa97bd7d79fb049f3f256148652f0",
+      "a9eb2cb6458fbcfbf53d3f968ebf23880ed2c6bab8228f2060e86abd219fd63d",
+      "1f168e936dbeabb2a8eccd7310d3e6ec87d5096873c187acfbd10ec27ebc289f"
+    ],
+    [
+      "fb19713f4362d0846a0cac372a7ce2b18b42115dc0c149d1d8985c72f1a0f1f0",
+      "155ff3796acb2b3c99a203396977c63be7c39e72140018d8b9afa912d1a9c597",
+      "d57af4dc12318580316b68f07d07c185b40b7864841ed859ec295f1beacb7db8"
+    ],
+    [
+      "87a9da04da017377b8a0ac4c130da4ea7b663b71dc09226fb8c7236a62505cec",
+      "55976cd69fa670df6693592202078653aeb1359066953310d6694c485f77f950",
+      "3780375d0536511101e2a6c3316d2f6734a90599d7458966cb6692a47af14d11"
+    ],
+    [
+      "910a716079950cfacc0d45afa485d6438d475623f8d89561121f2897c69a6f24",
+      "3170d89dd330d59be46b6b50e24711fe46045803e05cb2d339260e4d53a31eb4",
+      "dfc0be5266d49261bdc5021369ede3f36f3af34ab2545ddf01b1cd82f8738ca5"
+    ],
+    [
+      "af7e5ff9012ee49feeff6cd872ca921a8ed97c61ba57a62aad78601fa7ee032a",
+      "bdc3e562e4a25307399be2783b592337f04a5b5d621873df28e0262acb826fce",
+      "e125d5093808b39fc380d709dbbbd2d1dcd187d20ae80fdf54183b1966bdf686"
+    ],
+    [
+      "dc31e413d87789f419b682853e2ef54367a54ea9c1eb270f2c9a51189e4f41cb",
+      "52317410d05bca62ffa73d2592e9a56605233b8fa8f7a188afd712ba66731c38",
+      "d39ec001ba435a29fe684bf51f3058b1ae98090b629931943579a04c25b75d7f"
+    ],
+    [
+      "267e2b2e9f765233aa2679ab5586468ee32845ff4b6707dd75056bf7818db000",
+      "fa45af8416ba19b5d06ea33e91087be1ba109bb198475372548dbbba2ea9e942",
+      "4a5bc5c2bdaae6412d1679210799e51fa44a929ac403515ceec204ad80d54065"
+    ]
+  ],
+  "batch_runs": false,
+  "probabilities": [
+    0.6631116469701132,
+    0.8543887535730997,
+    0.7067212462425232,
+    0.7813165585199991,
+    0.26651576658089954,
+    0.15900849302609762,
+    0.32296042641003925,
+    0.340575377146403
+  ],
+  "maximum_probability_difference": 0.0,
+  "tf_intra_threads": 2,
+  "tf_inter_threads": 2
+}

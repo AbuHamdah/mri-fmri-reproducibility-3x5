@@ -1,0 +1,12 @@
+{
+  "mode": "agentic",
+  "method": "fixed_weighted_mri",
+  "seed": 44,
+  "fold": 5,
+  "model": "fusion/agentic/fixed_weighted_mri/seed44_fold5/model.keras",
+  "model_sha256": "66898b7ff9833c5667388dbb9e6c8c86917341fd880931bf7fe5723e2751f7e4",
+  "all_subjects": 42,
+  "maximum_probability_difference": 0.0,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

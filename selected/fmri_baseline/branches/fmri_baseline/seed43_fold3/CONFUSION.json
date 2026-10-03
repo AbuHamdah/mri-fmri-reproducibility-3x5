@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "tp": 3,
+    "tn": 3,
+    "fp": 1,
+    "fn": 1
+  },
+  "n": 8,
+  "errors": [
+    {
+      "subject_id": "sub-047EPKL011049",
+      "true_label": 1,
+      "probability": 0.42332543418097174,
+      "predicted_label": 0,
+      "source_run_probabilities": [
+        0.4249707998980265,
+        0.2832515444860538,
+        0.3414688508699902
+      ],
+      "parent_child_logit": -0.619491736632389,
+      "seed": 43,
+      "test_fold": 3,
+      "model_id": "fmri_baseline_seed43_fold3_rbf_residual",
+      "selected_threshold": 0.5
+    },
+    {
+      "subject_id": "sub-047EPKL014066",
+      "true_label": 0,
+      "probability": 0.5859731671281235,
+      "predicted_label": 1,
+      "source_run_probabilities": [
+        0.39528295022198545,
+        0.21864233261935395,
+        0.6119961500393706
+      ],
+      "parent_child_logit": -0.36958843434669597,
+      "seed": 43,
+      "test_fold": 3,
+      "model_id": "fmri_baseline_seed43_fold3_rbf_residual",
+      "selected_threshold": 0.5
+    }
+  ]
+}

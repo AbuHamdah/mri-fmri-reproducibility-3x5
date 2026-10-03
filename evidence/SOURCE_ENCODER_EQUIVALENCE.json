@@ -1,0 +1,86 @@
+[
+  {
+    "series": "mri_baseline",
+    "kind": "mri",
+    "encoder_fingerprint": "99964ff24d0c1467347d6e2fd5d3e2a3322aad19e91f20e4a1b7a6e440e79cc7",
+    "frozen_parameter_count": 8666432
+  },
+  {
+    "series": "mri_baseline_scratch_source",
+    "kind": "mri",
+    "encoder_fingerprint": "d467c9d19c7a4270cd2decc3ab24c9160c18820a7ab8a71e9f2b25ab3a660d93",
+    "frozen_parameter_count": 8666432
+  },
+  {
+    "series": "mri_agentic",
+    "kind": "mri",
+    "encoder_fingerprint": "99964ff24d0c1467347d6e2fd5d3e2a3322aad19e91f20e4a1b7a6e440e79cc7",
+    "frozen_parameter_count": 8666432
+  },
+  {
+    "series": "mri_agentic_scratch_source",
+    "kind": "mri",
+    "encoder_fingerprint": "d467c9d19c7a4270cd2decc3ab24c9160c18820a7ab8a71e9f2b25ab3a660d93",
+    "frozen_parameter_count": 8666432
+  },
+  {
+    "series": "mri_rule",
+    "kind": "mri",
+    "encoder_fingerprint": "99964ff24d0c1467347d6e2fd5d3e2a3322aad19e91f20e4a1b7a6e440e79cc7",
+    "frozen_parameter_count": 8666432
+  },
+  {
+    "series": "mri_random",
+    "kind": "mri",
+    "encoder_fingerprint": "290f1c6ed39cbfb31ea255c87637307f08f7419f8fc0eec2cf9237144c30b7f7",
+    "frozen_parameter_count": 8666432
+  },
+  {
+    "series": "mri_optuna",
+    "kind": "mri",
+    "encoder_fingerprint": "99964ff24d0c1467347d6e2fd5d3e2a3322aad19e91f20e4a1b7a6e440e79cc7",
+    "frozen_parameter_count": 8666432
+  },
+  {
+    "series": "fmri_baseline",
+    "kind": "fmri",
+    "encoder_fingerprint": "af9828233cab43dee9946f07c25d0c549e721b3b1b49b0c77eac3bd7a754628a",
+    "frozen_parameter_count": 17092480
+  },
+  {
+    "series": "fmri_baseline_scratch_source",
+    "kind": "fmri",
+    "encoder_fingerprint": "835117f0a37c7e81f4b53004f495e76005d6f31c2354636b096b648472829e73",
+    "frozen_parameter_count": 17092480
+  },
+  {
+    "series": "fmri_agentic",
+    "kind": "fmri",
+    "encoder_fingerprint": "af9828233cab43dee9946f07c25d0c549e721b3b1b49b0c77eac3bd7a754628a",
+    "frozen_parameter_count": 17092480
+  },
+  {
+    "series": "fmri_agentic_scratch_source",
+    "kind": "fmri",
+    "encoder_fingerprint": "835117f0a37c7e81f4b53004f495e76005d6f31c2354636b096b648472829e73",
+    "frozen_parameter_count": 17092480
+  },
+  {
+    "series": "fmri_rule",
+    "kind": "fmri",
+    "encoder_fingerprint": "40673799238e3e579b14eaa7744d0d1fd3f0969de97d63ad79fe5acb104f0d55",
+    "frozen_parameter_count": 17092480
+  },
+  {
+    "series": "fmri_random",
+    "kind": "fmri",
+    "encoder_fingerprint": "69a8bd91558d4411be6f5b60797a6b8f253587c30373fa29fe1859004cbed5ff",
+    "frozen_parameter_count": 17092480
+  },
+  {
+    "series": "fmri_optuna",
+    "kind": "fmri",
+    "encoder_fingerprint": "5109ccd974a6f50c50d1a17877616569c06bb2856a20cac6bce5a21213e8b08e",
+    "frozen_parameter_count": 17092480
+  }
+]

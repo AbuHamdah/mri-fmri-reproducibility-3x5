@@ -1,0 +1,26 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hidden": 8,
+  "dropout": 0.4,
+  "learning_rate": 0.005,
+  "epochs": 30,
+  "batch_size": 8,
+  "threshold": 0.5,
+  "residual_bound": 3.0,
+  "penalty": 0.01,
+  "bootstrap": "Ordinary current-training-child resampling",
+  "selection": "Fixed final epoch; no search, seed selection or target test accuracy",
+  "new_qwen_calls": false,
+  "meta_inputs_in_sample": true
+}

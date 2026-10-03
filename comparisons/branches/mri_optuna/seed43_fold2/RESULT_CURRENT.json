@@ -1,0 +1,84 @@
+{
+  "threshold": 0.2919600542917222,
+  "threshold_candidates_validation": [
+    {
+      "threshold": 0.0,
+      "f1": 0.6,
+      "balanced_accuracy": 0.5
+    },
+    {
+      "threshold": 0.16087068959111908,
+      "f1": 0.6666666666666666,
+      "balanced_accuracy": 0.625
+    },
+    {
+      "threshold": 0.21255445221250555,
+      "f1": 0.75,
+      "balanced_accuracy": 0.75
+    },
+    {
+      "threshold": 0.24587326733259474,
+      "f1": 0.8571428571428571,
+      "balanced_accuracy": 0.875
+    },
+    {
+      "threshold": 0.2919600542917222,
+      "f1": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    {
+      "threshold": 0.5,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.5427726427376911,
+      "f1": 0.8,
+      "balanced_accuracy": 0.8333333333333333
+    },
+    {
+      "threshold": 0.8026498750663504,
+      "f1": 0.5,
+      "balanced_accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 1.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5
+    }
+  ],
+  "fixed_metrics": {
+    "accuracy": 0.8888888888888888,
+    "f1": 0.8888888888888888,
+    "kappa": 0.7804878048780487,
+    "auc": 0.95,
+    "precision": 0.8,
+    "recall": 1.0,
+    "specificity": 0.8,
+    "brier": 0.11295510190432793,
+    "ece": 0.22463505062902914
+  },
+  "calibrated_metrics": {
+    "accuracy": 0.6666666666666666,
+    "f1": 0.7272727272727273,
+    "kappa": 0.3720930232558139,
+    "auc": 0.95,
+    "precision": 0.5714285714285714,
+    "recall": 1.0,
+    "specificity": 0.4,
+    "brier": 0.11295510190432793,
+    "ece": 0.22463505062902914
+  },
+  "test_n": 9,
+  "fixed_correct": 8,
+  "calibrated_correct": 6,
+  "series": "mri_optuna",
+  "seed": 43,
+  "fold": 2,
+  "selected_epoch": 27,
+  "model_sha256": "7c0b650054c88bd60109e0c2eb066871c915f9f04a719d6801c21e3aa9bccbb3",
+  "reload_max_difference": 0.0,
+  "seconds": null,
+  "source_model": "initial_models/supplemental_completion/completion_pilots_v1/mri_optuna_head/model.keras",
+  "timing_scope": "Original stage duration not measured in this expansion: reused/recovered model."
+}

@@ -1,0 +1,4688 @@
+[
+  {
+    "result": "mri_baseline",
+    "seed": 42,
+    "TP": 19,
+    "TN": 18,
+    "FP": 4,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.3979358971118927,
+        "threshold": 0.2630075290799141,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "selected/mri_baseline/adopted_models/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.8626652956008911,
+        "threshold": 0.2708590403199196,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "selected/mri_baseline/adopted_models/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.31877005100250244,
+        "threshold": 0.2708590403199196,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "selected/mri_baseline/adopted_models/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.8802640438079834,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 4,
+        "model": "selected/mri_baseline/adopted_models/seed42_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.3267892301082611,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "selected/mri_baseline/adopted_models/seed42_fold5/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "mri_baseline",
+    "seed": 43,
+    "TP": 19,
+    "TN": 20,
+    "FP": 2,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.3451824486255646,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "selected/mri_baseline/adopted_models/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.8789893984794617,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "selected/mri_baseline/adopted_models/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.8584727644920349,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "selected/mri_baseline/adopted_models/seed43_fold3/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_baseline",
+    "seed": 44,
+    "TP": 19,
+    "TN": 20,
+    "FP": 2,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.8758301734924316,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "selected/mri_baseline/adopted_models/seed44_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.8624352812767029,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "selected/mri_baseline/adopted_models/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.3285197615623474,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "selected/mri_baseline/adopted_models/seed44_fold4/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "mri_agentic",
+    "seed": 42,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.7853865623474122,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "selected/mri_agentic/branches/mri_agentic/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.3500563204288483,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "selected/mri_agentic/branches/mri_agentic/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "mri_agentic",
+    "seed": 43,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.36386902333467697,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "selected/mri_agentic/branches/mri_agentic/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.7853865623474122,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "selected/mri_agentic/branches/mri_agentic/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_agentic",
+    "seed": 44,
+    "TP": 19,
+    "TN": 20,
+    "FP": 2,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.3500563204288483,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "selected/mri_agentic/branches/mri_agentic/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.7853865623474122,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "selected/mri_agentic/branches/mri_agentic/seed44_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.6111519068388651,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "selected/mri_agentic/branches/mri_agentic/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_baseline",
+    "seed": 42,
+    "TP": 18,
+    "TN": 20,
+    "FP": 2,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 3.5586994436449276e-07,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "selected/fmri_baseline/branches/fmri_baseline/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.09430993807658748,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "selected/fmri_baseline/branches/fmri_baseline/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.999194291373097,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "selected/fmri_baseline/branches/fmri_baseline/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.9999999057917833,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "selected/fmri_baseline/branches/fmri_baseline/seed42_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_baseline",
+    "seed": 43,
+    "TP": 19,
+    "TN": 20,
+    "FP": 2,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.4233254341809717,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "selected/fmri_baseline/branches/fmri_baseline/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.5859731671281235,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "selected/fmri_baseline/branches/fmri_baseline/seed43_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.9075080695974702,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "selected/fmri_baseline/branches/fmri_baseline/seed43_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_baseline",
+    "seed": 44,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.49238515241103514,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "selected/fmri_baseline/branches/fmri_baseline/seed44_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.9943974793998929,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "selected/fmri_baseline/branches/fmri_baseline/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 2.6655269578284073e-16,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "selected/fmri_baseline/branches/fmri_baseline/seed44_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "fmri_agentic",
+    "seed": 42,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9844032425036527,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "selected/fmri_agentic/branches/fmri_agentic/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.1566408735421155,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "selected/fmri_agentic/branches/fmri_agentic/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "fmri_agentic",
+    "seed": 43,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.1252609956122208,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "selected/fmri_agentic/branches/fmri_agentic/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.8357154596603072,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "selected/fmri_agentic/branches/fmri_agentic/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_agentic",
+    "seed": 44,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.19725694271275415,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "selected/fmri_agentic/branches/fmri_agentic/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.06877575983107273,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "selected/fmri_agentic/branches/fmri_agentic/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.894797751574237,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "selected/fmri_agentic/branches/fmri_agentic/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_agentic_scratch_source",
+    "seed": 42,
+    "TP": 17,
+    "TN": 16,
+    "FP": 6,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.8772439223730499,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.9968426150935957,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.6001076795671475,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9281481582017254,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.9997931602073992,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7098675595565987,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed42_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 1.643005104615984e-08,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed42_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.003949758036162551,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed42_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 3.1005710321786926e-06,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed42_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "fmri_agentic_scratch_source",
+    "seed": 43,
+    "TP": 17,
+    "TN": 19,
+    "FP": 3,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.36149405938078144,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 2.552616016165751e-15,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.6946581684382203,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed43_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.9999346168605202,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed43_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.18097969073543163,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7098675595565987,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed43_fold2/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_agentic_scratch_source",
+    "seed": 44,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.18097969073543163,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed44_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13843930749716224,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7098675595565987,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_agentic_scratch_source/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_baseline_scratch_source",
+    "seed": 42,
+    "TP": 17,
+    "TN": 18,
+    "FP": 4,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.4756665665998463,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014024",
+        "true_label": 0,
+        "probability": 0.9187119869227116,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.7697426060522008,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014038",
+        "true_label": 0,
+        "probability": 0.9975860580230999,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.9108352278726565,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.18109673998485754,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed42_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.13584989188228536,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed42_fold4/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "fmri_baseline_scratch_source",
+    "seed": 43,
+    "TP": 17,
+    "TN": 22,
+    "FP": 0,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13888693377776717,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.18109673998485754,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.13584989188228536,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed43_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "fmri_baseline_scratch_source",
+    "seed": 44,
+    "TP": 17,
+    "TN": 22,
+    "FP": 0,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.18109673998485754,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed44_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.13584989188228536,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed44_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13888693377776717,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_baseline_scratch_source/seed44_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "fmri_optuna",
+    "seed": 42,
+    "TP": 18,
+    "TN": 19,
+    "FP": 3,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.20371356214683614,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_optuna/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.2038466873104495,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_optuna/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7063493191243083,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_optuna/seed42_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.5800145461151244,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_optuna/seed42_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.6216202120806463,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "comparisons/branches/fmri_optuna/seed42_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_optuna",
+    "seed": 43,
+    "TP": 18,
+    "TN": 19,
+    "FP": 3,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.2038466873104495,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_optuna/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7063493191243083,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_optuna/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.5800145461151244,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_optuna/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.20371356214683614,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_optuna/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.6216202120806463,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_optuna/seed43_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_optuna",
+    "seed": 44,
+    "TP": 18,
+    "TN": 19,
+    "FP": 3,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.6216202120806463,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_optuna/seed44_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.2038466873104495,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_optuna/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.20371356214683614,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_optuna/seed44_fold4/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7063493191243083,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_optuna/seed44_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014045",
+        "true_label": 0,
+        "probability": 0.5800145461151244,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_optuna/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_random",
+    "seed": 42,
+    "TP": 17,
+    "TN": 20,
+    "FP": 2,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.22270362824201584,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_random/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.025034804828464985,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_random/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.08027743051449458,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_random/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.9998897115389506,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_random/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7098414103190104,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_random/seed42_fold2/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_random",
+    "seed": 43,
+    "TP": 17,
+    "TN": 16,
+    "FP": 6,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.02340655339260896,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_random/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014048",
+        "true_label": 0,
+        "probability": 0.8411392370859782,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_random/seed43_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.5792910754680634,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_random/seed43_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.9973279237747192,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_random/seed43_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7098414103190104,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_random/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.2161464343468348,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_random/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.10166377946734428,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_random/seed43_fold4/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014020",
+        "true_label": 0,
+        "probability": 0.9957476059595743,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_random/seed43_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014029",
+        "true_label": 0,
+        "probability": 0.7602423032124838,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_random/seed43_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_random",
+    "seed": 44,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13844726234674454,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_random/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.2161464343468348,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_random/seed44_fold4/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7098414103190104,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_random/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_rule",
+    "seed": 42,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.16613809516032538,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_rule/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7108635703722636,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_rule/seed42_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.17334829767545065,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_rule/seed42_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "fmri_rule",
+    "seed": 43,
+    "TP": 16,
+    "TN": 17,
+    "FP": 5,
+    "FN": 4,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.07106346512834232,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_rule/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL012017",
+        "true_label": 1,
+        "probability": 0.10107317535827558,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_rule/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014067",
+        "true_label": 0,
+        "probability": 0.9110173185666403,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/fmri_rule/seed43_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.4118085652589798,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_rule/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.6826942165692648,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_rule/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011041",
+        "true_label": 1,
+        "probability": 0.3336349633367111,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_rule/seed43_fold4/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014007",
+        "true_label": 0,
+        "probability": 0.9999498128890991,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "comparisons/branches/fmri_rule/seed43_fold5/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.9999923904736837,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "comparisons/branches/fmri_rule/seed43_fold5/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9978902737299601,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "comparisons/branches/fmri_rule/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "fmri_rule",
+    "seed": 44,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.17334829767545065,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/fmri_rule/seed44_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.16613809516032538,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/fmri_rule/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7108635703722636,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/fmri_rule/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_agentic_scratch_source",
+    "seed": 42,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.04592110043730568,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_agentic_scratch_source/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.6221147050657999,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_agentic_scratch_source/seed42_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.1241696572123615,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_agentic_scratch_source/seed42_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "mri_agentic_scratch_source",
+    "seed": 43,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13223013942099532,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_agentic_scratch_source/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.18118794789352313,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_agentic_scratch_source/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7099228748446503,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_agentic_scratch_source/seed43_fold2/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_agentic_scratch_source",
+    "seed": 44,
+    "TP": 18,
+    "TN": 20,
+    "FP": 2,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.5758277544363457,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_agentic_scratch_source/seed44_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.1764924595426749,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_agentic_scratch_source/seed44_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13812832699923633,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_agentic_scratch_source/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7276351046909647,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_agentic_scratch_source/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_baseline_scratch_source",
+    "seed": 42,
+    "TP": 17,
+    "TN": 21,
+    "FP": 1,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.05506109567469195,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed42_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011051",
+        "true_label": 1,
+        "probability": 0.4001681466227023,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed42_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.13441280481034182,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed42_fold4/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.8312173531402884,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed42_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_baseline_scratch_source",
+    "seed": 43,
+    "TP": 18,
+    "TN": 19,
+    "FP": 3,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.8504419839885894,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed43_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.1810872244528999,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.13441280481034182,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.5612145988621204,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed43_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.8615519503892954,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed43_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_baseline_scratch_source",
+    "seed": 44,
+    "TP": 18,
+    "TN": 20,
+    "FP": 2,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.09614558051608336,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed44_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011060",
+        "true_label": 1,
+        "probability": 0.11233340214426832,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed44_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.8261330499564746,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014052",
+        "true_label": 0,
+        "probability": 0.8471056571777331,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 5,
+        "model": "comparisons/branches/mri_baseline_scratch_source/seed44_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_optuna",
+    "seed": 42,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.21603916907833784,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_optuna/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13803442172681443,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_optuna/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7099596349332034,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_optuna/seed42_fold2/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_optuna",
+    "seed": 43,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13803442172681443,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_optuna/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.8057287017114044,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_optuna/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.21603916907833784,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_optuna/seed43_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "mri_optuna",
+    "seed": 44,
+    "TP": 16,
+    "TN": 17,
+    "FP": 5,
+    "FN": 4,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.6085275564633038,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_optuna/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014037",
+        "true_label": 0,
+        "probability": 0.564333860828286,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_optuna/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.658241236922699,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_optuna/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.4507491513866908,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_optuna/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.18379449182463842,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_optuna/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.1528012399855755,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_optuna/seed44_fold4/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.3828291367184444,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_optuna/seed44_fold4/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.8901584243731744,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_optuna/seed44_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.676983380154255,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_optuna/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_random",
+    "seed": 42,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.20884957909584045,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_random/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13904163241386414,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_random/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.711307168006897,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_random/seed42_fold2/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_random",
+    "seed": 43,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13904163241386414,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_random/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.711307168006897,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_random/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.20884957909584045,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_random/seed43_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "mri_random",
+    "seed": 44,
+    "TP": 17,
+    "TN": 19,
+    "FP": 3,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014054",
+        "true_label": 0,
+        "probability": 0.5226337909698486,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_random/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.13904163241386414,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_random/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011005",
+        "true_label": 1,
+        "probability": 0.1003149226307869,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_random/seed44_fold4/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011059",
+        "true_label": 1,
+        "probability": 0.2699057161808014,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_random/seed44_fold4/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.8767170310020447,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_random/seed44_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.6481336951255798,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_random/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_rule",
+    "seed": 42,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.1379249095916748,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_rule/seed42_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7099771499633789,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_rule/seed42_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.18102513253688812,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_rule/seed42_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "mri_rule",
+    "seed": 43,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.1379249095916748,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_rule/seed43_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.18102513253688812,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_rule/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7099771499633789,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_rule/seed43_fold2/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "mri_rule",
+    "seed": 44,
+    "TP": 15,
+    "TN": 18,
+    "FP": 4,
+    "FN": 5,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014050",
+        "true_label": 0,
+        "probability": 0.5116963982582092,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_rule/seed44_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.5247419476509094,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "comparisons/branches/mri_rule/seed44_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011047",
+        "true_label": 1,
+        "probability": 0.3107866942882538,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_rule/seed44_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL012015",
+        "true_label": 1,
+        "probability": 0.46383723616600037,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_rule/seed44_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.515482485294342,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "comparisons/branches/mri_rule/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.2891234755516052,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_rule/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011063",
+        "true_label": 1,
+        "probability": 0.4117124676704407,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_rule/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011068",
+        "true_label": 1,
+        "probability": 0.36824706196784973,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "comparisons/branches/mri_rule/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014031",
+        "true_label": 0,
+        "probability": 0.7099771499633789,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "comparisons/branches/mri_rule/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / equal_soft_voting",
+    "seed": 42,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.5999962860519934,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "fusion/traditional/agentic/equal_soft_voting/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.2533485969854819,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/agentic/equal_soft_voting/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "agentic / equal_soft_voting",
+    "seed": 43,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.2445650094734489,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/equal_soft_voting/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.5256523946303207,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/traditional/agentic/equal_soft_voting/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / equal_soft_voting",
+    "seed": 44,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.2094160401299605,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/equal_soft_voting/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.752974829206551,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/traditional/agentic/equal_soft_voting/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / fixed_weighted_fmri",
+    "seed": 42,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.6768776773423253,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "fusion/traditional/agentic/fixed_weighted_fmri/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.23400705229680863,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/agentic/fixed_weighted_fmri/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "agentic / fixed_weighted_fmri",
+    "seed": 43,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.22070420670120328,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/fixed_weighted_fmri/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.587665007636318,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/traditional/agentic/fixed_weighted_fmri/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / fixed_weighted_fmri",
+    "seed": 44,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.45848923928945673,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/fixed_weighted_fmri/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.18128798407018298,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/fixed_weighted_fmri/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.7813394136800883,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/traditional/agentic/fixed_weighted_fmri/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / fixed_weighted_mri",
+    "seed": 42,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.5231148947616616,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "fusion/traditional/agentic/fixed_weighted_mri/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.2726901416741552,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/agentic/fixed_weighted_mri/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "agentic / fixed_weighted_mri",
+    "seed": 43,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.2684258122456945,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/fixed_weighted_mri/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.5119604395643517,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/traditional/agentic/fixed_weighted_mri/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / fixed_weighted_mri",
+    "seed": 44,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.23754409618973807,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/fixed_weighted_mri/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.7246102447330138,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/traditional/agentic/fixed_weighted_mri/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / hard_voting_tie_negative",
+    "seed": 42,
+    "TP": 19,
+    "TN": 22,
+    "FP": 0,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.0,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/agentic/hard_voting_tie_negative/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "agentic / hard_voting_tie_negative",
+    "seed": 43,
+    "TP": 19,
+    "TN": 22,
+    "FP": 0,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.0,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/hard_voting_tie_negative/seed43_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "agentic / hard_voting_tie_negative",
+    "seed": 44,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.5,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/hard_voting_tie_negative/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.0,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/hard_voting_tie_negative/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 1.0,
+        "threshold": 0.5000000000000001,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/traditional/agentic/hard_voting_tie_negative/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / hard_voting_tie_positive",
+    "seed": 42,
+    "TP": 19,
+    "TN": 20,
+    "FP": 2,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "fusion/traditional/agentic/hard_voting_tie_positive/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "fusion/traditional/agentic/hard_voting_tie_positive/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.0,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/agentic/hard_voting_tie_positive/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "agentic / hard_voting_tie_positive",
+    "seed": 43,
+    "TP": 19,
+    "TN": 20,
+    "FP": 2,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.0,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/hard_voting_tie_positive/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/traditional/agentic/hard_voting_tie_positive/seed43_fold5/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/traditional/agentic/hard_voting_tie_positive/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / hard_voting_tie_positive",
+    "seed": 44,
+    "TP": 19,
+    "TN": 20,
+    "FP": 2,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.0,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/hard_voting_tie_positive/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/hard_voting_tie_positive/seed44_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 1.0,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/traditional/agentic/hard_voting_tie_positive/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / stacking_logit",
+    "seed": 42,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9427364988928357,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "fusion/traditional/agentic/stacking_logit/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.0245012933228547,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/agentic/stacking_logit/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "agentic / stacking_logit",
+    "seed": 43,
+    "TP": 19,
+    "TN": 20,
+    "FP": 2,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.05027465651884079,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/stacking_logit/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.5256228526092924,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/traditional/agentic/stacking_logit/seed43_fold5/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.7423949994903941,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/traditional/agentic/stacking_logit/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / stacking_logit",
+    "seed": 44,
+    "TP": 19,
+    "TN": 19,
+    "FP": 3,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.05385284099742111,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/stacking_logit/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.551935854901265,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/stacking_logit/seed44_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.5780147379425795,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/traditional/agentic/stacking_logit/seed44_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9928750034942013,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/traditional/agentic/stacking_logit/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / stacking_probability",
+    "seed": 42,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9431052411708027,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "fusion/traditional/agentic/stacking_probability/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.006203251161276376,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/agentic/stacking_probability/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "agentic / stacking_probability",
+    "seed": 43,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.01082344199908207,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/stacking_probability/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.7970637037862764,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/traditional/agentic/stacking_probability/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / stacking_probability",
+    "seed": 44,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.01707798677344866,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/stacking_probability/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.993498605998033,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/traditional/agentic/stacking_probability/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / validation_weighted",
+    "seed": 42,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9844032425036527,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "fusion/traditional/agentic/validation_weighted/seed42_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.19338980845059478,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/agentic/validation_weighted/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "agentic / validation_weighted",
+    "seed": 43,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.1252609956122208,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/validation_weighted/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.7853865623474122,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/traditional/agentic/validation_weighted/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "agentic / validation_weighted",
+    "seed": 44,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.19725694271275415,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/validation_weighted/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.06877575983107273,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/agentic/validation_weighted/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.894797751574237,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/traditional/agentic/validation_weighted/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / equal_soft_voting",
+    "seed": 42,
+    "TP": 18,
+    "TN": 19,
+    "FP": 3,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.39317598851045743,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/equal_soft_voting/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.4358921409266452,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/equal_soft_voting/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.6589821711877997,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/equal_soft_voting/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.5388641137430499,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/equal_soft_voting/seed42_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.6100374734237313,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "fusion/traditional/baseline/equal_soft_voting/seed42_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / equal_soft_voting",
+    "seed": 43,
+    "TP": 20,
+    "TN": 20,
+    "FP": 2,
+    "FN": 0,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.5573948998495906,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/equal_soft_voting/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.6060588480645356,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/equal_soft_voting/seed43_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / equal_soft_voting",
+    "seed": 44,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.6563782930894957,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/equal_soft_voting/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.3940836787223817,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/equal_soft_voting/seed44_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "baseline / fixed_weighted_fmri",
+    "seed": 42,
+    "TP": 18,
+    "TN": 20,
+    "FP": 2,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.3145408619823548,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/fixed_weighted_fmri/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.3675757003566336,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/fixed_weighted_fmri/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.7270245952248592,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/fixed_weighted_fmri/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.6880299598973417,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "fusion/traditional/baseline/fixed_weighted_fmri/seed42_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / fixed_weighted_fmri",
+    "seed": 43,
+    "TP": 20,
+    "TN": 21,
+    "FP": 1,
+    "FN": 0,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.6663486923711225,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/fixed_weighted_fmri/seed43_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / fixed_weighted_fmri",
+    "seed": 44,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.7239821303515751,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/fixed_weighted_fmri/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.3152669429779055,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/fixed_weighted_fmri/seed44_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "baseline / fixed_weighted_mri",
+    "seed": 42,
+    "TP": 19,
+    "TN": 18,
+    "FP": 4,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.47181111503856,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.5179307343193875,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.5909397471507403,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.6071440997560367,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed42_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.5320449869501209,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed42_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / fixed_weighted_mri",
+    "seed": 43,
+    "TP": 20,
+    "TN": 19,
+    "FP": 3,
+    "FN": 0,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.6217137995755647,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.5664270798577288,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed43_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.5457690037579487,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed43_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / fixed_weighted_mri",
+    "seed": 44,
+    "TP": 19,
+    "TN": 19,
+    "FP": 3,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.5269904768022462,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed44_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.5291279461157742,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.5887744558274163,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.472900414466858,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/fixed_weighted_mri/seed44_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "baseline / hard_voting_tie_negative",
+    "seed": 42,
+    "TP": 17,
+    "TN": 22,
+    "FP": 0,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.5,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/hard_voting_tie_negative/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.5,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/hard_voting_tie_negative/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.5,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "fusion/traditional/baseline/hard_voting_tie_negative/seed42_fold5/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "baseline / hard_voting_tie_negative",
+    "seed": 43,
+    "TP": 18,
+    "TN": 22,
+    "FP": 0,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.5,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/hard_voting_tie_negative/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.5,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/hard_voting_tie_negative/seed43_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "baseline / hard_voting_tie_negative",
+    "seed": 44,
+    "TP": 17,
+    "TN": 22,
+    "FP": 0,
+    "FN": 3,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.5,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "fusion/traditional/baseline/hard_voting_tie_negative/seed44_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.5,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/hard_voting_tie_negative/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.5,
+        "threshold": 0.5000000000000001,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/hard_voting_tie_negative/seed44_fold4/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "baseline / hard_voting_tie_positive",
+    "seed": 42,
+    "TP": 20,
+    "TN": 18,
+    "FP": 4,
+    "FN": 0,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed42_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed42_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / hard_voting_tie_positive",
+    "seed": 43,
+    "TP": 20,
+    "TN": 18,
+    "FP": 4,
+    "FN": 0,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed43_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed43_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed43_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / hard_voting_tie_positive",
+    "seed": 44,
+    "TP": 20,
+    "TN": 19,
+    "FP": 3,
+    "FN": 0,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed44_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.5,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/hard_voting_tie_positive/seed44_fold2/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / stacking_logit",
+    "seed": 42,
+    "TP": 19,
+    "TN": 19,
+    "FP": 3,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.004023500160716167,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/stacking_logit/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.9428959184914906,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/stacking_logit/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.6478017902024816,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/stacking_logit/seed42_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.9849758978395118,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "fusion/traditional/baseline/stacking_logit/seed42_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / stacking_logit",
+    "seed": 43,
+    "TP": 19,
+    "TN": 19,
+    "FP": 3,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.4934790386234495,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/stacking_logit/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.6858419766783759,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/stacking_logit/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014008",
+        "true_label": 0,
+        "probability": 0.5299467550105318,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/stacking_logit/seed43_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.923520674820255,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/stacking_logit/seed43_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / stacking_logit",
+    "seed": 44,
+    "TP": 19,
+    "TN": 20,
+    "FP": 2,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.5838199601989598,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "fusion/traditional/baseline/stacking_logit/seed44_fold1/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.9967617110070451,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/stacking_logit/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.010782147558195407,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/stacking_logit/seed44_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "baseline / stacking_probability",
+    "seed": 42,
+    "TP": 18,
+    "TN": 19,
+    "FP": 3,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.013635774800658994,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/stacking_probability/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.03284166932616922,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/stacking_probability/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.9722867515271231,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/stacking_probability/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.5436012263142237,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/stacking_probability/seed42_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.9646309200990255,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "fusion/traditional/baseline/stacking_probability/seed42_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / stacking_probability",
+    "seed": 43,
+    "TP": 20,
+    "TN": 21,
+    "FP": 1,
+    "FN": 0,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.7270301117323228,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/stacking_probability/seed43_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / stacking_probability",
+    "seed": 44,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.9914823856888337,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/stacking_probability/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.013839782745700828,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/stacking_probability/seed44_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "baseline / validation_weighted",
+    "seed": 42,
+    "TP": 18,
+    "TN": 19,
+    "FP": 3,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 3.5586994436449276e-07,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/validation_weighted/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.09430993807658748,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/validation_weighted/seed42_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.999194291373097,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/validation_weighted/seed42_fold3/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.8802640438079834,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 4,
+        "model": "fusion/traditional/baseline/validation_weighted/seed42_fold4/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.9999999057917833,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 5,
+        "model": "fusion/traditional/baseline/validation_weighted/seed42_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / validation_weighted",
+    "seed": 43,
+    "TP": 18,
+    "TN": 20,
+    "FP": 2,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011011",
+        "true_label": 1,
+        "probability": 0.3451824486255646,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/validation_weighted/seed43_fold2/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014040",
+        "true_label": 0,
+        "probability": 0.8789893984794617,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/validation_weighted/seed43_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.4233254341809717,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/validation_weighted/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014066",
+        "true_label": 0,
+        "probability": 0.5859731671281235,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/validation_weighted/seed43_fold3/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "baseline / validation_weighted",
+    "seed": 44,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL012074",
+        "true_label": 1,
+        "probability": 0.49238515241103514,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 1,
+        "model": "fusion/traditional/baseline/validation_weighted/seed44_fold1/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014039",
+        "true_label": 0,
+        "probability": 0.9943974793998929,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 2,
+        "model": "fusion/traditional/baseline/validation_weighted/seed44_fold2/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 2.6655269578284073e-16,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/traditional/baseline/validation_weighted/seed44_fold3/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "Warm-adapter Soft Voting",
+    "seed": 42,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.5773200988769531,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "fusion/warm_adapters/runs/seed42_fold1/mri/MODEL.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.07087680697441101,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/warm_adapters/runs/seed42_fold2/mri/MODEL.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "Stochastic Neural Stacking",
+    "seed": 42,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.7073020339012146,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 42,
+        "test_fold": 1,
+        "model": "fusion/neural_stacking/runs/seed42_fold1/MODEL.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.03089628368616104,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/neural_stacking/runs/seed42_fold2/MODEL.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "Agent-controlled Feature Fusion",
+    "seed": 42,
+    "TP": 19,
+    "TN": 22,
+    "FP": 0,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.2179906964302063,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 42,
+        "test_fold": 2,
+        "model": "fusion/agent_controlled/runs/seed42_fold2/model.keras",
+        "error_type": "FN"
+      }
+    ]
+  },
+  {
+    "result": "Warm-adapter Soft Voting",
+    "seed": 43,
+    "TP": 18,
+    "TN": 20,
+    "FP": 2,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.24741502106189728,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/warm_adapters/runs/seed43_fold3/mri/MODEL.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.3811429440975189,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/warm_adapters/runs/seed43_fold3/mri/MODEL.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.5576874017715454,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/warm_adapters/runs/seed43_fold5/mri/MODEL.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.7114530801773071,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/warm_adapters/runs/seed43_fold5/mri/MODEL.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "Stochastic Neural Stacking",
+    "seed": 43,
+    "TP": 18,
+    "TN": 21,
+    "FP": 1,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.11571463197469711,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/neural_stacking/runs/seed43_fold3/MODEL.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011056",
+        "true_label": 1,
+        "probability": 0.35343533754348755,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/neural_stacking/runs/seed43_fold3/MODEL.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9489941000938416,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/neural_stacking/runs/seed43_fold5/MODEL.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "Agent-controlled Feature Fusion",
+    "seed": 43,
+    "TP": 19,
+    "TN": 20,
+    "FP": 2,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.204050213098526,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 43,
+        "test_fold": 3,
+        "model": "fusion/agent_controlled/runs/seed43_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014036",
+        "true_label": 0,
+        "probability": 0.5152820348739624,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/agent_controlled/runs/seed43_fold5/model.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.664473295211792,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 43,
+        "test_fold": 5,
+        "model": "fusion/agent_controlled/runs/seed43_fold5/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "Warm-adapter Soft Voting",
+    "seed": 44,
+    "TP": 18,
+    "TN": 20,
+    "FP": 2,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.4843813180923462,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/warm_adapters/runs/seed44_fold3/mri/MODEL.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.3575666844844818,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/warm_adapters/runs/seed44_fold3/mri/MODEL.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.7122176885604858,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/warm_adapters/runs/seed44_fold4/mri/MODEL.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9343315958976746,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/warm_adapters/runs/seed44_fold4/mri/MODEL.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "Stochastic Neural Stacking",
+    "seed": 44,
+    "TP": 18,
+    "TN": 20,
+    "FP": 2,
+    "FN": 2,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011012",
+        "true_label": 1,
+        "probability": 0.46793416142463684,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/neural_stacking/runs/seed44_fold3/MODEL.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.21002426743507385,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/neural_stacking/runs/seed44_fold3/MODEL.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014010",
+        "true_label": 0,
+        "probability": 0.6043731570243835,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/neural_stacking/runs/seed44_fold4/MODEL.keras",
+        "error_type": "FP"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.9825759530067444,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/neural_stacking/runs/seed44_fold4/MODEL.keras",
+        "error_type": "FP"
+      }
+    ]
+  },
+  {
+    "result": "Agent-controlled Feature Fusion",
+    "seed": 44,
+    "TP": 19,
+    "TN": 21,
+    "FP": 1,
+    "FN": 1,
+    "errors": [
+      {
+        "subject_id": "sub-047EPKL011049",
+        "true_label": 1,
+        "probability": 0.1920013278722763,
+        "threshold": 0.5,
+        "prediction": 0,
+        "seed": 44,
+        "test_fold": 3,
+        "model": "fusion/agent_controlled/runs/seed44_fold3/model.keras",
+        "error_type": "FN"
+      },
+      {
+        "subject_id": "sub-047EPKL014062",
+        "true_label": 0,
+        "probability": 0.7593401074409485,
+        "threshold": 0.5,
+        "prediction": 1,
+        "seed": 44,
+        "test_fold": 4,
+        "model": "fusion/agent_controlled/runs/seed44_fold4/model.keras",
+        "error_type": "FP"
+      }
+    ]
+  }
+]

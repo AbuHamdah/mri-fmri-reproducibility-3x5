@@ -1,0 +1,1586 @@
+[
+  {
+    "result": "mri_baseline",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7499960973799032,
+      0.9480619667224176
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7906976744186046,
+      0.9743589743589743
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_baseline",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8421052631578947,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_baseline",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8372093023255814,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_agentic",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_agentic",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_agentic",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8419828641370869,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_baseline",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_baseline",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8421052631578947,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_baseline",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_agentic",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_agentic",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_agentic",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_agentic_scratch_source",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.6406015468367708,
+      0.8829420012399697
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.6666666666666666,
+      0.9047619047619048
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_agentic_scratch_source",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7215891052555522,
+      0.9328403298403735
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7272727272727273,
+      0.95
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_agentic_scratch_source",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8292682926829268,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_baseline_scratch_source",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.6939599725535115,
+      0.9168408335360192
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7027027027027027,
+      0.9302325581395349
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_baseline_scratch_source",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7878787878787878,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_baseline_scratch_source",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_optuna",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7499960973799032,
+      0.9480619667224176
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7692307692307693,
+      0.9743589743589743
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_optuna",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7499960973799032,
+      0.9480619667224176
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7727272727272727,
+      0.9743589743589743
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_optuna",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7499960973799032,
+      0.9480619667224176
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7692307692307693,
+      0.9743589743589743
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_random",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7499960973799032,
+      0.9480619667224176
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.75,
+      0.9743589743589743
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_random",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.6406015468367708,
+      0.8829420012399697
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.6666666666666666,
+      0.9047619047619048
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_random",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8205128205128205,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_rule",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_rule",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.6406015468367708,
+      0.8829420012399697
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.6468397997496872,
+      0.9
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "fmri_rule",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8292682926829268,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_agentic_scratch_source",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_agentic_scratch_source",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_agentic_scratch_source",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_baseline_scratch_source",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7777777777777778,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_baseline_scratch_source",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7499960973799032,
+      0.9480619667224176
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7692307692307693,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_baseline_scratch_source",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_optuna",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_optuna",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8205128205128205,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_optuna",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.6406015468367708,
+      0.8829420012399697
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.6341463414634146,
+      0.9
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_random",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_random",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8205128205128205,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_random",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7215891052555522,
+      0.9328403298403735
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.717948717948718,
+      0.95
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_rule",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_rule",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "mri_rule",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.6406015468367708,
+      0.8829420012399697
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.6153846153846154,
+      0.9
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / equal_soft_voting",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / equal_soft_voting",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / equal_soft_voting",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / fixed_weighted_fmri",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / fixed_weighted_fmri",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / fixed_weighted_fmri",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / fixed_weighted_mri",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / fixed_weighted_mri",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / fixed_weighted_mri",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / hard_voting_tie_negative",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8767879842623334,
+      0.9957845958655673
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.918918918918919,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / hard_voting_tie_negative",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8767879842623334,
+      0.9957845958655673
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.918918918918919,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / hard_voting_tie_negative",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / hard_voting_tie_positive",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8421052631578947,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / hard_voting_tie_positive",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8421052631578947,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / hard_voting_tie_positive",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8419828641370869,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / stacking_logit",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / stacking_logit",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8421052631578947,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / stacking_logit",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8181818181818182,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / stacking_probability",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / stacking_probability",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / stacking_probability",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / validation_weighted",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / validation_weighted",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "agentic / validation_weighted",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / equal_soft_voting",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7499960973799032,
+      0.9480619667224176
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7727272727272727,
+      0.9743589743589743
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / equal_soft_voting",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8888888888888888,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / equal_soft_voting",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / fixed_weighted_fmri",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / fixed_weighted_fmri",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8767879842623334,
+      0.9957845958655673
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.9302325581395349,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / fixed_weighted_fmri",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / fixed_weighted_mri",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7499960973799032,
+      0.9480619667224176
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7916666666666666,
+      0.9743589743589743
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / fixed_weighted_mri",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8691026827012027,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / fixed_weighted_mri",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8181354359925789,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / hard_voting_tie_negative",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / hard_voting_tie_negative",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8571428571428571,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / hard_voting_tie_negative",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / hard_voting_tie_positive",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8333333333333334,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / hard_voting_tie_positive",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8333333333333334,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / hard_voting_tie_positive",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8695652173913043,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / stacking_logit",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8181818181818182,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / stacking_logit",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8181818181818182,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / stacking_logit",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8421052631578947,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / stacking_probability",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7499960973799032,
+      0.9480619667224176
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7727272727272727,
+      0.9743589743589743
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / stacking_probability",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8767879842623334,
+      0.9957845958655673
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.9302325581395349,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / stacking_probability",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / validation_weighted",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7499960973799032,
+      0.9480619667224176
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7727272727272727,
+      0.9743589743589743
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / validation_weighted",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7906976744186046,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "baseline / validation_weighted",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8235294117647058,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "Warm-adapter Soft Voting",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "Stochastic Neural Stacking",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "Agent-controlled Feature Fusion",
+    "seed": 42,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8767879842623334,
+      0.9957845958655673
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.918918918918919,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "Warm-adapter Soft Voting",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "Stochastic Neural Stacking",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8205128205128205,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "Agent-controlled Feature Fusion",
+    "seed": 43,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8099057319884169,
+      0.9754095901266941
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8421052631578947,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "Warm-adapter Soft Voting",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7906976744186046,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "Stochastic Neural Stacking",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.7793489419142897,
+      0.9623377511944261
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.7906976744186046,
+      0.975609756097561
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  },
+  {
+    "result": "Agent-controlled Feature Fusion",
+    "seed": 44,
+    "children": 42,
+    "accuracy_95CI": [
+      0.8421014760304114,
+      0.9868424750910944
+    ],
+    "accuracy_method": "Wilson",
+    "f1_95CI": [
+      0.8717948717948718,
+      1.0
+    ],
+    "f1_method": "5000 class-stratified child Bootstrap percentile resamples",
+    "scope": "Descriptive within the examined cohort; not a generalization guarantee. Each seed repeats the same42 children."
+  }
+]

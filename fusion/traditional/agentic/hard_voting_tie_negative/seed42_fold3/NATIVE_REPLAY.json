@@ -1,0 +1,12 @@
+{
+  "mode": "agentic",
+  "method": "hard_voting_tie_negative",
+  "seed": 42,
+  "fold": 3,
+  "model": "fusion/agentic/hard_voting_tie_negative/seed42_fold3/model.keras",
+  "model_sha256": "76c4de575b57992a126562236ff2238024adc9a93cf7d8d2e359a682ae68dab5",
+  "all_subjects": 42,
+  "maximum_probability_difference": 0.0,
+  "fixed_classifications_match": true,
+  "validation_threshold_classifications_match": true
+}

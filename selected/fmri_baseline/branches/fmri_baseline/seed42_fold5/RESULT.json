@@ -1,0 +1,17 @@
+{
+  "series": "fmri_baseline",
+  "seed": 42,
+  "fold": 5,
+  "metrics": {
+    "accuracy": 0.875,
+    "f1": 0.8888888888888888,
+    "kappa": 0.75,
+    "auc": 0.9375,
+    "precision": 0.8,
+    "recall": 1.0,
+    "specificity": 0.75,
+    "brier": 0.13952207042894818,
+    "ece": 0.16778103214433074
+  },
+  "selected_candidate": "gamma2.0_lambda1e-06"
+}

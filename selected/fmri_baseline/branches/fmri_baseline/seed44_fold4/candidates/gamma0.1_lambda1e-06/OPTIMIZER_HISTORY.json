@@ -1,0 +1,758 @@
+[
+  {
+    "iteration": 1,
+    "train_objective": 0.32247719819013365
+  },
+  {
+    "iteration": 2,
+    "train_objective": 0.30483045332355857
+  },
+  {
+    "iteration": 3,
+    "train_objective": 0.2673330808610175
+  },
+  {
+    "iteration": 4,
+    "train_objective": 0.26275756411408624
+  },
+  {
+    "iteration": 5,
+    "train_objective": 0.2608447483919317
+  },
+  {
+    "iteration": 6,
+    "train_objective": 0.2578668393373636
+  },
+  {
+    "iteration": 7,
+    "train_objective": 0.2504665461601767
+  },
+  {
+    "iteration": 8,
+    "train_objective": 0.23967275225975188
+  },
+  {
+    "iteration": 9,
+    "train_objective": 0.224394376489614
+  },
+  {
+    "iteration": 10,
+    "train_objective": 0.21213100662515258
+  },
+  {
+    "iteration": 11,
+    "train_objective": 0.20951560989468365
+  },
+  {
+    "iteration": 12,
+    "train_objective": 0.20912799582497762
+  },
+  {
+    "iteration": 13,
+    "train_objective": 0.20870620719023256
+  },
+  {
+    "iteration": 14,
+    "train_objective": 0.20713961772501652
+  },
+  {
+    "iteration": 15,
+    "train_objective": 0.2052492244021071
+  },
+  {
+    "iteration": 16,
+    "train_objective": 0.20071680103521064
+  },
+  {
+    "iteration": 17,
+    "train_objective": 0.18790792760732863
+  },
+  {
+    "iteration": 18,
+    "train_objective": 0.17357426132316156
+  },
+  {
+    "iteration": 19,
+    "train_objective": 0.16038656071201096
+  },
+  {
+    "iteration": 20,
+    "train_objective": 0.15298984738967109
+  },
+  {
+    "iteration": 21,
+    "train_objective": 0.14903981029808813
+  },
+  {
+    "iteration": 22,
+    "train_objective": 0.14757755336664002
+  },
+  {
+    "iteration": 23,
+    "train_objective": 0.14752566149058155
+  },
+  {
+    "iteration": 24,
+    "train_objective": 0.14710135293330076
+  },
+  {
+    "iteration": 25,
+    "train_objective": 0.14691979706071923
+  },
+  {
+    "iteration": 26,
+    "train_objective": 0.14687334500036042
+  },
+  {
+    "iteration": 27,
+    "train_objective": 0.1467408106528502
+  },
+  {
+    "iteration": 28,
+    "train_objective": 0.14643122560977648
+  },
+  {
+    "iteration": 29,
+    "train_objective": 0.14593095178298102
+  },
+  {
+    "iteration": 30,
+    "train_objective": 0.14534413124968257
+  },
+  {
+    "iteration": 31,
+    "train_objective": 0.14495070418158804
+  },
+  {
+    "iteration": 32,
+    "train_objective": 0.14482969644081722
+  },
+  {
+    "iteration": 33,
+    "train_objective": 0.14481625691872113
+  },
+  {
+    "iteration": 34,
+    "train_objective": 0.14481591677428232
+  },
+  {
+    "iteration": 35,
+    "train_objective": 0.14481498492114875
+  },
+  {
+    "iteration": 36,
+    "train_objective": 0.1448144681390272
+  },
+  {
+    "iteration": 37,
+    "train_objective": 0.14481349355077686
+  },
+  {
+    "iteration": 38,
+    "train_objective": 0.14481125976396564
+  },
+  {
+    "iteration": 39,
+    "train_objective": 0.1447937224656345
+  },
+  {
+    "iteration": 40,
+    "train_objective": 0.1447591450710215
+  },
+  {
+    "iteration": 41,
+    "train_objective": 0.1446593078563533
+  },
+  {
+    "iteration": 42,
+    "train_objective": 0.14443411715793236
+  },
+  {
+    "iteration": 43,
+    "train_objective": 0.14414084981803055
+  },
+  {
+    "iteration": 44,
+    "train_objective": 0.1435889881000315
+  },
+  {
+    "iteration": 45,
+    "train_objective": 0.14287350556576656
+  },
+  {
+    "iteration": 46,
+    "train_objective": 0.141753921553429
+  },
+  {
+    "iteration": 47,
+    "train_objective": 0.14086726076854747
+  },
+  {
+    "iteration": 48,
+    "train_objective": 0.14054502293228602
+  },
+  {
+    "iteration": 49,
+    "train_objective": 0.13998711180299436
+  },
+  {
+    "iteration": 50,
+    "train_objective": 0.13975075183814564
+  },
+  {
+    "iteration": 51,
+    "train_objective": 0.1392270054662301
+  },
+  {
+    "iteration": 52,
+    "train_objective": 0.13904881271642208
+  },
+  {
+    "iteration": 53,
+    "train_objective": 0.13886247500733348
+  },
+  {
+    "iteration": 54,
+    "train_objective": 0.13882969532856154
+  },
+  {
+    "iteration": 55,
+    "train_objective": 0.13882623145312276
+  },
+  {
+    "iteration": 56,
+    "train_objective": 0.1388260017371832
+  },
+  {
+    "iteration": 57,
+    "train_objective": 0.13882592795168028
+  },
+  {
+    "iteration": 58,
+    "train_objective": 0.13882576088891552
+  },
+  {
+    "iteration": 59,
+    "train_objective": 0.1388257232694485
+  },
+  {
+    "iteration": 60,
+    "train_objective": 0.13882558691258196
+  },
+  {
+    "iteration": 61,
+    "train_objective": 0.1388255044787975
+  },
+  {
+    "iteration": 62,
+    "train_objective": 0.1388254939707108
+  },
+  {
+    "iteration": 63,
+    "train_objective": 0.13882548983529963
+  },
+  {
+    "iteration": 64,
+    "train_objective": 0.1388254830189679
+  },
+  {
+    "iteration": 65,
+    "train_objective": 0.1388254633199755
+  },
+  {
+    "iteration": 66,
+    "train_objective": 0.138825435222022
+  },
+  {
+    "iteration": 67,
+    "train_objective": 0.13882536642745147
+  },
+  {
+    "iteration": 68,
+    "train_objective": 0.13882519035670346
+  },
+  {
+    "iteration": 69,
+    "train_objective": 0.1388251342744971
+  },
+  {
+    "iteration": 70,
+    "train_objective": 0.1388251252545797
+  },
+  {
+    "iteration": 71,
+    "train_objective": 0.13882506572540512
+  },
+  {
+    "iteration": 72,
+    "train_objective": 0.1388248658030268
+  },
+  {
+    "iteration": 73,
+    "train_objective": 0.13882437310695553
+  },
+  {
+    "iteration": 74,
+    "train_objective": 0.13882242098243702
+  },
+  {
+    "iteration": 75,
+    "train_objective": 0.13881838850519537
+  },
+  {
+    "iteration": 76,
+    "train_objective": 0.1388092225650718
+  },
+  {
+    "iteration": 77,
+    "train_objective": 0.13879368416907245
+  },
+  {
+    "iteration": 78,
+    "train_objective": 0.13879016773627587
+  },
+  {
+    "iteration": 79,
+    "train_objective": 0.13877311905464954
+  },
+  {
+    "iteration": 80,
+    "train_objective": 0.1387659997355019
+  },
+  {
+    "iteration": 81,
+    "train_objective": 0.13876436177690138
+  },
+  {
+    "iteration": 82,
+    "train_objective": 0.13876380295141774
+  },
+  {
+    "iteration": 83,
+    "train_objective": 0.1387619202361405
+  },
+  {
+    "iteration": 84,
+    "train_objective": 0.1387612385262802
+  },
+  {
+    "iteration": 85,
+    "train_objective": 0.1387590459337975
+  },
+  {
+    "iteration": 86,
+    "train_objective": 0.1387576805100969
+  },
+  {
+    "iteration": 87,
+    "train_objective": 0.1387559413781719
+  },
+  {
+    "iteration": 88,
+    "train_objective": 0.13875359025856238
+  },
+  {
+    "iteration": 89,
+    "train_objective": 0.1387503923498304
+  },
+  {
+    "iteration": 90,
+    "train_objective": 0.13874868415199365
+  },
+  {
+    "iteration": 91,
+    "train_objective": 0.13874843397359315
+  },
+  {
+    "iteration": 92,
+    "train_objective": 0.1387476754002212
+  },
+  {
+    "iteration": 93,
+    "train_objective": 0.13874766169505162
+  },
+  {
+    "iteration": 94,
+    "train_objective": 0.13874765714046824
+  },
+  {
+    "iteration": 95,
+    "train_objective": 0.1387476457488881
+  },
+  {
+    "iteration": 96,
+    "train_objective": 0.1387476243205898
+  },
+  {
+    "iteration": 97,
+    "train_objective": 0.1387476070064671
+  },
+  {
+    "iteration": 98,
+    "train_objective": 0.13874760233661676
+  },
+  {
+    "iteration": 99,
+    "train_objective": 0.13874759620444338
+  },
+  {
+    "iteration": 100,
+    "train_objective": 0.13874759166342832
+  },
+  {
+    "iteration": 101,
+    "train_objective": 0.13874758363822598
+  },
+  {
+    "iteration": 102,
+    "train_objective": 0.13874757568280663
+  },
+  {
+    "iteration": 103,
+    "train_objective": 0.13874756471196736
+  },
+  {
+    "iteration": 104,
+    "train_objective": 0.138747559668964
+  },
+  {
+    "iteration": 105,
+    "train_objective": 0.13874755716616644
+  },
+  {
+    "iteration": 106,
+    "train_objective": 0.13874755562141194
+  },
+  {
+    "iteration": 107,
+    "train_objective": 0.13874755456005466
+  },
+  {
+    "iteration": 108,
+    "train_objective": 0.1387475509011962
+  },
+  {
+    "iteration": 109,
+    "train_objective": 0.13874754258482797
+  },
+  {
+    "iteration": 110,
+    "train_objective": 0.13874753121560907
+  },
+  {
+    "iteration": 111,
+    "train_objective": 0.1387475162292605
+  },
+  {
+    "iteration": 112,
+    "train_objective": 0.13874750122467508
+  },
+  {
+    "iteration": 113,
+    "train_objective": 0.13874749007369347
+  },
+  {
+    "iteration": 114,
+    "train_objective": 0.13874748096035164
+  },
+  {
+    "iteration": 115,
+    "train_objective": 0.138747478364744
+  },
+  {
+    "iteration": 116,
+    "train_objective": 0.1387474782644926
+  },
+  {
+    "iteration": 117,
+    "train_objective": 0.13874747670689946
+  },
+  {
+    "iteration": 118,
+    "train_objective": 0.13874747251121053
+  },
+  {
+    "iteration": 119,
+    "train_objective": 0.13874745611999834
+  },
+  {
+    "iteration": 120,
+    "train_objective": 0.1387474390606524
+  },
+  {
+    "iteration": 121,
+    "train_objective": 0.13874740888340248
+  },
+  {
+    "iteration": 122,
+    "train_objective": 0.13874735830123722
+  },
+  {
+    "iteration": 123,
+    "train_objective": 0.13874729416006326
+  },
+  {
+    "iteration": 124,
+    "train_objective": 0.13874722127345987
+  },
+  {
+    "iteration": 125,
+    "train_objective": 0.13874718833373917
+  },
+  {
+    "iteration": 126,
+    "train_objective": 0.13874710374535837
+  },
+  {
+    "iteration": 127,
+    "train_objective": 0.13874701580213897
+  },
+  {
+    "iteration": 128,
+    "train_objective": 0.13874700065011025
+  },
+  {
+    "iteration": 129,
+    "train_objective": 0.138746978574356
+  },
+  {
+    "iteration": 130,
+    "train_objective": 0.13874697529452426
+  },
+  {
+    "iteration": 131,
+    "train_objective": 0.13874697175802317
+  },
+  {
+    "iteration": 132,
+    "train_objective": 0.13874696200769435
+  },
+  {
+    "iteration": 133,
+    "train_objective": 0.13874695228116532
+  },
+  {
+    "iteration": 134,
+    "train_objective": 0.13874693382960804
+  },
+  {
+    "iteration": 135,
+    "train_objective": 0.1387469126292964
+  },
+  {
+    "iteration": 136,
+    "train_objective": 0.13874687548892595
+  },
+  {
+    "iteration": 137,
+    "train_objective": 0.13874684638296222
+  },
+  {
+    "iteration": 138,
+    "train_objective": 0.13874679715651114
+  },
+  {
+    "iteration": 139,
+    "train_objective": 0.13874679591340097
+  },
+  {
+    "iteration": 140,
+    "train_objective": 0.13874675211508428
+  },
+  {
+    "iteration": 141,
+    "train_objective": 0.13874670646704565
+  },
+  {
+    "iteration": 142,
+    "train_objective": 0.13874669439245205
+  },
+  {
+    "iteration": 143,
+    "train_objective": 0.1387466825898213
+  },
+  {
+    "iteration": 144,
+    "train_objective": 0.1387466593854229
+  },
+  {
+    "iteration": 145,
+    "train_objective": 0.13874661019780304
+  },
+  {
+    "iteration": 146,
+    "train_objective": 0.13874651490988443
+  },
+  {
+    "iteration": 147,
+    "train_objective": 0.1387463461932055
+  },
+  {
+    "iteration": 148,
+    "train_objective": 0.13874623630156882
+  },
+  {
+    "iteration": 149,
+    "train_objective": 0.13874596513997087
+  },
+  {
+    "iteration": 150,
+    "train_objective": 0.1387459198602041
+  },
+  {
+    "iteration": 151,
+    "train_objective": 0.13874575522944219
+  },
+  {
+    "iteration": 152,
+    "train_objective": 0.1387454456347748
+  },
+  {
+    "iteration": 153,
+    "train_objective": 0.13874540743534394
+  },
+  {
+    "iteration": 154,
+    "train_objective": 0.13874512344113213
+  },
+  {
+    "iteration": 155,
+    "train_objective": 0.13874479435502052
+  },
+  {
+    "iteration": 156,
+    "train_objective": 0.1387445524682762
+  },
+  {
+    "iteration": 157,
+    "train_objective": 0.13874447389833564
+  },
+  {
+    "iteration": 158,
+    "train_objective": 0.13874444673544978
+  },
+  {
+    "iteration": 159,
+    "train_objective": 0.1387444437964097
+  },
+  {
+    "iteration": 160,
+    "train_objective": 0.13874444106525585
+  },
+  {
+    "iteration": 161,
+    "train_objective": 0.13874444053198864
+  },
+  {
+    "iteration": 162,
+    "train_objective": 0.13874443898796546
+  },
+  {
+    "iteration": 163,
+    "train_objective": 0.1387444387346629
+  },
+  {
+    "iteration": 164,
+    "train_objective": 0.13874443824966412
+  },
+  {
+    "iteration": 165,
+    "train_objective": 0.13874443733540692
+  },
+  {
+    "iteration": 166,
+    "train_objective": 0.13874443690391433
+  },
+  {
+    "iteration": 167,
+    "train_objective": 0.13874443507622633
+  },
+  {
+    "iteration": 168,
+    "train_objective": 0.138744429266529
+  },
+  {
+    "iteration": 169,
+    "train_objective": 0.1387444194944997
+  },
+  {
+    "iteration": 170,
+    "train_objective": 0.13874440703036114
+  },
+  {
+    "iteration": 171,
+    "train_objective": 0.1387443987210161
+  },
+  {
+    "iteration": 172,
+    "train_objective": 0.13874439870805635
+  },
+  {
+    "iteration": 173,
+    "train_objective": 0.13874439594549814
+  },
+  {
+    "iteration": 174,
+    "train_objective": 0.1387443952420345
+  },
+  {
+    "iteration": 175,
+    "train_objective": 0.13874439496461397
+  },
+  {
+    "iteration": 176,
+    "train_objective": 0.13874439472796762
+  },
+  {
+    "iteration": 177,
+    "train_objective": 0.13874439465194105
+  },
+  {
+    "iteration": 178,
+    "train_objective": 0.13874439464158567
+  },
+  {
+    "iteration": 179,
+    "train_objective": 0.1387443946173052
+  },
+  {
+    "iteration": 180,
+    "train_objective": 0.13874439453712978
+  },
+  {
+    "iteration": 181,
+    "train_objective": 0.13874439434215868
+  },
+  {
+    "iteration": 182,
+    "train_objective": 0.13874439387492546
+  },
+  {
+    "iteration": 183,
+    "train_objective": 0.1387443929362022
+  },
+  {
+    "iteration": 184,
+    "train_objective": 0.13874439287388118
+  },
+  {
+    "iteration": 185,
+    "train_objective": 0.13874439152255463
+  },
+  {
+    "iteration": 186,
+    "train_objective": 0.13874439039757752
+  },
+  {
+    "iteration": 187,
+    "train_objective": 0.13874439008340134
+  },
+  {
+    "iteration": 188,
+    "train_objective": 0.13874439005183195
+  },
+  {
+    "iteration": 189,
+    "train_objective": 0.13874439005153988
+  }
+]
