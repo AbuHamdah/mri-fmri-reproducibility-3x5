@@ -3,6 +3,7 @@ import argparse
 from pathlib import Path
 import numpy as np
 from train_fresh import VERSION, prepare, read, write, sha
+from training_control import ValidationControl, dropout_configuration
 
 
 def validate_branch(folder, kind, split):
@@ -59,8 +60,12 @@ def main():
         optimizer=tf.keras.optimizers.Adam(1e-5);rng=np.random.default_rng(args.seed)
         val=indices['validation'];checkpoint=output/(name+'.weights.h5')
         best=bce(y[val],model(inputs,training=False).numpy().ravel()[val]);model.save_weights(checkpoint)
-        history=[dict(epoch=0,validation_bce=best)]
+        control=ValidationControl();control.observe(best,1e-5)
+        dropout=dropout_configuration(model)
+        pred0=model(inputs,training=False).numpy().ravel()
+        history=[dict(epoch=0,training_bce=bce(y[indices['train']],pred0[indices['train']]),validation_bce=best,learning_rate=1e-5,dropout=dropout)]
         for epoch in range(1,args.epochs+1):
+            epoch_lr=float(tf.keras.backend.get_value(optimizer.learning_rate));losses=[]
             for offset in rng.permutation(indices['train']):
                 batch=[v[offset:offset+1] for v in inputs] if isinstance(inputs,list) else inputs[offset:offset+1]
                 with tf.GradientTape() as tape:
@@ -69,9 +74,15 @@ def main():
                     if model.losses:loss+=tf.add_n(model.losses)
                 grads=tape.gradient(loss,model.trainable_variables)
                 if any(g is None or not np.isfinite(g.numpy()).all() for g in grads):raise ValueError('Nonfinite fusion gradient')
-                optimizer.apply_gradients(zip(grads,model.trainable_variables))
-            score=bce(y[val],model(inputs,training=False).numpy().ravel()[val]);history.append(dict(epoch=epoch,validation_bce=score))
-            if score<best:best=score;model.save_weights(checkpoint)
+                optimizer.apply_gradients(zip(grads,model.trainable_variables));losses.append(float(loss))
+            pred_epoch=model(inputs,training=False).numpy().ravel()
+            score=bce(y[val],pred_epoch[val])
+            improved,next_lr,stop=control.observe(score,epoch_lr)
+            history.append(dict(epoch=epoch,training_bce=bce(y[indices['train']],pred_epoch[indices['train']]),train_bce_with_regularization=float(np.mean(losses)),validation_bce=score,learning_rate=epoch_lr,next_learning_rate=next_lr,dropout=dropout,early_stop=stop))
+            optimizer.learning_rate.assign(next_lr)
+            if improved:best=score;model.save_weights(checkpoint)
+            write(output/(name+'_history.json'),history)
+            if stop:break
         model.load_weights(checkpoint);model.save(output/(name+'.keras'),save_format='keras_v3')
         pred=model(inputs,training=False).numpy().ravel()
         write(output/(name+'_history.json'),history)
@@ -79,7 +90,8 @@ def main():
     weighted=alpha*pairs[:,0]+(1-alpha)*pairs[:,1]
     write(output/'weighted_test_predictions.json',[dict(subject_id=ids[i],true_label=int(y[i]),probability=float(weighted[i])) for i in indices['test']])
     write(output/'protocol.json',dict(objective_version=VERSION,initialization='fresh_heads',normalization='training_only',
-          validation_alpha=alpha,split=split,controller='fixed',epochs=args.epochs,
+          validation_alpha=alpha,split=split,controller='validation_only',epochs=args.epochs,
+          selection='minimum validation BCE with min_delta=1e-4', early_stopping_patience=10, lr_plateau_patience=4,
           branches=[dict(path=str(p),sha256=sha(p/'model.keras')) for p in folders]))
 
 
